@@ -1,8 +1,0 @@
-{
-    "name": "Shop-thoi-trang",
-    "version": "1.0.0",
-    "description": "Fashion shop",
-    "scripts": {
-        "build": "echo 'Static site - no build required'"
-    }
-}
