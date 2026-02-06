@@ -1,16 +1,24 @@
+document.addEventListener("DOMContentLoaded", () => {
+    loadComponent("header-placeholder", "/html/header.html");
+    loadComponent("main-placeholder", "/html/trangchu.html");
+    loadComponent("footer-placeholder", "/html/footer.html");
+});
 
 function loadComponent(id, path) {
     fetch(path)
-        .then(response => {
-            if (!response.ok) throw new Error("Không tìm thấy file: " + path);
-            return response.text();
+        .then(res => {
+            if (!res.ok) {
+                throw new Error(`HTTP ${res.status}: ${path}`);
+            }
+            return res.text();
         })
-        .then(data => {
-            document.getElementById(id).innerHTML = data;
+        .then(html => {
+            const el = document.getElementById(id);
+            if (el) {
+                el.innerHTML = html;
+            } else {
+                console.error(`Không tìm thấy element #${id}`);
+            }
         })
-        .catch(error => console.error(error));
+        .catch(err => console.error("Load component lỗi:", err.message));
 }
-
-loadComponent('header-placeholder', '/html/header.html');
-loadComponent('main-placeholder', '/html/trangchu.html');
-loadComponent('footer-placeholder', '/html/footer.html');
