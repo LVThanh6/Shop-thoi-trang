@@ -11,6 +11,6 @@ function loadComponent(id, path) {
         .catch(error => console.error(error));
 }
 
-loadComponent('header-placeholder', '../html/header.html');
-loadComponent('main-placeholder', '../html/trangchu.html');
-loadComponent('footer-placeholder', '../html/footer.html');
+loadComponent('header-placeholder', 'html/header.html');
+loadComponent('main-placeholder', 'html/trangchu.html');
+loadComponent('footer-placeholder', 'html/footer.html');
