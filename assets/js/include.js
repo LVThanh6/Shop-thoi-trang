@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
-    loadComponent("header-placeholder", "/html/header.html");
-    loadComponent("main-placeholder", "/html/trangchu.html");
-    loadComponent("footer-placeholder", "/html/footer.html");
+    loadComponent("header-placeholder", "../html/header.html");
+    loadComponent("main-placeholder", "../html/trangchu.html");
+    loadComponent("footer-placeholder", "../html/footer.html");
 });
 
 function loadComponent(id, path) {
