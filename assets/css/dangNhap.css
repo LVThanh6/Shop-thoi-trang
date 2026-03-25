@@ -183,4 +183,9 @@ a {
     font-size: 22px;
 }
 
+.btn-social:hover {
+    background-color: black;
+    color: white;
+}
+
 
