@@ -12,12 +12,13 @@
 }
 
 
+
 .login-container {
     display: flex;
     max-width: 1440px;
     min-width: 1440px;
     height: 800px;
-    margin: auto;
+
 }
 
 .left-side {
@@ -34,9 +35,10 @@
 }
 
 input {
-    max-width: 568px;
-    max-height: 56px;
+    width: 500px;
+    height: 60px;
     width: 100%;
+    padding: 0px 30px;
 
 }
 
@@ -61,7 +63,7 @@ input {
     color: white;
     background-image: url(../img/dangnhapimg/dangNhapBanner.svg);
     background-repeat: no-repeat;
-
+    width: 50%;
 }
 
 .left-content {
@@ -75,8 +77,8 @@ input {
     width: 120px;
     margin-left: 30px;
 
-    a{
-      text-decoration: none;
+    a {
+        text-decoration: none;
 
     }
 
@@ -177,9 +179,9 @@ a {
 
 .btn-social {
     display: flex;
-    align-items: center;  
+    align-items: center;
     justify-content: center;
-    gap: 10px; 
+    gap: 10px;
     font-size: 22px;
 }
 
@@ -187,5 +189,3 @@ a {
     background-color: black;
     color: white;
 }
-
-
