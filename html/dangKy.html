@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký</title>
+    <link rel="stylesheet" href="../assets/css/dangKy.css">
+</head>
+
+<body>
+
+    <div class="register-container">
+        <div class="register-wrapper">
+
+
+            <form class="register-form" action="/register" method="POST">
+                <h1>Đăng ký tài khoản</h1>
+
+                <!-- Email -->
+                <div class="form-group">
+                    <label for="email">Địa chỉ email</label>
+                    <div>
+                        <input type="email" id="email" name="email" placeholder="" required>
+                    </div>
+
+
+
+                </div>
+
+                <!-- Password -->
+                <div class="form-group">
+                    <label for="password">Mật khẩu</label>
+                    <div>
+                        <input type="password" id="password" name="password" placeholder="" required>
+                    </div>
+                </div>
+
+                <!-- Confirm Password -->
+                <div class="form-group">
+                    <label for="confirmPassword">Nhập lại mật khẩu</label>
+                    <div>
+                        <input type="password" id="confirmPassword" name="confirmPassword" placeholder="" required>
+                    </div>
+                </div>
+
+                <!-- Submit -->
+                <button type="submit" class="btn-submit">Đăng ký</button>
+
+
+
+
+            </form>
+
+            <div class="have-account">
+                <span>Đã có tài khoản?
+                    <a href="../html/dangNhap.html">Đăng nhập</a>
+                </span>
+            </div>
+
+            <div class="divider">
+                <span>hoặc</span>
+            </div>
+
+            <!-- Social login -->
+            <div class="social-login">
+                <button type="button" class="btn-social btn-google">
+                    <img src="../assets/img/dangnhapimg/logo_media logo.svg" alt="Google logo">
+                    Tiếp tục với Google
+                </button>
+
+                <button type="button" class="btn-social btn-facebook">
+                    <img src="../assets/img/dangnhapimg/facebook_media logo.png" alt="Facebook logo">
+                    Tiếp tục với Facebook
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>

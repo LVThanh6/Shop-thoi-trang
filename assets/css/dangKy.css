@@ -1,0 +1,146 @@
+@font-face {
+    font-family: "poppins";
+    src: url(../font/FzPoppins/FZ\ Poppins-Light.ttf) format('truetype');
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "poppins";
+}
+
+
+.register-container{
+    max-width: 1440px;
+    max-height: 1440px;
+    height: 800px;
+    margin: auto;
+    margin-top: 32px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+
+body {
+    background-image: url(../img/dangnhapimg/backdrop.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.register-wrapper {
+    max-width: 795px;
+    min-width: 795px;
+    height: 735px;
+    background-color: white;
+    border-radius: 24px;
+    margin: auto;
+}
+
+.register-wrapper h1 {
+    margin-top: 50px;
+}
+
+input {
+    width: 528px;
+    height: 56px;
+    border-radius: 12px;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.btn-submit {
+    clear: both;
+    display: block;
+    width: 528px;
+    height: 64px;
+    border-radius: 32px;
+    opacity: 0.25;
+    background-color: grey;
+    color: white;
+    border: none;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 24px;
+
+}
+
+
+
+.social-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    font-size: 22px;
+}
+
+.btn-social:hover {
+    background-color: black;
+    color: white;
+}
+
+.social-login button {
+    width: 528px;
+    height: 64px;
+    border-radius: 40px;
+}
+
+
+.btn-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 22px;
+}
+
+.divider {
+    width: 528px;        /* giống input + button */
+    margin: 15px auto;   /* căn giữa */
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.divider::before,
+.divider::after {
+    flex: 1;
+    content: "";
+    border-bottom: 1px solid #ccc;
+}
+
+.divider span {
+    padding: 0 10px;
+    color: #666;
+}
+
+.have-account {
+    width: 528px;
+    margin: 16px auto;
+    text-align: left; 
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-submit:hover {
+    background-color: black;
+    color: white;
+}
+
+
