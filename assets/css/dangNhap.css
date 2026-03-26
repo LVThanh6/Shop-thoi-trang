@@ -18,7 +18,8 @@
     width: 100%;
     /* thay vì fix 1440 */
     max-width: none;
-    height: 100vh;
+    min-height: 800px;
+    max-height: 100vh;
 
 }
 
@@ -63,9 +64,7 @@ input {
     align-items: center;
     color: white;
     background-image: url(../img/dangnhapimg/dangNhapBanner.svg);
-
     width: 50%;
-
     background-repeat: no-repeat;
     background-size: cover;
     /* QUAN TRỌNG */
@@ -125,7 +124,7 @@ form {
     border-style: none;
     background: none;
     height: 27px;
-    width: 60px;
+    width: px;
     cursor: pointer;
     padding: 5px 10px;
     border-radius: 4px;

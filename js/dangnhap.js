@@ -1,26 +1,30 @@
 // Đợi cho nội dung DOM được tải xong mới thực thi
 document.addEventListener('DOMContentLoaded', function () {
-    const togglePassword = document.querySelector('.toggle-password');
-    const passwordInput = document.querySelector('#password');
-    const toggleIcon = togglePassword.querySelector('img');
+    const toggleBtn = document.getElementById('toggle-password-btn');
+    const passwordInput = document.getElementById('password');
+    const eyeIcon = document.getElementById('eye-icon');
+    const toggleText = document.getElementById('toggle-text');
+    let isPasswordVisible = false;
 
-    if (togglePassword && passwordInput) {
-        togglePassword.addEventListener('click', function () {
-            // Kiểm tra kiểu hiện tại của input
-            const isPassword = passwordInput.getAttribute('type') === 'password';
+    if (toggleBtn && passwordInput) {
+        toggleBtn.addEventListener('click', function (e) {
+            e.preventDefault();
 
-            // Thay đổi qua lại giữa 'text' và 'password'
-            passwordInput.setAttribute('type', isPassword ? 'text' : 'password');
+            isPasswordVisible = !isPasswordVisible;
 
-            // Thay đổi icon (Nếu bạn có file icon ẩn mật khẩu)
-            // Giả sử bạn có file: see.svg (hiện) và hide.svg (ẩn)
-            /*
-            if (isPassword) {
-                toggleIcon.src = '../assets/img/dangnhapimg/hide.svg'; 
+            if (isPasswordVisible) {
+                // Show password
+                passwordInput.type = 'text';
+                eyeIcon.src = '../assets/img/dangnhapimg/eye-open.svg';
+                toggleText.textContent = 'Hiện';
+                toggleBtn.classList.add('active');
             } else {
-                toggleIcon.src = '../assets/img/dangnhapimg/see.svg';
+                // Hide password
+                passwordInput.type = 'password';
+                eyeIcon.src = '../assets/img/dangnhapimg/eye-closed.svg';
+                toggleText.textContent = 'Ẩn';
+                toggleBtn.classList.remove('active');
             }
-            */
         });
     }
 });
