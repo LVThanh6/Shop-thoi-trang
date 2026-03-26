@@ -12,11 +12,12 @@
 }
 
 
-.register-container{
+.register-container {
     display: flex;
-    width: 100%;       /* thay vì fix 1440 */
+    width: 100%;
+    /* thay vì fix 1440 */
     max-width: none;
-    height: 100vh; 
+    height: 100vh;
 }
 
 .form-group {
@@ -49,6 +50,7 @@ input {
     width: 528px;
     height: 56px;
     border-radius: 12px;
+    padding: 0px 30px;
 }
 
 .register-form {
@@ -108,8 +110,10 @@ input {
 }
 
 .divider {
-    width: 528px;        /* giống input + button */
-    margin: 15px auto;   /* căn giữa */
+    width: 528px;
+    /* giống input + button */
+    margin: 15px auto;
+    /* căn giữa */
     display: flex;
     align-items: center;
     text-align: center;
@@ -130,7 +134,7 @@ input {
 .have-account {
     width: 528px;
     margin: 16px auto;
-    text-align: left; 
+    text-align: left;
 }
 
 a {
@@ -142,5 +146,3 @@ a {
     background-color: black;
     color: white;
 }
-
-
