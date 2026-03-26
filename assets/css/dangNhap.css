@@ -15,9 +15,10 @@
 
 .login-container {
     display: flex;
-    width: 100%;       /* thay vì fix 1440 */
+    width: 100%;
+    /* thay vì fix 1440 */
     max-width: none;
-    height: 100vh; 
+    height: 100vh;
 
 }
 
@@ -62,19 +63,21 @@ input {
     align-items: center;
     color: white;
     background-image: url(../img/dangnhapimg/dangNhapBanner.svg);
-    
+
     width: 50%;
 
     background-repeat: no-repeat;
-    background-size: cover;      /* QUAN TRỌNG */
-    background-position: center; /* căn giữa ảnh */
+    background-size: cover;
+    /* QUAN TRỌNG */
+    background-position: center;
+    /* căn giữa ảnh */
 
 }
 
 .left-content {
     width: 480px;
     height: 324px;
-    font-size: 24px ;
+    font-size: 24px;
 
 }
 
@@ -122,7 +125,27 @@ form {
     border-style: none;
     background: none;
     height: 27px;
+    width: 60px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    font-size: 14px;
+    font-weight: 500;
+    color: #666;
+    opacity: 0.7;
+    text-align: center;
+}
 
+.toggle-password:hover {
+    opacity: 0.9;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.toggle-password.active {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.08);
+    color: #333;
 }
 
 .login-wrapper input {
@@ -189,9 +212,34 @@ a {
     justify-content: center;
     gap: 10px;
     font-size: 22px;
+    border: 1px solid #ddd;
+    background-color: #ffffff;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 .btn-social:hover {
-    background-color: black;
-    color: white;
+    background-color: #f5f5f5;
+    border-color: #999;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-google {
+    border-color: #dadce0;
+}
+
+.btn-google:hover {
+    background-color: #f8f9fa;
+    border-color: #4285f4;
+}
+
+.btn-facebook {
+    border-color: #e7e7eb;
+}
+
+.btn-facebook:hover {
+    background-color: #f0f2f5;
+    border-color: #1877f2;
 }
