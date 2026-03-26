@@ -20,6 +20,7 @@
     max-width: none;
     min-height: 800px;
     max-height: 100vh;
+    height: 100vh;
 
 }
 
@@ -124,7 +125,7 @@ form {
     border-style: none;
     background: none;
     height: 27px;
-    width: px;
+
     cursor: pointer;
     padding: 5px 10px;
     border-radius: 4px;
@@ -134,6 +135,12 @@ form {
     color: #666;
     opacity: 0.7;
     text-align: center;
+}
+
+.password-header button div {
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
 
 .toggle-password:hover {
