@@ -32,25 +32,5 @@ function checkAndDisplayUser() {
     }
 }
 
-// Hàm toggle mật khẩu cho trang đăng nhập
-function togglePasswordVisibility() {
-    const passwordInput = document.getElementById('password');
-    const eyeIcon = document.getElementById('eye-icon');
-    const toggleText = document.getElementById('toggle-text');
-
-    if (passwordInput && eyeIcon && toggleText) {
-        const isPassword = passwordInput.type === 'password';
-        passwordInput.type = isPassword ? 'text' : 'password';
-        eyeIcon.src = isPassword ? '../assets/img/dangnhapimg/eye-open.svg' : '../assets/img/dangnhapimg/eye-closed.svg';
-        toggleText.textContent = isPassword ? 'Hiện' : 'Ẩn';
-    }
-}
-
-// Thêm event listener cho nút toggle khi DOM load xong
-document.addEventListener('DOMContentLoaded', function () {
-    const toggleBtn = document.getElementById('toggle-password-btn');
-    if (toggleBtn) {
-        toggleBtn.addEventListener('click', togglePasswordVisibility);
-    }
-    checkAndDisplayUser();
-});
+// Chạy hàm ngay khi load trang
+document.addEventListener('DOMContentLoaded', checkAndDisplayUser);
