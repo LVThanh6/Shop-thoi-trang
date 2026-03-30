@@ -1,0 +1,96 @@
+<div class="cart-overlay" id="cartOverlay"></div>
+
+
+
+<div class="cart-sidebar" id="cartSidebar">
+
+    <div class="cart-sidebar-header">
+
+        <h3>Giỏ hàng (<span id="cartCount">0</span>)</h3>
+
+        <button class="close-cart" id="closeCartBtn">&times;</button>
+
+    </div>
+
+
+
+    <div class="cart-sidebar-content">
+
+        <div class="cart-empty-state" id="cartEmptyState">
+
+            <div class="empty-icon">
+
+                <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#666" stroke-width="1"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <path d="M16 10a4 4 0 0 1-8 0"></path>
+                </svg>
+
+            </div>
+
+            <p>GIỎ HÀNG TRỐNG</p>
+
+            <button class="continue-shopping-btn" id="continueShoppingSidebarBtn">Tiếp tục mua sắm</button>
+
+        </div>
+
+
+
+        <div class="cart-items-list" id="cartItemsList" style="display: none;">
+
+            <div class="cart-item-mini">
+
+                <img src="../assets/img/product1.jpg" alt="Váy Hoa Nhí" class="item-img">
+
+                <div class="item-details">
+
+                    <h4>Váy Hoa Nhí Vintage</h4>
+
+                    <p class="item-meta">Size: M | Màu: Kem</p>
+
+                    <div class="item-price-qty">
+
+                        <span class="item-price">450.000đ</span>
+
+                        <div class="qty-controls">
+
+                            <button class="qty-btn minus">-</button>
+
+                            <input type="number" value="1" min="1" class="qty-input">
+
+                            <button class="qty-btn plus">+</button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <button class="remove-item-btn">&times;</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="cart-sidebar-footer" id="cartSidebarFooter" style="display: none;">
+
+        <div class="cart-total">
+
+            <span>Tổng cộng:</span>
+
+            <span class="total-price" id="cartTotalPrice">0đ</span>
+
+        </div>
+
+        <button class="checkout-btn">THANH TOÁN NGAY</button>
+
+        <button class="view-cart-link" id="viewFullCartBtn">Xem giỏ hàng</button>
+
+    </div>
+
+</div>
