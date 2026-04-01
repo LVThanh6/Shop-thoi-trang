@@ -228,8 +228,19 @@ body.shop-page .navbar ul li a {
 }
 
 /* Chỉnh lại bóng đổ cho trang nền đen */
+body.index-page .navbar ul li a.active,
 body.index-page .navbar ul li a:hover {
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+/* Trạng thái đang chọn (Active) */
+.navbar ul li a.active {
+    font-weight: 700;
+    transform: translateY(-3px);
+}
+
+.navbar ul li a.active::after {
+    width: 100%;
 }
 
 .saved {

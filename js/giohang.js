@@ -1,78 +1,79 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const cartContainer = document.querySelector('.cart-items');
-    const totalPriceElement = document.querySelector('.total-price');
-    const subtotalElement = document.querySelector('.summary-line span:last-child');
+// js/giohang.js
+function initCart() {
+    const cartContainer = document.querySelector('.cart-items-list');
+    const totalPriceElement = document.getElementById('cartTotalPrice');
 
-    if (!cartContainer || !totalPriceElement || !subtotalElement) return;
+    if (!cartContainer || !totalPriceElement) return;
 
     // Hàm cập nhật tổng tiền
     function updateCartTotal() {
         let total = 0;
-        const cartItems = document.querySelectorAll('.cart-item');
+        const cartItems = cartContainer.querySelectorAll('.cart-item-mini');
 
         cartItems.forEach(item => {
-            const priceElement = item.querySelector('.price');
+            const priceElement = item.querySelector('.item-price');
             const quantityInput = item.querySelector('input');
 
-            // Chuyển đổi text "450.000đ" thành số 450000
-            const price = parseInt(priceElement.innerText.replace(/\D/g, ''));
-            const quantity = parseInt(quantityInput.value);
-
-            total += price * quantity;
+            if (priceElement && quantityInput) {
+                const price = parseInt(priceElement.innerText.replace(/\D/g, ''));
+                const quantity = parseInt(quantityInput.value);
+                total += price * quantity;
+            }
         });
 
-        // Định dạng lại tiền tệ (VND)
         const formattedTotal = new Intl.NumberFormat('vi-VN', {
             style: 'currency',
             currency: 'VND'
         }).format(total);
 
         totalPriceElement.innerText = formattedTotal;
-        subtotalElement.innerText = formattedTotal;
+        
+        // Cập nhật trạng thái trống/đầy
+        const emptyState = document.getElementById('cartEmptyState');
+        const footer = document.getElementById('cartSidebarFooter');
+        if (cartItems.length === 0) {
+            if (emptyState) emptyState.style.display = 'block';
+            if (cartContainer) cartContainer.style.display = 'none';
+            if (footer) footer.style.display = 'none';
+        } else {
+            if (emptyState) emptyState.style.display = 'none';
+            if (cartContainer) cartContainer.style.display = 'block';
+            if (footer) footer.style.display = 'block';
+        }
     }
 
-    // Lắng nghe sự kiện click trong giỏ hàng
-    cartContainer.addEventListener('click', (e) => {
+    // Lắng nghe sự kiện click
+    cartContainer.onclick = (e) => {
         const target = e.target;
-        const cartItem = target.closest('.cart-item');
+        const cartItem = target.closest('.cart-item-mini');
         if (!cartItem) return;
 
         const input = cartItem.querySelector('input');
 
-        // Xử lý nút Tăng (+)
-        if (target.innerText === '+') {
+        if (target.classList.contains('plus')) {
             input.value = parseInt(input.value) + 1;
             updateCartTotal();
-        }
-
-        // Xử lý nút Giảm (-)
-        if (target.innerText === '-') {
+        } else if (target.classList.contains('minus')) {
             if (parseInt(input.value) > 1) {
                 input.value = parseInt(input.value) - 1;
                 updateCartTotal();
             }
-        }
-
-        // Xử lý nút Xóa
-        if (target.classList.contains('remove-btn')) {
+        } else if (target.classList.contains('remove-item-btn')) {
             if (confirm('Bạn có chắc muốn xóa sản phẩm này?')) {
-                cartItem.style.animation = 'fadeOut 0.3s forwards';
-                setTimeout(() => {
-                    cartItem.remove();
-                    updateCartTotal();
-                }, 300);
+                cartItem.remove();
+                updateCartTotal();
             }
         }
-    });
+    };
 
-    // Xử lý khi người dùng nhập số trực tiếp vào ô input
-    cartContainer.addEventListener('change', (e) => {
+    cartContainer.onchange = (e) => {
         if (e.target.tagName === 'INPUT') {
             if (e.target.value < 1) e.target.value = 1;
             updateCartTotal();
         }
-    });
+    };
 
-    // Chạy lần đầu để tính toán giá trị mặc định
     updateCartTotal();
-});
+}
+
+window.initCart = initCart;

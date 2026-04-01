@@ -16,9 +16,9 @@
 <body class="shop-page">
     <div class="site-wrapper">
         <div id="header-placeholder"></div>
-        <!-- Nhúng thẻ thay vì copy mã -->
-        <iframe src="./banner.html" style="width: 100%; border: none; min-height: 460px;" scrolling="no"
-            title="Banner"></iframe>
+        
+        <!-- Banner nạp động thay vì iframe -->
+        <div id="banner-placeholder"></div>
 
         <div class="content-wrapper">
             <div class="filter-area" id="filter-placeholder">
@@ -30,15 +30,21 @@
             <div class="product-area">
                 <h2>Danh sách sản phẩm</h2>
                 <div id="product-placeholder">
-                    <!-- Sản phẩm sẽ được nạp từ JSON qua banhang.js -->
+                    <!-- Sản phẩm sẽ được nạp từ JSON qua shop.js -->
                 </div>
             </div>
         </div>
 
         <div id="footer-placeholder"></div>
+        <div id="cart-holder"></div>
     </div>
 
-    <script src="../js/banhang.js"></script>
+    <!-- JavaScript -->
+    <script src="../js/utils.js"></script>
+    <script src="../js/giohang.js"></script>
+    <script src="../js/shop.js"></script>
 </body>
+
+
 
 </html>
