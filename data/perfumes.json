@@ -1,0 +1,24 @@
+[
+    {
+        "id": "PER001",
+        "name": "Nước Hoa Nam Bleu de Chanel",
+        "price": 3200000,
+        "img": "../assets/img/products/perfume1.jpg",
+        "tags": {
+            "Nhãn hiệu": ["Chanel"],
+            "Hương": ["Gỗ", "Cam chanh"],
+            "Dung tích": ["100ml"]
+        }
+    },
+    {
+        "id": "PER002",
+        "name": "Nước Hoa Armani Acqua di Gio",
+        "price": 2800000,
+        "img": "../assets/img/products/perfume2.jpg",
+        "tags": {
+            "Nhãn hiệu": ["Armani"],
+            "Hương": ["Biển", "Thanh mát"],
+            "Dung tích": ["100ml"]
+        }
+    }
+]

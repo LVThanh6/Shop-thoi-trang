@@ -1,0 +1,24 @@
+[
+    {
+        "id": "CAP001",
+        "name": "Mũ Lưỡi Trai NY Yankees",
+        "price": 450000,
+        "img": "../assets/img/products/cap1.jpg",
+        "tags": {
+            "Thương hiệu": ["MLB", "NY"],
+            "Loại": ["Lưỡi trai", "Nón kết"],
+            "Chất liệu": ["Cotton Khaki"]
+        }
+    },
+    {
+        "id": "CAP002",
+        "name": "Mũ Beanie Len Màu Xám",
+        "price": 180000,
+        "img": "../assets/img/products/cap2.jpg",
+        "tags": {
+            "Loại": ["Beanie", "Nón len"],
+            "Màu sắc": ["Xám đen"],
+            "Chất liệu": ["Len Acrylic"]
+        }
+    }
+]

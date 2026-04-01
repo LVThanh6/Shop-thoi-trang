@@ -3,6 +3,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const totalPriceElement = document.querySelector('.total-price');
     const subtotalElement = document.querySelector('.summary-line span:last-child');
 
+    if (!cartContainer || !totalPriceElement || !subtotalElement) return;
+
     // Hàm cập nhật tổng tiền
     function updateCartTotal() {
         let total = 0;

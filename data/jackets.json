@@ -1,0 +1,24 @@
+[
+    {
+        "id": "JAC001",
+        "name": "Áo Khoác Bomber Kaki",
+        "price": 550000,
+        "img": "../assets/img/products/jacket1.jpg",
+        "tags": {
+            "Loại": ["Bomber", "Kaki"],
+            "Chất liệu": ["Kaki mịn"],
+            "Phong cách": ["Năng động", "Trẻ trung"]
+        }
+    },
+    {
+        "id": "JAC002",
+        "name": "Áo Khoác Da Biker",
+        "price": 1850000,
+        "img": "../assets/img/products/jacket2.jpg",
+        "tags": {
+            "Loại": ["Biker", "Leather"],
+            "Chất liệu": ["Da thật"],
+            "Phong cách": ["Bụi bặm", "Cá tính"]
+        }
+    }
+]

@@ -6,7 +6,23 @@ function loadComponent(id, path) {
             return response.text();
         })
         .then(data => {
-            document.getElementById(id).innerHTML = data;
+            const targetElement = document.getElementById(id);
+            if (!targetElement) return;
+
+            targetElement.innerHTML = data;
+
+            // Quét và thực thi các thẻ <script> vừa được chép vào
+            const scripts = targetElement.querySelectorAll('script');
+            scripts.forEach(oldScript => {
+                const newScript = document.createElement('script');
+                if (oldScript.src) {
+                    newScript.src = oldScript.src;
+                } else {
+                    newScript.textContent = oldScript.textContent;
+                }
+                document.body.appendChild(newScript);
+                oldScript.remove();
+            });
         })
         .catch(error => console.error(error));
 }

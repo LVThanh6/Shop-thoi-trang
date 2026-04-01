@@ -1,20 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bộ lọc sản phẩm</title>
-    <link rel="stylesheet" href="../assets/css/filter.css">
-</head>
-
-<body>
     <aside class="filter-drawer">
         <div class="filter-header">
 
-            <button class="filter-btn" type="button"
-                onclick="document.querySelectorAll('.filter-drawer input[type=checkbox]').forEach(c=>c.checked=false);">Đặt
-                lại</button>
+            <button class="filter-btn" type="button" onclick="if(window.resetFilters) window.resetFilters();">Đặt lại</button>
 
             <div>
                 <img src="../assets/img/filter/Group 3.svg" alt="">
@@ -23,35 +10,8 @@
 
         </div>
 
-        <div class="filter-section">
-            <h3>Áo Thun</h3>
-            <div class="section-body">
-                <label class="filter-option"><input type="checkbox" checked> Áo thun in hình <span>38</span></label>
-                <label class="filter-option"><input type="checkbox" checked> Áo thun trơn <span>50</span></label>
-                <label class="filter-option"><input type="checkbox"> Tank top <span>45</span></label>
-                <label class="filter-option"><input type="checkbox"> Áo thun oversize <span>30</span></label>
-                <label class="filter-option"><input type="checkbox"> Áo thun polo <span>20</span></label>
-            </div>
-        </div>
-
-        <div class="filter-section">
-            <h3>Áo Sơ Mi</h3>
-            <div class="section-body">
-                <label class="filter-option"><input type="checkbox" checked> Sơ mi trơn <span>38</span></label>
-                <label class="filter-option"><input type="checkbox" checked> Sơ mi kẻ sọc <span>50</span></label>
-                <label class="filter-option"><input type="checkbox"> Sơ mi họa tiết <span>45</span></label>
-                <label class="filter-option"><input type="checkbox"> Sơ mi denim <span>30</span></label>
-            </div>
-        </div>
-
-        <div class="filter-section">
-            <h3>Phong cách</h3>
-            <div class="section-body">
-                <label class="filter-option"><input type="checkbox" checked> Thể thao <span>38</span></label>
-                <label class="filter-option"><input type="checkbox" checked> Công sở <span>50</span></label>
-                <label class="filter-option"><input type="checkbox"> Basic <span>45</span></label>
-                <label class="filter-option"><input type="checkbox"> Thanh lịch <span>30</span></label>
-            </div>
+        <div id="dynamic-filters-container">
+            <!-- Dynamic filters will be injected here by banhang.js -->
         </div>
 
         <div class="filter-section">
@@ -150,10 +110,30 @@
             });
         });
 
+        // Trigger global filter update on price change
+        function triggerFilterUpdate() {
+            if (window.applyFilters) window.applyFilters();
+        }
+
+        rangeMin.addEventListener('change', triggerFilterUpdate);
+        rangeMax.addEventListener('change', triggerFilterUpdate);
+        minInput.addEventListener('change', triggerFilterUpdate);
+        maxInput.addEventListener('change', triggerFilterUpdate);
+
+        // Export collapse listener for dynamic filters too
+        window.setupFilterCollapses = function() {
+            document.querySelectorAll('#dynamic-filters-container .filter-section h3').forEach((header) => {
+                // remove existing listener to prevent duplicates
+                const newHeader = header.cloneNode(true);
+                header.parentNode.replaceChild(newHeader, header);
+                newHeader.addEventListener('click', () => {
+                    const section = newHeader.parentElement;
+                    section.classList.toggle('collapsed');
+                });
+            });
+        };
+
         // Khởi tạo giá trị đúng đầu
         updateFromInput();
         updateFromRange(rangeMin);
     </script>
-</body>
-
-</html>

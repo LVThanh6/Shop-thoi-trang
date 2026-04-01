@@ -1,0 +1,68 @@
+[
+    {
+        "id": "SH001",
+        "name": "Giày Sneaker Trắng Năng Động",
+        "price": 850000,
+        "img": "../assets/img/products/shoe1.jpg",
+        "tags": {
+            "Loại Giày": ["Sneaker", "Cổ thấp"],
+            "Chất liệu": ["Da PU", "Vải Canvas"],
+            "Phong cách": ["Thể thao", "Năng động"]
+        }
+    },
+    {
+        "id": "SH002",
+        "name": "Giày Tây Nam Oxford Da Thật",
+        "price": 1250000,
+        "img": "../assets/img/products/shoe2.jpg",
+        "tags": {
+            "Loại Giày": ["Giày Tây", "Oxford"],
+            "Chất liệu": ["Da Bò thật"],
+            "Phong cách": ["Công sở", "Sang trọng"]
+        }
+    },
+    {
+        "id": "SH003",
+        "name": "Giày Lười Loafer Đen Chukka",
+        "price": 950000,
+        "img": "../assets/img/products/shoe3.jpg",
+        "tags": {
+            "Loại Giày": ["Giày Lười", "Loafer"],
+            "Chất liệu": ["Da lộn (Suede)"],
+            "Phong cách": ["Smart Casual", "Lịch sự"]
+        }
+    },
+    {
+        "id": "SH004",
+        "name": "Giày Chạy Bộ Nam Ultra Mesh",
+        "price": 1450000,
+        "img": "../assets/img/products/shoe4.jpg",
+        "tags": {
+            "Loại Giày": ["Sneaker", "Giày Chạy Bộ"],
+            "Chất liệu": ["Vải Lưới Mesh", "Cao su siêu nhẹ"],
+            "Phong cách": ["Thể thao", "Đường phố"]
+        }
+    },
+    {
+        "id": "SH005",
+        "name": "Giày Chelsea Boots Nam Da Bò",
+        "price": 1850000,
+        "img": "../assets/img/products/shoe5.jpg",
+        "tags": {
+            "Loại Giày": ["Boots", "Cổ cao"],
+            "Chất liệu": ["Da Bò thật"],
+            "Phong cách": ["Cá tính", "Bụi bặm", "Smart Casual"]
+        }
+    },
+    {
+        "id": "SH006",
+        "name": "Giày Sneaker Cổ Cao Vải Canvas Đen",
+        "price": 650000,
+        "img": "../assets/img/products/shoe6.jpg",
+        "tags": {
+            "Loại Giày": ["Sneaker", "Cổ cao"],
+            "Chất liệu": ["Vải Canvas"],
+            "Phong cách": ["Đường phố", "Năng động"]
+        }
+    }
+]

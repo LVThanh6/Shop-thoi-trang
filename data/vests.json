@@ -1,0 +1,24 @@
+[
+    {
+        "id": "VES001",
+        "name": "Bộ Vest Slimfit Xanh Navy",
+        "price": 2500000,
+        "img": "../assets/img/products/vest1.jpg",
+        "tags": {
+            "Loại": ["Vest Bộ", "Slimfit"],
+            "Chất liệu": ["Vải Wool cao cấp"],
+            "Phong cách": ["Quý ông", "Công sở"]
+        }
+    },
+    {
+        "id": "VES002",
+        "name": "Áo Vest Gile Xám Họa Tiết",
+        "price": 850000,
+        "img": "../assets/img/products/vest2.jpg",
+        "tags": {
+            "Loại": ["Gile", "Áo đơn"],
+            "Chất liệu": ["Vải Cotton pha Poly"],
+            "Phong cách": ["Thanh lịch", "Trẻ trung"]
+        }
+    }
+]

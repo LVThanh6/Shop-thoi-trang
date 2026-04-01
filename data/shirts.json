@@ -1,0 +1,24 @@
+[
+    {
+        "id": "SHI001",
+        "name": "Áo Sơ Mi Trắng Công Sở",
+        "price": 350000,
+        "img": "../assets/img/products/shirt1.jpg",
+        "tags": {
+            "Loại": ["Sơ mi", "Tay dài"],
+            "Chất liệu": ["Cotton"],
+            "Phong cách": ["Công sở", "Lịch lãm"]
+        }
+    },
+    {
+        "id": "TSH001",
+        "name": "Áo Thun Basic Đen",
+        "price": 150000,
+        "img": "../assets/img/products/tshirt1.jpg",
+        "tags": {
+            "Loại": ["Áo thun", "Cổ tròn"],
+            "Chất liệu": ["CVC"],
+            "Phong cách": ["Năng động", "Hằng ngày"]
+        }
+    }
+]

@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../assets/css/header.css">
-    <link rel="stylesheet" href="../assets/css/main.css">
-</head>
-
-<body>
-    <header>
+<header>
         <div class="container">
             <div class="Top-nav">
                 <div class="logo">
@@ -60,21 +48,46 @@
                     </div>
                 </div>
             </div>
-            <div class="navbar">
+        </div> <!-- Kết thúc div.container -->
+
+        <div class="navbar" id="main-navbar">
+            <nav class="nav-container">
                 <ul>
-                    <li>Shirts & T-Shirts <br>(Áo sơ mi và áo thun)</li>
-                    <li>Pants <br>(Quần)</li>
-                    <li>Jackets <br>(Áo khoác)</li>
-                    <li>Vest <br>(Áo Vest)</li>
-                    <li>Perfumes <br>(Nước hoa)</li>
-                    <li>Watches <br>(Đồng hồ)</li>
-                    <li>Caps <br>(Mũ)</li>
-                    <li>Shoes <br>(Giày)</li>
-                    <li>Accessories <br>(Phụ kiện)</li>
+                    <li> <a href="#">Shirts & T-Shirts <br>(Áo sơ mi và áo thun)</a></li>
+                    <li> <a href="#">Pants <br>(Quần)</a></l i>
+                    <li> <a href="#">Jackets <br>(Áo khoác)</a></li>
+                    <li> <a href="#">Vest <br>(Áo Vest)</a></li>
+                    <li> <a href="#">Perfumes <br>(Nước hoa)</a></li>
+                    <li> <a href="#">Watches <br>(Đồng hồ)</a></li>
+                    <li> <a href="#">Caps <br>(Mũ)</a></li>
+                    <li> <a href="#">Shoes <br>(Giày)</a></li>
+                    <li> <a href="#">Accessories <br>(Phụ kiện)</a></li>
                 </ul>
-            </div>
+            </nav>
         </div>
     </header>
-</body>
 
-</html>
+    <script>
+        // Lógica ẩn / hiện navbar khi cuộn chuột
+        (function () {
+            let lastScrollY = window.scrollY;
+            const navbar = document.getElementById('main-navbar');
+
+            if (!navbar) return;
+
+            window.addEventListener('scroll', () => {
+                const headers = document.querySelectorAll('header');
+
+                if (window.scrollY > lastScrollY && window.scrollY > 50) {
+                    // Lướt xuống -> ẩn navbar và thu nhỏ header
+                    navbar.classList.add('hidden');
+                    headers.forEach(h => h.classList.add('shrunk'));
+                } else if (window.scrollY < lastScrollY) {
+                    // Lướt lên -> hiện navbar và phục hồi header
+                    navbar.classList.remove('hidden');
+                    headers.forEach(h => h.classList.remove('shrunk'));
+                }
+                lastScrollY = window.scrollY;
+            });
+        })();
+    </script>

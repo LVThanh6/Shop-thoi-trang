@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sản phẩm</title>
+    <link rel="stylesheet" href="../assets/css/header.css">
+    <link rel="stylesheet" href="../assets/css/footers.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/filter.css">
+    <link rel="stylesheet" href="../assets/css/banner.css">
+    <link rel="stylesheet" href="../assets/css/banhang.css">
+</head>
+
+<body class="shop-page">
+    <div class="site-wrapper">
+        <div id="header-placeholder"></div>
+        <!-- Nhúng thẻ thay vì copy mã -->
+        <iframe src="./banner.html" style="width: 100%; border: none; min-height: 460px;" scrolling="no"
+            title="Banner"></iframe>
+
+        <div class="content-wrapper">
+            <div class="filter-area" id="filter-placeholder">
+                <div class="filter-inner">
+                    <!-- Khung bộ lọc sẽ nạp từ filter.html -->
+                </div>
+            </div>
+
+            <div class="product-area">
+                <h2>Danh sách sản phẩm</h2>
+                <div id="product-placeholder">
+                    <!-- Sản phẩm sẽ được nạp từ JSON qua banhang.js -->
+                </div>
+            </div>
+        </div>
+
+        <div id="footer-placeholder"></div>
+    </div>
+
+    <script src="../js/banhang.js"></script>
+</body>
+
+</html>
