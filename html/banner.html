@@ -1,0 +1,120 @@
+<div class="banner-container">
+    <div class="banner-wrapper">
+        <div class="banner-image" id="banner1">
+            <div class="banner-info">
+                <p class="desc"></p>
+                <h2 class="title"></h2>
+            </div>
+        </div>
+        <div class="banner-image" id="banner2">
+            <div class="banner-info">
+                <p class="desc"></p>
+                <h2 class="title"></h2>
+            </div>
+        </div>
+        <div class="banner-image" id="banner3">
+            <div class="banner-info">
+                <p class="desc"></p>
+                <h2 class="title"></h2>
+            </div>
+        </div>
+    </div>
+
+    <button class="banner-nav banner-prev" onclick="changeBanner(-1)">❮</button>
+    <button class="banner-nav banner-next" onclick="changeBanner(1)">❯</button>
+</div>
+<div class="sale-banner">
+    <div class="sale-text">
+        <span>Tinh Giản Trong Thiết Kế – Nổi Bật Trong Phong Cách &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            Tinh Tế Làm Nên Đẳng Cấp &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            Khoác Lên Bản Lĩnh Đàn Ông &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            Một Lần Xuất Hiện - Một Lần Ghi Điểm &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            Tự Tin Trong Mọi Khoảng Khắc &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            Làm Chủ Nhịp Điệu Riêng &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            Làm Chủ Nhịp Điệu Riêng &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            Khí Chất Không Cần Chứng Minh &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            Giá Trị Nằm Ở Chi Tiết &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            Đơn Giản Nhưng Không Mờ Nhạt &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        </span>
+    </div>
+</div>
+
+<script>
+    (function() {
+        const baseUrl = '../assets/img/banner/';
+        const bannerFiles = [
+            'banner (1).png', 'banner (2).png', 'banner (3).png', 'banner (4).png',
+            'banner (5).png', 'banner (6).png', 'banner (7).png', 'banner (8).png', 'banner (9).png'
+        ];
+
+        const bannerContent = [
+            { title: "TINH TẾ TRONG TỪNG CHIẾC ÁO", desc: "LỊCH LÃM - TÔN TRỌNG <br> CỔ ĐIỂN" },
+            { title: "ĐỊNH HÌNH PHONG CÁCH - KHẲNG ĐỊNH ĐỨNG CẤP", desc: "TÔN VINH GIÁ TRỊ<br> PHONG THÁI THANH LỊCH" },
+            { title: "NAM TÍNH TỪ LỚP NGOÀI CÙNG", desc: "ĐẲNG CẤP LỊCH LÃM<br> ĐẲNG CẤP MỘT QUÝ ÔNG" },
+            { title: "VEST CHUẨN FORM - CHUẨN BẢN LĨNH", desc: "LỊCH LÃM TRONG ĐƯỜNG NÉT<br> BẢN LĨNH TRONG BƯỚC ĐI" },
+            { title: "TINH HOA HƯƠNG SẮC - DẤU ẤN HƯƠNG THƠM", desc: "MÙI HƯƠNG QUYẾN RŨ<br> LÀM CHỦ MỌI ÁNH NHÌN" },
+            { title: "CHUẨN XÁC TRONG TỪNG CHUYỂN ĐỘNG", desc: "MẠNH MẼ DỨT KHOÁC<br> TẠO NÊN BẢN LĨNH QUÝ ÔNG" },
+            { title: "MANG THEO LỊCH LÃM - MANG THEO CHẤT RIÊNG", desc: "VỮNG BƯỚC TRÊN LỐI <br> HIÊN NGANG GIỮA MỌI ÁNH NHÌN" },
+            { title: "ĐỊNH HÌNH DẤU ẤN BƯỚC CHÂN", desc: "VỮNG VÀNG - DỨT KHOÁC<br> MẠNH MẼ TRONG TỪNG BƯỚC ĐI" },
+            { title: "CHỈNH CHU TỪ NHỮNG ĐIỀU NHỎ NHẤT", desc: "SỰ KHÁC BIỆT<br> TẠO NÊN TỪ CHI TIẾT NHỎ" }
+        ];
+
+        let currentIndex = 0;
+        let autoRotateInterval;
+        let isAnimating = false;
+
+        let domSlides = [
+            document.getElementById('banner1'),
+            document.getElementById('banner2'),
+            document.getElementById('banner3')
+        ];
+
+        function setSlideData(slideElement, dataIndex) {
+            if (!slideElement) return;
+            slideElement.style.backgroundImage = `url('${baseUrl}${bannerFiles[dataIndex]}')`;
+            slideElement.querySelector('.title').innerHTML = bannerContent[dataIndex].desc;
+            slideElement.querySelector('.desc').innerHTML = bannerContent[dataIndex].title;
+        }
+
+        if (domSlides[0]) {
+            setSlideData(domSlides[0], 0);
+            domSlides[0].style.transform = 'translateX(0)';
+        }
+
+        window.changeBanner = (dir) => {
+            if (isAnimating) return;
+            isAnimating = true;
+            clearInterval(autoRotateInterval);
+
+            let nextIndex = (currentIndex + dir + bannerFiles.length) % bannerFiles.length;
+            let currentSlide = domSlides[0];
+            let incomingSlide = domSlides[1];
+            let idleSlide = domSlides[2];
+
+            setSlideData(incomingSlide, nextIndex);
+            incomingSlide.style.transition = 'none';
+            incomingSlide.style.transform = dir === 1 ? 'translateX(100%)' : 'translateX(-100%)';
+            void incomingSlide.offsetWidth;
+
+            const transitionStyle = 'transform 1s ease-in-out';
+            currentSlide.style.transition = transitionStyle;
+            incomingSlide.style.transition = transitionStyle;
+
+            currentSlide.style.transform = dir === 1 ? 'translateX(-100%)' : 'translateX(100%)';
+            incomingSlide.style.transform = 'translateX(0)';
+
+            currentIndex = nextIndex;
+            domSlides = [incomingSlide, idleSlide, currentSlide];
+
+            setTimeout(() => {
+                isAnimating = false;
+                startAutoRotate();
+            }, 1000);
+        };
+
+        function startAutoRotate() {
+            autoRotateInterval = setInterval(() => window.changeBanner(1), 4000);
+        }
+        startAutoRotate();
+    })();
+</script>

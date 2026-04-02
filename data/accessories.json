@@ -1,0 +1,39 @@
+[
+    {
+        "id": "ACC001",
+        "name": "Thắt Lưng Da Bò Khóa Tự Động",
+        "price": 450000,
+        "img": "../assets/img/products/acc1.jpg",
+        "tags": {
+            "Loại": [
+                "Thắt lưng",
+                "Dây nịt"
+            ],
+            "Chất liệu": [
+                "Da bò miếng"
+            ],
+            "Phong cách": [
+                "Công sở",
+                "Lịch sự"
+            ]
+        }
+    },
+    {
+        "id": "ACC002",
+        "name": "Cà Vạt Lụa Màu Xanh Chấm Bi",
+        "price": 150000,
+        "img": "../assets/img/products/acc2.jpg",
+        "tags": {
+            "Loại": [
+                "Cà vạt",
+                "Tie"
+            ],
+            "Chất liệu": [
+                "Lụa nhân tạo"
+            ],
+            "Màu sắc": [
+                "Xanh dương"
+            ]
+        }
+    }
+]

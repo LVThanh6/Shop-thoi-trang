@@ -1,0 +1,270 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('../assets/font/Lato/Lato\ Bold.ttf') format('truetype');
+    font-weight: 300;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: #f5f5f5;
+}
+
+.filter-drawer {
+    width: 320px;
+    height: 100vh;
+    background: #111;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.filter-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.filter-header button {
+    background: #EDEDEE;
+    border: 3px solid #888888;
+    color: #888888;
+    padding: 6px 18px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.filter-header div {
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid #ffffff;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+.filter-header div h2 {
+    margin: 0;
+    font-size: 16px;
+
+}
+
+
+
+.filter-section {
+    margin-bottom: 20px;
+}
+
+.filter-section h3 {
+    margin: 0 0 8px;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-bottom: 1px solid #333;
+    padding-bottom: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filter-section h3::after {
+    content: '\25BC';
+    font-size: 0.7rem;
+    transition: transform 0.2s ease;
+}
+
+.filter-section.collapsed h3::after {
+    transform: rotate(-90deg);
+}
+
+.filter-section .section-body {
+    overflow: hidden;
+    max-height: 1000px;
+    opacity: 1;
+    transition: max-height 0.3s ease, opacity 0.2s ease;
+}
+
+.filter-section.collapsed .section-body {
+    max-height: 0;
+    opacity: 0;
+}
+
+.filter-option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    gap: 10px;
+    font-size: 0.9rem;
+}
+
+.filter-option input[type="checkbox"] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 24px;
+    height: 24px;
+    border: 2px solid #c0c0c0;
+    border-radius: 4px;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.filter-option input[type="checkbox"]::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 10px;
+    border-right: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    transform: rotate(45deg);
+    top: 3px;
+    left: 5px;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.filter-option input[type="checkbox"]:checked {
+    background: #ffffff;
+    border-color: #000000;
+}
+
+.filter-option input[type="checkbox"]:checked::after {
+    opacity: 1;
+    border-color: #000000;
+    top: 2px;
+    left: 6px;
+}
+
+.filter-option input[type="checkbox"]:checked::after {
+    border-color: #000000;
+}
+
+.filter-option span {
+    background: #1f1f1f;
+    border-radius: 999px;
+    padding: 2px 8px;
+    font-size: 0.75rem;
+    color: #d5d5d5;
+    margin-left: auto;
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+.filter-option input[type="checkbox"]:checked~span {
+    background: #ffffff;
+    color: #000000;
+}
+
+.price-range {
+    margin: 8px 0 4px;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.price-range input {
+    width: 100%;
+    border: 1px solid #ffffff;
+    background: #0f0f0f;
+    color: #fff;
+    border-radius: 8px;
+    padding: 8px 10px;
+}
+
+.range-slider {
+    position: relative;
+    width: 100%;
+    height: 48px;
+    margin: 12px 0 8px;
+    user-select: none;
+}
+
+.range-slider input[type="range"] {
+    position: absolute;
+    width: 100%;
+    height: 6px;
+    top: 27px;
+    left: 0;
+    margin: 0;
+    background: none;
+    pointer-events: none;
+    -webkit-appearance: none;
+}
+
+.range-slider input[type="range"]::-webkit-slider-thumb {
+    pointer-events: all;
+    position: relative;
+
+    -webkit-appearance: none;
+    width: 18px;
+    height: 18px;
+    background: #fff;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+
+    margin-top: -6px;
+    /* 👈 THÊM DÒNG NÀY */
+}
+
+.range-slider input[type="range"]::-moz-range-thumb {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #fff;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+}
+
+.range-slider input[type="range"]::-webkit-slider-runnable-track {
+    height: 6px;
+    border-radius: 6px;
+    background: #ffffff;
+}
+
+.range-slider .track {
+    position: absolute;
+    top: 27px;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    background: #ffffff;
+    border-radius: 6px;
+
+}
+
+.range-slider .range {
+    position: absolute;
+    top: 27px;
+    height: 6px;
+    background: #007bff;
+    border-radius: 6px;
+    transition: left 0.15s ease, width 0.15s ease;
+}
+
+.divider {
+    border-top: 1px solid #333;
+    margin: 12px 0;
+}
+
+@media screen and (max-width: 320px) {
+    .filter-drawer {
+        width: 100vw;
+    }
+}

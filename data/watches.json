@@ -1,0 +1,24 @@
+[
+    {
+        "id": "WAT001",
+        "name": "Đồng Hồ Nam Casio G-Shock",
+        "price": 4500000,
+        "img": "../assets/img/products/watch1.jpg",
+        "tags": {
+            "Loại": ["Số & Kim", "Chống nước"],
+            "Chất liệu": ["Nhựa tổng hợp"],
+            "Phong cách": ["Thể thao", "Siêu bền"]
+        }
+    },
+    {
+        "id": "WAT002",
+        "name": "Đồng Hồ Nam Orient Sun & Moon",
+        "price": 8500000,
+        "img": "../assets/img/products/watch2.jpg",
+        "tags": {
+            "Loại": ["Tự động (Automatic)", "Kính Sapphire"],
+            "Chất liệu": ["Thép không gỉ", "Dây da"],
+            "Phong cách": ["Sang trọng", "Lịch lãm"]
+        }
+    }
+]

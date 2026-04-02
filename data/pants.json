@@ -1,0 +1,24 @@
+[
+    {
+        "id": "PAN001",
+        "name": "Quần Jeans Slimfit Xanh",
+        "price": 450000,
+        "img": "../assets/img/products/pants1.jpg",
+        "tags": {
+            "Loại": ["Jeans", "Slimfit"],
+            "Chất liệu": ["Denim co giãn"],
+            "Phong cách": ["Năng động", "Bụi bặm"]
+        }
+    },
+    {
+        "id": "PAN002",
+        "name": "Quần Tây Nam Màu Ghi",
+        "price": 550000,
+        "img": "../assets/img/products/pants2.jpg",
+        "tags": {
+            "Loại": ["Quần Tây", "Cận chân ống đứng"],
+            "Chất liệu": ["Vải Terin"],
+            "Phong cách": ["Công sở", "Lịch lãm"]
+        }
+    }
+]

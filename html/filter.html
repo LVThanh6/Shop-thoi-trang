@@ -1,0 +1,140 @@
+<aside class="filter-drawer">
+    <div class="filter-header">
+
+        <button class="filter-btn" type="button" onclick="if(window.resetFilters) window.resetFilters();">Đặt
+            lại</button>
+
+        <div>
+            <img src="../assets/img/filter/Group 3.svg" alt="">
+            <h2>Bộ lọc</h2>
+        </div>
+
+    </div>
+
+    <div id="dynamic-filters-container">
+        <!-- Dynamic filters will be injected here by banhang.js -->
+    </div>
+
+    <div class="filter-section">
+        <h3>Giá thành</h3>
+        <div class="section-body">
+            <div class="range-slider">
+                <div class="track"></div>
+                <div class="range" id="rangeFill"></div>
+                <input type="range" id="priceRangeMin" min="0" max="10000000" step="100000" value="0">
+                <input type="range" id="priceRangeMax" min="0" max="10000000" step="100000" value="10000000">
+            </div>
+            <div class="price-range">
+                <input type="number" id="priceMin" value="0" min="0" max="10000000" step="100000" inputmode="numeric"
+                    pattern="[0-9]*" placeholder="Tối thiểu">
+                <input type="number" id="priceMax" value="10000000" min="0" max="10000000" step="100000"
+                    inputmode="numeric" pattern="[0-9]*" placeholder="Tối đa">
+            </div>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+
+</aside>
+
+<script>
+    const minInput = document.getElementById('priceMin');
+    const maxInput = document.getElementById('priceMax');
+    const rangeMin = document.getElementById('priceRangeMin');
+    const rangeMax = document.getElementById('priceRangeMax');
+    const rangeFill = document.getElementById('rangeFill');
+
+    const RANGE_MIN = 0;
+    const RANGE_MAX = 10000000;
+    const STEP_VALUE = 100000;
+
+    function normalizeValue(v) {
+        const n = Number(v);
+        if (Number.isNaN(n)) return RANGE_MIN;
+        return Math.min(RANGE_MAX, Math.max(RANGE_MIN, Math.floor(n / STEP_VALUE) * STEP_VALUE));
+    }
+    function updateFromRange(source) {
+        let minVal = normalizeValue(rangeMin.value);
+        let maxVal = normalizeValue(rangeMax.value);
+
+        // 👇 THÊM LOGIC: Đảm bảo luôn có khoảng cách tối thiểu bằng STEP_VALUE
+        if (maxVal - minVal < STEP_VALUE) {
+            if (source === rangeMin) {
+                // Nếu đang kéo thanh Min chạm vào thanh Max, ép thanh Min lùi lại
+                minVal = maxVal - STEP_VALUE;
+                rangeMin.value = minVal;
+            } else {
+                // Nếu đang kéo thanh Max chạm vào thanh Min, ép thanh Max tiến lên
+                maxVal = minVal + STEP_VALUE;
+                rangeMax.value = maxVal;
+            }
+        }
+
+        minInput.value = minVal;
+        maxInput.value = maxVal;
+
+        const percentMin = (minVal - RANGE_MIN) / (RANGE_MAX - RANGE_MIN) * 100;
+        const percentMax = (maxVal - RANGE_MIN) / (RANGE_MAX - RANGE_MIN) * 100;
+
+        rangeFill.style.left = percentMin + '%';
+        rangeFill.style.width = (percentMax - percentMin) + '%';
+    }
+    function updateFromInput() {
+        let minVal = normalizeValue(minInput.value);
+        let maxVal = normalizeValue(maxInput.value);
+        if (minVal > maxVal) {
+            [minVal, maxVal] = [maxVal, minVal];
+        }
+        rangeMin.value = minVal;
+        rangeMax.value = maxVal;
+        minInput.value = minVal;
+        maxInput.value = maxVal;
+    }
+
+    rangeMin.addEventListener('input', (evt) => updateFromRange(evt.target));
+    rangeMax.addEventListener('input', (evt) => updateFromRange(evt.target));
+
+    minInput.addEventListener('change', () => {
+        updateFromInput();
+        updateFromRange(rangeMin);
+    });
+    maxInput.addEventListener('change', () => {
+        updateFromInput();
+        updateFromRange(rangeMin);
+    });
+
+    document.querySelectorAll('.filter-section h3').forEach((header) => {
+        header.addEventListener('click', () => {
+            const section = header.parentElement;
+            section.classList.toggle('collapsed');
+        });
+    });
+
+    // Trigger global filter update on price change
+    function triggerFilterUpdate() {
+        if (window.applyFilters) window.applyFilters();
+    }
+
+    rangeMin.addEventListener('change', triggerFilterUpdate);
+    rangeMax.addEventListener('change', triggerFilterUpdate);
+    minInput.addEventListener('change', triggerFilterUpdate);
+    maxInput.addEventListener('change', triggerFilterUpdate);
+
+    // Export collapse listener for dynamic filters too
+    window.setupFilterCollapses = function () {
+        document.querySelectorAll('#dynamic-filters-container .filter-section h3').forEach((header) => {
+            // remove existing listener to prevent duplicates
+            const newHeader = header.cloneNode(true);
+            header.parentNode.replaceChild(newHeader, header);
+            newHeader.addEventListener('click', () => {
+                const section = newHeader.parentElement;
+                section.classList.toggle('collapsed');
+            });
+        });
+    };
+
+    // Khởi tạo giá trị đúng đầu
+    updateFromInput();
+    updateFromRange(rangeMin);
+</script>

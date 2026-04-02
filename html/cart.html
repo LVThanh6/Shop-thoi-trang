@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ hàng - M&N</title>
+
+    <link rel="stylesheet" href="../assets/css/header.css">
+    <link rel="stylesheet" href="../assets/css/footers.css">
+    <link rel="stylesheet" href="../assets/css/cart.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="header-placeholder"></div>
+
+    <main class="cart-main-content">
+
+        <nav class="breadcrumb">
+            <a href="../index.html">Trang chủ</a> > <span>Giỏ hàng</span>
+        </nav>
+        <div class="cart-layout">
+
+            <div class="cart-left">
+
+                <div class="cart-header">
+                    <span class="col-product">Sản phẩm</span>
+                    <span class="col-price">Đơn giá</span>
+                    <span class="col-qty">Số lượng</span>
+                    <span class="col-subtotal">Tổng</span>
+                </div>
+
+                <div id="product-list-container"></div>
+
+                <div class="cart-actions">
+                    <div class="coupon-box">
+                        <input type="text" placeholder="Mã khuyến mãi">
+                        <button class="btn-outline">KÍCH HOẠT MÃ</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <aside class="cart-right">
+                <div class="checkout-card">
+
+                    <h3>Thông tin hóa đơn</h3>
+
+                    <div class="form-group">
+                        <label>Tên người nhận</label>
+                        <input type="text" id="customer-name">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Số điện thoại liên hệ</label>
+                        <input type="text" id="customer-phone">
+                    </div>
+
+                    <div class="divider"></div>
+
+                    <div class="form-group">
+                        <label>Địa chỉ</label>
+                        <input placeholder="Select a country...">
+                        <input placeholder="State / country">
+                        <input placeholder="Postcode / Zip">
+                    </div>
+
+                    <div class="divider"></div>
+
+                    <div class="summary-line">
+                        <span>Thành tiền:</span>
+                        <span id="final-total">0 VND</span>
+                    </div>
+
+                    <button class="btn-primary-checkout">
+                        TIẾN HÀNH THANH TOÁN
+                    </button>
+
+                </div>
+            </aside>
+
+        </div>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="../js/include.js"></script>
+    <script src="../js/cart-logic.js"></script>
+
+    <script>
+        loadComponent('header-placeholder', 'header.html');
+        loadComponent('footer-placeholder', 'footer.html');
+    </script>
+
+</body>
+
+</html>
