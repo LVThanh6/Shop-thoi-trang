@@ -2,7 +2,10 @@
  * shop.js - Logic cho trang bán hàng (banhang.html)
  */
 
-let allProducts = []; // Dữ liệu sản phẩm hiện tại để lọc
+let allProducts = []; // Toàn bộ dữ liệu sản phẩm của category
+let filteredProducts = []; // Sản phẩm sau khi đã qua bộ lọc
+let visibleCount = 8; // Số lượng sản phẩm đang hiển thị
+
 
 // 1. Khởi tạo toàn trang
 async function initShop() {
@@ -14,6 +17,7 @@ async function initShop() {
     await loadComponent('cart-holder', './cart-drawer.html');
 
     setupNavbarCategoryClicks();
+    setupLoadMoreEvents();
 
     
     // Đảm bảo các sự kiện chung hoạt động
@@ -81,16 +85,21 @@ function renderAll() {
 
 function renderGrid(products) {
     const grid = document.getElementById('product-placeholder');
+    const loadMoreContainer = document.getElementById('load-more-container');
     if (!grid) return;
 
     grid.className = 'product-grid';
     if (!products.length) {
         grid.innerHTML = '<p style="grid-column:1/-1; text-align:center;">Không tìm thấy sản phẩm phù hợp.</p>';
+        if (loadMoreContainer) loadMoreContainer.style.display = 'none';
         return;
     }
 
+    // Chỉ lấy số lượng sản phẩm cần hiển thị
+    const productsToShow = products.slice(0, visibleCount);
+
     grid.innerHTML = '';
-    products.forEach(p => {
+    productsToShow.forEach(p => {
         const price = new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(p.price);
         const card = document.createElement('div');
         card.className = 'product-card';
@@ -105,6 +114,25 @@ function renderGrid(products) {
         `;
         grid.appendChild(card);
     });
+
+    // Ẩn/Hiện nút Xem thêm
+    if (loadMoreContainer) {
+        if (visibleCount < products.length) {
+            loadMoreContainer.style.display = 'block';
+        } else {
+            loadMoreContainer.style.display = 'none';
+        }
+    }
+}
+
+function setupLoadMoreEvents() {
+    const btn = document.getElementById('load-more-btn');
+    if (btn) {
+        btn.onclick = () => {
+            visibleCount += 8;
+            renderGrid(filteredProducts);
+        };
+    }
 }
 
 // 4. Tìm kiếm toàn cục
@@ -176,7 +204,8 @@ window.applyFilters = () => {
         selected[cat].push(cb.value);
     });
 
-    const filtered = allProducts.filter(p => {
+    visibleCount = 8; // Reset số lượng hiển thị khi lọc mới
+    filteredProducts = allProducts.filter(p => {
         if (p.price < min || p.price > max) return false;
         for (const [cat, vals] of Object.entries(selected)) {
             if (!p.tags?.[cat] || !vals.some(v => p.tags[cat].includes(v))) return false;
@@ -184,7 +213,7 @@ window.applyFilters = () => {
         return true;
     });
 
-    renderGrid(filtered);
+    renderGrid(filteredProducts);
 };
 
 window.resetFilters = () => {
