@@ -1,39 +1,1004 @@
 [
     {
-        "id": "SHI001",
-        "name": "Áo Sơ Mi Trắng Công Sở",
-        "price": 350000,
-        "img": "../assets/img/products/shirt1.jpg",
+        "id": "AO001",
+        "name": "Áo Sơ Mi Trắng Premium",
+        "price": 380000,
+        "img": "../assets/img/Ao/ao (1).jpg",
         "tags": {
             "Loại": [
-                "Sơ mi",
-                "Tay dài"
+                "Sơ mi"
             ],
             "Chất liệu": [
                 "Cotton"
             ],
             "Phong cách": [
-                "Công sở",
-                "Lịch lãm"
+                "Công sở"
             ]
         }
     },
     {
-        "id": "TSH001",
-        "name": "Áo Thun Basic Đen",
-        "price": 150000,
-        "img": "../assets/img/products/tshirt1.jpg",
+        "id": "AO002",
+        "name": "Áo Thun Basic Trắng",
+        "price": 190000,
+        "img": "../assets/img/Ao/ao (1).png",
         "tags": {
             "Loại": [
-                "Áo thun",
-                "Cổ tròn"
+                "Áo thun"
+            ],
+            "Chất liệu": [
+                "Cotton"
+            ],
+            "Phong cách": [
+                "Tối giản"
+            ]
+        }
+    },
+    {
+        "id": "AO003",
+        "name": "Áo Thun Cotton Co Giãn",
+        "price": 220000,
+        "img": "../assets/img/Ao/ao (1).webp",
+        "tags": {
+            "Loại": [
+                "Áo thun"
+            ],
+            "Chất liệu": [
+                "Cotton"
+            ],
+            "Phong cách": [
+                "Năng động"
+            ]
+        }
+    },
+    {
+        "id": "AO004",
+        "name": "Áo Polo Xanh Navy",
+        "price": 290000,
+        "img": "../assets/img/Ao/ao (2).webp",
+        "tags": {
+            "Loại": [
+                "Polo"
             ],
             "Chất liệu": [
                 "CVC"
             ],
             "Phong cách": [
-                "Năng động",
-                "Hằng ngày"
+                "Công sở"
+            ]
+        }
+    },
+    {
+        "id": "AO005",
+        "name": "Áo Sơ Mi Caro Đỏ",
+        "price": 420000,
+        "img": "../assets/img/Ao/ao (3).jpg",
+        "tags": {
+            "Loại": [
+                "Sơ mi"
+            ],
+            "Chất liệu": [
+                "Cotton"
+            ],
+            "Phong cách": [
+                "Streetwear"
+            ]
+        }
+    },
+    {
+        "id": "AO006",
+        "name": "Áo Thun In Graphic",
+        "price": 250000,
+        "img": "../assets/img/Ao/ao (5).jpg",
+        "tags": {
+            "Loại": [
+                "Áo thun"
+            ],
+            "Chất liệu": [
+                "CVC"
+            ],
+            "Phong cách": [
+                "Streetwear"
+            ]
+        }
+    },
+    {
+        "id": "AO007",
+        "name": "Áo Thun Oversized Đen",
+        "price": 210000,
+        "img": "../assets/img/Ao/ao (5).png",
+        "tags": {
+            "Loại": [
+                "Áo thun"
+            ],
+            "Chất liệu": [
+                "Cotton"
+            ],
+            "Phong cách": [
+                "Streetwear"
+            ]
+        }
+    },
+    {
+        "id": "AO008",
+        "name": "Áo Sơ Mi Linen Xanh",
+        "price": 450000,
+        "img": "../assets/img/Ao/ao (6).jpg",
+        "tags": {
+            "Loại": [
+                "Sơ mi"
+            ],
+            "Chất liệu": [
+                "Linen"
+            ],
+            "Phong cách": [
+                "Tối giản"
+            ]
+        }
+    },
+    {
+        "id": "AO009",
+        "name": "Áo Thun Pocket Basic",
+        "price": 180000,
+        "img": "../assets/img/Ao/ao (6).png",
+        "tags": {
+            "Loại": [
+                "Áo thun"
+            ],
+            "Chất liệu": [
+                "Cotton"
+            ],
+            "Phong cách": [
+                "Tối giản"
+            ]
+        }
+    },
+    {
+        "id": "AO010",
+        "name": "Áo Sơ Mi Denim Blue",
+        "price": 550000,
+        "img": "../assets/img/Ao/ao (7).jpg",
+        "tags": {
+            "Loại": [
+                "Sơ mi"
+            ],
+            "Chất liệu": [
+                "Cotton"
+            ],
+            "Phong cách": [
+                "Streetwear"
+            ]
+        }
+    },
+    {
+        "id": "AO011",
+        "name": "Áo Thun Henley Trắng",
+        "price": 280000,
+        "img": "../assets/img/Ao/ao (7).png",
+        "tags": {
+            "Loại": [
+                "Áo thun"
+            ],
+            "Chất liệu": [
+                "CVC"
+            ],
+            "Phong cách": [
+                "Tối giản"
+            ]
+        }
+    },
+    {
+        "id": "AO012",
+        "name": "Áo Sơ Mi Oxford Grey",
+        "price": 360000,
+        "img": "../assets/img/Ao/ao (8).jpg",
+        "tags": {
+            "Loại": [
+                "Sơ mi"
+            ],
+            "Chất liệu": [
+                "Cotton"
+            ],
+            "Phong cách": [
+                "Công sở"
+            ]
+        }
+    },
+    {
+        "id": "AO013",
+        "name": "Áo Thun Slim Fit Co Giãn",
+        "price": 195000,
+        "img": "../assets/img/Ao/ao (8).webp",
+        "tags": {
+            "Loại": [
+                "Áo thun"
+            ],
+            "Chất liệu": [
+                "Cotton"
+            ],
+            "Phong cách": [
+                "Năng động"
+            ]
+        }
+    },
+    {
+        "id": "AO014",
+        "name": "Áo Polo Sọc Ngang",
+        "price": 310000,
+        "img": "../assets/img/Ao/ao (9).webp",
+        "tags": {
+            "Loại": [
+                "Polo"
+            ],
+            "Chất liệu": [
+                "Cotton"
+            ],
+            "Phong cách": [
+                "Năng động"
+            ]
+        }
+    },
+    {
+        "id": "AO015",
+        "name": "Áo Thun In Hình Abstract",
+        "price": 230000,
+        "img": "../assets/img/Ao/ao (11).webp",
+        "tags": {
+            "Loại": [
+                "Áo thun"
+            ],
+            "Chất liệu": [
+                "CVC"
+            ],
+            "Phong cách": [
+                "Streetwear"
+            ]
+        }
+    },
+    {
+        "id": "AO016",
+        "name": "Áo Thun Màu Kem Minimalist",
+        "price": 185000,
+        "img": "../assets/img/Ao/ao (12).webp",
+        "tags": {
+            "Loại": [
+                "Áo thun"
+            ],
+            "Chất liệu": [
+                "Cotton"
+            ],
+            "Phong cách": [
+                "Tối giản"
+            ]
+        }
+    },
+    {
+        "id": "AO017",
+        "name": "Áo Polo Texture Xám",
+        "price": 320000,
+        "img": "../assets/img/Ao/ao (15).webp",
+        "tags": {
+            "Loại": [
+                "Polo"
+            ],
+            "Chất liệu": [
+                "CVC"
+            ],
+            "Phong cách": [
+                "Công sở"
+            ]
+        }
+    },
+    {
+        "id": "AO018",
+        "name": "Áo Thun Street Style",
+        "price": 260000,
+        "img": "../assets/img/Ao/ao (31).webp",
+        "tags": {
+            "Loại": [
+                "Áo thun"
+            ],
+            "Chất liệu": [
+                "Cotton"
+            ],
+            "Phong cách": [
+                "Streetwear"
+            ]
+        }
+    },
+    {
+        "id": "AO019",
+        "name": "Áo Thun In Chữ Minimalism",
+        "price": 190000,
+        "img": "../assets/img/Ao/ao (32).webp",
+        "tags": {
+            "Loại": [
+                "Áo thun"
+            ],
+            "Chất liệu": [
+                "Cotton"
+            ],
+            "Phong cách": [
+                "Tối giản"
+            ]
+        }
+    },
+    {
+        "id": "AO020",
+        "name": "Áo Khoác Gió Bomber",
+        "price": 650000,
+        "img": "../assets/img/Ao/ao (33).webp",
+        "tags": {
+            "Loại": [
+                "Áo khoác"
+            ],
+            "Chất liệu": [
+                "CVC"
+            ],
+            "Phong cách": [
+                "Năng động"
+            ]
+        }
+    },
+    {
+        "id": "AO021",
+        "name": "Áo Hoodie Trơn Màu Đen",
+        "price": 480000,
+        "img": "../assets/img/Ao/ao (34).webp",
+        "tags": {
+            "Loại": [
+                "Áo khoác"
+            ],
+            "Chất liệu": [
+                "Nỉ"
+            ],
+            "Phong cách": [
+                "Streetwear"
+            ]
+        }
+    },
+    {
+        "id": "AO022",
+        "name": "Áo Thun Phản Quang",
+        "price": 270000,
+        "img": "../assets/img/Ao/ao (35).webp",
+        "tags": {
+            "Loại": [
+                "Áo thun"
+            ],
+            "Chất liệu": [
+                "Cotton"
+            ],
+            "Phong cách": [
+                "Streetwear"
+            ]
+        }
+    },
+    {
+        "id": "AO023",
+        "name": "Áo Sweater Màu Rêu",
+        "price": 420000,
+        "img": "../assets/img/Ao/ao (36).webp",
+        "tags": {
+            "Loại": [
+                "Áo khoác"
+            ],
+            "Chất liệu": [
+                "Nỉ"
+            ],
+            "Phong cách": [
+                "Tối giản"
+            ]
+        }
+    },
+    {
+        "id": "AO024",
+        "name": "Áo Thun Tie Dye Độc Đáo",
+        "price": 300000,
+        "img": "../assets/img/Ao/ao (37).webp",
+        "tags": {
+            "Loại": [
+                "Áo thun"
+            ],
+            "Chất liệu": [
+                "Cotton"
+            ],
+            "Phong cách": [
+                "Streetwear"
+            ]
+        }
+    },
+    {
+        "id": "AO025",
+        "name": "Áo Thun Ba Lỗ Thể Thao",
+        "price": 140000,
+        "img": "../assets/img/Ao/ao (38).webp",
+        "tags": {
+            "Loại": [
+                "Áo thun"
+            ],
+            "Chất liệu": [
+                "CVC"
+            ],
+            "Phong cách": [
+                "Năng động"
+            ]
+        }
+    },
+    {
+        "id": "AO026",
+        "name": "Áo Thun Oversize Xám",
+        "price": 215000,
+        "img": "../assets/img/Ao/ao (39).webp",
+        "tags": {
+            "Loại": [
+                "Áo thun"
+            ],
+            "Chất liệu": [
+                "Cotton"
+            ],
+            "Phong cách": [
+                "Tối giản"
+            ]
+        }
+    },
+    {
+        "id": "AO027",
+        "name": "Áo Thun Cổ V Hiện Đại",
+        "price": 200000,
+        "img": "../assets/img/Ao/ao (40).webp",
+        "tags": {
+            "Loại": [
+                "Áo thun"
+            ],
+            "Chất liệu": [
+                "Cotton"
+            ],
+            "Phong cách": [
+                "Công sở"
+            ]
+        }
+    },
+    {
+        "id": "AO028",
+        "name": "Áo Thun In Họa Tiết Cá",
+        "price": 240000,
+        "img": "../assets/img/Ao/ao (41).webp",
+        "tags": {
+            "Loại": [
+                "Áo thun"
+            ],
+            "Chất liệu": [
+                "CVC"
+            ],
+            "Phong cách": [
+                "Năng động"
+            ]
+        }
+    },
+    {
+        "id": "AO029",
+        "name": "Áo Thun Pastel Pink",
+        "price": 180000,
+        "img": "../assets/img/Ao/ao (42).webp",
+        "tags": {
+            "Loại": [
+                "Áo thun"
+            ],
+            "Chất liệu": [
+                "Cotton"
+            ],
+            "Phong cách": [
+                "Năng động"
+            ]
+        }
+    },
+    {
+        "id": "AO030",
+        "name": "Áo Thun In Robot",
+        "price": 265000,
+        "img": "../assets/img/Ao/ao (43).webp",
+        "tags": {
+            "Loại": [
+                "Áo thun"
+            ],
+            "Chất liệu": [
+                "Cotton"
+            ],
+            "Phong cách": [
+                "Streetwear"
+            ]
+        }
+    },
+    {
+        "id": "AO031",
+        "name": "Áo Thun Co Giãn 4 Chiều",
+        "price": 225000,
+        "img": "../assets/img/Ao/ao (44).webp",
+        "tags": {
+            "Loại": [
+                "Áo thun"
+            ],
+            "Chất liệu": [
+                "CVC"
+            ],
+            "Phong cách": [
+                "Năng động"
+            ]
+        }
+    },
+    {
+        "id": "AO032",
+        "name": "Áo Thun Minimal Art",
+        "price": 235000,
+        "img": "../assets/img/Ao/ao (45).webp",
+        "tags": {
+            "Loại": [
+                "Áo thun"
+            ],
+            "Chất liệu": [
+                "Cotton"
+            ],
+            "Phong cách": [
+                "Tối giản"
+            ]
+        }
+    },
+    {
+        "id": "AO033",
+        "name": "Áo Thun Vintage Wash",
+        "price": 280000,
+        "img": "../assets/img/Ao/ao (46).webp",
+        "tags": {
+            "Loại": [
+                "Áo thun"
+            ],
+            "Chất liệu": [
+                "Cotton"
+            ],
+            "Phong cách": [
+                "Streetwear"
+            ]
+        }
+    },
+    {
+        "id": "AO034",
+        "name": "Áo Thun Oversize Logo",
+        "price": 245000,
+        "img": "../assets/img/Ao/ao (47).webp",
+        "tags": {
+            "Loại": [
+                "Áo thun"
+            ],
+            "Chất liệu": [
+                "Cotton"
+            ],
+            "Phong cách": [
+                "Năng động"
+            ]
+        }
+    },
+    {
+        "id": "AO035",
+        "name": "Áo Thun Kẻ Ngang Retro",
+        "price": 210000,
+        "img": "../assets/img/Ao/ao (48).webp",
+        "tags": {
+            "Loại": [
+                "Áo thun"
+            ],
+            "Chất liệu": [
+                "Cotton"
+            ],
+            "Phong cách": [
+                "Tối giản"
+            ]
+        }
+    },
+    {
+        "id": "AO036",
+        "name": "Áo Thun In Họa Tiết Lá",
+        "price": 220000,
+        "img": "../assets/img/Ao/ao (49).webp",
+        "tags": {
+            "Loại": [
+                "Áo thun"
+            ],
+            "Chất liệu": [
+                "Cotton"
+            ],
+            "Phong cách": [
+                "Năng động"
+            ]
+        }
+    },
+    {
+        "id": "AO037",
+        "name": "Áo Hoodie Zip Phối Gân",
+        "price": 530000,
+        "img": "../assets/img/Ao/ao (50).webp",
+        "tags": {
+            "Loại": [
+                "Áo khoác"
+            ],
+            "Chất liệu": [
+                "Nỉ"
+            ],
+            "Phong cách": [
+                "Streetwear"
+            ]
+        }
+    },
+    {
+        "id": "AO038",
+        "name": "Áo Khoác Gió Siêu Nhẹ",
+        "price": 460000,
+        "img": "../assets/img/Ao/ao (51).webp",
+        "tags": {
+            "Loại": [
+                "Áo khoác"
+            ],
+            "Chất liệu": [
+                "CVC"
+            ],
+            "Phong cách": [
+                "Năng động"
+            ]
+        }
+    },
+    {
+        "id": "AO039",
+        "name": "Áo Thun Graphic Colorful",
+        "price": 275000,
+        "img": "../assets/img/Ao/ao (52).webp",
+        "tags": {
+            "Loại": [
+                "Áo thun"
+            ],
+            "Chất liệu": [
+                "Cotton"
+            ],
+            "Phong cách": [
+                "Năng động"
+            ]
+        }
+    },
+    {
+        "id": "AO040",
+        "name": "Áo Thun In Phông Chữ Độc Đáo",
+        "price": 240000,
+        "img": "../assets/img/Ao/ao (53).webp",
+        "tags": {
+            "Loại": [
+                "Áo thun"
+            ],
+            "Chất liệu": [
+                "CVC"
+            ],
+            "Phong cách": [
+                "Streetwear"
+            ]
+        }
+    },
+    {
+        "id": "AO041",
+        "name": "Áo Thun Basic Grey",
+        "price": 175000,
+        "img": "../assets/img/Ao/ao (54).webp",
+        "tags": {
+            "Loại": [
+                "Áo thun"
+            ],
+            "Chất liệu": [
+                "Cotton"
+            ],
+            "Phong cách": [
+                "Tối giản"
+            ]
+        }
+    },
+    {
+        "id": "AO042",
+        "name": "Áo Thun Oversize Đỏ Đô",
+        "price": 230000,
+        "img": "../assets/img/Ao/ao (55).webp",
+        "tags": {
+            "Loại": [
+                "Áo thun"
+            ],
+            "Chất liệu": [
+                "Cotton"
+            ],
+            "Phong cách": [
+                "Streetwear"
+            ]
+        }
+    },
+    {
+        "id": "AO043",
+        "name": "Áo Thun Pocket Navy",
+        "price": 195000,
+        "img": "../assets/img/Ao/ao (56).webp",
+        "tags": {
+            "Loại": [
+                "Áo thun"
+            ],
+            "Chất liệu": [
+                "Cotton"
+            ],
+            "Phong cách": [
+                "Tối giản"
+            ]
+        }
+    },
+    {
+        "id": "AO044",
+        "name": "Áo Thun Sọc Xám Chì",
+        "price": 210000,
+        "img": "../assets/img/Ao/ao (57).webp",
+        "tags": {
+            "Loại": [
+                "Áo thun"
+            ],
+            "Chất liệu": [
+                "Cotton"
+            ],
+            "Phong cách": [
+                "Công sở"
+            ]
+        }
+    },
+    {
+        "id": "AO045",
+        "name": "Áo Thun In Mini Icon",
+        "price": 205000,
+        "img": "../assets/img/Ao/ao (58).webp",
+        "tags": {
+            "Loại": [
+                "Áo thun"
+            ],
+            "Chất liệu": [
+                "Cotton"
+            ],
+            "Phong cách": [
+                "Tối giản"
+            ]
+        }
+    },
+    {
+        "id": "AO046",
+        "name": "Áo Thun Raglan Đen Trắng",
+        "price": 255000,
+        "img": "../assets/img/Ao/ao (59).webp",
+        "tags": {
+            "Loại": [
+                "Áo thun"
+            ],
+            "Chất liệu": [
+                "Cotton"
+            ],
+            "Phong cách": [
+                "Năng động"
+            ]
+        }
+    },
+    {
+        "id": "AO047",
+        "name": "Áo Sơ Mi Trắng Form Rộng",
+        "price": 395000,
+        "img": "../assets/img/Ao/ao (60).webp",
+        "tags": {
+            "Loại": [
+                "Sơ mi"
+            ],
+            "Chất liệu": [
+                "Linen"
+            ],
+            "Phong cách": [
+                "Công sở"
+            ]
+        }
+    },
+    {
+        "id": "AO048",
+        "name": "Áo Thun In Họa Tiết Đá",
+        "price": 260000,
+        "img": "../assets/img/Ao/ao (61).webp",
+        "tags": {
+            "Loại": [
+                "Áo thun"
+            ],
+            "Chất liệu": [
+                "Cotton"
+            ],
+            "Phong cách": [
+                "Streetwear"
+            ]
+        }
+    },
+    {
+        "id": "AO050",
+        "name": "Áo Thun In Graphic Mountain",
+        "price": 270000,
+        "img": "../assets/img/Ao/ao (63).webp",
+        "tags": {
+            "Loại": [
+                "Áo thun"
+            ],
+            "Chất liệu": [
+                "Cotton"
+            ],
+            "Phong cách": [
+                "Năng động"
+            ]
+        }
+    },
+    {
+        "id": "AO051",
+        "name": "Áo Thun In Landscape",
+        "price": 280000,
+        "img": "../assets/img/Ao/ao (64).webp",
+        "tags": {
+            "Loại": [
+                "Áo thun"
+            ],
+            "Chất liệu": [
+                "Cotton"
+            ],
+            "Phong cách": [
+                "Tối giản"
+            ]
+        }
+    },
+    {
+        "id": "AO052",
+        "name": "Áo Thun Tie Dye Xanh Dương",
+        "price": 320000,
+        "img": "../assets/img/Ao/ao (65).webp",
+        "tags": {
+            "Loại": [
+                "Áo thun"
+            ],
+            "Chất liệu": [
+                "Cotton"
+            ],
+            "Phong cách": [
+                "Streetwear"
+            ]
+        }
+    },
+    {
+        "id": "AO053",
+        "name": "Áo Thun Basic Xanh Rêu",
+        "price": 190000,
+        "img": "../assets/img/Ao/ao (66).webp",
+        "tags": {
+            "Loại": [
+                "Áo thun"
+            ],
+            "Chất liệu": [
+                "Cotton"
+            ],
+            "Phong cách": [
+                "Tối giản"
+            ]
+        }
+    },
+    {
+        "id": "AO054",
+        "name": "Áo Thun In Galaxy",
+        "price": 350000,
+        "img": "../assets/img/Ao/ao (67).webp",
+        "tags": {
+            "Loại": [
+                "Áo thun"
+            ],
+            "Chất liệu": [
+                "Cotton"
+            ],
+            "Phong cách": [
+                "Streetwear"
+            ]
+        }
+    },
+    {
+        "id": "AO055",
+        "name": "Áo Thun In Chữ Calligraphy",
+        "price": 260000,
+        "img": "../assets/img/Ao/ao (68).webp",
+        "tags": {
+            "Loại": [
+                "Áo thun"
+            ],
+            "Chất liệu": [
+                "Cotton"
+            ],
+            "Phong cách": [
+                "Tối giản"
+            ]
+        }
+    },
+    {
+        "id": "AO056",
+        "name": "Áo Thun Pocket Pastel Blue",
+        "price": 195000,
+        "img": "../assets/img/Ao/ao (69).webp",
+        "tags": {
+            "Loại": [
+                "Áo thun"
+            ],
+            "Chất liệu": [
+                "Cotton"
+            ],
+            "Phong cách": [
+                "Tối giản"
+            ]
+        }
+    },
+    {
+        "id": "AO057",
+        "name": "Áo Thun In Hình Động Vật",
+        "price": 245000,
+        "img": "../assets/img/Ao/ao (70).webp",
+        "tags": {
+            "Loại": [
+                "Áo thun"
+            ],
+            "Chất liệu": [
+                "Cotton"
+            ],
+            "Phong cách": [
+                "Năng động"
+            ]
+        }
+    },
+    {
+        "id": "AO058",
+        "name": "Áo Thun Phối Màu Raglan",
+        "price": 260000,
+        "img": "../assets/img/Ao/ao (71).webp",
+        "tags": {
+            "Loại": [
+                "Áo thun"
+            ],
+            "Chất liệu": [
+                "CVC"
+            ],
+            "Phong cách": [
+                "Năng động"
+            ]
+        }
+    },
+    {
+        "id": "AO059",
+        "name": "Áo Thun In Neon Lights",
+        "price": 310000,
+        "img": "../assets/img/Ao/ao (72).webp",
+        "tags": {
+            "Loại": [
+                "Áo thun"
+            ],
+            "Chất liệu": [
+                "Cotton"
+            ],
+            "Phong cách": [
+                "Streetwear"
+            ]
+        }
+    },
+    {
+        "id": "AO060",
+        "name": "Áo Thun Graphic Street King",
+        "price": 290000,
+        "img": "../assets/img/Ao/ao (73).webp",
+        "tags": {
+            "Loại": [
+                "Áo thun"
+            ],
+            "Chất liệu": [
+                "Cotton"
+            ],
+            "Phong cách": [
+                "Streetwear"
             ]
         }
     }

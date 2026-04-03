@@ -1,0 +1,67 @@
+<!-- Product Detail Overlay -->
+<div id="productDetailOverlay" class="product-detail-overlay">
+    <div class="product-detail-modal">
+        <!-- Close Button -->
+        <button id="closeProductDetail" class="close-modal-btn">&times;</button>
+        
+        <div class="modal-content">
+            <!-- Left: Product Gallery -->
+            <div class="product-gallery">
+                <div class="main-image-container">
+                    <button class="nav-arrow prev-arrow"><i class="fas fa-chevron-left"></i></button>
+                    <img id="modalProductImg" src="" alt="Product Image">
+                    <button class="nav-arrow next-arrow"><i class="fas fa-chevron-right"></i></button>
+                    <button class="zoom-btn"><i class="fas fa-expand-arrows-alt"></i></button>
+                </div>
+            </div>
+
+            <div class="product-details">
+                <div class="product-breadcrumb">Tên sản phẩm</div>
+                <h1 id="modalProductName">Tên sản phẩm</h1>
+                <p id="modalProductPrice" class="price">0 VND</p>
+                
+                <div class="product-description">
+                    <p>Miêu tả: <span id="modalProductDesc">Đang cập nhật...</span></p>
+                </div>
+
+                <!-- Size Selector -->
+                <div class="selection-row">
+                    <label>Kích thước</label>
+                    <div class="custom-select" id="sizeSelector">
+                        <div class="select-selected">Chọn kích thước</div>
+                        <div class="select-items select-hide">
+                            <div data-size="S">Size S</div>
+                            <div data-size="M">Size M</div>
+                            <div data-size="L">Size L</div>
+                            <div data-size="XL">Size XL</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quantity Selector -->
+                <div class="selection-row">
+                    <label>Số lượng</label>
+                    <div class="quantity-selector">
+                        <button class="qty-btn minus">-</button>
+                        <input type="number" id="modalProductQty" value="1" min="1">
+                        <button class="qty-btn plus">+</button>
+                    </div>
+                </div>
+
+                <!-- Total Price -->
+                <div class="selection-row total-row">
+                    <label>Tổng</label>
+                    <span id="modalTotalPrice" class="total-price">0 VND</span>
+                </div>
+
+                <!-- Action Buttons -->
+                <div class="action-buttons">
+                    <button id="addToFavorite" class="favorite-btn">
+                        <i class="far fa-heart"></i>
+                    </button>
+                    <button id="modalAddToCart" class="add-to-cart-btn">THÊM VÀO GIỎ HÀNG</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -108,9 +108,28 @@ function checkAndDisplayUser() {
     }
 }
 
+function updateHeaderCounts() {
+    const saved = JSON.parse(localStorage.getItem('savedProducts')) || [];
+    const savedCount = document.getElementById('savedCountBubble');
+    if (savedCount) {
+        savedCount.innerText = saved.length;
+        savedCount.style.display = saved.length > 0 ? 'flex' : 'none';
+    }
+
+    const cart = JSON.parse(localStorage.getItem('cart')) || [];
+    const cartCount = document.getElementById('cartCountBubble');
+    if (cartCount) {
+        const totalItems = cart.reduce((sum, item) => sum + (item.quantity || 0), 0);
+        cartCount.innerText = totalItems;
+        cartCount.style.display = totalItems > 0 ? 'flex' : 'none';
+    }
+}
+
 // Xuất các hàm ra global scope (window) để các script khác sử dụng
 window.loadComponent = loadComponent;
 window.removeAccents = removeAccents;
 window.setupCartEvents = setupCartEvents;
 window.checkAndDisplayUser = checkAndDisplayUser;
+window.updateHeaderCounts = updateHeaderCounts;
+window.updateHeaderCounts = updateHeaderCounts;
 

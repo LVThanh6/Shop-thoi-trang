@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saved Products - MEN Fashion</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="../assets/css/header.css">
+    <link rel="stylesheet" href="../assets/css/footers.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/save.css">
+    <link rel="stylesheet" href="../assets/css/product-detail.css">
+</head>
+
+<body class="save-page">
+    <div class="site-wrapper">
+        <header id="header-placeholder"></header>
+
+        <main class="content-wrapper">
+            <!-- Breadcrumb Navigation -->
+            <nav class="breadcrumb">
+                <a href="../index.html">Trang chủ</a> <i class="fas fa-chevron-right"></i> <span>Saved</span>
+            </nav>
+
+            <section class="saved-section">
+                <div class="saved-header">
+                    <div class="search-box">
+                        <input type="text" id="savedSearch" placeholder="Tìm sản phẩm ...">
+                        <button><i class="fas fa-search"></i></button>
+                    </div>
+                    <div class="sort-box">
+                        <select id="savedSort">
+                            <option value="az">A-Z</option>
+                            <option value="za">Z-A</option>
+                            <option value="price-low">Giá thấp - cao</option>
+                            <option value="price-high">Giá cao - thấp</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div id="saved-list-container" class="saved-list">
+                    <!-- Saved products will be loaded here -->
+                    <div class="empty-state" id="emptySaved" style="display: none;">
+                        <i class="far fa-heart"></i>
+                        <p>Danh sách yêu thích của bạn đang trống.</p>
+                        <a href="banhang.html" class="btn-shop-now">MUA SẮM NGAY</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer id="footer-placeholder"></footer>
+        <div id="cart-holder"></div>
+        <div id="product-detail-holder"></div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="../js/utils.js"></script>
+    <script src="../js/giohang.js"></script>
+    <script src="../js/save.js"></script>
+    <!-- We include shop.js parts for modal support if needed -->
+    <script src="../js/shop.js"></script>
+</body>
+
+</html>
