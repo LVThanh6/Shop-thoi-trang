@@ -19,7 +19,7 @@ body {
 
 .filter-drawer {
     width: 320px;
-    height: 100vh;
+
     background: #111;
     color: #fff;
     display: flex;
@@ -35,6 +35,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 16px;
+    padding-right: 10px;
 }
 
 .filter-header button {
