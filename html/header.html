@@ -1,84 +1,19 @@
-<<<<<<< HEAD
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../assets/css/header.css">
-    <link rel="stylesheet" href="../assets/css/main.css">
-</head>
-
-<body>
-    <header>
-        <div class="container">
-            <div class="Top-nav">
-                <div class="logo">
-                    <img src="../assets/icon/logo.png" alt="logo">
-                </div>
-                <div class="Search">
-                    <input type="text" name="" id="" placeholder="What are you looking for...">
-                    <button type="submit">
-                        <img src="../assets/icon/search.svg" alt="search">
-                    </button>
-
-                </div>
-                <div class="User-Actions">
-                    <div class="saved">
-                        <span>
-                            <a href="#">
-                                <img src="../assets/icon/tym.png" alt="tym">
-                                <div>
-                                    <img src="../assets/icon/icon0.svg" alt="" style="width: 19px; height: 18px;">
-                                    <span>Saved</span>
-                                </div>
-                            </a>
-                        </span>
-                    </div>
-                    <div class="cart">
-                        <span>
-                            <a href="../html/cart.html">
-                                <img src="../assets/icon/mdi_cart-outline.png" alt="cart" id="cartHeaderBtn">
-                                <div>
-                                    <img src="../assets/icon/icon9.svg" alt="" style="width: 19px; height: 18px;">
-                                    <span>Cart</span>
-                                </div>
-                            </a>
-                        </span>
-                    </div>
-                    <div class="account">
-                        <span>
-                            <a href="../html/dangNhap.html" id="accountLink">
-                                <img src="../assets/icon/mdi_account-circle.png" alt="account">
-                                <div>
-                                    <span id="userNameDisplay">Login</span>
-                                    <span id="accountStatus">Account<img src="../assets/icon/rowbottom.svg"
-                                            alt=""></span>
-                                </div>
-                            </a>
-                        </span>
-                    </div>
-                </div>
-=======
 <header>
     <div class="container">
         <div class="Top-nav">
             <div class="logo">
                 <img src="../assets/icon/logo.png" alt="logo">
->>>>>>> 6e17adff5f6fc22e2dbe6112f9a8582b4feaa686
             </div>
             <div class="Search">
                 <input type="text" id="searchInput" placeholder="What are you looking for...">
                 <button type="button" id="searchButton">
                     <img src="../assets/icon/search.svg" alt="search">
                 </button>
-
             </div>
             <div class="User-Actions">
                 <div class="saved">
                     <span>
-                        <a href="#">
+                        <a href="../html/save.html">
                             <img src="../assets/icon/tym.png" alt="tym">
                             <div>
                                 <img src="../assets/icon/icon0.svg" alt="" style="width: 19px; height: 18px;">
@@ -89,7 +24,7 @@
                 </div>
                 <div class="cart">
                     <span>
-                        <a href="../html/giohang.html">
+                        <a href="../html/cart.html">
                             <img src="../assets/icon/mdi_cart-outline.png" alt="cart" id="cartHeaderBtn">
                             <div>
                                 <img src="../assets/icon/icon9.svg" alt="" style="width: 19px; height: 18px;">
@@ -138,9 +73,18 @@
 <script>
     // Lógica ẩn / hiện navbar khi cuộn chuột
     (function () {
-        let lastScrollY = window.scrollY;
+        const header = document.querySelector('header');
         const navbar = document.getElementById('main-navbar');
 
+        // Kiểm tra nếu là trang giỏ hàng hoặc trang save
+        const isCartPage = window.location.pathname.includes('cart.html');
+        const isSavePage = window.location.pathname.includes('save.html');
+
+        if (isCartPage || isSavePage) {
+            if (header) header.classList.add('no-navbar');
+        }
+
+        let lastScrollY = window.scrollY;
         if (!navbar) return;
 
         window.addEventListener('scroll', () => {

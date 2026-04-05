@@ -431,34 +431,6 @@ function closeAllSelect(elmnt) {
 
 document.addEventListener('click', () => closeAllSelect());
 
-// Helper: addToCart
-function addToCart(product, quantity, size) {
-    console.log(`Added to cart: ${product.name} - Qty: ${quantity} - Size: ${size}`);
-    
-    // Lưu vào LocalStorage hoặc SessionStorage để giỏ hàng đồng bộ
-    let cart = JSON.parse(localStorage.getItem('cart')) || [];
-    const existingIndex = cart.findIndex(item => item.id === product.id && item.size === size);
-    
-    if (existingIndex > -1) {
-        cart[existingIndex].quantity += quantity;
-    } else {
-        cart.push({
-            id: product.id,
-            name: product.name,
-            price: product.price,
-            img: product.img,
-            quantity: quantity,
-            size: size
-        });
-    }
-    
-    localStorage.setItem('cart', JSON.stringify(cart));
-    
-    // Cập nhật giao diện giỏ hàng nếu có hàm initCart
-    if (window.initCart) window.initCart();
-    if (window.updateHeaderCounts) window.updateHeaderCounts();
-}
-
 // Khởi tạo khi DOM sẵn sàng
 document.addEventListener('DOMContentLoaded', initShop);
 

@@ -26,6 +26,10 @@ main {
     min-width: 1440px;
 }
 
+body.save-page main {
+    margin-top: 80px;
+}
+
 .hero_1 {
     height: 467px;
     background: linear-gradient(140deg,

@@ -5,21 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sản phẩm</title>
-    <link rel="stylesheet" href="../assets/css/header.css">
+    <link rel="stylesheet" href="../assets/css/header copy.css">
     <link rel="stylesheet" href="../assets/css/footers.css">
     <link rel="stylesheet" href="../assets/css/main.css">
     <link rel="stylesheet" href="../assets/css/filter.css">
     <link rel="stylesheet" href="../assets/css/banner.css">
-    <link rel="stylesheet" href="../assets/css/banhang.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
-    <link rel="stylesheet" href="../assets/css/product-detail.css">
 </head>
 
-<body class="shop-page">
+<body>
     <div class="site-wrapper">
         <div id="header-placeholder"></div>
-
-        <!-- Banner nạp động thay vì iframe -->
         <div id="banner-placeholder"></div>
 
         <div class="content-wrapper">
@@ -31,27 +26,59 @@
 
             <div class="product-area">
                 <h2>Danh sách sản phẩm</h2>
-                <div id="product-placeholder">
-                    <!-- Sản phẩm sẽ được nạp từ JSON qua shop.js -->
-                </div>
-                <!-- Nút Xem thêm -->
-                <div id="load-more-container" style="display: none; text-align: center; margin-top: 40px; margin-bottom: 20px;">
-                    <button id="load-more-btn" class="btn-load-more">Xem thêm</button>
+                <div class="product-placeholder" id="product-placeholder">
+                    (Chừa khoảng trống này để bạn thêm sản phẩm sau)
                 </div>
             </div>
         </div>
 
         <div id="footer-placeholder"></div>
-        <div id="cart-holder"></div>
-        <div id="product-detail-holder"></div>
     </div>
 
-    <!-- JavaScript -->
-    <script src="../js/utils.js"></script>
-    <script src="../js/giohang.js"></script>
-    <script src="../js/shop.js"></script>
+    <script>
+        // Thay thế đoạn script cũ bằng đoạn này
+        async function loadHtml(id, path, inner = true) {
+            try {
+                const res = await fetch(path);
+                const text = await res.text();
+
+                const targetElement = document.getElementById(id);
+
+                // 1. Chèn HTML vào DOM
+                targetElement.innerHTML = text;
+
+                // 2. Tìm tất cả các thẻ <script> vừa được chèn vào
+                const scripts = targetElement.querySelectorAll('script');
+
+                // 3. Tạo thẻ <script> mới và chép nội dung sang để ép trình duyệt thực thi
+                scripts.forEach(oldScript => {
+                    const newScript = document.createElement('script');
+
+                    // Nếu là script link ra ngoài (src)
+                    if (oldScript.src) {
+                        newScript.src = oldScript.src;
+                    }
+                    // Nếu là script viết trực tiếp bên trong (inline)
+                    else {
+                        newScript.textContent = oldScript.textContent;
+                    }
+
+                    // Thêm vào body để chạy, sau đó xóa đi cho nhẹ DOM
+                    document.body.appendChild(newScript);
+                    oldScript.remove(); // Xóa thẻ script "chết" cũ đi
+                });
+
+            } catch (e) {
+                console.error('Không tải được', path, e);
+            }
+        }
+
+        // Nạp các phần từ file riêng
+        loadHtml('header-placeholder', './header.html');
+        loadHtml('banner-placeholder', './banner.html');
+        loadHtml('filter-placeholder', './filter.html');
+        loadHtml('footer-placeholder', './footer.html');
+    </script>
 </body>
-
-
 
 </html>

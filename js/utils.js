@@ -108,6 +108,53 @@ function checkAndDisplayUser() {
     }
 }
 
+// 5. Quản lý Giỏ hàng tập trung
+function getCart() {
+    return JSON.parse(localStorage.getItem('cart')) || [];
+}
+
+function saveCart(cart) {
+    localStorage.setItem('cart', JSON.stringify(cart));
+    // Thông báo cho các component khác cập nhật UI
+    if (window.updateHeaderCounts) window.updateHeaderCounts();
+    if (window.initCart) window.initCart();
+}
+
+function addToCart(product, quantity, size) {
+    let cart = getCart();
+    const existingIndex = cart.findIndex(item => item.id === product.id && item.size === size);
+
+    if (existingIndex > -1) {
+        cart[existingIndex].quantity += quantity;
+    } else {
+        cart.push({
+            id: product.id,
+            name: product.name,
+            price: product.price,
+            img: product.img,
+            quantity: quantity,
+            size: size
+        });
+    }
+    saveCart(cart);
+}
+
+function removeFromCart(id, size) {
+    let cart = getCart();
+    cart = cart.filter(item => !(item.id === id && item.size === size));
+    saveCart(cart);
+}
+
+function updateCartQty(id, size, delta) {
+    let cart = getCart();
+    const item = cart.find(i => i.id === id && i.size === size);
+    if (item) {
+        item.quantity += delta;
+        if (item.quantity < 1) item.quantity = 1;
+        saveCart(cart);
+    }
+}
+
 function updateHeaderCounts() {
     const saved = JSON.parse(localStorage.getItem('savedProducts')) || [];
     const savedCount = document.getElementById('savedCountBubble');
@@ -131,5 +178,10 @@ window.removeAccents = removeAccents;
 window.setupCartEvents = setupCartEvents;
 window.checkAndDisplayUser = checkAndDisplayUser;
 window.updateHeaderCounts = updateHeaderCounts;
-window.updateHeaderCounts = updateHeaderCounts;
+// Xuất các hàm quản lý giỏ hàng mới
+window.getCart = getCart;
+window.saveCart = saveCart;
+window.addToCart = addToCart;
+window.removeFromCart = removeFromCart;
+window.updateCartQty = updateCartQty;
 

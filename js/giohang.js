@@ -5,33 +5,41 @@ function initCart() {
 
     if (!cartContainer || !totalPriceElement) return;
 
-    // Hàm cập nhật tổng tiền
-    function updateCartTotal() {
+    function renderMiniCart() {
+        const cart = window.getCart ? window.getCart() : [];
+        cartContainer.innerHTML = '';
+        
         let total = 0;
-        const cartItems = cartContainer.querySelectorAll('.cart-item-mini');
-
-        cartItems.forEach(item => {
-            const priceElement = item.querySelector('.item-price');
-            const quantityInput = item.querySelector('input');
-
-            if (priceElement && quantityInput) {
-                const price = parseInt(priceElement.innerText.replace(/\D/g, ''));
-                const quantity = parseInt(quantityInput.value);
-                total += price * quantity;
-            }
+        
+        cart.forEach(item => {
+            const subtotal = item.price * item.quantity;
+            total += subtotal;
+            
+            const itemEl = document.createElement('div');
+            itemEl.className = 'cart-item-mini';
+            itemEl.innerHTML = `
+                <img src="${item.img}" alt="${item.name}" onerror="this.src='../assets/img/no-img.jpg'">
+                <div class="item-info">
+                    <span class="item-name">${item.name}</span>
+                    <span class="item-size">Size: ${item.size}</span>
+                    <span class="item-price">${new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(item.price)}</span>
+                    <div class="qty-control">
+                        <button class="qty-btn minus" data-id="${item.id}" data-size="${item.size}">-</button>
+                        <input type="text" value="${item.quantity}" readonly>
+                        <button class="qty-btn plus" data-id="${item.id}" data-size="${item.size}">+</button>
+                    </div>
+                </div>
+                <button class="remove-item-btn" data-id="${item.id}" data-size="${item.size}">&times;</button>
+            `;
+            cartContainer.appendChild(itemEl);
         });
 
-        const formattedTotal = new Intl.NumberFormat('vi-VN', {
-            style: 'currency',
-            currency: 'VND'
-        }).format(total);
-
-        totalPriceElement.innerText = formattedTotal;
+        totalPriceElement.innerText = new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(total);
 
         // Cập nhật trạng thái trống/đầy
         const emptyState = document.getElementById('cartEmptyState');
         const footer = document.getElementById('cartSidebarFooter');
-        if (cartItems.length === 0) {
+        if (cart.length === 0) {
             if (emptyState) emptyState.style.display = 'block';
             if (cartContainer) cartContainer.style.display = 'none';
             if (footer) footer.style.display = 'none';
@@ -45,35 +53,23 @@ function initCart() {
     // Lắng nghe sự kiện click
     cartContainer.onclick = (e) => {
         const target = e.target;
-        const cartItem = target.closest('.cart-item-mini');
-        if (!cartItem) return;
-
-        const input = cartItem.querySelector('input');
+        const id = target.getAttribute('data-id');
+        const size = target.getAttribute('data-size');
+        
+        if (!id) return;
 
         if (target.classList.contains('plus')) {
-            input.value = parseInt(input.value) + 1;
-            updateCartTotal();
+            window.updateCartQty(id, size, 1);
         } else if (target.classList.contains('minus')) {
-            if (parseInt(input.value) > 1) {
-                input.value = parseInt(input.value) - 1;
-                updateCartTotal();
-            }
+            window.updateCartQty(id, size, -1);
         } else if (target.classList.contains('remove-item-btn')) {
             if (confirm('Bạn có chắc muốn xóa sản phẩm này?')) {
-                cartItem.remove();
-                updateCartTotal();
+                window.removeFromCart(id, size);
             }
         }
     };
 
-    cartContainer.onchange = (e) => {
-        if (e.target.tagName === 'INPUT') {
-            if (e.target.value < 1) e.target.value = 1;
-            updateCartTotal();
-        }
-    };
-
-    updateCartTotal();
+    renderMiniCart();
 }
 
 window.initCart = initCart;
