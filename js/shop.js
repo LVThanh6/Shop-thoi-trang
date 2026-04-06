@@ -108,13 +108,28 @@ function renderGrid(products) {
         card.innerHTML = `
             <div class="product-img">
                 <img src="${p.img}" alt="${p.name}" onerror="this.src='../assets/img/no-img.jpg'; this.onerror=null;">
+                <button class="quick-add-btn" title="Thêm nhanh vào giỏ">
+                    <i class="fas fa-cart-plus"></i>
+                </button>
             </div>
             <div class="product-info">
                 <div class="product-name" title="${p.name}">${p.name}</div>
                 <div class="product-price">${price}</div>
             </div>
         `;
-        card.onclick = () => showProductDetail(p);
+
+        card.onclick = (e) => {
+            if (e.target.closest('.quick-add-btn')) return;
+            showProductDetail(p);
+        };
+
+        const quickAddBtn = card.querySelector('.quick-add-btn');
+        quickAddBtn.onclick = (e) => {
+            e.stopPropagation();
+            // Default size M cho Quick Add
+            if (window.addToCart) window.addToCart(p, 1, "M");
+        };
+
         grid.appendChild(card);
     });
 

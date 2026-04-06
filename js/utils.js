@@ -137,6 +137,9 @@ function addToCart(product, quantity, size) {
         });
     }
     saveCart(cart);
+    
+    // Hiển thị thông báo
+    showToast(`Đã thêm <b>${product.name}</b> (Size: ${size}) vào giỏ hàng!`, 'success');
 }
 
 function removeFromCart(id, size) {
@@ -184,4 +187,38 @@ window.saveCart = saveCart;
 window.addToCart = addToCart;
 window.removeFromCart = removeFromCart;
 window.updateCartQty = updateCartQty;
+
+// 6. Hệ thống Thông báo (Toast)
+function showToast(message, type = 'info') {
+    let container = document.getElementById('toast-container');
+    if (!container) {
+        container = document.createElement('div');
+        container.id = 'toast-container';
+        document.body.appendChild(container);
+    }
+
+    const toast = document.createElement('div');
+    toast.className = `toast toast-${type}`;
+    
+    const icon = type === 'success' ? 'fa-check-circle' : (type === 'warning' ? 'fa-exclamation-triangle' : 'fa-info-circle');
+    
+    toast.innerHTML = `
+        <i class="fas ${icon} toast-icon"></i>
+        <div class="toast-content">${message}</div>
+        <div class="toast-progress"></div>
+    `;
+
+    container.appendChild(toast);
+
+    // Show animation
+    setTimeout(() => toast.classList.add('show'), 10);
+
+    // Hide and remove
+    setTimeout(() => {
+        toast.classList.add('hide');
+        setTimeout(() => toast.remove(), 500);
+    }, 3000);
+}
+
+window.showToast = showToast;
 

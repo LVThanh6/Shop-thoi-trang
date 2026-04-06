@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../assets/css/header.css">
     <link rel="stylesheet" href="../assets/css/footers.css">
     <link rel="stylesheet" href="../assets/css/cart.css">
+    <link rel="stylesheet" href="../assets/css/toast.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
@@ -88,11 +89,13 @@
 
     <div id="footer-placeholder"></div>
 
-    <script src="../js/include.js"></script>
+    <script src="../js/utils.js"></script>
     <script src="../js/cart-logic.js"></script>
 
     <script>
-        loadComponent('header-placeholder', 'header.html');
+        loadComponent('header-placeholder', 'header.html').then(() => {
+            if (window.updateHeaderCounts) window.updateHeaderCounts();
+        });
         loadComponent('footer-placeholder', 'footer.html');
     </script>
 

@@ -16,6 +16,7 @@ async function initIndex() {
     // 3. Hiển thị thông tin user (nếu đã đăng nhập)
 
     checkAndDisplayUser();
+    if (window.updateHeaderCounts) window.updateHeaderCounts();
 
     console.log("Trang chủ đã sẵn sàng!");
 }

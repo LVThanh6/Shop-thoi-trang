@@ -17,17 +17,23 @@ header.shrunk {
     max-height: 100px;
 }
 
-header.no-navbar {
+header.no-navbar,
+body.cart-page header,
+body.save-page header {
     height: 70px;
     min-height: 70px;
     max-height: 70px;
 }
 
-header.no-navbar .container {
+header.no-navbar .container,
+body.cart-page header .container,
+body.save-page header .container {
     padding-top: 4px; /* Center content in 70px header */
 }
 
-header.no-navbar .navbar {
+header.no-navbar .navbar,
+body.cart-page header .navbar,
+body.save-page header .navbar {
     display: none;
 }
 

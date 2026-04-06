@@ -61,13 +61,36 @@ function renderSavedList(products) {
                 <button class="action-btn unheart" title="Bỏ yêu thích" onclick="removeFromSaved('${p.id}')">
                     <i class="fas fa-heart" style="color: #ff4757;"></i>
                 </button>
-                <button class="action-btn add-to-cart" title="Xem chi tiết" onclick="viewDetails('${p.id}')">
-                    <i class="fas fa-plus-circle"></i>
+                <button class="action-btn add-to-cart" title="Thêm vào giỏ" onclick="addToCartFromSaved('${p.id}')">
+                    <i class="fas fa-shopping-cart"></i>
+                </button>
+                <button class="action-btn view-detail" title="Xem chi tiết" onclick="viewDetails('${p.id}')">
+                    <i class="fas fa-eye"></i>
                 </button>
             </div>
         `;
         container.appendChild(item);
     });
+}
+
+function addToCartFromSaved(id) {
+    const product = savedProducts.find(p => p.id === id);
+    if (!product) return;
+
+    // Mặc định chọn size M cho quần áo hoặc Standard cho các sp khác
+    // Người dùng có thể đổi trong giỏ hàng sau
+    const size = "M"; 
+    
+    if (window.addToCart) {
+        window.addToCart(product, 1, size);
+        
+        // Mở drawer giỏ hàng để người dùng thấy
+        const cartOverlay = document.getElementById('cartOverlay');
+        const cartSidebar = document.getElementById('cartSidebar');
+        cartOverlay?.classList.add('open');
+        cartSidebar?.classList.add('open');
+        document.body.style.overflow = 'hidden';
+    }
 }
 
 function removeFromSaved(id) {

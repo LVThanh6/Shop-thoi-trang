@@ -132,26 +132,45 @@
 
 .item-actions {
     display: flex;
-    flex-direction: column;
-    gap: 15px;
+    flex-direction: row; /* Better for 3 buttons horizontal */
+    gap: 20px;
     align-items: center;
 }
 
 .action-btn {
-    background: none;
+    background: #f8f8f8;
     border: none;
-    font-size: 24px;
+    font-size: 20px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
     cursor: pointer;
     color: #333;
-    transition: color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.action-btn:hover {
+    transform: scale(1.15);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
 .action-btn.unheart:hover {
+    background-color: #fff1f2;
     color: #ff4757;
 }
 
 .action-btn.add-to-cart:hover {
-    color: #7d82eb;
+    background-color: #ecfdf5;
+    color: #10b981;
+}
+
+.action-btn.view-detail:hover {
+    background-color: #eff6ff;
+    color: #3b82f6;
 }
 
 /* Empty State */

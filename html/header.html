@@ -14,22 +14,22 @@
                 <div class="saved">
                     <span>
                         <a href="../html/save.html">
-                            <img src="../assets/icon/tym.png" alt="tym">
-                            <div>
-                                <img src="../assets/icon/icon0.svg" alt="" style="width: 19px; height: 18px;">
-                                <span>Saved</span>
+                            <div class="icon-wrapper">
+                                <img src="../assets/icon/tym.png" alt="tym">
+                                <span class="count-bubble" id="savedCountBubble">0</span>
                             </div>
+                            <span>Saved</span>
                         </a>
                     </span>
                 </div>
                 <div class="cart">
                     <span>
                         <a href="../html/cart.html">
-                            <img src="../assets/icon/mdi_cart-outline.png" alt="cart" id="cartHeaderBtn">
-                            <div>
-                                <img src="../assets/icon/icon9.svg" alt="" style="width: 19px; height: 18px;">
-                                <span>Cart</span>
+                            <div class="icon-wrapper">
+                                <img src="../assets/icon/mdi_cart-outline.png" alt="cart" id="cartHeaderBtn">
+                                <span class="count-bubble" id="cartCountBubble">0</span>
                             </div>
+                            <span>Cart</span>
                         </a>
                     </span>
                 </div>
@@ -76,11 +76,10 @@
         const header = document.querySelector('header');
         const navbar = document.getElementById('main-navbar');
 
-        // Kiểm tra nếu là trang giỏ hàng hoặc trang save
-        const isCartPage = window.location.pathname.includes('cart.html');
-        const isSavePage = window.location.pathname.includes('save.html');
+        // Kiểm tra nếu là trang giỏ hàng hoặc trang yêu thích
+        const isSimplifiedPage = window.location.pathname.includes('cart.html') || window.location.pathname.includes('save.html');
 
-        if (isCartPage || isSavePage) {
+        if (isSimplifiedPage) {
             if (header) header.classList.add('no-navbar');
         }
 
@@ -88,6 +87,9 @@
         if (!navbar) return;
 
         window.addEventListener('scroll', () => {
+            // Nếu là trang giỏ hàng hoặc yêu thích, không thay đổi header (không shrunk, không ẩn navbar)
+            if (isSimplifiedPage) return;
+
             const headers = document.querySelectorAll('header');
 
             if (window.scrollY > lastScrollY && window.scrollY > 50) {
