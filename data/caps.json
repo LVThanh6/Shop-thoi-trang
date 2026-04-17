@@ -1,4 +1,4 @@
-﻿[
+[
     {
         "id":  "CAP001",
         "name":  "Mũ Lưỡi Trai NY Yankees",
@@ -10,93 +10,82 @@
                                          "NY"
                                      ],
                      "Loại":  [
-                                  "Lưỡi trai",
-                                  "Nón kết"
+                                  "Lưỡi trai"
                               ],
                      "Chất liệu":  [
-                                       "Cotton Khaki"
+                                       "Cotton"
                                    ]
                  }
     },
     {
         "id":  "CAP004",
-        "name":  "Mũ Len Mùa Đông Thấm Mồ Hôi",
+        "name":  "Mũ Lông Phi Công Giữ Ấm Mùa Đông",
         "price":  320000,
         "img":  "../data/Mũ Nam/08ae7591ae641e529fb589a072abb0e2@resize_w900_nl.webp",
         "tags":  {
-                     "Thương hiệu":  [
-                                         "MLB",
-                                         "NY"
-                                     ],
                      "Loại":  [
-                                  "Lưỡi trai",
-                                  "Nón kết"
+                                  "Mũ phi công",
+                                  "Mũ lông"
                               ],
                      "Chất liệu":  [
-                                       "Cotton Khaki"
+                                       "Lông",
+                                       "Vải chống nước"
                                    ]
                  }
     },
     {
         "id":  "CAP005",
-        "name":  "Mũ Lưỡi Trai Logo Nổi",
+        "name":  "Mũ Lưỡi Trai Logo MTP Đen Cá Tính",
         "price":  780000,
         "img":  "../data/Mũ Nam/0fe8833ba7f347d339f60e024638cb06.jpg",
         "tags":  {
                      "Thương hiệu":  [
-                                         "MLB",
-                                         "NY"
+                                         "MTP"
                                      ],
                      "Loại":  [
-                                  "Lưỡi trai",
-                                  "Nón kết"
+                                  "Lưỡi trai"
                               ],
                      "Chất liệu":  [
-                                       "Cotton Khaki"
+                                       "Cotton"
                                    ]
                  }
     },
     {
         "id":  "CAP006",
-        "name":  "Mũ Beret Nam Cổ Điển",
+        "name":  "Mũ Len Beanie Đen Tối Giản Cao Cấp",
         "price":  260000,
         "img":  "../data/Mũ Nam/13adb10bf67947e5f83b08aff2f38f29@resize_w900_nl.webp",
         "tags":  {
                      "Thương hiệu":  [
-                                         "MLB",
-                                         "NY"
+                                         "Essentials"
                                      ],
                      "Loại":  [
-                                  "Lưỡi trai",
-                                  "Nón kết"
+                                  "Mũ len",
+                                  "Beanie"
                               ],
                      "Chất liệu":  [
-                                       "Cotton Khaki"
+                                       "Len"
                                    ]
                  }
     },
     {
         "id":  "CAP007",
-        "name":  "Mũ Bucket Vải Kaki",
+        "name":  "Mũ Nồi Kaki Cao Cấp Có Khóa Cài",
         "price":  1260000,
         "img":  "../data/Mũ Nam/1e5a7f1c285e8e00d74f37_9e4bcdf47bda4b9fb83babf0d49026f1_1024x1024.jpg",
         "tags":  {
-                     "Thương hiệu":  [
-                                         "MLB",
-                                         "NY"
-                                     ],
                      "Loại":  [
-                                  "Lưỡi trai",
-                                  "Nón kết"
+                                  "Mũ nồi",
+                                  "Flat cap"
                               ],
                      "Chất liệu":  [
-                                       "Cotton Khaki"
+                                       "Kaki"
                                    ]
                  }
     },
     {
         "id":  "CAP008",
-        "name":  "Mũ Lưỡi Trai Logo Nổi",
+        "name":  "Mũ Bucket NY Hai Mặt Cao Cấp",
         "price":  640000,
         "img":  "../data/Mũ Nam/3e9c5177dd8ceadeaec3150d7d8e2dec.webp",
         "tags":  {
@@ -105,55 +94,48 @@
                                          "NY"
                                      ],
                      "Loại":  [
-                                  "Lưỡi trai",
-                                  "Nón kết"
+                                  "Mũ bucket"
                               ],
                      "Chất liệu":  [
-                                       "Cotton Khaki"
+                                       "Cotton"
                                    ]
                  }
     },
     {
         "id":  "CAP009",
-        "name":  "Mũ Bucket Vải Kaki",
+        "name":  "Mũ Lông Phi Công Giữ Ấm Màu Trắng",
         "price":  1160000,
         "img":  "../data/Mũ Nam/865fdb45a176d8a2a55b04f3157e86a4@resize_w900_nl.webp",
         "tags":  {
-                     "Thương hiệu":  [
-                                         "MLB",
-                                         "NY"
-                                     ],
                      "Loại":  [
-                                  "Lưỡi trai",
-                                  "Nón kết"
+                                  "Mũ phi công",
+                                  "Mũ lông"
                               ],
                      "Chất liệu":  [
-                                       "Cotton Khaki"
+                                       "Lông",
+                                       "Vải chống nước"
                                    ]
                  }
     },
     {
         "id":  "CAP010",
-        "name":  "Mũ Snapback Phong Cách Hiphop",
+        "name":  "Mũ Lưỡi Trai Lưới Đen Tối Giản",
         "price":  370000,
         "img":  "../data/Mũ Nam/e5232b52e5caf7a2347bf288290d35dd.jpg",
         "tags":  {
-                     "Thương hiệu":  [
-                                         "MLB",
-                                         "NY"
-                                     ],
                      "Loại":  [
                                   "Lưỡi trai",
-                                  "Nón kết"
+                                  "Mũ lưới"
                               ],
                      "Chất liệu":  [
-                                       "Cotton Khaki"
+                                       "Lưới",
+                                       "Cotton"
                                    ]
                  }
     },
     {
         "id":  "CAP011",
-        "name":  "Mũ Bucket Vải Kaki",
+        "name":  "Mũ Bucket NY Đen Vàng Cao Cấp",
         "price":  1300000,
         "img":  "../data/Mũ Nam/f48d10e0f8642be613d52cd3dbcf7608@resize_w900_nl.webp",
         "tags":  {
@@ -162,411 +144,363 @@
                                          "NY"
                                      ],
                      "Loại":  [
-                                  "Lưỡi trai",
-                                  "Nón kết"
+                                  "Mũ bucket"
                               ],
                      "Chất liệu":  [
-                                       "Cotton Khaki"
+                                       "Cotton"
                                    ]
                  }
     },
     {
         "id":  "CAP012",
-        "name":  "Mũ Snapback Phong Cách Hiphop",
+        "name":  "Mũ Thể Thao Nửa Đầu Motive Xanh",
         "price":  1320000,
         "img":  "../data/Mũ Nam/images (1).jpg",
         "tags":  {
                      "Thương hiệu":  [
-                                         "MLB",
-                                         "NY"
+                                         "Motive"
                                      ],
                      "Loại":  [
-                                  "Lưỡi trai",
-                                  "Nón kết"
-                              ],
-                     "Chất liệu":  [
-                                       "Cotton Khaki"
-                                   ]
+                                  "Mũ nửa đầu",
+                                  "Visor"
+                              ]
                  }
     },
     {
         "id":  "CAP013",
-        "name":  "Mũ Bucket Vải Kaki",
+        "name":  "Mũ Lông Phi Công Đen Lót Lông Xám",
         "price":  1460000,
         "img":  "../data/Mũ Nam/images.jpg",
         "tags":  {
-                     "Thương hiệu":  [
-                                         "MLB",
-                                         "NY"
-                                     ],
                      "Loại":  [
-                                  "Lưỡi trai",
-                                  "Nón kết"
+                                  "Mũ phi công",
+                                  "Mũ lông"
                               ],
                      "Chất liệu":  [
-                                       "Cotton Khaki"
+                                       "Lông",
+                                       "Vải chống nước"
                                    ]
                  }
     },
     {
         "id":  "CAP014",
-        "name":  "Mũ Beret Nam Cổ Điển",
+        "name":  "Mũ Nửa Đầu Golf Mizuno Trắng Thể Thao",
         "price":  920000,
         "img":  "../data/Mũ Nam/mi-hw-e2mwa026_e9c518a1f5154455a3f915eae825fbf8_1024x1024.jpg",
         "tags":  {
                      "Thương hiệu":  [
-                                         "MLB",
-                                         "NY"
+                                         "Mizuno"
                                      ],
                      "Loại":  [
-                                  "Lưỡi trai",
-                                  "Nón kết"
-                              ],
-                     "Chất liệu":  [
-                                       "Cotton Khaki"
-                                   ]
+                                  "Mũ nửa đầu",
+                                  "Visor"
+                              ]
                  }
     },
     {
         "id":  "CAP015",
-        "name":  "Mũ Snapback Phong Cách Hiphop",
+        "name":  "Mũ Lưỡi Trai Davies Hiphop Phối Lưới",
         "price":  1320000,
         "img":  "../data/Mũ Nam/non-luoi-trai-nam-nu-hiphop-davies-thiet-ke-phoi-luoi-chu-theu-cach-dieu-day-cai-nut-bam-mau-den-1.webp",
         "tags":  {
                      "Thương hiệu":  [
-                                         "MLB",
-                                         "NY"
+                                         "Davies"
                                      ],
                      "Loại":  [
                                   "Lưỡi trai",
-                                  "Nón kết"
+                                  "Mũ lưới"
                               ],
                      "Chất liệu":  [
-                                       "Cotton Khaki"
+                                       "Lưới",
+                                       "Cotton"
                                    ]
                  }
     },
     {
         "id":  "CAP016",
-        "name":  "Mũ Len Mùa Đông Thấm Mồ Hôi",
+        "name":  "Mũ Nồi Flat Cap Cổ Điển Màu Đen",
         "price":  920000,
         "img":  "../data/Mũ Nam/o1cn01qrz6cc1hhinhfibk4-2479160732-0-cib.webp",
         "tags":  {
-                     "Thương hiệu":  [
-                                         "MLB",
-                                         "NY"
-                                     ],
                      "Loại":  [
-                                  "Lưỡi trai",
-                                  "Nón kết"
+                                  "Mũ nồi",
+                                  "Flat cap"
                               ],
                      "Chất liệu":  [
-                                       "Cotton Khaki"
+                                       "Kaki"
                                    ]
                  }
     },
     {
         "id":  "CAP017",
-        "name":  "Mũ Lưỡi Trai Logo Nổi",
+        "name":  "Mũ Nồi Len Dạ Cổ Điển Lịch Lãm",
         "price":  810000,
         "img":  "../data/Mũ Nam/OB1004861_1.webp",
         "tags":  {
-                     "Thương hiệu":  [
-                                         "MLB",
-                                         "NY"
-                                     ],
                      "Loại":  [
-                                  "Lưỡi trai",
-                                  "Nón kết"
+                                  "Mũ nồi",
+                                  "Flat cap"
                               ],
                      "Chất liệu":  [
-                                       "Cotton Khaki"
+                                       "Dạ",
+                                       "Len"
                                    ]
                  }
     },
     {
         "id":  "CAP018",
-        "name":  "Mũ Bucket Vải Kaki",
+        "name":  "Mũ Lưỡi Trai Phối Lưới Thoáng Khí",
         "price":  1110000,
         "img":  "../data/Mũ Nam/s-l1600.webp",
         "tags":  {
-                     "Thương hiệu":  [
-                                         "MLB",
-                                         "NY"
-                                     ],
                      "Loại":  [
                                   "Lưỡi trai",
-                                  "Nón kết"
+                                  "Mũ lưới"
                               ],
                      "Chất liệu":  [
-                                       "Cotton Khaki"
+                                       "Lưới",
+                                       "Cotton"
                                    ]
                  }
     },
     {
         "id":  "CAP019",
-        "name":  "Mũ Bucket Vải Kaki",
+        "name":  "Mũ Len Beanie Los Angeles Dày Dặn",
         "price":  1140000,
         "img":  "../data/Mũ Nam/sg-11134201-22090-8mlk90wktuhv8e@resize_w900_nl.webp",
         "tags":  {
-                     "Thương hiệu":  [
-                                         "MLB",
-                                         "NY"
-                                     ],
                      "Loại":  [
-                                  "Lưỡi trai",
-                                  "Nón kết"
+                                  "Mũ len",
+                                  "Beanie"
                               ],
+                     "Họa tiết":  [
+                                      "Los Angeles"
+                                  ],
                      "Chất liệu":  [
-                                       "Cotton Khaki"
+                                       "Len"
                                    ]
                  }
     },
     {
         "id":  "CAP020",
-        "name":  "Mũ Snapback Phong Cách Hiphop",
+        "name":  "Mũ Phi Công Da Bò Lót Lông Giữ Ấm",
         "price":  1230000,
         "img":  "../data/Mũ Nam/sg-11134201-82262-mhsazzubql1k99.jpg",
         "tags":  {
-                     "Thương hiệu":  [
-                                         "MLB",
-                                         "NY"
-                                     ],
                      "Loại":  [
-                                  "Lưỡi trai",
-                                  "Nón kết"
+                                  "Mũ phi công",
+                                  "Mũ lông"
                               ],
                      "Chất liệu":  [
-                                       "Cotton Khaki"
+                                       "Da bò",
+                                       "Lông"
                                    ]
                  }
     },
     {
         "id":  "CAP021",
-        "name":  "Mũ Lưỡi Trai Logo Nổi",
+        "name":  "Mũ Lưỡi Trai Los Angeles Xanh Navy",
         "price":  520000,
         "img":  "../data/Mũ Nam/vn-11134207-7r98o-lkjnhc9sudu8cd.webp",
         "tags":  {
-                     "Thương hiệu":  [
-                                         "MLB",
-                                         "NY"
-                                     ],
                      "Loại":  [
-                                  "Lưỡi trai",
-                                  "Nón kết"
+                                  "Lưỡi trai"
                               ],
+                     "Họa tiết":  [
+                                      "Los Angeles"
+                                  ],
                      "Chất liệu":  [
-                                       "Cotton Khaki"
+                                       "Cotton"
                                    ]
                  }
     },
     {
         "id":  "CAP022",
-        "name":  "Mũ Len Mùa Đông Thấm Mồ Hôi",
+        "name":  "Mũ Bucket Denim Họa Tiết Đinh Ba",
         "price":  340000,
         "img":  "../data/Mũ Nam/vn-11134207-7r98o-lmydiy8zo89r5c.webp",
         "tags":  {
-                     "Thương hiệu":  [
-                                         "MLB",
-                                         "NY"
-                                     ],
                      "Loại":  [
-                                  "Lưỡi trai",
-                                  "Nón kết"
+                                  "Mũ bucket"
                               ],
+                     "Họa tiết":  [
+                                      "Trident"
+                                  ],
                      "Chất liệu":  [
-                                       "Cotton Khaki"
+                                       "Denim"
                                    ]
                  }
     },
     {
         "id":  "CAP023",
-        "name":  "Mũ Beret Nam Cổ Điển",
+        "name":  "Mũ Bucket Đen Họa Tiết Streetwear Cá Tính",
         "price":  290000,
         "img":  "../data/Mũ Nam/vn-11134207-7r98o-lxvawzje5ecbcd.webp",
         "tags":  {
-                     "Thương hiệu":  [
-                                         "MLB",
-                                         "NY"
-                                     ],
                      "Loại":  [
-                                  "Lưỡi trai",
-                                  "Nón kết"
+                                  "Mũ bucket"
                               ],
+                     "Họa tiết":  [
+                                      "Graffiti",
+                                      "Thug Life"
+                                  ],
                      "Chất liệu":  [
-                                       "Cotton Khaki"
+                                       "Cotton"
                                    ]
                  }
     },
     {
         "id":  "CAP024",
-        "name":  "Mũ Lưỡi Trai Logo Nổi",
+        "name":  "Mũ Bucket Trắng Họa Tiết Streetwear",
         "price":  830000,
         "img":  "../data/Mũ Nam/vn-11134207-7r98o-lxvawzjem9cp66.webp",
         "tags":  {
-                     "Thương hiệu":  [
-                                         "MLB",
-                                         "NY"
-                                     ],
                      "Loại":  [
-                                  "Lưỡi trai",
-                                  "Nón kết"
+                                  "Mũ bucket"
                               ],
+                     "Họa tiết":  [
+                                      "Graffiti",
+                                      "Thug Life"
+                                  ],
                      "Chất liệu":  [
-                                       "Cotton Khaki"
+                                       "Cotton"
                                    ]
                  }
     },
     {
         "id":  "CAP025",
-        "name":  "Mũ Bucket Vải Kaki",
+        "name":  "Mũ Len Beanie Nhiều Màu Trẻ Trung",
         "price":  200000,
         "img":  "../data/Mũ Nam/vn-11134207-7r98o-lzrunogq080x05.webp",
         "tags":  {
-                     "Thương hiệu":  [
-                                         "MLB",
-                                         "NY"
-                                     ],
                      "Loại":  [
-                                  "Lưỡi trai",
-                                  "Nón kết"
+                                  "Mũ len",
+                                  "Beanie"
                               ],
                      "Chất liệu":  [
-                                       "Cotton Khaki"
+                                       "Len"
                                    ]
                  }
     },
     {
         "id":  "CAP026",
-        "name":  "Mũ Beret Nam Cổ Điển",
+        "name":  "Mũ Snapback Cayler \u0026 Sons Đỏ Navy",
         "price":  720000,
         "img":  "../data/Mũ Nam/vn-11134207-7ras8-mclqw0hbfrj6b8@resize_w900_nl.webp",
         "tags":  {
                      "Thương hiệu":  [
-                                         "MLB",
-                                         "NY"
+                                         "Cayler \u0026 Sons"
                                      ],
                      "Loại":  [
-                                  "Lưỡi trai",
-                                  "Nón kết"
+                                  "Snapback"
                               ],
                      "Chất liệu":  [
-                                       "Cotton Khaki"
+                                       "Cotton"
                                    ]
                  }
     },
     {
         "id":  "CAP027",
-        "name":  "Mũ Beret Nam Cổ Điển",
+        "name":  "Mũ Snapback Denim Họa Tiết Garfield",
         "price":  1060000,
         "img":  "../data/Mũ Nam/vn-11134207-7ras8-mclr8y0g6s0se2@resize_w900_nl.webp",
         "tags":  {
                      "Thương hiệu":  [
-                                         "MLB",
-                                         "NY"
+                                         "Cayler \u0026 Sons"
                                      ],
                      "Loại":  [
-                                  "Lưỡi trai",
-                                  "Nón kết"
+                                  "Snapback"
                               ],
+                     "Họa tiết":  [
+                                      "Garfield"
+                                  ],
                      "Chất liệu":  [
-                                       "Cotton Khaki"
+                                       "Denim"
                                    ]
                  }
     },
     {
         "id":  "CAP028",
-        "name":  "Mũ Snapback Phong Cách Hiphop",
+        "name":  "Mũ Snapback Hồng Summer Vacation",
         "price":  760000,
         "img":  "../data/Mũ Nam/vn-11134207-7ras8-mclrj383qs0s72@resize_w900_nl.webp",
         "tags":  {
-                     "Thương hiệu":  [
-                                         "MLB",
-                                         "NY"
-                                     ],
                      "Loại":  [
-                                  "Lưỡi trai",
-                                  "Nón kết"
+                                  "Snapback"
                               ],
+                     "Họa tiết":  [
+                                      "Summer Vacation"
+                                  ],
                      "Chất liệu":  [
-                                       "Cotton Khaki"
+                                       "Cotton"
                                    ]
                  }
     },
     {
         "id":  "CAP029",
-        "name":  "Mũ Len Mùa Đông Thấm Mồ Hôi",
+        "name":  "Mũ Len Beanie Thêu Chữ Time Flies",
         "price":  1380000,
         "img":  "../data/Mũ Nam/vn-11134207-81ztc-mk3oftdlp6v977.webp",
         "tags":  {
-                     "Thương hiệu":  [
-                                         "MLB",
-                                         "NY"
-                                     ],
                      "Loại":  [
-                                  "Lưỡi trai",
-                                  "Nón kết"
+                                  "Mũ len",
+                                  "Beanie"
                               ],
+                     "Họa tiết":  [
+                                      "Time Flies"
+                                  ],
                      "Chất liệu":  [
-                                       "Cotton Khaki"
+                                       "Len"
                                    ]
                  }
     },
     {
         "id":  "CAP030",
-        "name":  "Mũ Snapback Phong Cách Hiphop",
+        "name":  "Mũ Lưỡi Trai Trắng Thêu Chữ Hamptons",
         "price":  360000,
         "img":  "../data/Mũ Nam/vn-11134207-820l4-me5nhs9elo8w14@resize_w900_nl.webp",
         "tags":  {
-                     "Thương hiệu":  [
-                                         "MLB",
-                                         "NY"
-                                     ],
                      "Loại":  [
-                                  "Lưỡi trai",
-                                  "Nón kết"
+                                  "Lưỡi trai"
                               ],
+                     "Họa tiết":  [
+                                      "Hamptons"
+                                  ],
                      "Chất liệu":  [
-                                       "Cotton Khaki"
+                                       "Cotton"
                                    ]
                  }
     },
     {
         "id":  "CAP031",
-        "name":  "Mũ Bucket Vải Kaki",
+        "name":  "Mũ Lưỡi Trai Đen Thêu Chữ Hamptons",
         "price":  450000,
         "img":  "../data/Mũ Nam/vn-11134207-820l4-me5nhwstx43q9c@resize_w900_nl.webp",
         "tags":  {
-                     "Thương hiệu":  [
-                                         "MLB",
-                                         "NY"
-                                     ],
                      "Loại":  [
-                                  "Lưỡi trai",
-                                  "Nón kết"
+                                  "Lưỡi trai"
                               ],
+                     "Họa tiết":  [
+                                      "Hamptons"
+                                  ],
                      "Chất liệu":  [
-                                       "Cotton Khaki"
+                                       "Cotton"
                                    ]
                  }
     },
     {
         "id":  "CAP032",
-        "name":  "Mũ Bucket Vải Kaki",
+        "name":  "Mũ Nửa Đầu Golf Wilson Trắng",
         "price":  950000,
         "img":  "../data/Mũ Nam/wilson-unisex-classic-visor-wu00014511wta-2.webp",
         "tags":  {
                      "Thương hiệu":  [
-                                         "MLB",
-                                         "NY"
+                                         "Wilson"
                                      ],
                      "Loại":  [
-                                  "Lưỡi trai",
-                                  "Nón kết"
-                              ],
-                     "Chất liệu":  [
-                                       "Cotton Khaki"
-                                   ]
+                                  "Mũ nửa đầu",
+                                  "Visor"
+                              ]
                  }
     }
 ]

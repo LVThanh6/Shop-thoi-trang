@@ -1,376 +1,373 @@
 [
     {
         "id":  "VES001",
-        "name":  "Bộ Vest Nam Slimfit Màu Đen",
+        "name":  "Bộ Vest Nam Double-Breasted Đen Cúc Vàng",
         "price":  2500000,
         "img":  "../data/Vest/sku-1-Mau-den.jpg",
         "tags":  {
                      "Loại":  [
                                   "Bộ Vest"
                               ],
-                     "Chất liệu":  [
-                                       "Vải Wool"
+                     "Kiểu dáng":  [
+                                       "Double-Breasted"
                                    ],
-                     "Phong cách":  [
-                                        "Lịch lãm"
-                                    ]
+                     "Màu sắc":  [
+                                     "Đen",
+                                     "Cúc vàng"
+                                 ]
                  }
     },
     {
         "id":  "VES002",
-        "name":  "Bộ Vest Nam Màu Trắng Thomas Nguyen",
+        "name":  "Bộ Tuxedo Nam Shawl Lapel Màu Kem",
         "price":  3200000,
         "img":  "../data/Vest/may-bo-vest-trang-nam-thomas-nguyen.webp",
         "tags":  {
                      "Loại":  [
-                                  "Bộ Vest"
+                                  "Tuxedo"
                               ],
-                     "Chất liệu":  [
-                                       "Vải cao cấp"
-                                   ],
-                     "Phong cách":  [
-                                        "Chuẩn form"
-                                    ]
+                     "Cổ áo":  [
+                                   "Shawl Lapel"
+                               ],
+                     "Màu sắc":  [
+                                     "Kem"
+                                 ]
                  }
     },
     {
         "id":  "VES003",
-        "name":  "Bộ Vest 3 Mảnh Màu Đen",
+        "name":  "Bộ Vest Nam 3 Mảnh Màu Than Chì",
         "price":  3800000,
         "img":  "../data/Vest/vest-3-manh-mau-den-thomas-nguyen.webp",
         "tags":  {
                      "Loại":  [
-                                  "Vest 3 Mảnh"
+                                  "Bộ Vest 3 mảnh"
                               ],
-                     "Chất liệu":  [
-                                       "Vải Cashmere"
-                                   ],
-                     "Phong cách":  [
-                                        "Quý ông"
-                                    ]
+                     "Màu sắc":  [
+                                     "Than chì"
+                                 ]
                  }
     },
     {
         "id":  "VES004",
-        "name":  "Áo Vest Nam Hiện Đại",
+        "name":  "Áo Blazer Nam Double-Breasted Đen",
         "price":  1800000,
         "img":  "../data/Vest/4fbd8850a44e04804d7aabe54687dc62.webp",
         "tags":  {
                      "Loại":  [
-                                  "Áo Vest lẻ"
+                                  "Blazer"
                               ],
-                     "Chất liệu":  [
-                                       "Vải Twill"
+                     "Kiểu dáng":  [
+                                       "Double-Breasted"
                                    ],
-                     "Phong cách":  [
-                                        "Trẻ trung"
-                                    ]
+                     "Màu sắc":  [
+                                     "Đen"
+                                 ]
                  }
     },
     {
         "id":  "VES005",
-        "name":  "Bộ Vest Xanh Navy Sang Trọng",
+        "name":  "Bộ Tuxedo Nam Peak Lapel Đen Sang Trọng",
         "price":  2900000,
         "img":  "../data/Vest/583f46c37c18ef035a3c9936bc6b6213.webp",
         "tags":  {
                      "Loại":  [
-                                  "Bộ Vest"
+                                  "Tuxedo"
                               ],
-                     "Chất liệu":  [
-                                       "Vải Wool pha"
-                                   ],
-                     "Phong cách":  [
-                                        "Doanh nhân"
-                                    ]
+                     "Cổ áo":  [
+                                   "Peak Lapel"
+                               ],
+                     "Màu sắc":  [
+                                     "Đen"
+                                 ]
                  }
     },
     {
         "id":  "VES006",
-        "name":  "Bộ Vest Xám Tro Cao Cấp",
+        "name":  "Bộ Vest Nam Double-Breasted Đen 6 Cúc Vàng",
         "price":  2750000,
         "img":  "../data/Vest/d50fe7fed765694ada344167aa4a170d.webp",
         "tags":  {
                      "Loại":  [
                                   "Bộ Vest"
                               ],
-                     "Chất liệu":  [
-                                       "Vải mịn"
+                     "Kiểu dáng":  [
+                                       "Double-Breasted"
                                    ],
-                     "Phong cách":  [
-                                        "Công sở"
-                                    ]
+                     "Màu sắc":  [
+                                     "Đen",
+                                     "Cúc vàng"
+                                 ]
                  }
     },
     {
         "id":  "VES007",
-        "name":  "Áo Vest Blazer Nam Màu Be",
+        "name":  "Bộ Tuxedo Nam Đính Đá Luxury Black",
         "price":  1550000,
         "img":  "../data/Vest/s-l1600 (1).webp",
         "tags":  {
                      "Loại":  [
-                                  "Blazer"
+                                  "Tuxedo"
                               ],
-                     "Chất liệu":  [
-                                       "Linen"
+                     "Đặc điểm":  [
+                                       "Đính đá"
                                    ],
-                     "Phong cách":  [
-                                        "Casual"
-                                    ]
+                     "Màu sắc":  [
+                                     "Đen"
+                                 ]
                  }
     },
     {
         "id":  "VES008",
-        "name":  "Bộ Vest Nam Họa Tiết Caro",
+        "name":  "Bộ Vest Nam 3 Mảnh Đen Kèm Hoa Cài Áo",
         "price":  3400000,
         "img":  "../data/Vest/s-l1600 (3).webp",
         "tags":  {
                      "Loại":  [
-                                  "Bộ Vest"
+                                  "Bộ Vest 3 mảnh"
                               ],
-                     "Chất liệu":  [
-                                       "Vải dệt"
-                                   ],
-                     "Phong cách":  [
-                                        "Nổi bật"
-                                    ]
+                     "Màu sắc":  [
+                                     "Đen"
+                                 ],
+                     "Phụ kiện":  [
+                                       "Hoa cài áo"
+                                   ]
                  }
     },
     {
         "id":  "VES009",
-        "name":  "Bộ Vest Cưới Nam Trắng Kem",
+        "name":  "Bộ Vest Nam Double-Breasted Đính Đá Cách Điệu",
         "price":  4200000,
         "img":  "../data/Vest/s-l1600 (4).webp",
         "tags":  {
                      "Loại":  [
-                                  "Bộ Vest Cưới"
+                                  "Bộ Vest"
                               ],
-                     "Chất liệu":  [
-                                       "Satin"
+                     "Đặc điểm":  [
+                                       "Đính đá",
+                                       "Double-Breasted"
                                    ],
-                     "Phong cách":  [
-                                        "Trang trọng"
-                                    ]
+                     "Màu sắc":  [
+                                     "Đen"
+                                 ]
                  }
     },
     {
         "id":  "VES010",
-        "name":  "Áo Vest Dạ Nam Mùa Đông",
+        "name":  "Áo Gile Nam Double-Breasted Màu Đen",
         "price":  2100000,
         "img":  "../data/Vest/s-l1600 (5).webp",
         "tags":  {
                      "Loại":  [
-                                  "Áo Vest lẻ"
+                                  "Gile"
                               ],
-                     "Chất liệu":  [
-                                       "Vải Dạ"
+                     "Kiểu dáng":  [
+                                       "Double-Breasted"
                                    ],
-                     "Phong cách":  [
-                                        "Ấm áp"
-                                    ]
+                     "Màu sắc":  [
+                                     "Đen"
+                                 ]
                  }
     },
     {
         "id":  "VES011",
-        "name":  "Bộ Vest Nam Đỏ Đô",
+        "name":  "Áo Gile Nam Kẻ Sọc Pinstripe Đen",
         "price":  3100000,
         "img":  "../data/Vest/s-l1600 (6).webp",
         "tags":  {
                      "Loại":  [
-                                  "Bộ Vest"
+                                  "Gile"
                               ],
-                     "Chất liệu":  [
-                                       "Vải Polyester cao cấp"
+                     "Họa tiết":  [
+                                       "Pinstripe"
                                    ],
-                     "Phong cách":  [
-                                        "Ấn tượng"
-                                    ]
+                     "Màu sắc":  [
+                                     "Đen"
+                                 ]
                  }
     },
     {
         "id":  "VES012",
-        "name":  "Bộ Vest Nam Xám Đậm",
+        "name":  "Bộ Tuxedo Nam Họa Tiết Gấm Vàng Đen",
         "price":  2600000,
         "img":  "../data/Vest/s-l960.webp",
         "tags":  {
                      "Loại":  [
-                                  "Bộ Vest"
+                                  "Tuxedo"
                               ],
-                     "Chất liệu":  [
-                                       "Vải TR"
+                     "Họa tiết":  [
+                                       "Gấm (Brocade)"
                                    ],
-                     "Phong cách":  [
-                                        "Cổ điển"
-                                    ]
+                     "Màu sắc":  [
+                                     "Vàng đen"
+                                 ]
                  }
     },
     {
         "id":  "VES013",
-        "name":  "Bộ Vest Nam Kẻ Sọc Chìm",
+        "name":  "Bộ Vest Nam Double-Breasted Đen Kèm Nơ Caro",
         "price":  3650000,
         "img":  "../data/Vest/vd372_v2 (3).jpg",
         "tags":  {
                      "Loại":  [
                                   "Bộ Vest"
                               ],
-                     "Chất liệu":  [
-                                       "Vải Ý"
+                     "Kiểu dáng":  [
+                                       "Double-Breasted"
                                    ],
-                     "Phong cách":  [
-                                        "Tinh tế"
-                                    ]
+                     "Phụ kiện":  [
+                                       "Nơ caro"
+                                   ]
                  }
     },
     {
         "id":  "VES014",
-        "name":  "Áo Vest Gile Nam Lịch Sự",
+        "name":  "Áo Gile Nam Cổ Shawl Lapel Màu Đen",
         "price":  850000,
         "img":  "../data/Vest/vn-11134207-7ras8-m3n1ffgjihew1f.webp",
         "tags":  {
                      "Loại":  [
                                   "Gile"
                               ],
-                     "Chất liệu":  [
-                                       "Vải Kaki"
-                                   ],
-                     "Phong cách":  [
-                                        "Thanh lịch"
-                                    ]
+                     "Cổ áo":  [
+                                   "Shawl Lapel"
+                               ],
+                     "Màu sắc":  [
+                                     "Đen"
+                                 ]
                  }
     },
     {
         "id":  "VES015",
-        "name":  "Bộ Vest Nam Slimfit Trẻ Trung",
+        "name":  "Bộ Tuxedo Nam Velvet Shawl Lapel Xám Đậm",
         "price":  2400000,
         "img":  "../data/Vest/z4914110744917_1d119ff53cf47ad0926954a87c7607dd-500x995-1.jpg",
         "tags":  {
                      "Loại":  [
-                                  "Bộ Vest"
+                                  "Tuxedo"
                               ],
                      "Chất liệu":  [
-                                       "Vải Wool pha"
+                                       "Nhung (Velvet)"
                                    ],
-                     "Phong cách":  [
-                                        "Năng động"
-                                    ]
+                     "Cổ áo":  [
+                                   "Shawl Lapel"
+                               ],
+                     "Màu sắc":  [
+                                     "Xám đậm"
+                                 ]
                  }
     },
     {
         "id":  "VES016",
-        "name":  "Áo Vest Dạ Kẻ Caro Cao Cấp - Mã 917",
+        "name":  "Áo Blazer Dạ Nam Kẻ Caro",
         "price":  640000,
         "img":  "../data/Vest/2V26M043R-38NO_1_SUM23.avif",
         "tags":  {
                      "Loại":  [
-                                  "Bộ Vest"
+                                  "Blazer"
                               ],
-                     "Chất liệu":  [
-                                       "Vải Wool"
-                                   ],
-                     "Phong cách":  [
-                                        "Lịch lãm"
-                                    ]
+                     "Họa tiết":  [
+                                       "Caro"
+                                   ]
                  }
     },
     {
         "id":  "VES017",
-        "name":  "Áo Vest Nam Dáng Body - Mã 251",
+        "name":  "Áo Blazer Nam Double-Breasted Đen Một Cúc",
         "price":  460000,
         "img":  "../data/Vest/b1a3bded002dfc926f6e8c0d0c5e4a85.webp",
         "tags":  {
                      "Loại":  [
-                                  "Bộ Vest"
+                                  "Blazer"
                               ],
-                     "Chất liệu":  [
-                                       "Vải Wool"
+                     "Kiểu dáng":  [
+                                       "Double-Breasted"
                                    ],
-                     "Phong cách":  [
-                                        "Lịch lãm"
-                                    ]
+                     "Màu sắc":  [
+                                     "Đen"
+                                 ]
                  }
     },
     {
         "id":  "VES018",
-        "name":  "Áo Vest Nam Dáng Body - Mã 488",
+        "name":  "Áo Vest Nam Dáng Body Mã 488",
         "price":  550000,
         "img":  "../data/Vest/H6a503f5cac2947db89809de75cd41498t.jpg_300x300.avif",
         "tags":  {
                      "Loại":  [
                                   "Bộ Vest"
                               ],
-                     "Chất liệu":  [
-                                       "Vải Wool"
-                                   ],
                      "Phong cách":  [
-                                        "Lịch lãm"
-                                    ]
+                                         "Lịch lãm"
+                                     ]
                  }
     },
     {
         "id":  "VES019",
-        "name":  "Áo Vest Nam Dáng Body - Mã 854",
+        "name":  "Bộ Vest Nam 3 Mảnh Đen Cao Cấp",
         "price":  1470000,
         "img":  "../data/Vest/s-l1600 (2).webp",
         "tags":  {
                      "Loại":  [
-                                  "Bộ Vest"
+                                  "Bộ Vest 3 mảnh"
                               ],
-                     "Chất liệu":  [
-                                       "Vải Wool"
-                                   ],
-                     "Phong cách":  [
-                                        "Lịch lãm"
-                                    ]
+                     "Màu sắc":  [
+                                     "Đen"
+                                 ]
                  }
     },
     {
         "id":  "VES020",
-        "name":  "Áo Vest Nam Dáng Body - Mã 697",
+        "name":  "Bộ Tuxedo Nam Shawl Lapel Đen Truyền Thống",
         "price":  1080000,
         "img":  "../data/Vest/s-l1600.webp",
         "tags":  {
                      "Loại":  [
-                                  "Bộ Vest"
+                                  "Tuxedo"
                               ],
-                     "Chất liệu":  [
-                                       "Vải Wool"
-                                   ],
-                     "Phong cách":  [
-                                        "Lịch lãm"
-                                    ]
+                     "Cổ áo":  [
+                                   "Shawl Lapel"
+                               ],
+                     "Màu sắc":  [
+                                     "Đen"
+                                 ]
                  }
     },
     {
         "id":  "VES021",
-        "name":  "Áo Vest Cổ K Classic - Mã 368",
+        "name":  "Áo Gile Nam Double-Breasted Shawl Lapel Đen",
         "price":  1040000,
         "img":  "../data/Vest/s-l960 (1).webp",
         "tags":  {
                      "Loại":  [
-                                  "Bộ Vest"
+                                  "Gile"
                               ],
-                     "Chất liệu":  [
-                                       "Vải Wool"
+                     "Cổ áo":  [
+                                   "Shawl Lapel"
+                               ],
+                     "Kiểu dáng":  [
+                                       "Double-Breasted"
                                    ],
-                     "Phong cách":  [
-                                        "Lịch lãm"
-                                    ]
+                     "Màu sắc":  [
+                                     "Đen"
+                                 ]
                  }
     },
     {
         "id":  "VES022",
-        "name":  "Vest Nam Phong Cách Hàn Quốc - Mã 425",
+        "name":  "Bộ Tuxedo Nam Shawl Lapel Màu Trắng",
         "price":  340000,
         "img":  "../data/Vest/z5327967714712_5de4ae12b16d1bd14001a0c969eb7a83-500x749-1.jpg",
         "tags":  {
                      "Loại":  [
-                                  "Bộ Vest"
+                                  "Tuxedo"
                               ],
-                     "Chất liệu":  [
-                                       "Vải Wool"
-                                   ],
-                     "Phong cách":  [
-                                        "Lịch lãm"
-                                    ]
+                     "Cổ áo":  [
+                                   "Shawl Lapel"
+                               ],
+                     "Màu sắc":  [
+                                     "Trắng"
+                                 ]
                  }
     }
 ]

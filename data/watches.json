@@ -1,591 +1,374 @@
-﻿[
+[
     {
-        "id":  "WAT001",
-        "name":  "Đồng Hồ Nam Casio G-Shock",
-        "price":  4500000,
-        "img":  "../data/Đồng Hồ/2dong-ho-Thuy-sy-Epos-swiss-E-3500169252535-2055586093.jpg",
-        "tags":  {
-                     "Loại":  [
-                                  "Số \u0026 Kim",
-                                  "Chống nước"
-                              ],
-                     "Chất liệu":  [
-                                       "Nhựa tổng hợp"
-                                   ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Siêu bền"
-                                    ]
-                 }
+        "id": "WAT001",
+        "name": "Đồng Hồ Nam Epos Swiss Skeleton Black",
+        "price": 4500000,
+        "img": "../data/Đồng Hồ/2dong-ho-Thuy-sy-Epos-swiss-E-3500169252535-2055586093.jpg",
+        "tags": {
+            "Nhãn hiệu": ["Epos"],
+            "Loại": ["Cơ (Mechanical)", "Skeleton"],
+            "Chất liệu": ["Thép không gỉ PVD"],
+            "Phong cách": ["Lịch lãm", "Độc đáo"]
+        }
     },
     {
-        "id":  "WAT004",
-        "name":  "Đồng Hồ Dây Kim Loại Mạ Vàng",
-        "price":  470000,
-        "img":  "../data/Đồng Hồ/big-bang-integral-black-magic-lf-2-0-1-1.jpg",
-        "tags":  {
-                     "Loại":  [
-                                  "Số \u0026 Kim",
-                                  "Chống nước"
-                              ],
-                     "Chất liệu":  [
-                                       "Nhựa tổng hợp"
-                                   ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Siêu bền"
-                                    ]
-                 }
+        "id": "WAT004",
+        "name": "Đồng Hồ Hublot Big Bang Integral Black Magic",
+        "price": 470000,
+        "img": "../data/Đồng Hồ/big-bang-integral-black-magic-lf-2-0-1-1.jpg",
+        "tags": {
+            "Nhãn hiệu": ["Hublot"],
+            "Loại": ["Chronograph"],
+            "Chất liệu": ["Ceramic"],
+            "Phong cách": ["Thể thao", "Hiện đại"]
+        }
     },
     {
-        "id":  "WAT005",
-        "name":  "Đồng Hồ Casio Cổ Điển",
-        "price":  700000,
-        "img":  "../data/Đồng Hồ/CTF50151373-1-den-Bac-Dong-ho-catier-nam-may-co-day-da.jpg",
-        "tags":  {
-                     "Loại":  [
-                                  "Số \u0026 Kim",
-                                  "Chống nước"
-                              ],
-                     "Chất liệu":  [
-                                       "Nhựa tổng hợp"
-                                   ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Siêu bền"
-                                    ]
-                 }
+        "id": "WAT005",
+        "name": "Đồng Hồ Cơ Cartier Dây Da Nam Tính",
+        "price": 700000,
+        "img": "../data/Đồng Hồ/CTF50151373-1-den-Bac-Dong-ho-catier-nam-may-co-day-da.jpg",
+        "tags": {
+            "Nhãn hiệu": ["Cartier"],
+            "Loại": ["Cơ (Automatic)"],
+            "Chất liệu": ["Dây da"],
+            "Phong cách": ["Cổ điển", "Sang trọng"]
+        }
     },
     {
-        "id":  "WAT006",
-        "name":  "Smartwatch Đo Nhịp Tim",
-        "price":  1130000,
-        "img":  "../data/Đồng Hồ/dong-ho-cartier-13.png",
-        "tags":  {
-                     "Loại":  [
-                                  "Số \u0026 Kim",
-                                  "Chống nước"
-                              ],
-                     "Chất liệu":  [
-                                       "Nhựa tổng hợp"
-                                   ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Siêu bền"
-                                    ]
-                 }
+        "id": "WAT006",
+        "name": "Đồng Hồ Cartier Ballon Bleu Skeleton Gold",
+        "price": 1130000,
+        "img": "../data/Đồng Hồ/dong-ho-cartier-13.png",
+        "tags": {
+            "Nhãn hiệu": ["Cartier"],
+            "Loại": ["Skeleton"],
+            "Chất liệu": ["Vàng hồng"],
+            "Phong cách": ["Xa xỉ", "Lịch lãm"]
+        }
     },
     {
-        "id":  "WAT007",
-        "name":  "Đồng Hồ Thể Thao Chống Nước",
-        "price":  850000,
-        "img":  "../data/Đồng Hồ/dong-ho-cartier-calibre-de-cartier-diver-blue-wsca0010-42mm-luot.jpg",
-        "tags":  {
-                     "Loại":  [
-                                  "Số \u0026 Kim",
-                                  "Chống nước"
-                              ],
-                     "Chất liệu":  [
-                                       "Nhựa tổng hợp"
-                                   ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Siêu bền"
-                                    ]
-                 }
+        "id": "WAT007",
+        "name": "Đồng Hồ Cartier Calibre de Cartier Diver Blue",
+        "price": 850000,
+        "img": "../data/Đồng Hồ/dong-ho-cartier-calibre-de-cartier-diver-blue-wsca0010-42mm-luot.jpg",
+        "tags": {
+            "Nhãn hiệu": ["Cartier"],
+            "Loại": ["Thợ lặn (Diver)"],
+            "Chất liệu": ["Thép không gỉ"],
+            "Phong cách": ["Mạnh mẽ", "Thể thao"]
+        }
     },
     {
-        "id":  "WAT008",
-        "name":  "Đồng Hồ Dây Kim Loại Mạ Vàng",
-        "price":  520000,
-        "img":  "../data/Đồng Hồ/dong-ho-hublot-big-bang-sang-bleu-titanium-diamond-pave-45mm-415-nx-1112-vr-1704-mxm17-limited-200pc-unworn.jpg",
-        "tags":  {
-                     "Loại":  [
-                                  "Số \u0026 Kim",
-                                  "Chống nước"
-                              ],
-                     "Chất liệu":  [
-                                       "Nhựa tổng hợp"
-                                   ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Siêu bền"
-                                    ]
-                 }
+        "id": "WAT008",
+        "name": "Đồng Hồ Hublot Sang Bleu Titanium Diamond",
+        "price": 520000,
+        "img": "../data/Đồng Hồ/dong-ho-hublot-big-bang-sang-bleu-titanium-diamond-pave-45mm-415-nx-1112-vr-1704-mxm17-limited-200pc-unworn.jpg",
+        "tags": {
+            "Nhãn hiệu": ["Hublot"],
+            "Loại": ["Nghệ thuật"],
+            "Chất liệu": ["Titanium", "Kim cương"],
+            "Phong cách": ["Phá cách", "Đẳng cấp"]
+        }
     },
     {
-        "id":  "WAT009",
-        "name":  "Đồng Hồ Thể Thao Chống Nước",
-        "price":  370000,
-        "img":  "../data/Đồng Hồ/dong-ho-nam-day-thep-chay-co-cartier-ctect011-1-a.webp",
-        "tags":  {
-                     "Loại":  [
-                                  "Số \u0026 Kim",
-                                  "Chống nước"
-                              ],
-                     "Chất liệu":  [
-                                       "Nhựa tổng hợp"
-                                   ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Siêu bền"
-                                    ]
-                 }
+        "id": "WAT009",
+        "name": "Đồng Hồ Cartier Santos Skeleton Silver",
+        "price": 370000,
+        "img": "../data/Đồng Hồ/dong-ho-nam-day-thep-chay-co-cartier-ctect011-1-a.webp",
+        "tags": {
+            "Nhãn hiệu": ["Cartier"],
+            "Loại": ["Skeleton"],
+            "Chất liệu": ["Thép không gỉ"],
+            "Phong cách": ["Hiện đại", "Cá tính"]
+        }
     },
     {
-        "id":  "WAT010",
-        "name":  "Đồng Hồ Thể Thao Chống Nước",
-        "price":  580000,
-        "img":  "../data/Đồng Hồ/dong-ho-nam-iw-carnival-726g-chinh-hang-avt-1-c5b97462-65e8-447d-8ec9-bb02f4804318-edb0d34a-3493-4c09-87a6-db4dc3d0f79b.webp",
-        "tags":  {
-                     "Loại":  [
-                                  "Số \u0026 Kim",
-                                  "Chống nước"
-                              ],
-                     "Chất liệu":  [
-                                       "Nhựa tổng hợp"
-                                   ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Siêu bền"
-                                    ]
-                 }
+        "id": "WAT010",
+        "name": "Đồng Hồ I&W Carnival Pepsi Bezel",
+        "price": 580000,
+        "img": "../data/Đồng Hồ/dong-ho-nam-iw-carnival-726g-chinh-hang-avt-1-c5b97462-65e8-447d-8ec9-bb02f4804318-edb0d34a-3493-4c09-87a6-db4dc3d0f79b.webp",
+        "tags": {
+            "Nhãn hiệu": ["I&W Carnival"],
+            "Loại": ["Cơ (Automatic)"],
+            "Chất liệu": ["Thép không gỉ"],
+            "Phong cách": ["Năng động", "Trẻ trung"]
+        }
     },
     {
-        "id":  "WAT011",
-        "name":  "Đồng Hồ Casio Cổ Điển",
-        "price":  1410000,
-        "img":  "../data/Đồng Hồ/dong-ho-omega-seamaster-diver-300m-210-30-42-20-01-001-42-steel (1).jpg",
-        "tags":  {
-                     "Loại":  [
-                                  "Số \u0026 Kim",
-                                  "Chống nước"
-                              ],
-                     "Chất liệu":  [
-                                       "Nhựa tổng hợp"
-                                   ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Siêu bền"
-                                    ]
-                 }
+        "id": "WAT011",
+        "name": "Đồng Hồ Omega Seamaster Diver 300M Black",
+        "price": 1410000,
+        "img": "../data/Đồng Hồ/dong-ho-omega-seamaster-diver-300m-210-30-42-20-01-001-42-steel (1).jpg",
+        "tags": {
+            "Nhãn hiệu": ["Omega"],
+            "Loại": ["Thợ lặn (Diver)"],
+            "Chất liệu": ["Thép không gỉ"],
+            "Phong cách": ["Chuyên nghiệp", "Mạnh mẽ"]
+        }
     },
     {
-        "id":  "WAT012",
-        "name":  "Đồng Hồ Dây Kim Loại Mạ Vàng",
-        "price":  1170000,
-        "img":  "../data/Đồng Hồ/dong-ho-omega-seamaster-diver-300m-210-30-42-20-01-001-42-steel.jpg",
-        "tags":  {
-                     "Loại":  [
-                                  "Số \u0026 Kim",
-                                  "Chống nước"
-                              ],
-                     "Chất liệu":  [
-                                       "Nhựa tổng hợp"
-                                   ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Siêu bền"
-                                    ]
-                 }
+        "id": "WAT012",
+        "name": "Đồng Hồ Omega Seamaster Diver 300M Steel",
+        "price": 1170000,
+        "img": "../data/Đồng Hồ/dong-ho-omega-seamaster-diver-300m-210-30-42-20-01-001-42-steel.jpg",
+        "tags": {
+            "Nhãn hiệu": ["Omega"],
+            "Loại": ["Thợ lặn (Diver)"],
+            "Chất liệu": ["Thép không gỉ"],
+            "Phong cách": ["Đẳng cấp", "Bền bỉ"]
+        }
     },
     {
-        "id":  "WAT013",
-        "name":  "Đồng Hồ Casio Cổ Điển",
-        "price":  960000,
-        "img":  "../data/Đồng Hồ/dong-ho-omega-seamaster-planet-ocean-600m-232-18-46-51-01-001-45-5-steel.jpg",
-        "tags":  {
-                     "Loại":  [
-                                  "Số \u0026 Kim",
-                                  "Chống nước"
-                              ],
-                     "Chất liệu":  [
-                                       "Nhựa tổng hợp"
-                                   ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Siêu bền"
-                                    ]
-                 }
+        "id": "WAT013",
+        "name": "Đồng Hồ Omega Planet Ocean Diamond Bezel",
+        "price": 960000,
+        "img": "../data/Đồng Hồ/dong-ho-omega-seamaster-planet-ocean-600m-232-18-46-51-01-001-45-5-steel.jpg",
+        "tags": {
+            "Nhãn hiệu": ["Omega"],
+            "Loại": ["Chronograph"],
+            "Chất liệu": ["Kim cương", "Thép"],
+            "Phong cách": ["Sang trọng", "Thể thao"]
+        }
     },
     {
-        "id":  "WAT014",
-        "name":  "Đồng Hồ Dây Kim Loại Mạ Vàng",
-        "price":  440000,
-        "img":  "../data/Đồng Hồ/dong-ho-omega-speedmaster-dark-side-of-the-moon-apollo-8-310-92-44-50-01-001-44-25-black-ceramic.jpg",
-        "tags":  {
-                     "Loại":  [
-                                  "Số \u0026 Kim",
-                                  "Chống nước"
-                              ],
-                     "Chất liệu":  [
-                                       "Nhựa tổng hợp"
-                                   ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Siêu bền"
-                                    ]
-                 }
+        "id": "WAT014",
+        "name": "Đồng Hồ Omega Speedmaster Apollo 8 Black",
+        "price": 440000,
+        "img": "../data/Đồng Hồ/dong-ho-omega-speedmaster-dark-side-of-the-moon-apollo-8-310-92-44-50-01-001-44-25-black-ceramic.jpg",
+        "tags": {
+            "Nhãn hiệu": ["Omega"],
+            "Loại": ["Chronograph"],
+            "Chất liệu": ["Ceramic"],
+            "Phong cách": ["Khám phá", "Công nghệ"]
+        }
     },
     {
-        "id":  "WAT015",
-        "name":  "Đồng Hồ Cơ Lộ Máy Nam",
-        "price":  250000,
-        "img":  "../data/Đồng Hồ/dong-ho-patek-philippe-nam-may-co-tu-dong-day-da-mat-trang-sao-41mm-164.webp",
-        "tags":  {
-                     "Loại":  [
-                                  "Số \u0026 Kim",
-                                  "Chống nước"
-                              ],
-                     "Chất liệu":  [
-                                       "Nhựa tổng hợp"
-                                   ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Siêu bền"
-                                    ]
-                 }
+        "id": "WAT015",
+        "name": "Đồng Hồ Patek Philippe Annual Calendar Gold",
+        "price": 250000,
+        "img": "../data/Đồng Hồ/dong-ho-patek-philippe-nam-may-co-tu-dong-day-da-mat-trang-sao-41mm-164.webp",
+        "tags": {
+            "Nhãn hiệu": ["Patek Philippe"],
+            "Loại": ["Moonphase", "Lịch thường niên"],
+            "Chất liệu": ["Vàng đúc", "Dây da"],
+            "Phong cách": ["Thượng lưu", "Cổ điển"]
+        }
     },
     {
-        "id":  "WAT016",
-        "name":  "Đồng Hồ Thể Thao Chống Nước",
-        "price":  910000,
-        "img":  "../data/Đồng Hồ/dong-ho-patek-philippe-nautilus-nam-dinh-da-40mm-automatic-17.webp",
-        "tags":  {
-                     "Loại":  [
-                                  "Số \u0026 Kim",
-                                  "Chống nước"
-                              ],
-                     "Chất liệu":  [
-                                       "Nhựa tổng hợp"
-                                   ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Siêu bền"
-                                    ]
-                 }
+        "id": "WAT016",
+        "name": "Đồng Hồ Patek Philippe Nautilus Diamond Bezel",
+        "price": 910000,
+        "img": "../data/Đồng Hồ/dong-ho-patek-philippe-nautilus-nam-dinh-da-40mm-automatic-17.webp",
+        "tags": {
+            "Nhãn hiệu": ["Patek Philippe"],
+            "Loại": ["Cơ (Automatic)"],
+            "Chất liệu": ["Kim cương", "Thép"],
+            "Phong cách": ["Thể thao sang trọng"]
+        }
     },
     {
-        "id":  "WAT017",
-        "name":  "Đồng Hồ Dây Kim Loại Mạ Vàng",
-        "price":  830000,
-        "img":  "../data/Đồng Hồ/dong-ho-richard-mille-rm-001-tourbillon-7-1.jpg",
-        "tags":  {
-                     "Loại":  [
-                                  "Số \u0026 Kim",
-                                  "Chống nước"
-                              ],
-                     "Chất liệu":  [
-                                       "Nhựa tổng hợp"
-                                   ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Siêu bền"
-                                    ]
-                 }
+        "id": "WAT017",
+        "name": "Đồng Hồ Richard Mille RM 001 Tourbillon",
+        "price": 830000,
+        "img": "../data/Đồng Hồ/dong-ho-richard-mille-rm-001-tourbillon-7-1.jpg",
+        "tags": {
+            "Nhãn hiệu": ["Richard Mille"],
+            "Loại": ["Tourbillon"],
+            "Chất liệu": ["Hợp kim công nghệ"],
+            "Phong cách": ["Tương lai", "Cực phẩm"]
+        }
     },
     {
-        "id":  "WAT018",
-        "name":  "Đồng Hồ Casio Cổ Điển",
-        "price":  420000,
-        "img":  "../data/Đồng Hồ/dong-ho-rolex-cosmograph-daytona-40-m116523-0043-116523-0043-vang-kim-18ct-mat-den-coc-so-kim-cuong-luot.jpg",
-        "tags":  {
-                     "Loại":  [
-                                  "Số \u0026 Kim",
-                                  "Chống nước"
-                              ],
-                     "Chất liệu":  [
-                                       "Nhựa tổng hợp"
-                                   ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Siêu bền"
-                                    ]
-                 }
+        "id": "WAT018",
+        "name": "Đồng Hồ Rolex Cosmograph Daytona Gold-Black",
+        "price": 420000,
+        "img": "../data/Đồng Hồ/dong-ho-rolex-cosmograph-daytona-40-m116523-0043-116523-0043-vang-kim-18ct-mat-den-coc-so-kim-cuong-luot.jpg",
+        "tags": {
+            "Nhãn hiệu": ["Rolex"],
+            "Loại": ["Chronograph"],
+            "Chất liệu": ["Vàng 18ct"],
+            "Phong cách": ["Biểu tượng", "Quyền uy"]
+        }
     },
     {
-        "id":  "WAT019",
-        "name":  "Đồng Hồ Casio Cổ Điển",
-        "price":  290000,
-        "img":  "../data/Đồng Hồ/dong-ho-tudor-cua-nuoc-nao-co-tot-dong-ho-tudor-02-800x450.jpg",
-        "tags":  {
-                     "Loại":  [
-                                  "Số \u0026 Kim",
-                                  "Chống nước"
-                              ],
-                     "Chất liệu":  [
-                                       "Nhựa tổng hợp"
-                                   ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Siêu bền"
-                                    ]
-                 }
+        "id": "WAT019",
+        "name": "Đồng Hồ Tudor Pelagos Professional Black",
+        "price": 290000,
+        "img": "../data/Đồng Hồ/dong-ho-tudor-cua-nuoc-nao-co-tot-dong-ho-tudor-02-800x450.jpg",
+        "tags": {
+            "Nhãn hiệu": ["Tudor"],
+            "Loại": ["Thợ lặn (Diver)"],
+            "Chất liệu": ["Titanium"],
+            "Phong cách": ["Mạnh mẽ", "Thực dụng"]
+        }
     },
     {
-        "id":  "WAT020",
-        "name":  "Đồng Hồ Thể Thao Chống Nước",
-        "price":  460000,
-        "img":  "../data/Đồng Hồ/dong-ho-tudor-royal-m28500-0005.webp",
-        "tags":  {
-                     "Loại":  [
-                                  "Số \u0026 Kim",
-                                  "Chống nước"
-                              ],
-                     "Chất liệu":  [
-                                       "Nhựa tổng hợp"
-                                   ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Siêu bền"
-                                    ]
-                 }
+        "id": "WAT020",
+        "name": "Đồng Hồ Tudor Royal Blue Roman Dial",
+        "price": 460000,
+        "img": "../data/Đồng Hồ/dong-ho-tudor-royal-m28500-0005.webp",
+        "tags": {
+            "Nhãn hiệu": ["Tudor"],
+            "Loại": ["Thể thao tích hợp"],
+            "Chất liệu": ["Thép không gỉ"],
+            "Phong cách": ["Thanh lịch", "Cổ điển"]
+        }
     },
     {
-        "id":  "WAT021",
-        "name":  "Đồng Hồ Cơ Lộ Máy Nam",
-        "price":  820000,
-        "img":  "../data/Đồng Hồ/GST-B100D-1A.png",
-        "tags":  {
-                     "Loại":  [
-                                  "Số \u0026 Kim",
-                                  "Chống nước"
-                              ],
-                     "Chất liệu":  [
-                                       "Nhựa tổng hợp"
-                                   ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Siêu bền"
-                                    ]
-                 }
+        "id": "WAT021",
+        "name": "Đồng Hồ Casio G-Shock GST-B100D Steel",
+        "price": 820000,
+        "img": "../data/Đồng Hồ/GST-B100D-1A.png",
+        "tags": {
+            "Nhãn hiệu": ["Casio"],
+            "Loại": ["G-Steel", "Tough Solar"],
+            "Chất liệu": ["Thép không gỉ"],
+            "Phong cách": ["Bền bỉ", "Công nghệ"]
+        }
     },
     {
-        "id":  "WAT022",
-        "name":  "Đồng Hồ Minimalist Siêu Mỏng",
-        "price":  830000,
-        "img":  "../data/Đồng Hồ/GST-B100X-1A.png",
-        "tags":  {
-                     "Loại":  [
-                                  "Số \u0026 Kim",
-                                  "Chống nước"
-                              ],
-                     "Chất liệu":  [
-                                       "Nhựa tổng hợp"
-                                   ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Siêu bền"
-                                    ]
-                 }
+        "id": "WAT022",
+        "name": "Đồng Hồ Casio G-Shock GST-B100X Carbon",
+        "price": 830000,
+        "img": "../data/Đồng Hồ/GST-B100X-1A.png",
+        "tags": {
+            "Nhãn hiệu": ["Casio"],
+            "Loại": ["Carbon Core Guard"],
+            "Chất liệu": ["Sợi Carbon"],
+            "Phong cách": ["Mạnh mẽ", "Thể thao"]
+        }
     },
     {
-        "id":  "WAT023",
-        "name":  "Đồng Hồ Thể Thao Chống Nước",
-        "price":  520000,
-        "img":  "../data/Đồng Hồ/images.jpg",
-        "tags":  {
-                     "Loại":  [
-                                  "Số \u0026 Kim",
-                                  "Chống nước"
-                              ],
-                     "Chất liệu":  [
-                                       "Nhựa tổng hợp"
-                                   ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Siêu bền"
-                                    ]
-                 }
+        "id": "WAT023",
+        "name": "Đồng Hồ Cartier Ballon Bleu White Dial",
+        "price": 520000,
+        "img": "../data/Đồng Hồ/images.jpg",
+        "tags": {
+            "Nhãn hiệu": ["Cartier"],
+            "Loại": ["Cơ (Automatic)"],
+            "Chất liệu": ["Thép", "Dây da"],
+            "Phong cách": ["Nhẹ nhàng", "Thanh thoát"]
+        }
     },
     {
-        "id":  "WAT024",
-        "name":  "Đồng Hồ Minimalist Siêu Mỏng",
-        "price":  420000,
-        "img":  "../data/Đồng Hồ/MRG-B2000SH-5A.png",
-        "tags":  {
-                     "Loại":  [
-                                  "Số \u0026 Kim",
-                                  "Chống nước"
-                              ],
-                     "Chất liệu":  [
-                                       "Nhựa tổng hợp"
-                                   ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Siêu bền"
-                                    ]
-                 }
+        "id": "WAT024",
+        "name": "Đồng Hồ Casio G-Shock MR-G B2000SH Special",
+        "price": 420000,
+        "img": "../data/Đồng Hồ/MRG-B2000SH-5A.png",
+        "tags": {
+            "Nhãn hiệu": ["Casio"],
+            "Loại": ["MR-G (Premium)"],
+            "Chất liệu": ["Titanium"],
+            "Phong cách": ["Thủ công Nhật Bản"]
+        }
     },
     {
-        "id":  "WAT025",
-        "name":  "Smartwatch Đo Nhịp Tim",
-        "price":  550000,
-        "img":  "../data/Đồng Hồ/ptt-scaled.jpg",
-        "tags":  {
-                     "Loại":  [
-                                  "Số \u0026 Kim",
-                                  "Chống nước"
-                              ],
-                     "Chất liệu":  [
-                                       "Nhựa tổng hợp"
-                                   ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Siêu bền"
-                                    ]
-                 }
+        "id": "WAT025",
+        "name": "Đồng Hồ Patek Philippe Blue Diamond Pave",
+        "price": 550000,
+        "img": "../data/Đồng Hồ/ptt-scaled.jpg",
+        "tags": {
+            "Nhãn hiệu": ["Patek Philippe"],
+            "Loại": ["Lịch vạn niên"],
+            "Chất liệu": ["Bạch kim", "Kim cương"],
+            "Phong cách": ["Xa hoa bậc nhất"]
+        }
     },
     {
-        "id":  "WAT026",
-        "name":  "Đồng Hồ Thể Thao Chống Nước",
-        "price":  980000,
-        "img":  "../data/Đồng Hồ/public-600x600.webp",
-        "tags":  {
-                     "Loại":  [
-                                  "Số \u0026 Kim",
-                                  "Chống nước"
-                              ],
-                     "Chất liệu":  [
-                                       "Nhựa tổng hợp"
-                                   ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Siêu bền"
-                                    ]
-                 }
+        "id": "WAT026",
+        "name": "Đồng Hồ Richard Mille RM 72-01 Chronograph",
+        "price": 980000,
+        "img": "../data/Đồng Hồ/public-600x600.webp",
+        "tags": {
+            "Nhãn hiệu": ["Richard Mille"],
+            "Loại": ["Flyback Chronograph"],
+            "Chất liệu": ["Carbon TPT"],
+            "Phong cách": ["Tốc độ", "Nghệ thuật"]
+        }
     },
     {
-        "id":  "WAT027",
-        "name":  "Đồng Hồ Dây Kim Loại Mạ Vàng",
-        "price":  710000,
-        "img":  "../data/Đồng Hồ/rolex-gmt-master-ii-126718grnr-0001-8.jpg",
-        "tags":  {
-                     "Loại":  [
-                                  "Số \u0026 Kim",
-                                  "Chống nước"
-                              ],
-                     "Chất liệu":  [
-                                       "Nhựa tổng hợp"
-                                   ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Siêu bền"
-                                    ]
-                 }
+        "id": "WAT027",
+        "name": "Đồng Hồ Rolex GMT-Master II Gold Jubilee",
+        "price": 710000,
+        "img": "../data/Đồng Hồ/rolex-gmt-master-ii-126718grnr-0001-8.jpg",
+        "tags": {
+            "Nhãn hiệu": ["Rolex"],
+            "Loại": ["GMT (Múi giờ thứ 2)"],
+            "Chất liệu": ["Vàng đúc 18ct"],
+            "Phong cách": ["Du hành", "Thượng lưu"]
+        }
     },
     {
-        "id":  "WAT028",
-        "name":  "Đồng Hồ Cơ Lộ Máy Nam",
-        "price":  770000,
-        "img":  "../data/Đồng Hồ/shopping (1).webp",
-        "tags":  {
-                     "Loại":  [
-                                  "Số \u0026 Kim",
-                                  "Chống nước"
-                              ],
-                     "Chất liệu":  [
-                                       "Nhựa tổng hợp"
-                                   ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Siêu bền"
-                                    ]
-                 }
+        "id": "WAT028",
+        "name": "Đồng Hồ Rolex Day-Date Platinum Ice Blue",
+        "price": 770000,
+        "img": "../data/Đồng Hồ/shopping (1).webp",
+        "tags": {
+            "Nhãn hiệu": ["Rolex"],
+            "Loại": ["Lịch thứ ngày"],
+            "Chất liệu": ["Bạch kim (Platinum)"],
+            "Phong cách": ["Quý tộc", "Độc bản"]
+        }
     },
     {
-        "id":  "WAT029",
-        "name":  "Đồng Hồ Thể Thao Chống Nước",
-        "price":  530000,
-        "img":  "../data/Đồng Hồ/shopping (2).webp",
-        "tags":  {
-                     "Loại":  [
-                                  "Số \u0026 Kim",
-                                  "Chống nước"
-                              ],
-                     "Chất liệu":  [
-                                       "Nhựa tổng hợp"
-                                   ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Siêu bền"
-                                    ]
-                 }
+        "id": "WAT029",
+        "name": "Đồng Hồ Rolex Daytona Steel White Dial",
+        "price": 530000,
+        "img": "../data/Đồng Hồ/shopping (2).webp",
+        "tags": {
+            "Nhãn hiệu": ["Rolex"],
+            "Loại": ["Chronograph"],
+            "Chất liệu": ["Thép Oystersteel"],
+            "Phong cách": ["Thể thao", "Kinh điển"]
+        }
     },
     {
-        "id":  "WAT030",
-        "name":  "Đồng Hồ Minimalist Siêu Mỏng",
-        "price":  850000,
-        "img":  "../data/Đồng Hồ/shopping (3).webp",
-        "tags":  {
-                     "Loại":  [
-                                  "Số \u0026 Kim",
-                                  "Chống nước"
-                              ],
-                     "Chất liệu":  [
-                                       "Nhựa tổng hợp"
-                                   ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Siêu bền"
-                                    ]
-                 }
+        "id": "WAT030",
+        "name": "Đồng Hồ Rolex Datejust Green Sunray Dial",
+        "price": 850000,
+        "img": "../data/Đồng Hồ/shopping (3).webp",
+        "tags": {
+            "Nhãn hiệu": ["Rolex"],
+            "Loại": ["Classic"],
+            "Chất liệu": ["Thép", "Vàng trắng"],
+            "Phong cách": ["Thời thượng", "Trẻ trung"]
+        }
     },
     {
-        "id":  "WAT031",
-        "name":  "Đồng Hồ Casio Cổ Điển",
-        "price":  550000,
-        "img":  "../data/Đồng Hồ/shopping.webp",
-        "tags":  {
-                     "Loại":  [
-                                  "Số \u0026 Kim",
-                                  "Chống nước"
-                              ],
-                     "Chất liệu":  [
-                                       "Nhựa tổng hợp"
-                                   ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Siêu bền"
-                                    ]
-                 }
+        "id": "WAT031",
+        "name": "Đồng Hồ Patek Philippe Aquanaut Black",
+        "price": 550000,
+        "img": "../data/Đồng Hồ/shopping.webp",
+        "tags": {
+            "Nhãn hiệu": ["Patek Philippe"],
+            "Loại": ["Thể thao hiện đại"],
+            "Chất liệu": ["Dây cao su Tropical"],
+            "Phong cách": ["Phóng khoáng", "Sang trọng"]
+        }
     },
     {
-        "id":  "WAT032",
-        "name":  "Đồng Hồ Cơ Lộ Máy Nam",
-        "price":  530000,
-        "img":  "../data/Đồng Hồ/spirit-of-big-bang-tourbillon-carbon-black-42-mm-645-qn-1117-rx-carousel-3-2.jpg",
-        "tags":  {
-                     "Loại":  [
-                                  "Số \u0026 Kim",
-                                  "Chống nước"
-                              ],
-                     "Chất liệu":  [
-                                       "Nhựa tổng hợp"
-                                   ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Siêu bền"
-                                    ]
-                 }
+        "id": "WAT032",
+        "name": "Đồng Hồ Hublot Spirit of Big Bang Tourbillon",
+        "price": 530000,
+        "img": "../data/Đồng Hồ/spirit-of-big-bang-tourbillon-carbon-black-42-mm-645-qn-1117-rx-carousel-3-2.jpg",
+        "tags": {
+            "Nhãn hiệu": ["Hublot"],
+            "Loại": ["Tourbillon"],
+            "Chất liệu": ["Carbon Fiber"],
+            "Phong cách": ["Đẳng cấp cơ khí"]
+        }
     },
     {
-        "id":  "WAT033",
-        "name":  "Đồng Hồ Dây Da Nam Thanh Lịch",
-        "price":  200000,
-        "img":  "../data/Đồng Hồ/z7017431778374_4482b1924f2720102e83f45e5193f640-scaled.jpg",
-        "tags":  {
-                     "Loại":  [
-                                  "Số \u0026 Kim",
-                                  "Chống nước"
-                              ],
-                     "Chất liệu":  [
-                                       "Nhựa tổng hợp"
-                                   ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Siêu bền"
-                                    ]
-                 }
+        "id": "WAT033",
+        "name": "Đồng Hồ Omega De Ville Prestige Gold",
+        "price": 200000,
+        "img": "../data/Đồng Hồ/z7017431778374_4482b1924f2720102e83f45e5193f640-scaled.jpg",
+        "tags": {
+            "Nhãn hiệu": ["Omega"],
+            "Loại": ["Dress Watch"],
+            "Chất liệu": ["Vàng hồng", "Dây da"],
+            "Phong cách": ["Thanh lịch", "Tinh tế"]
+        }
     }
 ]

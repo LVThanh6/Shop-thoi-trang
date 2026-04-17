@@ -1,1484 +1,1154 @@
-﻿[
+[
     {
         "id":  "ACC001",
-        "name":  "Thắt Lưng Da Bò Khóa Tự Động",
+        "name":  "Nhẫn Nam Đính Kim Cương Nhân Tạo Bản Rộng",
         "price":  450000,
         "img":  "../data/Phụ Kiện Nam/12ddb09f7ffc0017d9067a7b77aa0b7a@resize_w900_nl.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Nhẫn",
+                                  "Trang sức"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
+                                       "Bạc S925",
+                                       "Đá Zircon"
                                    ],
                      "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
+                                        "Sang trọng",
+                                        "Hiện đại"
                                     ]
                  }
     },
     {
         "id":  "ACC004",
-        "name":  "Kính Mát Nam Chống UV",
+        "name":  "Kính Râm Phi Công Mercedes-Benz Cao Cấp",
         "price":  1400000,
         "img":  "../data/Phụ Kiện Nam/163f76f1c6ef4d8cb1ab3a8388fc28f0@resize_w900_nl.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Kính mắt",
+                                  "Kính râm"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
+                                       "Kim loại",
+                                       "Mắt Polarized"
                                    ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                     "Thương hiệu":  [
+                                         "Mercedes-Benz"
+                                     ]
                  }
     },
     {
         "id":  "ACC005",
-        "name":  "Kẹp Cà Vạt Nam Tính",
+        "name":  "Ví Nam Da Lộn Baellerry Cầm Tay Thời Trang",
         "price":  1150000,
         "img":  "../data/Phụ Kiện Nam/3cd73c56655a0032180bdbe2c15322c4_tn.jpg",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Ví da",
+                                  "Ví cầm tay"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
+                                       "Da lộn"
                                    ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                     "Thương hiệu":  [
+                                         "Baellerry"
+                                     ]
                  }
     },
     {
         "id":  "ACC006",
-        "name":  "Nhẫn Nam Bạc Thái",
+        "name":  "Nhẫn Nam Mạ Vàng Đính Đá Hồng Ngọc Sang Trọng",
         "price":  800000,
         "img":  "../data/Phụ Kiện Nam/68aba716b0d55bf6ab895361028033c4.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Nhẫn",
+                                  "Trang sức"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                                       "Hợp kim mạ vàng",
+                                       "Đá Ruby nhân tạo"
+                                   ]
                  }
     },
     {
         "id":  "ACC007",
-        "name":  "Móc Khóa Da Bò",
+        "name":  "Nhẫn Nam Bạc S925 Đính Đá Sapphire Xanh Vuông",
         "price":  1070000,
         "img":  "../data/Phụ Kiện Nam/6dbd44d8545ff53af6767ecc85269292.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Nhẫn",
+                                  "Trang sức"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                                       "Bạc S925",
+                                       "Đá Sapphire nhân tạo"
+                                   ]
                  }
     },
     {
         "id":  "ACC008",
-        "name":  "Vòng Cổ Nam Basic",
+        "name":  "Set Cà Vạt Nam Công Sở Đa Dạng Màu Sắc",
         "price":  970000,
         "img":  "../data/Phụ Kiện Nam/6ee4c25cf245b7dc1a5dcd8276360d01.jpg",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Cà vạt",
+                                  "Bộ phụ kiện"
                               ],
-                     "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
                      "Phong cách":  [
                                         "Công sở",
-                                        "Lịch sự"
+                                        "Trang trọng"
                                     ]
                  }
     },
     {
         "id":  "ACC009",
-        "name":  "Cà Vạt Lụa Kẻ Sọc",
+        "name":  "Ví Da Nam Playboy Cao Cấp Khóa Bấm",
         "price":  460000,
         "img":  "../data/Phụ Kiện Nam/bba2ca6687d553373e4beb3b226eecf3.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Ví da",
+                                  "Ví ngắn"
                               ],
+                     "Thương hiệu":  [
+                                         "Playboy"
+                                     ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                                       "Da tổng hợp"
+                                   ]
                  }
     },
     {
         "id":  "ACC010",
-        "name":  "Túi Đeo Chéo Nam",
+        "name":  "Kính Mát Nam Prada Mắt Vuông Đẳng Cấp",
         "price":  870000,
         "img":  "../data/Phụ Kiện Nam/cn-11134207-7r98o-loy1gne7cx2461.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Kính mắt",
+                                  "Kính râm"
                               ],
-                     "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
+                     "Thương hiệu":  [
+                                         "Prada"
+                                     ],
                      "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
+                                        "Luxury",
+                                        "Thời thượng"
                                     ]
                  }
     },
     {
         "id":  "ACC011",
-        "name":  "Khuyên Tai Nam Basic",
+        "name":  "Cà Vạt Nam Lụa Đen Họa Tiết Chéo Tinh Tế",
         "price":  1450000,
         "img":  "../data/Phụ Kiện Nam/cvn8-l1__20__418d18f9f2264f0ab00d1e825d2ccd88_1024x1024.png",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Cà vạt"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
+                                       "Lụa"
                                    ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                     "Màu sắc":  [
+                                     "Đen"
+                                 ]
                  }
     },
     {
         "id":  "ACC012",
-        "name":  "Vòng Cổ Nam Basic",
+        "name":  "Thắt Lưng Nam Harden Polo Da Bò Khóa Tự Động",
         "price":  1070000,
         "img":  "../data/Phụ Kiện Nam/d6fcd4a3ae4059f7030124852000b4fd.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Thắt lưng"
                               ],
+                     "Thương hiệu":  [
+                                         "Harden Polo"
+                                     ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                                       "Da bò"
+                                   ]
                  }
     },
     {
         "id":  "ACC013",
-        "name":  "Thắt Lưng Nam Da Bò",
+        "name":  "Cà Vạt Nam Lụa Đen Họa Tiết Xước Hiện Đại",
         "price":  520000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7qvcv-lk0zae4uqzdjb9.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Cà vạt"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
+                                       "Lụa"
                                    ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                     "Màu sắc":  [
+                                     "Đen"
+                                 ]
                  }
     },
     {
         "id":  "ACC014",
-        "name":  "Cà Vạt Lụa Kẻ Sọc",
+        "name":  "Cà Vạt Nam Lụa Đen Kẻ Ô Vuông Trắng",
         "price":  170000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7qvcz-lk0zag45qf1353.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Cà vạt"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
+                                       "Lụa"
                                    ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                     "Màu sắc":  [
+                                     "Đen"
+                                 ]
                  }
     },
     {
         "id":  "ACC015",
-        "name":  "Kính Mát Nam Chống UV",
+        "name":  "Cà Vạt Nam Công Sở Họa Tiết Caro SPG6",
         "price":  630000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7qvd0-lk0zadn3cr9a5a.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Cà vạt"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
+                                       "Lụa"
                                    ],
                      "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
+                                        "Công sở"
                                     ]
                  }
     },
     {
         "id":  "ACC016",
-        "name":  "Vòng Tay Phong Thủy Nam",
+        "name":  "Cà Vạt Nam Lụa Xanh Than Họa Tiết Thêu Hoa",
         "price":  1450000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7qvdb-lk0zatgg7jxw6b@resize_w900_nl.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Cà vạt"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
+                                       "Lụa cao cấp"
                                    ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                     "Màu sắc":  [
+                                     "Xanh than"
+                                 ]
                  }
     },
     {
         "id":  "ACC017",
-        "name":  "Túi Đeo Chéo Nam",
+        "name":  "Cà Vạt Nam Lụa Xanh Than Họa Tiết Paisley",
         "price":  800000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7qvdf-lk0zar43n01x79@resize_w900_nl.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Cà vạt"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
+                                       "Lụa cao cấp"
                                    ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                     "Họa tiết":  [
+                                      "Paisley"
+                                  ]
                  }
     },
     {
         "id":  "ACC018",
-        "name":  "Ghim Cài Áo Vest Nam",
+        "name":  "Cà Vạt Nam Lụa Đen Kẻ Ô Vuông Nhỏ",
         "price":  400000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7qve4-lk0zala26cqy45@resize_w900_nl.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Cà vạt"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
+                                       "Lụa"
                                    ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                     "Màu sắc":  [
+                                     "Đen"
+                                 ]
                  }
     },
     {
         "id":  "ACC019",
-        "name":  "Móc Khóa Da Bò",
+        "name":  "Cà Vạt Nam Lụa Đen Trơn Gân Chéo",
         "price":  1290000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7qvf7-lk0zamqi31cn3d@resize_w900_nl.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Cà vạt"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
+                                       "Lụa"
                                    ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                     "Màu sắc":  [
+                                     "Đen"
+                                 ]
                  }
     },
     {
         "id":  "ACC020",
-        "name":  "Nhẫn Nam Bạc Thái",
+        "name":  "Cà Vạt Nam Lụa Xanh Đậm Kẻ Khối Hiện Đại",
         "price":  840000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7qvfc-lk0zarroohryfa@resize_w900_nl.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Cà vạt"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
+                                       "Lụa"
                                    ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                     "Màu sắc":  [
+                                     "Xanh đậm"
+                                 ]
                  }
     },
     {
         "id":  "ACC021",
-        "name":  "Nhẫn Nam Bạc Thái",
+        "name":  "Cà Vạt Nam Lụa Xanh Than Họa Tiết Xước",
         "price":  620000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7qvfk-lk0zap8egv7u84@resize_w900_nl.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Cà vạt"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
+                                       "Lụa"
                                    ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                     "Màu sắc":  [
+                                     "Xanh than"
+                                 ]
                  }
     },
     {
         "id":  "ACC022",
-        "name":  "Kẹp Cà Vạt Nam Tính",
+        "name":  "Cà Vạt Nam Lụa Đen Họa Tiết Paisley Gấm",
         "price":  1100000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7qvfm-lk0zafg0pq16a4@resize_w900_nl.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Cà vạt"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
+                                       "Lụa cao cấp"
                                    ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                     "Màu sắc":  [
+                                     "Đen"
+                                 ]
                  }
     },
     {
         "id":  "ACC023",
-        "name":  "Cà Vạt Lụa Kẻ Sọc",
+        "name":  "Vòng Tay Nam Bạc Thái Hình Đầu Rồng Quyền Lực",
         "price":  1010000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7r9a0-ln82xcqnp4vu3d.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Vòng tay",
+                                  "Trang sức"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
+                                       "Bạc Thái"
                                    ],
                      "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
+                                        "Cá tính",
+                                        "Mạnh mẽ"
                                     ]
                  }
     },
     {
         "id":  "ACC024",
-        "name":  "Cà Vạt Lụa Kẻ Sọc",
+        "name":  "Kính Thể Thao Nam Chống Gió Bụi Gọng Trắng",
         "price":  1250000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7rblx-m63olb6zfr0412@resize_w900_nl.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Kính mắt",
+                                  "Kính thể thao"
                               ],
-                     "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                     "Màu sắc":  [
+                                     "Trắng"
+                                 ]
                  }
     },
     {
         "id":  "ACC025",
-        "name":  "Móc Khóa Da Bò",
+        "name":  "Kính Thể Thao Nam Mắt Gương Chống Tia UV",
         "price":  300000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7rbn9-m63olalw991z2a@resize_w900_nl.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Kính mắt",
+                                  "Kính thể thao"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                                       "Mắt gương"
+                                   ]
                  }
     },
     {
         "id":  "ACC026",
-        "name":  "Túi Đeo Chéo Nam",
+        "name":  "Kính Thể Thao Nam Chống Chói Polarized",
         "price":  1400000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7rbne-m63ol9xhadlka3@resize_w900_nl.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Kính mắt",
+                                  "Kính thể thao"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                                       "Mắt Polarized"
+                                   ]
                  }
     },
     {
         "id":  "ACC027",
-        "name":  "Móc Khóa Da Bò",
+        "name":  "Nhẫn Nam Titan Đen Họa Tiết Xanh Lân Quang",
         "price":  1310000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7rcce-m6ds8m9xtp93ad.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Nhẫn",
+                                  "Trang sức"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
+                                       "Titan"
                                    ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                     "Màu sắc":  [
+                                     "Đen",
+                                     "Xanh"
+                                 ]
                  }
     },
     {
         "id":  "ACC028",
-        "name":  "Nhẫn Nam Bạc Thái",
+        "name":  "Nhẫn Nam Titan Đen Họa Tiết Vàng Sang Trọng",
         "price":  1240000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7rccg-m6ds8lq8mj7kac.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Nhẫn",
+                                  "Trang sức"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
+                                       "Titan"
                                    ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                     "Màu sắc":  [
+                                     "Đen",
+                                     "Vàng"
+                                 ]
                  }
     },
     {
         "id":  "ACC029",
-        "name":  "Vòng Cổ Nam Basic",
+        "name":  "Nhẫn Nam Bạc S925 Họa Tiết Khắc Đen",
         "price":  620000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7rccx-m6ds8nc89md011.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Nhẫn",
+                                  "Trang sức"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                                       "Bạc S925"
+                                   ]
                  }
     },
     {
         "id":  "ACC030",
-        "name":  "Kính Mát Nam Chống UV",
+        "name":  "Lắc Tay Nam Bạc S925 Dạng Xích Basic",
         "price":  310000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7rcd1-ltkip3j1cb6406@resize_w900_nl.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Vòng tay",
+                                  "Lắc tay"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                                       "Bạc S925"
+                                   ]
                  }
     },
     {
         "id":  "ACC031",
-        "name":  "Túi Đeo Chéo Nam",
+        "name":  "Vòng Tay Nam Hạt Đá Mix Charm Thánh Giá",
         "price":  1390000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7rcd6-ltkiopy57rfy23@resize_w900_nl.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Vòng tay"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                                       "Đá",
+                                       "Hợp kim"
+                                   ]
                  }
     },
     {
         "id":  "ACC032",
-        "name":  "Vòng Cổ Nam Basic",
+        "name":  "Nhẫn Nam Titan Bạc Họa Tiết Rồng Vàng",
         "price":  910000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7rcdj-m6ds8msj2hw75d.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Nhẫn"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                                       "Titan"
+                                   ]
                  }
     },
     {
         "id":  "ACC033",
-        "name":  "Ví Đứng Nam Nhỏ Gọn",
+        "name":  "Nhẫn Nam Titan Vàng Họa Tiết Rồng Gấm",
         "price":  1460000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7rcf4-m6ds8o35689a7d.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Nhẫn"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                                       "Titan"
+                                   ]
                  }
     },
     {
         "id":  "ACC034",
-        "name":  "Móc Khóa Da Bò",
+        "name":  "Thắt Lưng Vải Canvas Họa Tiết Bart Simpson",
         "price":  370000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7rd3r-lwvd9rjqg7ofdb.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Thắt lưng"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                                       "Vải Canvas"
+                                   ]
                  }
     },
     {
         "id":  "ACC035",
-        "name":  "Kính Mát Nam Chống UV",
+        "name":  "Set Kính Mát Nam Gọng Tròn Retro Nhiều Màu",
         "price":  440000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7rd54-lx8l9awq8tcve0.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Kính mắt"
                               ],
-                     "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
                      "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
+                                        "Retro"
                                     ]
                  }
     },
     {
         "id":  "ACC036",
-        "name":  "Ghim Cài Áo Vest Nam",
+        "name":  "Kính Mát Nam Prada Mắt Vuông Đen Luxury",
         "price":  510000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7rd58-m6wcdciolndn14.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Kính mắt"
                               ],
-                     "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                     "Thương hiệu":  [
+                                         "Prada Style"
+                                     ]
                  }
     },
     {
         "id":  "ACC037",
-        "name":  "Kính Mát Nam Chống UV",
+        "name":  "Thắt Lưng Vải Nam Họa Tiết Elmo & Skull",
         "price":  870000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7rd59-lwvd9q9ec0lwbd@resize_w900_nl.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Thắt lưng"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                                       "Vải Canvas"
+                                   ]
                  }
     },
     {
         "id":  "ACC038",
-        "name":  "Nhẫn Nam Bạc Thái",
+        "name":  "Ví Nam Mini Dingrui Khóa Kéo Họa Tiết Ngựa",
         "price":  830000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7rd5e-m7nurzshbwn7da.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Ví da"
                               ],
-                     "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                     "Thương hiệu":  [
+                                         "Dingrui"
+                                     ]
                  }
     },
     {
         "id":  "ACC039",
-        "name":  "Kính Râm Thời Trang Nam",
+        "name":  "Khăn Choàng Cổ Nam Len Dạ Kẻ Ô Blue Brown",
         "price":  220000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7rdwt-m0xfepw92ibe9e.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Khăn choàng"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                                       "Len dạ"
+                                   ]
                  }
     },
     {
         "id":  "ACC040",
-        "name":  "Túi Đeo Chéo Nam",
+        "name":  "Ví Cầm Tay Nam Johzeon Dáng Dài Sang Trọng",
         "price":  570000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7reoe-m2p03xi7imtiaa.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Ví da",
+                                  "Ví dài"
                               ],
-                     "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                     "Thương hiệu":  [
+                                         "Johzeon"
+                                     ]
                  }
     },
     {
         "id":  "ACC041",
-        "name":  "Ví Đứng Nam Nhỏ Gọn",
+        "name":  "Ví Card Holder Nam Dáng Đứng Phối Kim Loại",
         "price":  1000000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7rfez-m3ndu6q5hd3x2f.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
-                              ],
-                     "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                                  "Ví da",
+                                  "Card holder"
+                              ]
                  }
     },
     {
         "id":  "ACC042",
-        "name":  "Móc Khóa Da Bò",
+        "name":  "Ví Card Holder Nam Minimalist Phối Kim Loại",
         "price":  500000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7rfff-m3ndu786qxqve1.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
-                              ],
-                     "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                                  "Ví da",
+                                  "Card holder"
+                              ]
                  }
     },
     {
         "id":  "ACC043",
-        "name":  "Túi Đeo Chéo Nam",
+        "name":  "Kính Mát Nam Sirenxi Mắt Vuông Nhiều Màu",
         "price":  800000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-82619-mmfvh3twxiis39.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Kính mắt"
                               ],
-                     "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                     "Thương hiệu":  [
+                                         "Sirenxi"
+                                     ]
                  }
     },
     {
         "id":  "ACC044",
-        "name":  "Khuyên Tai Nam Basic",
+        "name":  "Vòng Cổ Nam Ngọc Trai Charm Ngôi Sao",
         "price":  1140000,
         "img":  "../data/Phụ Kiện Nam/sg-11134253-821d6-mgha5hyubaiw75@resize_w900_nl.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Vòng cổ"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                                       "Ngọc trai nhân tạo"
+                                   ]
                  }
     },
     {
         "id":  "ACC045",
-        "name":  "Nhẫn Nam Bạc Thái",
+        "name":  "Vòng Cổ Nam Xích Phối Đá Ruby Charm Thánh Giá",
         "price":  1100000,
         "img":  "../data/Phụ Kiện Nam/sg-11134253-821df-mghb57vxrpqm2c@resize_w900_nl.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Vòng cổ"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                                       "Hợp kim",
+                                       "Đá nhân tạo"
+                                   ]
                  }
     },
     {
         "id":  "ACC046",
-        "name":  "Ví Da Nam Cầm Tay",
+        "name":  "Kính Mát Nam Gọng Trong Suốt Mắt Khói",
         "price":  320000,
         "img":  "../data/Phụ Kiện Nam/sg-11134253-8259n-mfukhujvttzg1d.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
-                              ],
-                     "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                                  "Kính mắt"
+                              ]
                  }
     },
     {
         "id":  "ACC047",
-        "name":  "Ví Đứng Nam Nhỏ Gọn",
+        "name":  "Kính Mát Nam Gọng Đồi Mồi Cá Tính",
         "price":  1000000,
         "img":  "../data/Phụ Kiện Nam/sg-11134253-825ar-mfukhpfx86iwaf.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
-                              ],
-                     "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                                  "Kính mắt"
+                              ]
                  }
     },
     {
         "id":  "ACC048",
-        "name":  "Kính Râm Thời Trang Nam",
+        "name":  "Thắt Lưng Nam Da Bò Buckle Chữ H Sang Trọng",
         "price":  240000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-7r98o-lm9xl4mman6n7d@resize_w900_nl.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Thắt lưng"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                                       "Da bò"
+                                   ]
                  }
     },
     {
         "id":  "ACC049",
-        "name":  "Kẹp Cà Vạt Nam Tính",
+        "name":  "Vòng Cổ Nam Ngọc Trai Mix Xích Gothic",
         "price":  160000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-7r98o-lo6lk5vcmvp323@resize_w900_nl.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Vòng cổ"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                                       "Ngọc trai nhân tạo",
+                                       "Hợp kim"
+                                   ]
                  }
     },
     {
         "id":  "ACC050",
-        "name":  "Vòng Cổ Nam Basic",
+        "name":  "Nhẫn Nam Titan Xoay Xích Độc Đáo",
         "price":  660000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-7r98o-ltxbvrpnfklt73@resize_w900_nl.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Nhẫn"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                                       "Titan"
+                                   ]
                  }
     },
     {
         "id":  "ACC051",
-        "name":  "Thắt Lưng Nam Da Bò",
+        "name":  "Thắt Lưng Nam Jaguar Mặt Khắc Speedometer",
         "price":  700000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-7r98o-lxaxscfqlhp5dd.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Thắt lưng"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                                       "Da bò"
+                                   ]
                  }
     },
     {
         "id":  "ACC052",
-        "name":  "Thắt Lưng Nam Da Bò",
+        "name":  "Vòng Cổ Nam Cuban Chain Bạc Basic",
         "price":  240000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-7r98o-lxv8e6wdbvtl7c@resize_w900_nl.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Vòng cổ"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                                       "Hợp kim"
+                                   ]
                  }
     },
     {
         "id":  "ACC053",
-        "name":  "Khuyên Tai Nam Basic",
+        "name":  "Vòng Cổ Nam Xích Mảnh Charm Ngôi Sao 4 Cánh",
         "price":  360000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-7r98o-lxv8j87zzhll0c@resize_w900_nl.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Vòng cổ"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                                       "Hợp kim"
+                                   ]
                  }
     },
     {
         "id":  "ACC054",
-        "name":  "Ví Da Nam Cầm Tay",
+        "name":  "Thắt Lưng Nam Da Bò Buckle Kim Loại Tối Giản",
         "price":  1250000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-7ra0g-m8au47nduh6q8d@resize_w900_nl.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Thắt lưng"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                                       "Da bò"
+                                   ]
                  }
     },
     {
         "id":  "ACC055",
-        "name":  "Thắt Lưng Nam Da Bò",
+        "name":  "Thắt Lưng Nam Da Bò Buckle Chữ G Gold",
         "price":  370000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-7ra0g-m8rqbduc9fnm2a.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Thắt lưng"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                                       "Da bò"
+                                   ]
                  }
     },
     {
         "id":  "ACC056",
-        "name":  "Vòng Cổ Nam Basic",
+        "name":  "Lắc Tay Nam Bạc S925 Dạng Xích Trơn",
         "price":  890000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-7ras8-m30laq137k6o4b@resize_w900_nl.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Vòng tay"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                                       "Bạc S925"
+                                   ]
                  }
     },
     {
         "id":  "ACC057",
-        "name":  "Móc Khóa Da Bò",
+        "name":  "Lắc Tay Nam Charm Cỏ 4 Lá May Mắn Black",
         "price":  160000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-7ras8-m37kcyrbgfe4f2@resize_w900_nl.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Vòng tay"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                                       "Hợp kim"
+                                   ]
                  }
     },
     {
         "id":  "ACC058",
-        "name":  "Cà Vạt Lụa Kẻ Sọc",
+        "name":  "Vòng Cổ Nam Phối Hạt Đá Cracked & Charm Thánh Giá",
         "price":  560000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-7ras8-m5v027mzqoeb16@resize_w900_nl.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Vòng cổ"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                                       "Đá",
+                                       "Hợp kim"
+                                   ]
                  }
     },
     {
         "id":  "ACC059",
-        "name":  "Thắt Lưng Nam Da Bò",
+        "name":  "Vòng Cổ Nam Xích Kép Lồng Charm Đá Đen",
         "price":  570000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-7ras8-mdo3gsroi2sx8e@resize_w900_nl.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Vòng cổ"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                                       "Hợp kim"
+                                   ]
                  }
     },
     {
         "id":  "ACC060",
-        "name":  "Ghim Cài Áo Vest Nam",
+        "name":  "Vòng Cổ Nam Xích Bản To Charm Đá Xanh",
         "price":  590000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-81ztc-mkf6fity5w5h2a@resize_w900_nl.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Vòng cổ"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                                       "Hợp kim"
+                                   ]
                  }
     },
     {
         "id":  "ACC061",
-        "name":  "Ví Da Nam Cầm Tay",
+        "name":  "Ví Nam Fabric Johzeon Chống Thấm Màu Xám/Đen",
         "price":  1230000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-81ztc-mm0fse1nco3l0a.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Ví nam"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                                       "Vải Fabric"
+                                   ]
                  }
     },
     {
         "id":  "ACC062",
-        "name":  "Túi Đeo Chéo Nam",
+        "name":  "Ví Nam Fabric Johzeon Minimalist Màu Đen/Xám",
         "price":  370000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-81ztc-mm0fse1nz56tde.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Ví nam"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                                       "Vải Fabric"
+                                   ]
                  }
     },
     {
         "id":  "ACC063",
-        "name":  "Nhẫn Nam Bạc Thái",
+        "name":  "Ví Nam Playboy Da Bò Dập Vân Chìm",
         "price":  770000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-81ztc-mm0fse1rvlz7dd.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Ví da"
                               ],
-                     "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                     "Thương hiệu":  [
+                                         "Playboy"
+                                     ]
                  }
     },
     {
         "id":  "ACC064",
-        "name":  "Móc Khóa Da Bò",
+        "name":  "Thắt Lưng Nam Jaguar Buckle Vàng Sang Trọng",
         "price":  800000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-81ztc-mm1imc7yji10ce@resize_w900_nl.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Thắt lưng"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                                       "Da bò"
+                                   ]
                  }
     },
     {
         "id":  "ACC065",
-        "name":  "Cà Vạt Lụa Kẻ Sọc",
+        "name":  "Lắc Tay Nam Cuban Iced Out Đính Đá Toàn Bộ",
         "price":  1430000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-820l4-meaxoptpbh1ga4@resize_w900_nl.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Vòng tay"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                                       "Hợp kim đính đá"
+                                   ]
                  }
     },
     {
         "id":  "ACC066",
-        "name":  "Kẹp Cà Vạt Nam Tính",
+        "name":  "Kính Mát Nam Mắt Mèo Cat-eye Đen Cá Tính",
         "price":  1310000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-820l4-mf4tvd0twmq0fc@resize_w900_nl.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
-                              ],
-                     "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                                  "Kính mắt"
+                              ]
                  }
     },
     {
         "id":  "ACC067",
-        "name":  "Cà Vạt Lụa Kẻ Sọc",
+        "name":  "Ví Nam Da Bò Vân Hình Khối Hiện Đại",
         "price":  340000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-820l4-mfzj4vojm3v106.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
-                              ],
-                     "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                                  "Ví da"
+                              ]
                  }
     },
     {
         "id":  "ACC068",
-        "name":  "Kính Mát Nam Chống UV",
+        "name":  "Nhẫn Nam Titan Đính Đá Clear Emerald Cut",
         "price":  920000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-820l4-mg3t1gfhdbf1df@resize_w900_nl.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Nhẫn"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                                       "Titan đính đá"
+                                   ]
                  }
     },
     {
         "id":  "ACC069",
-        "name":  "Túi Đeo Chéo Nam",
+        "name":  "Nhẫn Nam Titan Đính Đá Ruby Red Emerald Cut",
         "price":  850000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-820l4-mg54gsn00q2yb4.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Nhẫn"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                                       "Titan đính đá"
+                                   ]
                  }
     },
     {
         "id":  "ACC070",
-        "name":  "Kẹp Cà Vạt Nam Tính",
+        "name":  "Thắt Lưng Nam Jaguar Buckle Bạc Đen",
         "price":  910000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-820l4-mg7wi7tp5btbb8@resize_w900_nl.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Thắt lưng"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                                       "Da bò"
+                                   ]
                  }
     },
     {
         "id":  "ACC071",
-        "name":  "Nhẫn Nam Bạc Thái",
+        "name":  "Kính Mát Nam Classic Wayfarer Đen",
         "price":  200000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-820l4-mghqjlr384jx7a@resize_w900_nl.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
-                              ],
-                     "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                                  "Kính mắt"
+                              ]
                  }
     },
     {
         "id":  "ACC072",
-        "name":  "Nhẫn Nam Bạc Thái",
+        "name":  "Thắt Lưng Nam Buckle Bạc Họa Tiết Chrome Hearts",
         "price":  890000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-820l4-mgnsuvrj0g0d13.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Thắt lưng"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                                       "Da bò"
+                                   ]
                  }
     },
     {
         "id":  "ACC073",
-        "name":  "Thắt Lưng Nam Da Bò",
+        "name":  "Thắt Lưng Nam Buckle Vàng Họa Tiết Chrome Hearts",
         "price":  1190000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-820l4-mgoyijzfiwi603.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Thắt lưng"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                                       "Da bò"
+                                   ]
                  }
     },
     {
         "id":  "ACC074",
-        "name":  "Ví Da Nam Cầm Tay",
+        "name":  "Thắt Lưng Nam WilliamPolo Da Bò Cao Cấp",
         "price":  330000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-820l4-mi15wfwl7itd3b.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Thắt lưng"
                               ],
-                     "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                     "Thương hiệu":  [
+                                         "WilliamPolo"
+                                     ]
                  }
     },
     {
         "id":  "ACC075",
-        "name":  "Cà Vạt Lụa Kẻ Sọc",
+        "name":  "Kính Mát Nam Square Black Minimalist",
         "price":  740000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-820l4-mibai28ltk3lf6.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
-                              ],
-                     "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                                  "Kính mắt"
+                              ]
                  }
     },
     {
         "id":  "ACC076",
-        "name":  "Nhẫn Nam Bạc Thái",
+        "name":  "Kính Mát Nam Gọng Trong Suốt Mắt Xanh Blue",
         "price":  570000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-820l4-miflc4iw5r0kab.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
-                              ],
-                     "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                                  "Kính mắt"
+                              ]
                  }
     },
     {
         "id":  "ACC077",
-        "name":  "Kính Mát Nam Chống UV",
+        "name":  "Kính Mát Nam Gọng Đen Mắt Cam/Đen",
         "price":  1000000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-820l4-miflc4v7rdhfba.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
-                              ],
-                     "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                                  "Kính mắt"
+                              ]
                  }
     },
     {
         "id":  "ACC078",
-        "name":  "Khuyên Tai Nam Basic",
+        "name":  "Kính Mát Nam Gọng Đen Mắt Vàng/Xanh Khói",
         "price":  1070000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-820l4-miflc4wvgidjd4.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
-                              ],
-                     "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                                  "Kính mắt"
+                              ]
                  }
     },
     {
         "id":  "ACC079",
-        "name":  "Vòng Cổ Nam Basic",
+        "name":  "Thắt Lưng Nam Buckle Chữ H Matte Black",
         "price":  160000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-820l4-mjgtbwivwnwm4b@resize_w900_nl.webp",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Thắt lưng"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                                       "Da bò"
+                                   ]
                  }
     },
     {
         "id":  "ACC080",
-        "name":  "Nhẫn Nam Bạc Thái",
+        "name":  "Set Cà Vạt Nam Luxury Nhiều Màu",
         "price":  1110000,
         "img":  "../data/Phụ Kiện Nam/z6019471629477_f4e1ad1d1bce7a5ca21f0ec6bc300447_91f50c9113204a05841067006d5c2974_master.jpg",
         "tags":  {
                      "Loại":  [
-                                  "Thắt lưng",
-                                  "Dây nịt"
+                                  "Cà vạt"
                               ],
                      "Chất liệu":  [
-                                       "Da bò miếng"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở",
-                                        "Lịch sự"
-                                    ]
+                                       "Lụa"
+                                   ]
                  }
     }
 ]

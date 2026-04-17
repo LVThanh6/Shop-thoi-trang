@@ -1,942 +1,813 @@
-﻿[
+[
     {
         "id":  "SH001",
-        "name":  "Giày Sneaker Trắng Năng Động",
+        "name":  "Sandal Nam Datinno's Đen Trắng",
         "price":  850000,
         "img":  "../data/Giày/0e700cff323a58efda340e66dc969f2c.jpg",
         "tags":  {
-                     "Loại Giày":  [
-                                       "Sneaker",
-                                       "Cổ thấp"
-                                   ],
-                     "Chất liệu":  [
-                                       "Da PU",
-                                       "Vải Canvas"
-                                   ],
+                     "Loại":  [
+                                  "Sandal",
+                                  "Dép quai hậu"
+                              ],
                      "Phong cách":  [
-                                        "Thể thao",
-                                        "Năng động"
+                                        "Năng động",
+                                        "Mùa hè"
                                     ]
                  }
     },
     {
         "id":  "SH008",
-        "name":  "Giày Thể Thao Chạy Bộ",
+        "name":  "Giày Boot Nam Wingtip Black Luxury",
         "price":  700000,
         "img":  "../data/Giày/1024x1024-Wingtip-Black-070824-3.4_ff65263c-17fb-46cc-85e9-75d0c23da2bb_1024x1024.webp",
         "tags":  {
-                     "Loại Giày":  [
-                                       "Sneaker",
-                                       "Cổ thấp"
-                                   ],
+                     "Loại":  [
+                                  "Boot",
+                                  "Giày cao cổ"
+                              ],
                      "Chất liệu":  [
-                                       "Da PU",
-                                       "Vải Canvas"
+                                       "Da thật"
                                    ],
                      "Phong cách":  [
-                                        "Thể thao",
-                                        "Năng động"
+                                        "Quý ông",
+                                        "Lịch lãm"
                                     ]
                  }
     },
     {
         "id":  "SH009",
-        "name":  "Giày Slip-on Nam Tiện Lợi",
+        "name":  "Giày Chelsea Boot Nam Da Bóng Đen",
         "price":  1470000,
         "img":  "../data/Giày/1a4ef98f9788f8abd86431700d00e6f4.webp",
         "tags":  {
-                     "Loại Giày":  [
-                                       "Sneaker",
-                                       "Cổ thấp"
-                                   ],
+                     "Loại":  [
+                                  "Chelsea Boot",
+                                  "Boot"
+                              ],
                      "Chất liệu":  [
-                                       "Da PU",
-                                       "Vải Canvas"
+                                       "Da thật"
                                    ],
                      "Phong cách":  [
-                                        "Thể thao",
-                                        "Năng động"
+                                        "Hiện đại",
+                                        "Cá tính"
                                     ]
                  }
     },
     {
         "id":  "SH010",
-        "name":  "Giày Loafer Da Thật Cao Cấp",
+        "name":  "Giày Sneaker Converse Chuck Taylor High Top Trắng",
         "price":  1070000,
         "img":  "../data/Giày/24_ec8db26187b24aad850c7d7928b8c13c_master.png",
         "tags":  {
-                     "Loại Giày":  [
-                                       "Sneaker",
-                                       "Cổ thấp"
-                                   ],
-                     "Chất liệu":  [
-                                       "Da PU",
-                                       "Vải Canvas"
-                                   ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Năng động"
-                                    ]
+                     "Thương hiệu":  [
+                                         "Converse"
+                                     ],
+                     "Loại":  [
+                                  "Sneaker",
+                                  "High Top"
+                              ],
+                     "Màu sắc":  [
+                                     "Trắng"
+                                 ]
                  }
     },
     {
         "id":  "SH011",
-        "name":  "Giày Mọi Da Mềm Không Dây",
+        "name":  "Giày Loafer Nam Da Mềm Đen",
         "price":  360000,
         "img":  "../data/Giày/353143840C-01OK_1_SUM23.avif",
         "tags":  {
-                     "Loại Giày":  [
-                                       "Sneaker",
-                                       "Cổ thấp"
-                                   ],
+                     "Loại":  [
+                                  "Loafer",
+                                  "Giày lười"
+                              ],
                      "Chất liệu":  [
-                                       "Da PU",
-                                       "Vải Canvas"
+                                       "Da mềm"
                                    ],
                      "Phong cách":  [
-                                        "Thể thao",
-                                        "Năng động"
+                                        "Hàng ngày"
                                     ]
                  }
     },
     {
         "id":  "SH012",
-        "name":  "Giày Loafer Da Thật Cao Cấp",
+        "name":  "Giày Chelsea Boot Nam Da Nâu Khóa Zip",
         "price":  730000,
         "img":  "../data/Giày/3e593d8c4105c6483039ac7f6d4aebcc.webp",
         "tags":  {
-                     "Loại Giày":  [
-                                       "Sneaker",
-                                       "Cổ thấp"
-                                   ],
+                     "Loại":  [
+                                  "Chelsea Boot",
+                                  "Boot"
+                              ],
                      "Chất liệu":  [
-                                       "Da PU",
-                                       "Vải Canvas"
+                                       "Da thật"
                                    ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Năng động"
-                                    ]
+                     "Màu sắc":  [
+                                     "Nâu"
+                                 ]
                  }
     },
     {
         "id":  "SH013",
-        "name":  "Giày Tây Nam Buộc Dây Cổ Điển",
+        "name":  "Giày Sneaker Nike Air Zoom Black White",
         "price":  1490000,
         "img":  "../data/Giày/5.jpg",
         "tags":  {
-                     "Loại Giày":  [
-                                       "Sneaker",
-                                       "Cổ thấp"
-                                   ],
-                     "Chất liệu":  [
-                                       "Da PU",
-                                       "Vải Canvas"
-                                   ],
+                     "Thương hiệu":  [
+                                         "Nike"
+                                     ],
+                     "Loại":  [
+                                  "Sneaker",
+                                  "Thời trang"
+                              ],
                      "Phong cách":  [
-                                        "Thể thao",
-                                        "Năng động"
+                                        "Thể thao"
                                     ]
                  }
     },
     {
         "id":  "SH014",
-        "name":  "Giày Slip-on Nam Tiện Lợi",
+        "name":  "Giày Boot Nam Da Nâu Buộc Dây Cổ Điển",
         "price":  1290000,
         "img":  "../data/Giày/51477ae78ac565f251cb1d8c1ea439ed.webp",
         "tags":  {
-                     "Loại Giày":  [
-                                       "Sneaker",
-                                       "Cổ thấp"
-                                   ],
+                     "Loại":  [
+                                  "Boot",
+                                  "Working Boot"
+                              ],
                      "Chất liệu":  [
-                                       "Da PU",
-                                       "Vải Canvas"
+                                       "Da thật"
                                    ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Năng động"
-                                    ]
+                     "Màu sắc":  [
+                                     "Nâu"
+                                 ]
                  }
     },
     {
         "id":  "SH015",
-        "name":  "Giày Thể Thao Chạy Bộ",
+        "name":  "Giày Tây Nam Oxford Da Bóng Đen Tinh Tế",
         "price":  1120000,
         "img":  "../data/Giày/51fCEZJqjNL._AC_UY900_.jpg",
         "tags":  {
-                     "Loại Giày":  [
-                                       "Sneaker",
-                                       "Cổ thấp"
-                                   ],
+                     "Loại":  [
+                                  "Oxford",
+                                  "Giày Tây"
+                              ],
                      "Chất liệu":  [
-                                       "Da PU",
-                                       "Vải Canvas"
+                                       "Da bóng"
                                    ],
                      "Phong cách":  [
-                                        "Thể thao",
-                                        "Năng động"
+                                        "Sang trọng",
+                                        "Cưới hỏi"
                                     ]
                  }
     },
     {
         "id":  "SH016",
-        "name":  "Giày Oxford Nam Tinh Tế",
+        "name":  "Sandal Nam Thể Thao 3 Quai Streetwear",
         "price":  1010000,
         "img":  "../data/Giày/b8df656e25b625f78e989a9f1ed292ac@resize_w900_nl.webp",
         "tags":  {
-                     "Loại Giày":  [
-                                       "Sneaker",
-                                       "Cổ thấp"
-                                   ],
-                     "Chất liệu":  [
-                                       "Da PU",
-                                       "Vải Canvas"
-                                   ],
+                     "Loại":  [
+                                  "Sandal",
+                                  "Dép quai hậu"
+                              ],
                      "Phong cách":  [
-                                        "Thể thao",
+                                        "Streetwear",
                                         "Năng động"
                                     ]
                  }
     },
     {
         "id":  "SH017",
-        "name":  "Giày Oxford Nam Tinh Tế",
+        "name":  "Giày Sneaker Air Jordan 4 White Oreo",
         "price":  1200000,
         "img":  "../data/Giày/d784a55a336b5e03f8a3122039bac063.webp",
         "tags":  {
-                     "Loại Giày":  [
-                                       "Sneaker",
-                                       "Cổ thấp"
-                                   ],
-                     "Chất liệu":  [
-                                       "Da PU",
-                                       "Vải Canvas"
-                                   ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Năng động"
-                                    ]
+                     "Thương hiệu":  [
+                                         "Jordan"
+                                     ],
+                     "Loại":  [
+                                  "Sneaker",
+                                  "Bóng rổ"
+                              ],
+                     "Màu sắc":  [
+                                     "Trắng"
+                                 ]
                  }
     },
     {
         "id":  "SH018",
-        "name":  "Giày Loafer Da Thật Cao Cấp",
+        "name":  "Giày Sneaker Air Jordan 1 High Bred Toe",
         "price":  560000,
         "img":  "../data/Giày/dc93b5fc4c1d68079c7429edfcf249f4.webp",
         "tags":  {
-                     "Loại Giày":  [
-                                       "Sneaker",
-                                       "Cổ thấp"
-                                   ],
-                     "Chất liệu":  [
-                                       "Da PU",
-                                       "Vải Canvas"
-                                   ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Năng động"
-                                    ]
+                     "Thương hiệu":  [
+                                         "Jordan"
+                                     ],
+                     "Loại":  [
+                                  "Sneaker",
+                                  "High Top"
+                              ],
+                     "Màu sắc":  [
+                                     "Đỏ Đen"
+                                 ]
                  }
     },
     {
         "id":  "SH019",
-        "name":  "Giày Tây Nam Buộc Dây Cổ Điển",
+        "name":  "Giày Harness Boot Nam Da Đen Khóa Ring",
         "price":  1380000,
         "img":  "../data/Giày/Enzo_BlackLux_01_1800x1800_edc0cc6c-e714-4168-aafb-511ac1689a76.webp",
         "tags":  {
-                     "Loại Giày":  [
-                                       "Sneaker",
-                                       "Cổ thấp"
-                                   ],
+                     "Loại":  [
+                                  "Harness Boot",
+                                  "Boot"
+                              ],
                      "Chất liệu":  [
-                                       "Da PU",
-                                       "Vải Canvas"
+                                       "Da bò"
                                    ],
                      "Phong cách":  [
-                                        "Thể thao",
-                                        "Năng động"
+                                        "Cá tính",
+                                        "Rock"
                                     ]
                  }
     },
     {
         "id":  "SH020",
-        "name":  "Giày Slip-on Nam Tiện Lợi",
+        "name":  "Giày Tây Nam Derby Da Bóng Lịch Lãm",
         "price":  1290000,
         "img":  "../data/Giày/GIAY-DA-TANG-CHIEU-CAO-NAM-GIAY-CUOI-BANG-DA-MEM-GIAY-CONG-SO-TRANG-TRONG-GIAY-HANG-NGAYDA-BO-THAT-DE-CAO-SUGOT-CAO-6CM-THOANG-KHI-CHONG-TRUOT-CHONG-MAI-MON-SIZE-TU-35-44-GIA-674K-1.jpg",
         "tags":  {
-                     "Loại Giày":  [
-                                       "Sneaker",
-                                       "Cổ thấp"
-                                   ],
+                     "Loại":  [
+                                  "Derby",
+                                  "Giày Tây"
+                              ],
                      "Chất liệu":  [
-                                       "Da PU",
-                                       "Vải Canvas"
+                                       "Da thật"
                                    ],
                      "Phong cách":  [
-                                        "Thể thao",
-                                        "Năng động"
+                                        "Công sở",
+                                        "Lịch lãm"
                                     ]
                  }
     },
     {
         "id":  "SH021",
-        "name":  "Giày Slip-on Nam Tiện Lợi",
+        "name":  "Giày Sneaker Dior B23 High Top Oblique",
         "price":  180000,
         "img":  "../data/Giày/giay-dior-b27-hight-top-sneaker-25-600x600.jpg.webp",
         "tags":  {
-                     "Loại Giày":  [
-                                       "Sneaker",
-                                       "Cổ thấp"
-                                   ],
-                     "Chất liệu":  [
-                                       "Da PU",
-                                       "Vải Canvas"
-                                   ],
+                     "Thương hiệu":  [
+                                         "Dior"
+                                     ],
+                     "Loại":  [
+                                  "Sneaker",
+                                  "High Top"
+                              ],
                      "Phong cách":  [
-                                        "Thể thao",
-                                        "Năng động"
+                                        "Sang trọng"
                                     ]
                  }
     },
     {
         "id":  "SH022",
-        "name":  "Giày Oxford Nam Tinh Tế",
+        "name":  "Giày Sneaker Hatsune Miku High Top Rider Series",
         "price":  730000,
         "img":  "../data/Giày/Giay-Hatsune-Miku-High-Top-Rider-Series-thumb1.jpg",
         "tags":  {
-                     "Loại Giày":  [
-                                       "Sneaker",
-                                       "Cổ thấp"
-                                   ],
-                     "Chất liệu":  [
-                                       "Da PU",
-                                       "Vải Canvas"
-                                   ],
+                     "Loại":  [
+                                  "Sneaker",
+                                  "High Top"
+                              ],
                      "Phong cách":  [
-                                        "Thể thao",
-                                        "Năng động"
+                                        "Anime",
+                                        "Techwear"
                                     ]
                  }
     },
     {
         "id":  "SH023",
-        "name":  "Giày Oxford Nam Tinh Tế",
+        "name":  "Giày Sneaker Yeezy Boost 350 V2 Cloud White",
         "price":  980000,
         "img":  "../data/Giày/Giay-Yeezy-Boost-350-V2-Cloud-White-FW3043.jpg",
         "tags":  {
-                     "Loại Giày":  [
-                                       "Sneaker",
-                                       "Cổ thấp"
-                                   ],
-                     "Chất liệu":  [
-                                       "Da PU",
-                                       "Vải Canvas"
-                                   ],
+                     "Thương hiệu":  [
+                                         "Yeezy",
+                                         "Adidas"
+                                     ],
+                     "Loại":  [
+                                  "Sneaker"
+                              ],
                      "Phong cách":  [
-                                        "Thể thao",
-                                        "Năng động"
+                                        "Hiện đại"
                                     ]
                  }
     },
     {
         "id":  "SH024",
-        "name":  "Giày Sneaker Nam Cổ Thấp",
+        "name":  "Giày Wingtip Dress Boot Da Đen Cổ Cao",
         "price":  450000,
         "img":  "../data/Giày/images (1).jpg",
         "tags":  {
-                     "Loại Giày":  [
-                                       "Sneaker",
-                                       "Cổ thấp"
-                                   ],
+                     "Loại":  [
+                                  "Boot",
+                                  "Wingtip"
+                              ],
                      "Chất liệu":  [
-                                       "Da PU",
-                                       "Vải Canvas"
+                                       "Da bò"
                                    ],
                      "Phong cách":  [
-                                        "Thể thao",
-                                        "Năng động"
+                                        "Quý ông"
                                     ]
                  }
     },
     {
         "id":  "SH025",
-        "name":  "Giày Mọi Da Mềm Không Dây",
+        "name":  "Giày Brogue Dress Boot Nam Đen Cao Cấp",
         "price":  720000,
         "img":  "../data/Giày/images (2).jpg",
         "tags":  {
-                     "Loại Giày":  [
-                                       "Sneaker",
-                                       "Cổ thấp"
-                                   ],
+                     "Loại":  [
+                                  "Boot",
+                                  "Brogue"
+                              ],
                      "Chất liệu":  [
-                                       "Da PU",
-                                       "Vải Canvas"
-                                   ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Năng động"
-                                    ]
+                                       "Da thật"
+                                   ]
                  }
     },
     {
         "id":  "SH026",
-        "name":  "Boot Da Cổ Cao Cực Ngầu",
+        "name":  "Giày Brogue Boot Nam Da Đỏ Burgundy",
         "price":  890000,
         "img":  "../data/Giày/images (3).jpg",
         "tags":  {
-                     "Loại Giày":  [
-                                       "Sneaker",
-                                       "Cổ thấp"
-                                   ],
+                     "Loại":  [
+                                  "Boot",
+                                  "Brogue"
+                              ],
                      "Chất liệu":  [
-                                       "Da PU",
-                                       "Vải Canvas"
+                                       "Da thật"
                                    ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Năng động"
-                                    ]
+                     "Màu sắc":  [
+                                     "Đỏ Burgundy"
+                                 ]
                  }
     },
     {
         "id":  "SH027",
-        "name":  "Boot Da Cổ Cao Cực Ngầu",
+        "name":  "Giày Brogue Boot Nam Da Nâu Bò",
         "price":  400000,
         "img":  "../data/Giày/images (4).jpg",
         "tags":  {
-                     "Loại Giày":  [
-                                       "Sneaker",
-                                       "Cổ thấp"
-                                   ],
+                     "Loại":  [
+                                  "Boot",
+                                  "Brogue"
+                              ],
                      "Chất liệu":  [
-                                       "Da PU",
-                                       "Vải Canvas"
+                                       "Da thật"
                                    ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Năng động"
-                                    ]
+                     "Màu sắc":  [
+                                     "Nâu Bò"
+                                 ]
                  }
     },
     {
         "id":  "SH028",
-        "name":  "Giày Tây Nam Buộc Dây Cổ Điển",
+        "name":  "Giày Chelsea Boot Nam Da Trăn Đen Luxury",
         "price":  1200000,
         "img":  "../data/Giày/images (5).jpg",
         "tags":  {
-                     "Loại Giày":  [
-                                       "Sneaker",
-                                       "Cổ thấp"
-                                   ],
-                     "Chất liệu":  [
-                                       "Da PU",
-                                       "Vải Canvas"
+                     "Loại":  [
+                                  "Chelsea Boot",
+                                  "Boot"
+                              ],
+                     "Họa tiết":  [
+                                       "Da trăn"
                                    ],
                      "Phong cách":  [
-                                        "Thể thao",
-                                        "Năng động"
+                                        "Sang trọng",
+                                        "Độc đáo"
                                     ]
                  }
     },
     {
         "id":  "SH029",
-        "name":  "Giày Loafer Da Thật Cao Cấp",
+        "name":  "Giày Sneaker Yeezy Boost 350 V2 Beluga",
         "price":  940000,
         "img":  "../data/Giày/images (6).jpg",
         "tags":  {
-                     "Loại Giày":  [
-                                       "Sneaker",
-                                       "Cổ thấp"
-                                   ],
-                     "Chất liệu":  [
-                                       "Da PU",
-                                       "Vải Canvas"
-                                   ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Năng động"
-                                    ]
+                     "Thương hiệu":  [
+                                         "Yeezy"
+                                     ],
+                     "Loại":  [
+                                  "Sneaker"
+                              ],
+                     "Màu sắc":  [
+                                     "Xám Cam"
+                                 ]
                  }
     },
     {
         "id":  "SH030",
-        "name":  "Giày Sneaker Nam Cổ Thấp",
+        "name":  "Giày Sneaker Converse Chuck 70 High Top Đen Đế Cao",
         "price":  310000,
         "img":  "../data/Giày/images (7).jpg",
         "tags":  {
-                     "Loại Giày":  [
-                                       "Sneaker",
-                                       "Cổ thấp"
-                                   ],
-                     "Chất liệu":  [
-                                       "Da PU",
-                                       "Vải Canvas"
-                                   ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Năng động"
-                                    ]
+                     "Thương hiệu":  [
+                                         "Converse"
+                                     ],
+                     "Loại":  [
+                                  "Sneaker",
+                                  "High Top"
+                              ]
                  }
     },
     {
         "id":  "SH031",
-        "name":  "Giày Sneaker Nam Cổ Thấp",
+        "name":  "Sandal Nam Nike Vista Đen",
         "price":  330000,
         "img":  "../data/Giày/images (8).jpg",
         "tags":  {
-                     "Loại Giày":  [
-                                       "Sneaker",
-                                       "Cổ thấp"
-                                   ],
-                     "Chất liệu":  [
-                                       "Da PU",
-                                       "Vải Canvas"
-                                   ],
+                     "Thương hiệu":  [
+                                         "Nike"
+                                     ],
+                     "Loại":  [
+                                  "Sandal",
+                                  "Dép quai hậu"
+                              ],
                      "Phong cách":  [
-                                        "Thể thao",
-                                        "Năng động"
+                                        "Hàng ngày"
                                     ]
                  }
     },
     {
         "id":  "SH032",
-        "name":  "Giày Tây Nam Buộc Dây Cổ Điển",
+        "name":  "Giày Chukka Boot Nam Suede Nâu",
         "price":  680000,
         "img":  "../data/Giày/images.jpg",
         "tags":  {
-                     "Loại Giày":  [
-                                       "Sneaker",
-                                       "Cổ thấp"
-                                   ],
+                     "Loại":  [
+                                  "Chukka Boot",
+                                  "Boot"
+                              ],
                      "Chất liệu":  [
-                                       "Da PU",
-                                       "Vải Canvas"
+                                       "Da lộn"
                                    ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Năng động"
-                                    ]
+                     "Màu sắc":  [
+                                     "Nâu"
+                                 ]
                  }
     },
     {
         "id":  "SH033",
-        "name":  "Giày Oxford Nam Tinh Tế",
+        "name":  "Giày Tây Nam Derby Da Nâu Lịch Lãm",
         "price":  290000,
         "img":  "../data/Giày/mau-nau-7.jpg",
         "tags":  {
-                     "Loại Giày":  [
-                                       "Sneaker",
-                                       "Cổ thấp"
-                                   ],
+                     "Loại":  [
+                                  "Derby",
+                                  "Giày Tây"
+                              ],
                      "Chất liệu":  [
-                                       "Da PU",
-                                       "Vải Canvas"
+                                       "Da bò"
                                    ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Năng động"
-                                    ]
+                     "Màu sắc":  [
+                                     "Nâu"
+                                 ]
                  }
     },
     {
         "id":  "SH034",
-        "name":  "Giày Thể Thao Chạy Bộ",
+        "name":  "Giày Sneaker Converse High Top Đen Classic",
         "price":  150000,
         "img":  "../data/Giày/resize.jpg",
         "tags":  {
-                     "Loại Giày":  [
-                                       "Sneaker",
-                                       "Cổ thấp"
-                                   ],
-                     "Chất liệu":  [
-                                       "Da PU",
-                                       "Vải Canvas"
-                                   ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Năng động"
-                                    ]
+                     "Thương hiệu":  [
+                                         "Converse"
+                                     ],
+                     "Loại":  [
+                                  "Sneaker",
+                                  "High Top"
+                              ]
                  }
     },
     {
         "id":  "SH035",
-        "name":  "Giày Oxford Nam Tinh Tế",
+        "name":  "Giày Chelsea Boot Nam Da Đen Khóa Zip",
         "price":  1310000,
         "img":  "../data/Giày/ric_blk_men_w_1.jpg",
         "tags":  {
-                     "Loại Giày":  [
-                                       "Sneaker",
-                                       "Cổ thấp"
-                                   ],
+                     "Loại":  [
+                                  "Chelsea Boot",
+                                  "Boot"
+                              ],
                      "Chất liệu":  [
-                                       "Da PU",
-                                       "Vải Canvas"
+                                       "Da thật"
                                    ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Năng động"
-                                    ]
+                     "Họa tiết":  [
+                                       "Trơn"
+                                   ]
                  }
     },
     {
         "id":  "SH036",
-        "name":  "Giày Loafer Da Thật Cao Cấp",
+        "name":  "Giày Sneaker Nike Air Force 1 Panda Black White",
         "price":  960000,
         "img":  "../data/Giày/s-l1600.webp",
         "tags":  {
-                     "Loại Giày":  [
-                                       "Sneaker",
-                                       "Cổ thấp"
-                                   ],
-                     "Chất liệu":  [
-                                       "Da PU",
-                                       "Vải Canvas"
-                                   ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Năng động"
-                                    ]
+                     "Thương hiệu":  [
+                                         "Nike"
+                                     ],
+                     "Loại":  [
+                                  "Sneaker",
+                                  "Low Top"
+                              ],
+                     "Màu sắc":  [
+                                     "Panda"
+                                 ]
                  }
     },
     {
         "id":  "SH037",
-        "name":  "Giày Oxford Nam Tinh Tế",
+        "name":  "Giày Sneaker Air Jordan 1 Mid Light Smoke Gray",
         "price":  1270000,
         "img":  "../data/Giày/sg-11134201-23020-gjbh7ryw28mv5b.webp",
         "tags":  {
-                     "Loại Giày":  [
-                                       "Sneaker",
-                                       "Cổ thấp"
-                                   ],
-                     "Chất liệu":  [
-                                       "Da PU",
-                                       "Vải Canvas"
-                                   ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Năng động"
-                                    ]
+                     "Thương hiệu":  [
+                                         "Jordan"
+                                     ],
+                     "Loại":  [
+                                  "Sneaker",
+                                  "Mid Top"
+                              ],
+                     "Màu sắc":  [
+                                     "Smoke Gray"
+                                 ]
                  }
     },
     {
         "id":  "SH038",
-        "name":  "Boot Da Cổ Cao Cực Ngầu",
+        "name":  "Giày Sneaker Air Jordan 1 High University Blue",
         "price":  1270000,
         "img":  "../data/Giày/sg-11134201-7qvdj-lkhvbx1yjwjd43@resize_w900_nl.webp",
         "tags":  {
-                     "Loại Giày":  [
-                                       "Sneaker",
-                                       "Cổ thấp"
-                                   ],
-                     "Chất liệu":  [
-                                       "Da PU",
-                                       "Vải Canvas"
-                                   ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Năng động"
-                                    ]
+                     "Thương hiệu":  [
+                                         "Jordan"
+                                     ],
+                     "Loại":  [
+                                  "Sneaker",
+                                  "High Top"
+                              ],
+                     "Màu sắc":  [
+                                     "University Blue"
+                                 ]
                  }
     },
     {
         "id":  "SH039",
-        "name":  "Giày Loafer Da Thật Cao Cấp",
+        "name":  "Giày Sneaker Custom LV x Nike Air Force 1 Brown",
         "price":  1100000,
         "img":  "../data/Giày/sg-11134201-7qves-lie5wkupm82163@resize_w900_nl.webp",
         "tags":  {
-                     "Loại Giày":  [
-                                       "Sneaker",
-                                       "Cổ thấp"
-                                   ],
-                     "Chất liệu":  [
-                                       "Da PU",
-                                       "Vải Canvas"
-                                   ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Năng động"
-                                    ]
+                     "Thương hiệu":  [
+                                         "LV x Nike"
+                                     ],
+                     "Loại":  [
+                                  "Sneaker",
+                                  "Custom"
+                              ],
+                     "Họa tiết":  [
+                                       "Monogram"
+                                   ]
                  }
     },
     {
         "id":  "SH040",
-        "name":  "Giày Mọi Da Mềm Không Dây",
+        "name":  "Giày Sneaker Custom LV x Nike Air Force 1 Green",
         "price":  1400000,
         "img":  "../data/Giày/sg-11134201-7qvew-lie5wl3b880ff9@resize_w900_nl.webp",
         "tags":  {
-                     "Loại Giày":  [
-                                       "Sneaker",
-                                       "Cổ thấp"
-                                   ],
-                     "Chất liệu":  [
-                                       "Da PU",
-                                       "Vải Canvas"
-                                   ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Năng động"
-                                    ]
+                     "Thương hiệu":  [
+                                         "LV x Nike"
+                                     ],
+                     "Loại":  [
+                                  "Sneaker",
+                                  "Custom"
+                              ],
+                     "Họa tiết":  [
+                                       "Monogram"
+                                   ]
                  }
     },
     {
         "id":  "SH041",
-        "name":  "Giày Sneaker Nam Cổ Thấp",
+        "name":  "Giày Sneaker Air Jordan 1 High Dark Blue White",
         "price":  1240000,
         "img":  "../data/Giày/sg-11134201-7qvfr-lkhvbx5kd8ak71@resize_w900_nl.webp",
         "tags":  {
-                     "Loại Giày":  [
-                                       "Sneaker",
-                                       "Cổ thấp"
-                                   ],
-                     "Chất liệu":  [
-                                       "Da PU",
-                                       "Vải Canvas"
-                                   ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Năng động"
-                                    ]
+                     "Thương hiệu":  [
+                                         "Jordan"
+                                     ],
+                     "Loại":  [
+                                  "Sneaker",
+                                  "High Top"
+                              ],
+                     "Màu sắc":  [
+                                     "Xanh Navy"
+                                 ]
                  }
     },
     {
         "id":  "SH042",
-        "name":  "Giày Oxford Nam Tinh Tế",
+        "name":  "Giày Sneaker Air Jordan 1 Mid Light Gray White",
         "price":  660000,
         "img":  "../data/Giày/sg-11134201-7qvg6-lie5wjlrd6td58@resize_w900_nl.webp",
         "tags":  {
-                     "Loại Giày":  [
-                                       "Sneaker",
-                                       "Cổ thấp"
-                                   ],
-                     "Chất liệu":  [
-                                       "Da PU",
-                                       "Vải Canvas"
-                                   ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Năng động"
-                                    ]
+                     "Thương hiệu":  [
+                                         "Jordan"
+                                     ],
+                     "Loại":  [
+                                  "Sneaker",
+                                  "Mid Top"
+                              ],
+                     "Màu sắc":  [
+                                     "Xám Trắng"
+                                 ]
                  }
     },
     {
         "id":  "SH043",
-        "name":  "Giày Sneaker Nam Cổ Thấp",
+        "name":  "Giày Sneaker Custom LV x Nike Air Force 1 Red",
         "price":  1010000,
         "img":  "../data/Giày/sg-11134201-824gm-meqt4ko2zbpee8.webp",
         "tags":  {
-                     "Loại Giày":  [
-                                       "Sneaker",
-                                       "Cổ thấp"
-                                   ],
-                     "Chất liệu":  [
-                                       "Da PU",
-                                       "Vải Canvas"
-                                   ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Năng động"
-                                    ]
+                     "Thương hiệu":  [
+                                         "LV x Nike"
+                                     ],
+                     "Loại":  [
+                                  "Sneaker",
+                                  "Custom"
+                              ]
                  }
     },
     {
         "id":  "SH044",
-        "name":  "Giày Tây Nam Buộc Dây Cổ Điển",
+        "name":  "Giày Chelsea Boot Nam Da Đỏ Đô Luxury",
         "price":  780000,
         "img":  "../data/Giày/sg-11134201-824i2-metrer4u4sn67b.webp",
         "tags":  {
-                     "Loại Giày":  [
-                                       "Sneaker",
-                                       "Cổ thấp"
-                                   ],
+                     "Loại":  [
+                                  "Chelsea Boot",
+                                  "Boot"
+                              ],
                      "Chất liệu":  [
-                                       "Da PU",
-                                       "Vải Canvas"
+                                       "Da thật"
                                    ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Năng động"
-                                    ]
+                     "Màu sắc":  [
+                                     "Đỏ Đô"
+                                 ]
                  }
     },
     {
         "id":  "SH045",
-        "name":  "Giày Thể Thao Chạy Bộ",
+        "name":  "Giày Chelsea Boot Nam Da Đen Đế Đỏ",
         "price":  990000,
         "img":  "../data/Giày/Trang023.jpg",
         "tags":  {
-                     "Loại Giày":  [
-                                       "Sneaker",
-                                       "Cổ thấp"
-                                   ],
-                     "Chất liệu":  [
-                                       "Da PU",
-                                       "Vải Canvas"
-                                   ],
+                     "Loại":  [
+                                  "Chelsea Boot",
+                                  "Boot"
+                              ],
                      "Phong cách":  [
-                                        "Thể thao",
-                                        "Năng động"
+                                        "Phá cách"
                                     ]
                  }
     },
     {
         "id":  "SH046",
-        "name":  "Giày Sneaker Nam Cổ Thấp",
+        "name":  "Giày Tây Nam Derby Da Trắng Premium",
         "price":  1210000,
         "img":  "../data/Giày/vn-11134201-23030-pqns7e3k8qovbb@resize_w900_nl.webp",
         "tags":  {
-                     "Loại Giày":  [
-                                       "Sneaker",
-                                       "Cổ thấp"
-                                   ],
+                     "Loại":  [
+                                  "Derby",
+                                  "Giày Tây"
+                              ],
                      "Chất liệu":  [
-                                       "Da PU",
-                                       "Vải Canvas"
+                                       "Da bò"
                                    ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Năng động"
-                                    ]
+                     "Màu sắc":  [
+                                     "Trắng"
+                                 ]
                  }
     },
     {
         "id":  "SH047",
-        "name":  "Giày Loafer Da Thật Cao Cấp",
+        "name":  "Sandal Nam Sporty 3 Quai Ngang Đen Xám",
         "price":  550000,
         "img":  "../data/Giày/vn-11134207-7r98o-ls40i2xxsrt0e6.webp",
         "tags":  {
-                     "Loại Giày":  [
-                                       "Sneaker",
-                                       "Cổ thấp"
-                                   ],
-                     "Chất liệu":  [
-                                       "Da PU",
-                                       "Vải Canvas"
-                                   ],
+                     "Loại":  [
+                                  "Sandal",
+                                  "Dép quai hậu"
+                              ],
                      "Phong cách":  [
                                         "Thể thao",
-                                        "Năng động"
+                                        "Đi chơi"
                                     ]
                  }
     },
     {
         "id":  "SH048",
-        "name":  "Giày Slip-on Nam Tiện Lợi",
+        "name":  "Sandal Nam Fashion Streetwear Đen",
         "price":  690000,
         "img":  "../data/Giày/vn-11134207-7ra0g-m78xz61uznebf0@resize_w900_nl.webp",
         "tags":  {
-                     "Loại Giày":  [
-                                       "Sneaker",
-                                       "Cổ thấp"
-                                   ],
-                     "Chất liệu":  [
-                                       "Da PU",
-                                       "Vải Canvas"
-                                   ],
+                     "Loại":  [
+                                  "Sandal",
+                                  "Dép quai hậu"
+                              ],
                      "Phong cách":  [
-                                        "Thể thao",
-                                        "Năng động"
+                                        "Streetwear"
                                     ]
                  }
     },
     {
         "id":  "SH049",
-        "name":  "Giày Slip-on Nam Tiện Lợi",
+        "name":  "Giày Sneaker Yeezy Boost 350 V2 Triple White",
         "price":  1130000,
         "img":  "../data/Giày/vn-11134207-7ra0g-m78xz61v3v3n4e@resize_w900_nl.webp",
         "tags":  {
-                     "Loại Giày":  [
-                                       "Sneaker",
-                                       "Cổ thấp"
-                                   ],
-                     "Chất liệu":  [
-                                       "Da PU",
-                                       "Vải Canvas"
-                                   ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Năng động"
-                                    ]
+                     "Thương hiệu":  [
+                                         "Yeezy"
+                                     ],
+                     "Loại":  [
+                                  "Sneaker"
+                              ]
                  }
     },
     {
         "id":  "SH050",
-        "name":  "Boot Da Cổ Cao Cực Ngầu",
+        "name":  "Giày Sneaker Yeezy Boost 350 V2 Sand Beige",
         "price":  510000,
         "img":  "../data/Giày/vn-11134207-7ra0g-m78xz61v82szd0@resize_w900_nl.webp",
         "tags":  {
-                     "Loại Giày":  [
-                                       "Sneaker",
-                                       "Cổ thấp"
-                                   ],
-                     "Chất liệu":  [
-                                       "Da PU",
-                                       "Vải Canvas"
-                                   ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Năng động"
-                                    ]
+                     "Thương hiệu":  [
+                                         "Yeezy"
+                                     ],
+                     "Loại":  [
+                                  "Sneaker"
+                              ]
                  }
     },
     {
         "id":  "SH051",
-        "name":  "Giày Mọi Da Mềm Không Dây",
+        "name":  "Giày Sneaker Yeezy Boost 350 V2 Black Red",
         "price":  630000,
         "img":  "../data/Giày/vn-11134208-7r98o-lt0luzbry461b3.jpg",
         "tags":  {
-                     "Loại Giày":  [
-                                       "Sneaker",
-                                       "Cổ thấp"
-                                   ],
-                     "Chất liệu":  [
-                                       "Da PU",
-                                       "Vải Canvas"
-                                   ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Năng động"
-                                    ]
+                     "Thương hiệu":  [
+                                         "Yeezy"
+                                     ],
+                     "Loại":  [
+                                  "Sneaker"
+                              ],
+                     "Màu sắc":  [
+                                     "Đỏ Đen"
+                                 ]
                  }
     },
     {
         "id":  "SH052",
-        "name":  "Giày Mọi Da Mềm Không Dây",
+        "name":  "Giày Sneaker Converse Chuck Taylor High Top Trắng Classic",
         "price":  1170000,
         "img":  "../data/Giày/W_SNOWDONZIP_BLK-13.webp",
         "tags":  {
-                     "Loại Giày":  [
-                                       "Sneaker",
-                                       "Cổ thấp"
-                                   ],
-                     "Chất liệu":  [
-                                       "Da PU",
-                                       "Vải Canvas"
-                                   ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Năng động"
-                                    ]
+                     "Thương hiệu":  [
+                                         "Converse"
+                                     ],
+                     "Loại":  [
+                                  "Sneaker",
+                                  "High Top"
+                              ]
                  }
     },
     {
         "id":  "SH053",
-        "name":  "Giày Oxford Nam Tinh Tế",
+        "name":  "Giày Boot Nam Mùa Đông Lót Lông Chống Lạnh",
         "price":  1400000,
         "img":  "../data/Giày/zip-den4.jpg",
         "tags":  {
-                     "Loại Giày":  [
-                                       "Sneaker",
-                                       "Cổ thấp"
-                                   ],
-                     "Chất liệu":  [
-                                       "Da PU",
-                                       "Vải Canvas"
-                                   ],
-                     "Phong cách":  [
-                                        "Thể thao",
-                                        "Năng động"
-                                    ]
+                     "Loại":  [
+                                  "Winter Boot",
+                                  "Boot"
+                              ],
+                     "Đặc điểm":  [
+                                       "Lót lông",
+                                       "Chống lạnh"
+                                   ]
                  }
     }
 ]

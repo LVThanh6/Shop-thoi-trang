@@ -1,83 +1,127 @@
 [
     {
         "id":  "PAN001",
-        "name":  "Quần Tây Nam Basic Slimfit",
+        "name":  "Quần Short Jean Nam Trắng Basic",
         "price":  450000,
         "img":  "../data/Quần/2c0d48d1cd365c69d8b3b454f36b7056@resize_w900_nl.webp",
         "tags":  {
                      "Loại":  [
-                                  "Quần Tây"
+                                  "Shorts",
+                                  "Jean"
                               ],
-                     "Chất liệu":  [
-                                       "Cotton pha"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở"
-                                    ]
-                 }
-    },
-    {
-        "id":  "PAN002",
-        "name":  "Quần Kaki Nam Màu Kem",
-        "price":  380000,
-        "img":  "../data/Quần/627c9b4fa14bc2cabdc332e06a802142.webp",
-        "tags":  {
-                     "Loại":  [
-                                  "Kaki"
-                              ],
-                     "Chất liệu":  [
-                                       "Kaki thun"
-                                   ],
-                     "Phong cách":  [
-                                        "Trẻ trung"
-                                    ]
-                 }
-    },
-    {
-        "id":  "PAN003",
-        "name":  "Quần Jeans Slimfit Xanh Đậm",
-        "price":  550000,
-        "img":  "../data/Quần/88faf31d54ba4de66b4b8ae4d8fa8202.webp",
-        "tags":  {
-                     "Loại":  [
-                                  "Jeans"
-                              ],
-                     "Chất liệu":  [
-                                       "Denim"
-                                   ],
+                     "Màu sắc":  [
+                                     "Trắng"
+                                 ],
                      "Phong cách":  [
                                         "Năng động"
                                     ]
                  }
     },
     {
-        "id":  "PAN004",
-        "name":  "Quần Tây Ống Đứng Lịch Lãm",
-        "price":  580000,
-        "img":  "../data/Quần/c9784646a779eeead47ae0c103ba1133.webp",
+        "id":  "PAN002",
+        "name":  "Quần Short Tây Nam Xanh Nhạt",
+        "price":  380000,
+        "img":  "../data/Quần/627c9b4fa14bc2cabdc332e06a802142.webp",
         "tags":  {
                      "Loại":  [
+                                  "Shorts",
                                   "Quần Tây"
                               ],
-                     "Chất liệu":  [
-                                       "Vải Terin"
-                                   ],
+                     "Màu sắc":  [
+                                     "Xanh nhạt"
+                                 ]
+                 }
+    },
+    {
+        "id":  "PAN003",
+        "name":  "Quần Jogger Nam Thun 4 Màu Basic",
+        "price":  550000,
+        "img":  "../data/Quần/88faf31d54ba4de66b4b8ae4d8fa8202.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Jogger",
+                                  "Quần thun"
+                              ],
                      "Phong cách":  [
-                                        "Quý ông"
+                                        "Thể thao"
                                     ]
                  }
     },
     {
+        "id":  "PAN004",
+        "name":  "Quần Short Tây Nam Xanh Navy",
+        "price":  580000,
+        "img":  "../data/Quần/c9784646a779eeead47ae0c103ba1133.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Shorts",
+                                  "Quần Tây"
+                              ],
+                     "Màu sắc":  [
+                                     "Xanh Navy"
+                                 ]
+                 }
+    },
+    {
         "id":  "PAN005",
-        "name":  "Quần Jean Rách Gối Cá Tính",
+        "name":  "Quần Short Tây Nam Trắng Cao Cấp",
         "price":  620000,
         "img":  "../data/Quần/d7c395d4d026aff0b3e328bc47ae9c0c.webp",
         "tags":  {
                      "Loại":  [
-                                  "Jeans"
+                                  "Shorts",
+                                  "Quần Tây"
                               ],
-                     "Chất liệu":  [
-                                       "Denim co giãn"
+                     "Màu sắc":  [
+                                     "Trắng"
+                                 ]
+                 }
+    },
+    {
+        "id":  "PAN006",
+        "name":  "Quần Short Tây Nam Trắng Cạp Cao Có Đai",
+        "price":  420000,
+        "img":  "../data/Quần/sg-11134201-23020-8nvymc2yr5mv39.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Shorts",
+                                  "Quần Tây"
+                              ],
+                     "Đặc điểm":  [
+                                       "Cạp cao",
+                                       "Có đai"
+                                   ]
+                 }
+    },
+    {
+        "id":  "PAN007",
+        "name":  "Quần Jean Nam Slimfit Màu Xanh Đậm",
+        "price":  520000,
+        "img":  "../data/Quần/vn-11134201-7qukw-les9idos80i23f@resize_w900_nl.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Jean"
+                              ],
+                     "Form":  [
+                                  "Slimfit"
+                              ],
+                     "Màu sắc":  [
+                                     "Xanh đậm"
+                                 ]
+                 }
+    },
+    {
+        "id":  "PAN008",
+        "name":  "Quần Short Thun Nam Chrome Hearts Style",
+        "price":  390000,
+        "img":  "../data/Quần/vn-11134207-7qukw-lf6ednvcdx7bba@resize_w900_nl.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Shorts",
+                                  "Quần thun"
+                              ],
+                     "Họa tiết":  [
+                                       "Chrome Hearts"
                                    ],
                      "Phong cách":  [
                                         "Streetwear"
@@ -85,50 +129,271 @@
                  }
     },
     {
-        "id":  "PAN006",
-        "name":  "Quần Kaki Form Rộng Hàn Quốc",
-        "price":  420000,
-        "img":  "../data/Quần/sg-11134201-23020-8nvymc2yr5mv39.webp",
+        "id":  "PAN009",
+        "name":  "Quần Short Tây Nam Đen Kèm Thắt Lưng",
+        "price":  320000,
+        "img":  "../data/Quần/vn-11134207-7r98o-lwsqplzrcpg9a6@resize_w900_nl.webp",
         "tags":  {
                      "Loại":  [
-                                  "Kaki"
+                                  "Shorts",
+                                  "Quần Tây"
                               ],
-                     "Chất liệu":  [
-                                       "Cotton"
+                     "Đặc điểm":  [
+                                       "Kèm thắt lưng"
                                    ],
-                     "Phong cách":  [
-                                        "Hàn Quốc"
-                                    ]
+                     "Màu sắc":  [
+                                     "Đen"
+                                 ]
                  }
     },
     {
-        "id":  "PAN007",
-        "name":  "Quần Tây Màu Ghi Xám",
-        "price":  520000,
-        "img":  "../data/Quần/vn-11134201-7qukw-les9idos80i23f@resize_w900_nl.webp",
+        "id":  "PAN010",
+        "name":  "Quần Short Thun Nam Essentials Black",
+        "price":  750000,
+        "img":  "../data/Quần/vn-11134207-7ra0g-m6lynovjck6w0c.webp",
+        "tags":  {
+                     "Thương hiệu":  [
+                                         "Essentials"
+                                     ],
+                     "Loại":  [
+                                  "Shorts",
+                                  "Quần thun"
+                              ],
+                     "Màu sắc":  [
+                                     "Đen"
+                                 ]
+                 }
+    },
+    {
+        "id":  "PAN011",
+        "name":  "Quần Short Thun Nam Essentials White",
+        "price":  480000,
+        "img":  "../data/Quần/vn-11134207-7ra0g-m6lynovjck7se8.webp",
+        "tags":  {
+                     "Thương hiệu":  [
+                                         "Essentials"
+                                     ],
+                     "Loại":  [
+                                  "Shorts",
+                                  "Quần thun"
+                              ],
+                     "Màu sắc":  [
+                                     "Trắng"
+                                 ]
+                 }
+    },
+    {
+        "id":  "PAN012",
+        "name":  "Quần Tây Nam Ống Rộng Màu Nâu",
+        "price":  560000,
+        "img":  "../data/Quần/vn-11134207-7ra0g-m6s7pr916lpj0c@resize_w900_nl.webp",
         "tags":  {
                      "Loại":  [
                                   "Quần Tây"
                               ],
-                     "Chất liệu":  [
-                                       "Vải Wool nhẹ"
-                                   ],
+                     "Ống quần":  [
+                                      "Ống rộng"
+                                  ],
+                     "Màu sắc":  [
+                                     "Nâu"
+                                 ]
+                 }
+    },
+    {
+        "id":  "PAN013",
+        "name":  "Quần Tây Nam Ống Rộng Màu Kem",
+        "price":  350000,
+        "img":  "../data/Quần/vn-11134207-7ra0g-m6wel8zh8nzbcd@resize_w900_nl.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Quần Tây"
+                              ],
+                     "Ống quần":  [
+                                      "Ống rộng"
+                                  ],
+                     "Màu sắc":  [
+                                     "Kem"
+                                 ]
+                 }
+    },
+    {
+        "id":  "PAN014",
+        "name":  "Quần Jean Nam Ống Đứng Trắng",
+        "price":  680000,
+        "img":  "../data/Quần/vn-11134207-7ra0g-m88wxwn3a16603.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Jean"
+                              ],
+                     "Ống quần":  [
+                                      "Ống đứng"
+                                  ],
+                     "Màu sắc":  [
+                                     "Trắng"
+                                 ]
+                 }
+    },
+    {
+        "id":  "PAN015",
+        "name":  "Quần Short Thể Thao Nam Li-ning Gray",
+        "price":  290000,
+        "img":  "../data/Quần/vn-11134207-7ra0g-m9tzw7t4hj4qa0.webp",
+        "tags":  {
+                     "Thương hiệu":  [
+                                         "Li-ning"
+                                     ],
+                     "Loại":  [
+                                  "Shorts",
+                                  "Thể thao"
+                              ],
+                     "Màu sắc":  [
+                                     "Xám"
+                                 ]
+                 }
+    },
+    {
+        "id":  "PAN016",
+        "name":  "Quần Short Thun Nam Stüssy Graffiti White",
+        "price":  540000,
+        "img":  "../data/Quần/vn-11134207-7ra0g-ma00c0w19o4u15.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Shorts",
+                                  "Quần thun"
+                              ],
+                     "Thương hiệu":  [
+                                         "Stüssy"
+                                     ],
                      "Phong cách":  [
-                                        "Công sở"
+                                        "Streetwear"
                                     ]
                  }
     },
     {
-        "id":  "PAN008",
-        "name":  "Quần Jogger Kaki Năng Động",
-        "price":  390000,
-        "img":  "../data/Quần/vn-11134207-7qukw-lf6ednvcdx7bba@resize_w900_nl.webp",
+        "id":  "PAN017",
+        "name":  "Quần Tây Nam Slimfit Màu Xám",
+        "price":  600000,
+        "img":  "../data/Quần/vn-11134207-7ras8-m1tlbld9i6vnb8.webp",
         "tags":  {
                      "Loại":  [
-                                  "Jogger"
+                                  "Quần Tây"
                               ],
-                     "Chất liệu":  [
-                                       "Kaki"
+                     "Form":  [
+                                  "Slimfit"
+                              ],
+                     "Màu sắc":  [
+                                     "Xám"
+                                 ]
+                 }
+    },
+    {
+        "id":  "PAN018",
+        "name":  "Quần Tây Nam Ống Rộng Trắng Pleated",
+        "price":  720000,
+        "img":  "../data/Quần/vn-11134207-7ras8-m4sl134ejy9icd@resize_w900_nl.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Quần Tây"
+                              ],
+                     "Ống quần":  [
+                                      "Ống rộng"
+                                  ],
+                     "Màu sắc":  [
+                                     "Trắng"
+                                 ]
+                 }
+    },
+    {
+        "id":  "PAN019",
+        "name":  "Quần Short Tây Nam Trắng Minimalist",
+        "price":  440000,
+        "img":  "../data/Quần/vn-11134207-7ras8-m5a3yqpjxliu76.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Shorts",
+                                  "Quần Tây"
+                              ],
+                     "Màu sắc":  [
+                                     "Trắng"
+                                 ]
+                 }
+    },
+    {
+        "id":  "PAN020",
+        "name":  "Quần Jean Nam Ống Rộng Faded Black",
+        "price":  280000,
+        "img":  "../data/Quần/vn-11134207-7ras8-mdd0v28q6kov90@resize_w900_nl.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Jean"
+                              ],
+                     "Ống quần":  [
+                                      "Ống rộng"
+                                  ],
+                     "Màu sắc":  [
+                                     "Đen bạc"
+                                 ]
+                 }
+    },
+    {
+        "id":  "PAN021",
+        "name":  "Quần Short Thun Nam Palm Angels White",
+        "price":  180000,
+        "img":  "../data/Quần/sg-11134201-23020-91ovb95912mvf1@resize_w900_nl.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Shorts",
+                                  "Quần thun"
+                              ],
+                     "Thương hiệu":  [
+                                         "Palm Angels"
+                                     ],
+                     "Màu sắc":  [
+                                     "Trắng"
+                                 ]
+                 }
+    },
+    {
+        "id":  "PAN022",
+        "name":  "Quần Short Thể Thao Nam Navy Blue",
+        "price":  1050000,
+        "img":  "../data/Quần/sg-11134253-8262o-mm8up9gojg1ud5.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Shorts",
+                                  "Thể thao"
+                              ],
+                     "Màu sắc":  [
+                                     "Navy"
+                                 ]
+                 }
+    },
+    {
+        "id":  "PAN023",
+        "name":  "Quần Jean Nam Straight Leg Xanh Blue",
+        "price":  880000,
+        "img":  "../data/Quần/vn-11134207-7qukw-lfpd0okk8l1gc7.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Jean"
+                              ],
+                     "Màu sắc":  [
+                                     "Xanh Blue"
+                                 ]
+                 }
+    },
+    {
+        "id":  "PAN024",
+        "name":  "Quần Jogger Nam 3 Sọc Black White Style",
+        "price":  1150000,
+        "img":  "../data/Quần/vn-11134207-7r98o-lkkae9rtn1qod8@resize_w900_nl.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Jogger",
+                                  "Quần thun"
+                              ],
+                     "Đặc điểm":  [
+                                       "3 sọc"
                                    ],
                      "Phong cách":  [
                                         "Thể thao"
@@ -136,479 +401,195 @@
                  }
     },
     {
-        "id":  "PAN009",
-        "name":  "Quần Short Jean Nam",
-        "price":  320000,
-        "img":  "../data/Quần/vn-11134207-7r98o-lwsqplzrcpg9a6@resize_w900_nl.webp",
-        "tags":  {
-                     "Loại":  [
-                                  "Shorts"
-                              ],
-                     "Chất liệu":  [
-                                       "Denim"
-                                   ],
-                     "Phong cách":  [
-                                        "Đi chơi"
-                                    ]
-                 }
-    },
-    {
-        "id":  "PAN010",
-        "name":  "Quần Tây Đen Cao Cấp",
-        "price":  750000,
-        "img":  "../data/Quần/vn-11134207-7ra0g-m6lynovjck6w0c.webp",
-        "tags":  {
-                     "Loại":  [
-                                  "Quần Tây"
-                              ],
-                     "Chất liệu":  [
-                                       "Vải nhập khẩu"
-                                   ],
-                     "Phong cách":  [
-                                        "Sự kiện"
-                                    ]
-                 }
-    },
-    {
-        "id":  "PAN011",
-        "name":  "Quần Chinos Slimfit Be",
-        "price":  480000,
-        "img":  "../data/Quần/vn-11134207-7ra0g-m6lynovjck7se8.webp",
-        "tags":  {
-                     "Loại":  [
-                                  "Chinos"
-                              ],
-                     "Chất liệu":  [
-                                       "Cotton"
-                                   ],
-                     "Phong cách":  [
-                                        "Smart Casual"
-                                    ]
-                 }
-    },
-    {
-        "id":  "PAN012",
-        "name":  "Quần Jean Đen Basic",
-        "price":  560000,
-        "img":  "../data/Quần/vn-11134207-7ra0g-m6s7pr916lpj0c@resize_w900_nl.webp",
-        "tags":  {
-                     "Loại":  [
-                                  "Jeans"
-                              ],
-                     "Chất liệu":  [
-                                       "Denim đen"
-                                   ],
-                     "Phong cách":  [
-                                        "Tối giản"
-                                    ]
-                 }
-    },
-    {
-        "id":  "PAN013",
-        "name":  "Quần Baggy Vải Nam",
-        "price":  350000,
-        "img":  "../data/Quần/vn-11134207-7ra0g-m6wel8zh8nzbcd@resize_w900_nl.webp",
-        "tags":  {
-                     "Loại":  [
-                                  "Baggy"
-                              ],
-                     "Chất liệu":  [
-                                       "Vải mềm"
-                                   ],
-                     "Phong cách":  [
-                                        "Thoải mái"
-                                    ]
-                 }
-    },
-    {
-        "id":  "PAN014",
-        "name":  "Quần Tây Xám Họa Tiết",
-        "price":  680000,
-        "img":  "../data/Quần/vn-11134207-7ra0g-m88wxwn3a16603.webp",
-        "tags":  {
-                     "Loại":  [
-                                  "Quần Tây"
-                              ],
-                     "Chất liệu":  [
-                                       "Vải dệt"
-                                   ],
-                     "Phong cách":  [
-                                        "Lịch lãm"
-                                    ]
-                 }
-    },
-    {
-        "id":  "PAN015",
-        "name":  "Quần Short Kaki Màu Rêu",
-        "price":  290000,
-        "img":  "../data/Quần/vn-11134207-7ra0g-m9tzw7t4hj4qa0.webp",
-        "tags":  {
-                     "Loại":  [
-                                  "Shorts"
-                              ],
-                     "Chất liệu":  [
-                                       "Kaki"
-                                   ],
-                     "Phong cách":  [
-                                        "Dạo phố"
-                                    ]
-                 }
-    },
-    {
-        "id":  "PAN016",
-        "name":  "Quần Tây Xanh Navy",
-        "price":  540000,
-        "img":  "../data/Quần/vn-11134207-7ra0g-ma00c0w19o4u15.webp",
-        "tags":  {
-                     "Loại":  [
-                                  "Quần Tây"
-                              ],
-                     "Chất liệu":  [
-                                       "Cánh kiến"
-                                   ],
-                     "Phong cách":  [
-                                        "Chuyên nghiệp"
-                                    ]
-                 }
-    },
-    {
-        "id":  "PAN017",
-        "name":  "Quần Jean Wash Sáng",
-        "price":  600000,
-        "img":  "../data/Quần/vn-11134207-7ras8-m1tlbld9i6vnb8.webp",
-        "tags":  {
-                     "Loại":  [
-                                  "Jeans"
-                              ],
-                     "Chất liệu":  [
-                                       "Denim wash"
-                                   ],
-                     "Phong cách":  [
-                                        "Bụi bặm"
-                                    ]
-                 }
-    },
-    {
-        "id":  "PAN018",
-        "name":  "Quần Tây Ống Côn Trắng",
-        "price":  720000,
-        "img":  "../data/Quần/vn-11134207-7ras8-m4sl134ejy9icd@resize_w900_nl.webp",
-        "tags":  {
-                     "Loại":  [
-                                  "Quần Tây"
-                              ],
-                     "Chất liệu":  [
-                                       "Tuyết mưa"
-                                   ],
-                     "Phong cách":  [
-                                        "Thời thượng"
-                                    ]
-                 }
-    },
-    {
-        "id":  "PAN019",
-        "name":  "Quần Kaki Đen Slimfit",
-        "price":  440000,
-        "img":  "../data/Quần/vn-11134207-7ras8-m5a3yqpjxliu76.webp",
-        "tags":  {
-                     "Loại":  [
-                                  "Kaki"
-                              ],
-                     "Chất liệu":  [
-                                       "Cotton spandec"
-                                   ],
-                     "Phong cách":  [
-                                        "Tối giản"
-                                    ]
-                 }
-    },
-    {
-        "id":  "PAN020",
-        "name":  "Quần Jogger Thun Thể Thao",
-        "price":  280000,
-        "img":  "../data/Quần/vn-11134207-7ras8-mdd0v28q6kov90@resize_w900_nl.webp",
-        "tags":  {
-                     "Loại":  [
-                                  "Jogger"
-                              ],
-                     "Chất liệu":  [
-                                       "Thun poly"
-                                   ],
-                     "Phong cách":  [
-                                        "Phòng gym"
-                                    ]
-                 }
-    },
-    {
-        "id":  "PAN021",
-        "name":  "Quần Jogger Nam Phá Cách - Mã 554",
-        "price":  180000,
-        "img":  "../data/Quần/sg-11134201-23020-91ovb95912mvf1@resize_w900_nl.webp",
-        "tags":  {
-                     "Loại":  [
-                                  "Quần Tây"
-                              ],
-                     "Chất liệu":  [
-                                       "Cotton pha"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở"
-                                    ]
-                 }
-    },
-    {
-        "id":  "PAN022",
-        "name":  "Quần Âu Khắc Phục Khuyết Điểm - Mã 644",
-        "price":  1050000,
-        "img":  "../data/Quần/sg-11134253-8262o-mm8up9gojg1ud5.webp",
-        "tags":  {
-                     "Loại":  [
-                                  "Quần Tây"
-                              ],
-                     "Chất liệu":  [
-                                       "Cotton pha"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở"
-                                    ]
-                 }
-    },
-    {
-        "id":  "PAN023",
-        "name":  "Quần Jogger Nam Phá Cách - Mã 192",
-        "price":  880000,
-        "img":  "../data/Quần/vn-11134207-7qukw-lfpd0okk8l1gc7.webp",
-        "tags":  {
-                     "Loại":  [
-                                  "Quần Tây"
-                              ],
-                     "Chất liệu":  [
-                                       "Cotton pha"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở"
-                                    ]
-                 }
-    },
-    {
-        "id":  "PAN024",
-        "name":  "Quần Jean Nam Dáng Slimfit - Mã 857",
-        "price":  1150000,
-        "img":  "../data/Quần/vn-11134207-7r98o-lkkae9rtn1qod8@resize_w900_nl.webp",
-        "tags":  {
-                     "Loại":  [
-                                  "Quần Tây"
-                              ],
-                     "Chất liệu":  [
-                                       "Cotton pha"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở"
-                                    ]
-                 }
-    },
-    {
         "id":  "PAN025",
-        "name":  "Quần Baggy Nam Trẻ Trung - Mã 415",
+        "name":  "Quần Short Tây Nam Màu Be Lịch Lãm",
         "price":  210000,
         "img":  "../data/Quần/vn-11134207-7r98o-lwsqplzre40p56@resize_w900_nl.webp",
         "tags":  {
                      "Loại":  [
+                                  "Shorts",
                                   "Quần Tây"
                               ],
-                     "Chất liệu":  [
-                                       "Cotton pha"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở"
-                                    ]
+                     "Màu sắc":  [
+                                     "Be"
+                                 ]
                  }
     },
     {
         "id":  "PAN026",
-        "name":  "Quần Jean Nam Dáng Slimfit - Mã 669",
+        "name":  "Quần Tây Nam Ống Rộng Đen Pleated",
         "price":  1320000,
         "img":  "../data/Quần/vn-11134207-7r98o-ly4zvhyae84h3c@resize_w900_nl.webp",
         "tags":  {
                      "Loại":  [
                                   "Quần Tây"
                               ],
-                     "Chất liệu":  [
-                                       "Cotton pha"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở"
-                                    ]
+                     "Ống quần":  [
+                                      "Ống rộng"
+                                  ],
+                     "Màu sắc":  [
+                                     "Đen"
+                                 ]
                  }
     },
     {
         "id":  "PAN027",
-        "name":  "Quần Chinos Nam Cao Cấp - Mã 477",
+        "name":  "Quần Tây Nam Ống Rộng Than Chì",
         "price":  1290000,
         "img":  "../data/Quần/vn-11134207-7ra0g-m6welkrzzfjbe2@resize_w900_nl.webp",
         "tags":  {
                      "Loại":  [
                                   "Quần Tây"
                               ],
-                     "Chất liệu":  [
-                                       "Cotton pha"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở"
-                                    ]
+                     "Ống quần":  [
+                                      "Ống rộng"
+                                  ],
+                     "Màu sắc":  [
+                                     "Than chì"
+                                 ]
                  }
     },
     {
         "id":  "PAN028",
-        "name":  "Quần Kaki Nam Màu Cũ - Mã 932",
+        "name":  "Quần Short Tây Nam Màu Rêu Đậm",
         "price":  1050000,
         "img":  "../data/Quần/vn-11134207-7ras8-m5a3yt947lti10.webp",
         "tags":  {
                      "Loại":  [
+                                  "Shorts",
                                   "Quần Tây"
                               ],
-                     "Chất liệu":  [
-                                       "Cotton pha"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở"
-                                    ]
+                     "Màu sắc":  [
+                                     "Rêu đậm"
+                                 ]
                  }
     },
     {
         "id":  "PAN029",
-        "name":  "Quần Kaki Nam Màu Cũ - Mã 487",
+        "name":  "Quần Short Tây Nam Màu Cát Tan",
         "price":  600000,
         "img":  "../data/Quần/vn-11134207-7ras8-m5a3yutpy6on4b.webp",
         "tags":  {
                      "Loại":  [
+                                  "Shorts",
                                   "Quần Tây"
                               ],
-                     "Chất liệu":  [
-                                       "Cotton pha"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở"
-                                    ]
+                     "Màu sắc":  [
+                                     "Cát (Tan)"
+                                 ]
                  }
     },
     {
         "id":  "PAN030",
-        "name":  "Quần Short Kaki Nam - Mã 809",
+        "name":  "Quần Jogger Nam Ống Suông Black",
         "price":  170000,
         "img":  "../data/Quần/vn-11134207-81ztc-mk42va07zh1c6f@resize_w900_nl.webp",
         "tags":  {
                      "Loại":  [
-                                  "Quần Tây"
+                                  "Jogger",
+                                  "Quần thun"
                               ],
-                     "Chất liệu":  [
-                                       "Cotton pha"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở"
-                                    ]
+                     "Màu sắc":  [
+                                     "Đen"
+                                 ]
                  }
     },
     {
         "id":  "PAN031",
-        "name":  "Quần Kaki Nam Màu Cũ - Mã 868",
+        "name":  "Quần Jogger Nam Ống Suông Gray",
         "price":  1170000,
         "img":  "../data/Quần/vn-11134207-81ztc-mk42vvwz3z7q56@resize_w900_nl.webp",
         "tags":  {
                      "Loại":  [
-                                  "Quần Tây"
+                                  "Jogger",
+                                  "Quần thun"
                               ],
-                     "Chất liệu":  [
-                                       "Cotton pha"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở"
-                                    ]
+                     "Màu sắc":  [
+                                     "Xám"
+                                 ]
                  }
     },
     {
         "id":  "PAN032",
-        "name":  "Quần Jean Nam Dáng Slimfit - Mã 200",
+        "name":  "Quần Short Jean Nam Đen Rách Gối",
         "price":  290000,
         "img":  "../data/Quần/vn-11134207-81ztc-mmbim1pbn85ec8@resize_w900_nl.webp",
         "tags":  {
                      "Loại":  [
-                                  "Quần Tây"
+                                  "Shorts",
+                                  "Jean"
                               ],
-                     "Chất liệu":  [
-                                       "Cotton pha"
+                     "Đặc điểm":  [
+                                       "Rách gối"
                                    ],
-                     "Phong cách":  [
-                                        "Công sở"
-                                    ]
+                     "Màu sắc":  [
+                                     "Đen"
+                                 ]
                  }
     },
     {
         "id":  "PAN033",
-        "name":  "Quần Kaki Nam Màu Cũ - Mã 486",
+        "name":  "Quần Short Jean Nam Blue Wash Rách",
         "price":  520000,
         "img":  "../data/Quần/vn-11134207-81ztc-mmbim1phdpmtc0@resize_w900_nl.webp",
         "tags":  {
                      "Loại":  [
-                                  "Quần Tây"
+                                  "Shorts",
+                                  "Jean"
                               ],
-                     "Chất liệu":  [
-                                       "Cotton pha"
+                     "Đặc điểm":  [
+                                       "Rách"
                                    ],
-                     "Phong cách":  [
-                                        "Công sở"
-                                    ]
+                     "Màu sắc":  [
+                                     "Xanh Blue"
+                                 ]
                  }
     },
     {
         "id":  "PAN034",
-        "name":  "Quần Thể Thao Nam Năng Động - Mã 492",
+        "name":  "Quần Short Jean Nam Đen Faded",
         "price":  1340000,
         "img":  "../data/Quần/vn-11134207-81ztc-mmbim1pj0phgfc@resize_w900_nl.webp",
         "tags":  {
                      "Loại":  [
-                                  "Quần Tây"
+                                  "Shorts",
+                                  "Jean"
                               ],
-                     "Chất liệu":  [
-                                       "Cotton pha"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở"
-                                    ]
+                     "Màu sắc":  [
+                                     "Đen bạc"
+                                 ]
                  }
     },
     {
         "id":  "PAN035",
-        "name":  "Quần Short Kaki Nam - Mã 509",
+        "name":  "Quần Short Jean Nam Blue Wash Basic",
         "price":  610000,
         "img":  "../data/Quần/vn-11134207-81ztc-mmbim1pj241wc1@resize_w900_nl.webp",
         "tags":  {
                      "Loại":  [
-                                  "Quần Tây"
+                                  "Shorts",
+                                  "Jean"
                               ],
-                     "Chất liệu":  [
-                                       "Cotton pha"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở"
-                                    ]
+                     "Màu sắc":  [
+                                     "Xanh Blue"
+                                 ]
                  }
     },
     {
         "id":  "PAN036",
-        "name":  "Quần Thể Thao Nam Năng Động - Mã 502",
+        "name":  "Quần Jean Nam Ống Suông Blue Navy",
         "price":  470000,
         "img":  "../data/Quần/vn-11134207-820l4-mejr6kxn9c0748.webp",
         "tags":  {
                      "Loại":  [
-                                  "Quần Tây"
+                                  "Jean"
                               ],
-                     "Chất liệu":  [
-                                       "Cotton pha"
-                                   ],
-                     "Phong cách":  [
-                                        "Công sở"
-                                    ]
+                     "Ống quần":  [
+                                      "Ống suông"
+                                  ],
+                     "Màu sắc":  [
+                                     "Xanh Navy"
+                                 ]
                  }
     }
 ]
