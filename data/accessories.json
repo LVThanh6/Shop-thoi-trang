@@ -20,7 +20,7 @@
     },
     {
         "id":  "ACC004",
-        "name":  "Kính Mát Nam Chống UV - Mã 198",
+        "name":  "Kính Mát Nam Chống UV",
         "price":  1400000,
         "img":  "../data/Phụ Kiện Nam/163f76f1c6ef4d8cb1ab3a8388fc28f0@resize_w900_nl.webp",
         "tags":  {
@@ -39,7 +39,7 @@
     },
     {
         "id":  "ACC005",
-        "name":  "Kẹp Cà Vạt Nam Tính - Mã 807",
+        "name":  "Kẹp Cà Vạt Nam Tính",
         "price":  1150000,
         "img":  "../data/Phụ Kiện Nam/3cd73c56655a0032180bdbe2c15322c4_tn.jpg",
         "tags":  {
@@ -58,7 +58,7 @@
     },
     {
         "id":  "ACC006",
-        "name":  "Nhẫn Nam Bạc Thái - Mã 151",
+        "name":  "Nhẫn Nam Bạc Thái",
         "price":  800000,
         "img":  "../data/Phụ Kiện Nam/68aba716b0d55bf6ab895361028033c4.webp",
         "tags":  {
@@ -77,7 +77,7 @@
     },
     {
         "id":  "ACC007",
-        "name":  "Móc Khóa Da Bò - Mã 311",
+        "name":  "Móc Khóa Da Bò",
         "price":  1070000,
         "img":  "../data/Phụ Kiện Nam/6dbd44d8545ff53af6767ecc85269292.webp",
         "tags":  {
@@ -96,7 +96,7 @@
     },
     {
         "id":  "ACC008",
-        "name":  "Vòng Cổ Nam Basic - Mã 816",
+        "name":  "Vòng Cổ Nam Basic",
         "price":  970000,
         "img":  "../data/Phụ Kiện Nam/6ee4c25cf245b7dc1a5dcd8276360d01.jpg",
         "tags":  {
@@ -115,7 +115,7 @@
     },
     {
         "id":  "ACC009",
-        "name":  "Cà Vạt Lụa Kẻ Sọc - Mã 629",
+        "name":  "Cà Vạt Lụa Kẻ Sọc",
         "price":  460000,
         "img":  "../data/Phụ Kiện Nam/bba2ca6687d553373e4beb3b226eecf3.webp",
         "tags":  {
@@ -134,7 +134,7 @@
     },
     {
         "id":  "ACC010",
-        "name":  "Túi Đeo Chéo Nam - Mã 941",
+        "name":  "Túi Đeo Chéo Nam",
         "price":  870000,
         "img":  "../data/Phụ Kiện Nam/cn-11134207-7r98o-loy1gne7cx2461.webp",
         "tags":  {
@@ -153,7 +153,7 @@
     },
     {
         "id":  "ACC011",
-        "name":  "Khuyên Tai Nam Basic - Mã 309",
+        "name":  "Khuyên Tai Nam Basic",
         "price":  1450000,
         "img":  "../data/Phụ Kiện Nam/cvn8-l1__20__418d18f9f2264f0ab00d1e825d2ccd88_1024x1024.png",
         "tags":  {
@@ -172,7 +172,7 @@
     },
     {
         "id":  "ACC012",
-        "name":  "Vòng Cổ Nam Basic - Mã 651",
+        "name":  "Vòng Cổ Nam Basic",
         "price":  1070000,
         "img":  "../data/Phụ Kiện Nam/d6fcd4a3ae4059f7030124852000b4fd.webp",
         "tags":  {
@@ -191,7 +191,7 @@
     },
     {
         "id":  "ACC013",
-        "name":  "Thắt Lưng Nam Da Bò - Mã 212",
+        "name":  "Thắt Lưng Nam Da Bò",
         "price":  520000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7qvcv-lk0zae4uqzdjb9.webp",
         "tags":  {
@@ -210,7 +210,7 @@
     },
     {
         "id":  "ACC014",
-        "name":  "Cà Vạt Lụa Kẻ Sọc - Mã 233",
+        "name":  "Cà Vạt Lụa Kẻ Sọc",
         "price":  170000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7qvcz-lk0zag45qf1353.webp",
         "tags":  {
@@ -229,7 +229,7 @@
     },
     {
         "id":  "ACC015",
-        "name":  "Kính Mát Nam Chống UV - Mã 965",
+        "name":  "Kính Mát Nam Chống UV",
         "price":  630000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7qvd0-lk0zadn3cr9a5a.webp",
         "tags":  {
@@ -248,7 +248,7 @@
     },
     {
         "id":  "ACC016",
-        "name":  "Vòng Tay Phong Thủy Nam - Mã 332",
+        "name":  "Vòng Tay Phong Thủy Nam",
         "price":  1450000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7qvdb-lk0zatgg7jxw6b@resize_w900_nl.webp",
         "tags":  {
@@ -267,7 +267,7 @@
     },
     {
         "id":  "ACC017",
-        "name":  "Túi Đeo Chéo Nam - Mã 534",
+        "name":  "Túi Đeo Chéo Nam",
         "price":  800000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7qvdf-lk0zar43n01x79@resize_w900_nl.webp",
         "tags":  {
@@ -286,7 +286,7 @@
     },
     {
         "id":  "ACC018",
-        "name":  "Ghim Cài Áo Vest Nam - Mã 963",
+        "name":  "Ghim Cài Áo Vest Nam",
         "price":  400000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7qve4-lk0zala26cqy45@resize_w900_nl.webp",
         "tags":  {
@@ -305,7 +305,7 @@
     },
     {
         "id":  "ACC019",
-        "name":  "Móc Khóa Da Bò - Mã 959",
+        "name":  "Móc Khóa Da Bò",
         "price":  1290000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7qvf7-lk0zamqi31cn3d@resize_w900_nl.webp",
         "tags":  {
@@ -324,7 +324,7 @@
     },
     {
         "id":  "ACC020",
-        "name":  "Nhẫn Nam Bạc Thái - Mã 725",
+        "name":  "Nhẫn Nam Bạc Thái",
         "price":  840000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7qvfc-lk0zarroohryfa@resize_w900_nl.webp",
         "tags":  {
@@ -343,7 +343,7 @@
     },
     {
         "id":  "ACC021",
-        "name":  "Nhẫn Nam Bạc Thái - Mã 719",
+        "name":  "Nhẫn Nam Bạc Thái",
         "price":  620000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7qvfk-lk0zap8egv7u84@resize_w900_nl.webp",
         "tags":  {
@@ -362,7 +362,7 @@
     },
     {
         "id":  "ACC022",
-        "name":  "Kẹp Cà Vạt Nam Tính - Mã 937",
+        "name":  "Kẹp Cà Vạt Nam Tính",
         "price":  1100000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7qvfm-lk0zafg0pq16a4@resize_w900_nl.webp",
         "tags":  {
@@ -381,7 +381,7 @@
     },
     {
         "id":  "ACC023",
-        "name":  "Cà Vạt Lụa Kẻ Sọc - Mã 409",
+        "name":  "Cà Vạt Lụa Kẻ Sọc",
         "price":  1010000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7r9a0-ln82xcqnp4vu3d.webp",
         "tags":  {
@@ -400,7 +400,7 @@
     },
     {
         "id":  "ACC024",
-        "name":  "Cà Vạt Lụa Kẻ Sọc - Mã 582",
+        "name":  "Cà Vạt Lụa Kẻ Sọc",
         "price":  1250000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7rblx-m63olb6zfr0412@resize_w900_nl.webp",
         "tags":  {
@@ -419,7 +419,7 @@
     },
     {
         "id":  "ACC025",
-        "name":  "Móc Khóa Da Bò - Mã 655",
+        "name":  "Móc Khóa Da Bò",
         "price":  300000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7rbn9-m63olalw991z2a@resize_w900_nl.webp",
         "tags":  {
@@ -438,7 +438,7 @@
     },
     {
         "id":  "ACC026",
-        "name":  "Túi Đeo Chéo Nam - Mã 225",
+        "name":  "Túi Đeo Chéo Nam",
         "price":  1400000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7rbne-m63ol9xhadlka3@resize_w900_nl.webp",
         "tags":  {
@@ -457,7 +457,7 @@
     },
     {
         "id":  "ACC027",
-        "name":  "Móc Khóa Da Bò - Mã 443",
+        "name":  "Móc Khóa Da Bò",
         "price":  1310000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7rcce-m6ds8m9xtp93ad.webp",
         "tags":  {
@@ -476,7 +476,7 @@
     },
     {
         "id":  "ACC028",
-        "name":  "Nhẫn Nam Bạc Thái - Mã 831",
+        "name":  "Nhẫn Nam Bạc Thái",
         "price":  1240000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7rccg-m6ds8lq8mj7kac.webp",
         "tags":  {
@@ -495,7 +495,7 @@
     },
     {
         "id":  "ACC029",
-        "name":  "Vòng Cổ Nam Basic - Mã 515",
+        "name":  "Vòng Cổ Nam Basic",
         "price":  620000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7rccx-m6ds8nc89md011.webp",
         "tags":  {
@@ -514,7 +514,7 @@
     },
     {
         "id":  "ACC030",
-        "name":  "Kính Mát Nam Chống UV - Mã 766",
+        "name":  "Kính Mát Nam Chống UV",
         "price":  310000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7rcd1-ltkip3j1cb6406@resize_w900_nl.webp",
         "tags":  {
@@ -533,7 +533,7 @@
     },
     {
         "id":  "ACC031",
-        "name":  "Túi Đeo Chéo Nam - Mã 248",
+        "name":  "Túi Đeo Chéo Nam",
         "price":  1390000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7rcd6-ltkiopy57rfy23@resize_w900_nl.webp",
         "tags":  {
@@ -552,7 +552,7 @@
     },
     {
         "id":  "ACC032",
-        "name":  "Vòng Cổ Nam Basic - Mã 791",
+        "name":  "Vòng Cổ Nam Basic",
         "price":  910000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7rcdj-m6ds8msj2hw75d.webp",
         "tags":  {
@@ -571,7 +571,7 @@
     },
     {
         "id":  "ACC033",
-        "name":  "Ví Đứng Nam Nhỏ Gọn - Mã 911",
+        "name":  "Ví Đứng Nam Nhỏ Gọn",
         "price":  1460000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7rcf4-m6ds8o35689a7d.webp",
         "tags":  {
@@ -590,7 +590,7 @@
     },
     {
         "id":  "ACC034",
-        "name":  "Móc Khóa Da Bò - Mã 520",
+        "name":  "Móc Khóa Da Bò",
         "price":  370000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7rd3r-lwvd9rjqg7ofdb.webp",
         "tags":  {
@@ -609,7 +609,7 @@
     },
     {
         "id":  "ACC035",
-        "name":  "Kính Mát Nam Chống UV - Mã 703",
+        "name":  "Kính Mát Nam Chống UV",
         "price":  440000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7rd54-lx8l9awq8tcve0.webp",
         "tags":  {
@@ -628,7 +628,7 @@
     },
     {
         "id":  "ACC036",
-        "name":  "Ghim Cài Áo Vest Nam - Mã 274",
+        "name":  "Ghim Cài Áo Vest Nam",
         "price":  510000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7rd58-m6wcdciolndn14.webp",
         "tags":  {
@@ -647,7 +647,7 @@
     },
     {
         "id":  "ACC037",
-        "name":  "Kính Mát Nam Chống UV - Mã 500",
+        "name":  "Kính Mát Nam Chống UV",
         "price":  870000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7rd59-lwvd9q9ec0lwbd@resize_w900_nl.webp",
         "tags":  {
@@ -666,7 +666,7 @@
     },
     {
         "id":  "ACC038",
-        "name":  "Nhẫn Nam Bạc Thái - Mã 831",
+        "name":  "Nhẫn Nam Bạc Thái",
         "price":  830000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7rd5e-m7nurzshbwn7da.webp",
         "tags":  {
@@ -685,7 +685,7 @@
     },
     {
         "id":  "ACC039",
-        "name":  "Kính Râm Thời Trang Nam - Mã 907",
+        "name":  "Kính Râm Thời Trang Nam",
         "price":  220000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7rdwt-m0xfepw92ibe9e.webp",
         "tags":  {
@@ -704,7 +704,7 @@
     },
     {
         "id":  "ACC040",
-        "name":  "Túi Đeo Chéo Nam - Mã 423",
+        "name":  "Túi Đeo Chéo Nam",
         "price":  570000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7reoe-m2p03xi7imtiaa.webp",
         "tags":  {
@@ -723,7 +723,7 @@
     },
     {
         "id":  "ACC041",
-        "name":  "Ví Đứng Nam Nhỏ Gọn - Mã 108",
+        "name":  "Ví Đứng Nam Nhỏ Gọn",
         "price":  1000000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7rfez-m3ndu6q5hd3x2f.webp",
         "tags":  {
@@ -742,7 +742,7 @@
     },
     {
         "id":  "ACC042",
-        "name":  "Móc Khóa Da Bò - Mã 552",
+        "name":  "Móc Khóa Da Bò",
         "price":  500000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-7rfff-m3ndu786qxqve1.webp",
         "tags":  {
@@ -761,7 +761,7 @@
     },
     {
         "id":  "ACC043",
-        "name":  "Túi Đeo Chéo Nam - Mã 993",
+        "name":  "Túi Đeo Chéo Nam",
         "price":  800000,
         "img":  "../data/Phụ Kiện Nam/sg-11134201-82619-mmfvh3twxiis39.webp",
         "tags":  {
@@ -780,7 +780,7 @@
     },
     {
         "id":  "ACC044",
-        "name":  "Khuyên Tai Nam Basic - Mã 445",
+        "name":  "Khuyên Tai Nam Basic",
         "price":  1140000,
         "img":  "../data/Phụ Kiện Nam/sg-11134253-821d6-mgha5hyubaiw75@resize_w900_nl.webp",
         "tags":  {
@@ -799,7 +799,7 @@
     },
     {
         "id":  "ACC045",
-        "name":  "Nhẫn Nam Bạc Thái - Mã 801",
+        "name":  "Nhẫn Nam Bạc Thái",
         "price":  1100000,
         "img":  "../data/Phụ Kiện Nam/sg-11134253-821df-mghb57vxrpqm2c@resize_w900_nl.webp",
         "tags":  {
@@ -818,7 +818,7 @@
     },
     {
         "id":  "ACC046",
-        "name":  "Ví Da Nam Cầm Tay - Mã 444",
+        "name":  "Ví Da Nam Cầm Tay",
         "price":  320000,
         "img":  "../data/Phụ Kiện Nam/sg-11134253-8259n-mfukhujvttzg1d.webp",
         "tags":  {
@@ -837,7 +837,7 @@
     },
     {
         "id":  "ACC047",
-        "name":  "Ví Đứng Nam Nhỏ Gọn - Mã 940",
+        "name":  "Ví Đứng Nam Nhỏ Gọn",
         "price":  1000000,
         "img":  "../data/Phụ Kiện Nam/sg-11134253-825ar-mfukhpfx86iwaf.webp",
         "tags":  {
@@ -856,7 +856,7 @@
     },
     {
         "id":  "ACC048",
-        "name":  "Kính Râm Thời Trang Nam - Mã 771",
+        "name":  "Kính Râm Thời Trang Nam",
         "price":  240000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-7r98o-lm9xl4mman6n7d@resize_w900_nl.webp",
         "tags":  {
@@ -875,7 +875,7 @@
     },
     {
         "id":  "ACC049",
-        "name":  "Kẹp Cà Vạt Nam Tính - Mã 741",
+        "name":  "Kẹp Cà Vạt Nam Tính",
         "price":  160000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-7r98o-lo6lk5vcmvp323@resize_w900_nl.webp",
         "tags":  {
@@ -894,7 +894,7 @@
     },
     {
         "id":  "ACC050",
-        "name":  "Vòng Cổ Nam Basic - Mã 369",
+        "name":  "Vòng Cổ Nam Basic",
         "price":  660000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-7r98o-ltxbvrpnfklt73@resize_w900_nl.webp",
         "tags":  {
@@ -913,7 +913,7 @@
     },
     {
         "id":  "ACC051",
-        "name":  "Thắt Lưng Nam Da Bò - Mã 223",
+        "name":  "Thắt Lưng Nam Da Bò",
         "price":  700000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-7r98o-lxaxscfqlhp5dd.webp",
         "tags":  {
@@ -932,7 +932,7 @@
     },
     {
         "id":  "ACC052",
-        "name":  "Thắt Lưng Nam Da Bò - Mã 390",
+        "name":  "Thắt Lưng Nam Da Bò",
         "price":  240000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-7r98o-lxv8e6wdbvtl7c@resize_w900_nl.webp",
         "tags":  {
@@ -951,7 +951,7 @@
     },
     {
         "id":  "ACC053",
-        "name":  "Khuyên Tai Nam Basic - Mã 234",
+        "name":  "Khuyên Tai Nam Basic",
         "price":  360000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-7r98o-lxv8j87zzhll0c@resize_w900_nl.webp",
         "tags":  {
@@ -970,7 +970,7 @@
     },
     {
         "id":  "ACC054",
-        "name":  "Ví Da Nam Cầm Tay - Mã 446",
+        "name":  "Ví Da Nam Cầm Tay",
         "price":  1250000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-7ra0g-m8au47nduh6q8d@resize_w900_nl.webp",
         "tags":  {
@@ -989,7 +989,7 @@
     },
     {
         "id":  "ACC055",
-        "name":  "Thắt Lưng Nam Da Bò - Mã 427",
+        "name":  "Thắt Lưng Nam Da Bò",
         "price":  370000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-7ra0g-m8rqbduc9fnm2a.webp",
         "tags":  {
@@ -1008,7 +1008,7 @@
     },
     {
         "id":  "ACC056",
-        "name":  "Vòng Cổ Nam Basic - Mã 138",
+        "name":  "Vòng Cổ Nam Basic",
         "price":  890000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-7ras8-m30laq137k6o4b@resize_w900_nl.webp",
         "tags":  {
@@ -1027,7 +1027,7 @@
     },
     {
         "id":  "ACC057",
-        "name":  "Móc Khóa Da Bò - Mã 371",
+        "name":  "Móc Khóa Da Bò",
         "price":  160000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-7ras8-m37kcyrbgfe4f2@resize_w900_nl.webp",
         "tags":  {
@@ -1046,7 +1046,7 @@
     },
     {
         "id":  "ACC058",
-        "name":  "Cà Vạt Lụa Kẻ Sọc - Mã 311",
+        "name":  "Cà Vạt Lụa Kẻ Sọc",
         "price":  560000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-7ras8-m5v027mzqoeb16@resize_w900_nl.webp",
         "tags":  {
@@ -1065,7 +1065,7 @@
     },
     {
         "id":  "ACC059",
-        "name":  "Thắt Lưng Nam Da Bò - Mã 330",
+        "name":  "Thắt Lưng Nam Da Bò",
         "price":  570000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-7ras8-mdo3gsroi2sx8e@resize_w900_nl.webp",
         "tags":  {
@@ -1084,7 +1084,7 @@
     },
     {
         "id":  "ACC060",
-        "name":  "Ghim Cài Áo Vest Nam - Mã 698",
+        "name":  "Ghim Cài Áo Vest Nam",
         "price":  590000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-81ztc-mkf6fity5w5h2a@resize_w900_nl.webp",
         "tags":  {
@@ -1103,7 +1103,7 @@
     },
     {
         "id":  "ACC061",
-        "name":  "Ví Da Nam Cầm Tay - Mã 353",
+        "name":  "Ví Da Nam Cầm Tay",
         "price":  1230000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-81ztc-mm0fse1nco3l0a.webp",
         "tags":  {
@@ -1122,7 +1122,7 @@
     },
     {
         "id":  "ACC062",
-        "name":  "Túi Đeo Chéo Nam - Mã 784",
+        "name":  "Túi Đeo Chéo Nam",
         "price":  370000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-81ztc-mm0fse1nz56tde.webp",
         "tags":  {
@@ -1141,7 +1141,7 @@
     },
     {
         "id":  "ACC063",
-        "name":  "Nhẫn Nam Bạc Thái - Mã 767",
+        "name":  "Nhẫn Nam Bạc Thái",
         "price":  770000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-81ztc-mm0fse1rvlz7dd.webp",
         "tags":  {
@@ -1160,7 +1160,7 @@
     },
     {
         "id":  "ACC064",
-        "name":  "Móc Khóa Da Bò - Mã 211",
+        "name":  "Móc Khóa Da Bò",
         "price":  800000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-81ztc-mm1imc7yji10ce@resize_w900_nl.webp",
         "tags":  {
@@ -1179,7 +1179,7 @@
     },
     {
         "id":  "ACC065",
-        "name":  "Cà Vạt Lụa Kẻ Sọc - Mã 591",
+        "name":  "Cà Vạt Lụa Kẻ Sọc",
         "price":  1430000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-820l4-meaxoptpbh1ga4@resize_w900_nl.webp",
         "tags":  {
@@ -1198,7 +1198,7 @@
     },
     {
         "id":  "ACC066",
-        "name":  "Kẹp Cà Vạt Nam Tính - Mã 859",
+        "name":  "Kẹp Cà Vạt Nam Tính",
         "price":  1310000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-820l4-mf4tvd0twmq0fc@resize_w900_nl.webp",
         "tags":  {
@@ -1217,7 +1217,7 @@
     },
     {
         "id":  "ACC067",
-        "name":  "Cà Vạt Lụa Kẻ Sọc - Mã 785",
+        "name":  "Cà Vạt Lụa Kẻ Sọc",
         "price":  340000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-820l4-mfzj4vojm3v106.webp",
         "tags":  {
@@ -1236,7 +1236,7 @@
     },
     {
         "id":  "ACC068",
-        "name":  "Kính Mát Nam Chống UV - Mã 139",
+        "name":  "Kính Mát Nam Chống UV",
         "price":  920000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-820l4-mg3t1gfhdbf1df@resize_w900_nl.webp",
         "tags":  {
@@ -1255,7 +1255,7 @@
     },
     {
         "id":  "ACC069",
-        "name":  "Túi Đeo Chéo Nam - Mã 572",
+        "name":  "Túi Đeo Chéo Nam",
         "price":  850000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-820l4-mg54gsn00q2yb4.webp",
         "tags":  {
@@ -1274,7 +1274,7 @@
     },
     {
         "id":  "ACC070",
-        "name":  "Kẹp Cà Vạt Nam Tính - Mã 282",
+        "name":  "Kẹp Cà Vạt Nam Tính",
         "price":  910000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-820l4-mg7wi7tp5btbb8@resize_w900_nl.webp",
         "tags":  {
@@ -1293,7 +1293,7 @@
     },
     {
         "id":  "ACC071",
-        "name":  "Nhẫn Nam Bạc Thái - Mã 835",
+        "name":  "Nhẫn Nam Bạc Thái",
         "price":  200000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-820l4-mghqjlr384jx7a@resize_w900_nl.webp",
         "tags":  {
@@ -1312,7 +1312,7 @@
     },
     {
         "id":  "ACC072",
-        "name":  "Nhẫn Nam Bạc Thái - Mã 442",
+        "name":  "Nhẫn Nam Bạc Thái",
         "price":  890000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-820l4-mgnsuvrj0g0d13.webp",
         "tags":  {
@@ -1331,7 +1331,7 @@
     },
     {
         "id":  "ACC073",
-        "name":  "Thắt Lưng Nam Da Bò - Mã 809",
+        "name":  "Thắt Lưng Nam Da Bò",
         "price":  1190000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-820l4-mgoyijzfiwi603.webp",
         "tags":  {
@@ -1350,7 +1350,7 @@
     },
     {
         "id":  "ACC074",
-        "name":  "Ví Da Nam Cầm Tay - Mã 199",
+        "name":  "Ví Da Nam Cầm Tay",
         "price":  330000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-820l4-mi15wfwl7itd3b.webp",
         "tags":  {
@@ -1369,7 +1369,7 @@
     },
     {
         "id":  "ACC075",
-        "name":  "Cà Vạt Lụa Kẻ Sọc - Mã 340",
+        "name":  "Cà Vạt Lụa Kẻ Sọc",
         "price":  740000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-820l4-mibai28ltk3lf6.webp",
         "tags":  {
@@ -1388,7 +1388,7 @@
     },
     {
         "id":  "ACC076",
-        "name":  "Nhẫn Nam Bạc Thái - Mã 613",
+        "name":  "Nhẫn Nam Bạc Thái",
         "price":  570000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-820l4-miflc4iw5r0kab.webp",
         "tags":  {
@@ -1407,7 +1407,7 @@
     },
     {
         "id":  "ACC077",
-        "name":  "Kính Mát Nam Chống UV - Mã 173",
+        "name":  "Kính Mát Nam Chống UV",
         "price":  1000000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-820l4-miflc4v7rdhfba.webp",
         "tags":  {
@@ -1426,7 +1426,7 @@
     },
     {
         "id":  "ACC078",
-        "name":  "Khuyên Tai Nam Basic - Mã 368",
+        "name":  "Khuyên Tai Nam Basic",
         "price":  1070000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-820l4-miflc4wvgidjd4.webp",
         "tags":  {
@@ -1445,7 +1445,7 @@
     },
     {
         "id":  "ACC079",
-        "name":  "Vòng Cổ Nam Basic - Mã 578",
+        "name":  "Vòng Cổ Nam Basic",
         "price":  160000,
         "img":  "../data/Phụ Kiện Nam/vn-11134207-820l4-mjgtbwivwnwm4b@resize_w900_nl.webp",
         "tags":  {
@@ -1464,7 +1464,7 @@
     },
     {
         "id":  "ACC080",
-        "name":  "Nhẫn Nam Bạc Thái - Mã 646",
+        "name":  "Nhẫn Nam Bạc Thái",
         "price":  1110000,
         "img":  "../data/Phụ Kiện Nam/z6019471629477_f4e1ad1d1bce7a5ca21f0ec6bc300447_91f50c9113204a05841067006d5c2974_master.jpg",
         "tags":  {

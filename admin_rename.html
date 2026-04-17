@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin - Đổi tên sản phẩm nhanh</title>
+    <style>
+        body { font-family: sans-serif; background: #f0f2f5; padding: 20px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; }
+        .card { background: white; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .card img { width: 100%; height: 200px; object-fit: contain; background: #fafafa; border-radius: 4px; margin-bottom: 10px; }
+        .card input { width: 100%; padding: 8px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px; font-weight: bold; }
+        .card p { margin: 5px 0; font-size: 13px; color: #666; }
+        #header { position: sticky; top: 0; background: rgba(255,255,255,0.9); padding: 15px; z-index: 100; box-shadow: 0 2px 5px rgba(0,0,0,0.1); border-radius: 8px; margin-bottom: 20px; display: flex; justify-content: space-between; align-items: center; }
+        button { background: #007bff; color: white; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer; font-weight: bold; }
+        button:hover { background: #0056b3; }
+        textarea { width: 100%; height: 100px; margin-top: 10px; display: none; }
+    </style>
+</head>
+<body>
+
+<div id="header">
+    <div>
+        <h2>Công cụ đổi tên sản phẩm</h2>
+        <p>1. Xem ảnh và sửa lại tên trong các ô bên dưới.<br>2. Sửa xong, nhấn <b>Tạo Mẫu Đổi Tên</b> rồi quay lại cửa sổ Chat báo cho tôi theo hướng dẫn.</p>
+    </div>
+    <button onclick="exportData()">Tạo Mẫu Đổi Tên & Copy</button>
+</div>
+
+<textarea id="output"></textarea>
+
+<div class="grid" id="container"></div>
+
+<script>
+    let products = [];
+    
+    // Tải danh sách cần đổi tên (đã được tạo sẵn ở data/needs_rename.json)
+    fetch('data/needs_rename.json')
+        .then(r => r.json())
+        .then(data => {
+            products = data;
+            const container = document.getElementById('container');
+            data.forEach((p, idx) => {
+                // Sửa đường dẫn ảnh do ../data/...
+                let imgSrc = p.File.replace('../', '');
+                
+                const card = document.createElement('div');
+                card.className = 'card';
+                card.innerHTML = `
+                    <div style="font-size: 11px; color:#888; margin-bottom:5px;">ID: ${p.Id} | Nhóm: ${p.Category}</div>
+                    <img src="${imgSrc}" loading="lazy" onerror="this.src='assets/img/no-img.jpg'">
+                    <p>Tên cũ: ${p.Name}</p>
+                    <input type="text" id="input-${idx}" value="${p.Name}" placeholder="Nhập tên mới phù hợp ảnh">
+                `;
+                container.appendChild(card);
+            });
+        })
+        .catch(err => {
+            document.getElementById('container').innerHTML = '<p style="color:red">Lỗi tải dữ liệu. Hãy đảm bảo bạn đang mở qua Live Server.</p>';
+            console.error(err);
+        });
+
+    function exportData() {
+        const result = [];
+        products.forEach((p, idx) => {
+            const newName = document.getElementById(`input-${idx}`).value.trim();
+            if(newName && newName !== p.Name) {
+                result.push({ id: p.Id, newName: newName, category: p.Category });
+            }
+        });
+        
+        if (result.length === 0) {
+            alert("Bạn chưa thay đổi tên nào cả!");
+            return;
+        }
+
+        const jsonStr = JSON.stringify(result, null, 2);
+        
+        // Tạo dòng lệnh PowerShell tự động thay vì bắt copy
+        let psScript = "$updates = '" + jsonStr.replace(/'/g, "''") + "' | ConvertFrom-Json;\n" +
+                       "$dataDir = 'c:\\HeThongWeb\\Shop thời trang nam\\Shop-thoi-trang\\data';\n" +
+                       "$updates | Group-Object category | ForEach-Object {\n" +
+                       "    $cat = $_.Name; $file = Join-Path $dataDir \"$cat.json\";\n" +
+                       "    if (Test-Path $file) {\n" +
+                       "        $content = Get-Content -Raw $file | ConvertFrom-Json;\n" +
+                       "        foreach ($update in $_.Group) { foreach ($item in $content) { if ($item.id -eq $update.id) { $item.name = $update.newName } } }\n" +
+                       "        $content | ConvertTo-Json -Depth 10 | Set-Content $file -Encoding UTF8;\n" +
+                       "    }\n" +
+                       "}; Write-Host 'Đã cập nhật xong toàn bộ JSON!';";
+                       
+        const btn = document.querySelector('button');
+        
+        navigator.clipboard.writeText(psScript).then(() => {
+            btn.innerText = "Đã Copy Lệnh!";
+            btn.style.background = "#28a745";
+            alert("Đã Copy Lệnh PowerShell!\n\nHãy quay lại trình duyệt Chat với AI, dán mã này vào khung chat để tôi lưu lại hộ bạn tự động nhé!");
+            setTimeout(() => { btn.innerText = "Tạo Mẫu Đổi Tên & Copy"; btn.style.background = "#007bff"; }, 3000);
+        }).catch(err => {
+            console.error(err);
+            const ta = document.getElementById('output');
+            ta.style.display = 'block';
+            ta.value = psScript;
+            ta.select();
+            alert("Trình duyệt không hỗ trợ Copy tự động. Bạn vui lòng Copy nội dung trong ô text vừa hiện ra và dán vào cửa sổ Chat với tôi nhé!");
+        });
+    }
+</script>
+
+</body>
+</html>

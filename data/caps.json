@@ -20,7 +20,7 @@
     },
     {
         "id":  "CAP004",
-        "name":  "Mũ Len Mùa Đông Thấm Mồ Hôi - Mã 666",
+        "name":  "Mũ Len Mùa Đông Thấm Mồ Hôi",
         "price":  320000,
         "img":  "../data/Mũ Nam/08ae7591ae641e529fb589a072abb0e2@resize_w900_nl.webp",
         "tags":  {
@@ -39,7 +39,7 @@
     },
     {
         "id":  "CAP005",
-        "name":  "Mũ Lưỡi Trai Logo Nổi - Mã 833",
+        "name":  "Mũ Lưỡi Trai Logo Nổi",
         "price":  780000,
         "img":  "../data/Mũ Nam/0fe8833ba7f347d339f60e024638cb06.jpg",
         "tags":  {
@@ -58,7 +58,7 @@
     },
     {
         "id":  "CAP006",
-        "name":  "Mũ Beret Nam Cổ Điển - Mã 147",
+        "name":  "Mũ Beret Nam Cổ Điển",
         "price":  260000,
         "img":  "../data/Mũ Nam/13adb10bf67947e5f83b08aff2f38f29@resize_w900_nl.webp",
         "tags":  {
@@ -77,7 +77,7 @@
     },
     {
         "id":  "CAP007",
-        "name":  "Mũ Bucket Vải Kaki - Mã 798",
+        "name":  "Mũ Bucket Vải Kaki",
         "price":  1260000,
         "img":  "../data/Mũ Nam/1e5a7f1c285e8e00d74f37_9e4bcdf47bda4b9fb83babf0d49026f1_1024x1024.jpg",
         "tags":  {
@@ -96,7 +96,7 @@
     },
     {
         "id":  "CAP008",
-        "name":  "Mũ Lưỡi Trai Logo Nổi - Mã 656",
+        "name":  "Mũ Lưỡi Trai Logo Nổi",
         "price":  640000,
         "img":  "../data/Mũ Nam/3e9c5177dd8ceadeaec3150d7d8e2dec.webp",
         "tags":  {
@@ -115,7 +115,7 @@
     },
     {
         "id":  "CAP009",
-        "name":  "Mũ Bucket Vải Kaki - Mã 232",
+        "name":  "Mũ Bucket Vải Kaki",
         "price":  1160000,
         "img":  "../data/Mũ Nam/865fdb45a176d8a2a55b04f3157e86a4@resize_w900_nl.webp",
         "tags":  {
@@ -134,7 +134,7 @@
     },
     {
         "id":  "CAP010",
-        "name":  "Mũ Snapback Phong Cách Hiphop - Mã 305",
+        "name":  "Mũ Snapback Phong Cách Hiphop",
         "price":  370000,
         "img":  "../data/Mũ Nam/e5232b52e5caf7a2347bf288290d35dd.jpg",
         "tags":  {
@@ -153,7 +153,7 @@
     },
     {
         "id":  "CAP011",
-        "name":  "Mũ Bucket Vải Kaki - Mã 913",
+        "name":  "Mũ Bucket Vải Kaki",
         "price":  1300000,
         "img":  "../data/Mũ Nam/f48d10e0f8642be613d52cd3dbcf7608@resize_w900_nl.webp",
         "tags":  {
@@ -172,7 +172,7 @@
     },
     {
         "id":  "CAP012",
-        "name":  "Mũ Snapback Phong Cách Hiphop - Mã 683",
+        "name":  "Mũ Snapback Phong Cách Hiphop",
         "price":  1320000,
         "img":  "../data/Mũ Nam/images (1).jpg",
         "tags":  {
@@ -191,7 +191,7 @@
     },
     {
         "id":  "CAP013",
-        "name":  "Mũ Bucket Vải Kaki - Mã 936",
+        "name":  "Mũ Bucket Vải Kaki",
         "price":  1460000,
         "img":  "../data/Mũ Nam/images.jpg",
         "tags":  {
@@ -210,7 +210,7 @@
     },
     {
         "id":  "CAP014",
-        "name":  "Mũ Beret Nam Cổ Điển - Mã 575",
+        "name":  "Mũ Beret Nam Cổ Điển",
         "price":  920000,
         "img":  "../data/Mũ Nam/mi-hw-e2mwa026_e9c518a1f5154455a3f915eae825fbf8_1024x1024.jpg",
         "tags":  {
@@ -229,7 +229,7 @@
     },
     {
         "id":  "CAP015",
-        "name":  "Mũ Snapback Phong Cách Hiphop - Mã 970",
+        "name":  "Mũ Snapback Phong Cách Hiphop",
         "price":  1320000,
         "img":  "../data/Mũ Nam/non-luoi-trai-nam-nu-hiphop-davies-thiet-ke-phoi-luoi-chu-theu-cach-dieu-day-cai-nut-bam-mau-den-1.webp",
         "tags":  {
@@ -248,7 +248,7 @@
     },
     {
         "id":  "CAP016",
-        "name":  "Mũ Len Mùa Đông Thấm Mồ Hôi - Mã 757",
+        "name":  "Mũ Len Mùa Đông Thấm Mồ Hôi",
         "price":  920000,
         "img":  "../data/Mũ Nam/o1cn01qrz6cc1hhinhfibk4-2479160732-0-cib.webp",
         "tags":  {
@@ -267,7 +267,7 @@
     },
     {
         "id":  "CAP017",
-        "name":  "Mũ Lưỡi Trai Logo Nổi - Mã 526",
+        "name":  "Mũ Lưỡi Trai Logo Nổi",
         "price":  810000,
         "img":  "../data/Mũ Nam/OB1004861_1.webp",
         "tags":  {
@@ -286,7 +286,7 @@
     },
     {
         "id":  "CAP018",
-        "name":  "Mũ Bucket Vải Kaki - Mã 649",
+        "name":  "Mũ Bucket Vải Kaki",
         "price":  1110000,
         "img":  "../data/Mũ Nam/s-l1600.webp",
         "tags":  {
@@ -305,7 +305,7 @@
     },
     {
         "id":  "CAP019",
-        "name":  "Mũ Bucket Vải Kaki - Mã 601",
+        "name":  "Mũ Bucket Vải Kaki",
         "price":  1140000,
         "img":  "../data/Mũ Nam/sg-11134201-22090-8mlk90wktuhv8e@resize_w900_nl.webp",
         "tags":  {
@@ -324,7 +324,7 @@
     },
     {
         "id":  "CAP020",
-        "name":  "Mũ Snapback Phong Cách Hiphop - Mã 842",
+        "name":  "Mũ Snapback Phong Cách Hiphop",
         "price":  1230000,
         "img":  "../data/Mũ Nam/sg-11134201-82262-mhsazzubql1k99.jpg",
         "tags":  {
@@ -343,7 +343,7 @@
     },
     {
         "id":  "CAP021",
-        "name":  "Mũ Lưỡi Trai Logo Nổi - Mã 794",
+        "name":  "Mũ Lưỡi Trai Logo Nổi",
         "price":  520000,
         "img":  "../data/Mũ Nam/vn-11134207-7r98o-lkjnhc9sudu8cd.webp",
         "tags":  {
@@ -362,7 +362,7 @@
     },
     {
         "id":  "CAP022",
-        "name":  "Mũ Len Mùa Đông Thấm Mồ Hôi - Mã 187",
+        "name":  "Mũ Len Mùa Đông Thấm Mồ Hôi",
         "price":  340000,
         "img":  "../data/Mũ Nam/vn-11134207-7r98o-lmydiy8zo89r5c.webp",
         "tags":  {
@@ -381,7 +381,7 @@
     },
     {
         "id":  "CAP023",
-        "name":  "Mũ Beret Nam Cổ Điển - Mã 421",
+        "name":  "Mũ Beret Nam Cổ Điển",
         "price":  290000,
         "img":  "../data/Mũ Nam/vn-11134207-7r98o-lxvawzje5ecbcd.webp",
         "tags":  {
@@ -400,7 +400,7 @@
     },
     {
         "id":  "CAP024",
-        "name":  "Mũ Lưỡi Trai Logo Nổi - Mã 388",
+        "name":  "Mũ Lưỡi Trai Logo Nổi",
         "price":  830000,
         "img":  "../data/Mũ Nam/vn-11134207-7r98o-lxvawzjem9cp66.webp",
         "tags":  {
@@ -419,7 +419,7 @@
     },
     {
         "id":  "CAP025",
-        "name":  "Mũ Bucket Vải Kaki - Mã 138",
+        "name":  "Mũ Bucket Vải Kaki",
         "price":  200000,
         "img":  "../data/Mũ Nam/vn-11134207-7r98o-lzrunogq080x05.webp",
         "tags":  {
@@ -438,7 +438,7 @@
     },
     {
         "id":  "CAP026",
-        "name":  "Mũ Beret Nam Cổ Điển - Mã 127",
+        "name":  "Mũ Beret Nam Cổ Điển",
         "price":  720000,
         "img":  "../data/Mũ Nam/vn-11134207-7ras8-mclqw0hbfrj6b8@resize_w900_nl.webp",
         "tags":  {
@@ -457,7 +457,7 @@
     },
     {
         "id":  "CAP027",
-        "name":  "Mũ Beret Nam Cổ Điển - Mã 194",
+        "name":  "Mũ Beret Nam Cổ Điển",
         "price":  1060000,
         "img":  "../data/Mũ Nam/vn-11134207-7ras8-mclr8y0g6s0se2@resize_w900_nl.webp",
         "tags":  {
@@ -476,7 +476,7 @@
     },
     {
         "id":  "CAP028",
-        "name":  "Mũ Snapback Phong Cách Hiphop - Mã 309",
+        "name":  "Mũ Snapback Phong Cách Hiphop",
         "price":  760000,
         "img":  "../data/Mũ Nam/vn-11134207-7ras8-mclrj383qs0s72@resize_w900_nl.webp",
         "tags":  {
@@ -495,7 +495,7 @@
     },
     {
         "id":  "CAP029",
-        "name":  "Mũ Len Mùa Đông Thấm Mồ Hôi - Mã 363",
+        "name":  "Mũ Len Mùa Đông Thấm Mồ Hôi",
         "price":  1380000,
         "img":  "../data/Mũ Nam/vn-11134207-81ztc-mk3oftdlp6v977.webp",
         "tags":  {
@@ -514,7 +514,7 @@
     },
     {
         "id":  "CAP030",
-        "name":  "Mũ Snapback Phong Cách Hiphop - Mã 714",
+        "name":  "Mũ Snapback Phong Cách Hiphop",
         "price":  360000,
         "img":  "../data/Mũ Nam/vn-11134207-820l4-me5nhs9elo8w14@resize_w900_nl.webp",
         "tags":  {
@@ -533,7 +533,7 @@
     },
     {
         "id":  "CAP031",
-        "name":  "Mũ Bucket Vải Kaki - Mã 375",
+        "name":  "Mũ Bucket Vải Kaki",
         "price":  450000,
         "img":  "../data/Mũ Nam/vn-11134207-820l4-me5nhwstx43q9c@resize_w900_nl.webp",
         "tags":  {
@@ -552,7 +552,7 @@
     },
     {
         "id":  "CAP032",
-        "name":  "Mũ Bucket Vải Kaki - Mã 165",
+        "name":  "Mũ Bucket Vải Kaki",
         "price":  950000,
         "img":  "../data/Mũ Nam/wilson-unisex-classic-visor-wu00014511wta-2.webp",
         "tags":  {
