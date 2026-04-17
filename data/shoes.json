@@ -1,68 +1,942 @@
-[
+﻿[
     {
-        "id": "SH001",
-        "name": "Giày Sneaker Trắng Năng Động",
-        "price": 850000,
-        "img": "../assets/img/products/shoe1.jpg",
-        "tags": {
-            "Loại Giày": ["Sneaker", "Cổ thấp"],
-            "Chất liệu": ["Da PU", "Vải Canvas"],
-            "Phong cách": ["Thể thao", "Năng động"]
-        }
+        "id":  "SH001",
+        "name":  "Giày Sneaker Trắng Năng Động",
+        "price":  850000,
+        "img":  "../data/Giày/0e700cff323a58efda340e66dc969f2c.jpg",
+        "tags":  {
+                     "Loại Giày":  [
+                                       "Sneaker",
+                                       "Cổ thấp"
+                                   ],
+                     "Chất liệu":  [
+                                       "Da PU",
+                                       "Vải Canvas"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Năng động"
+                                    ]
+                 }
     },
     {
-        "id": "SH002",
-        "name": "Giày Tây Nam Oxford Da Thật",
-        "price": 1250000,
-        "img": "../assets/img/products/shoe2.jpg",
-        "tags": {
-            "Loại Giày": ["Giày Tây", "Oxford"],
-            "Chất liệu": ["Da Bò thật"],
-            "Phong cách": ["Công sở", "Sang trọng"]
-        }
+        "id":  "SH008",
+        "name":  "Giày Thể Thao Chạy Bộ - Mã 820",
+        "price":  700000,
+        "img":  "../data/Giày/1024x1024-Wingtip-Black-070824-3.4_ff65263c-17fb-46cc-85e9-75d0c23da2bb_1024x1024.webp",
+        "tags":  {
+                     "Loại Giày":  [
+                                       "Sneaker",
+                                       "Cổ thấp"
+                                   ],
+                     "Chất liệu":  [
+                                       "Da PU",
+                                       "Vải Canvas"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Năng động"
+                                    ]
+                 }
     },
     {
-        "id": "SH003",
-        "name": "Giày Lười Loafer Đen Chukka",
-        "price": 950000,
-        "img": "../assets/img/products/shoe3.jpg",
-        "tags": {
-            "Loại Giày": ["Giày Lười", "Loafer"],
-            "Chất liệu": ["Da lộn (Suede)"],
-            "Phong cách": ["Smart Casual", "Lịch sự"]
-        }
+        "id":  "SH009",
+        "name":  "Giày Slip-on Nam Tiện Lợi - Mã 325",
+        "price":  1470000,
+        "img":  "../data/Giày/1a4ef98f9788f8abd86431700d00e6f4.webp",
+        "tags":  {
+                     "Loại Giày":  [
+                                       "Sneaker",
+                                       "Cổ thấp"
+                                   ],
+                     "Chất liệu":  [
+                                       "Da PU",
+                                       "Vải Canvas"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Năng động"
+                                    ]
+                 }
     },
     {
-        "id": "SH004",
-        "name": "Giày Chạy Bộ Nam Ultra Mesh",
-        "price": 1450000,
-        "img": "../assets/img/products/shoe4.jpg",
-        "tags": {
-            "Loại Giày": ["Sneaker", "Giày Chạy Bộ"],
-            "Chất liệu": ["Vải Lưới Mesh", "Cao su siêu nhẹ"],
-            "Phong cách": ["Thể thao", "Đường phố"]
-        }
+        "id":  "SH010",
+        "name":  "Giày Loafer Da Thật Cao Cấp - Mã 135",
+        "price":  1070000,
+        "img":  "../data/Giày/24_ec8db26187b24aad850c7d7928b8c13c_master.png",
+        "tags":  {
+                     "Loại Giày":  [
+                                       "Sneaker",
+                                       "Cổ thấp"
+                                   ],
+                     "Chất liệu":  [
+                                       "Da PU",
+                                       "Vải Canvas"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Năng động"
+                                    ]
+                 }
     },
     {
-        "id": "SH005",
-        "name": "Giày Chelsea Boots Nam Da Bò",
-        "price": 1850000,
-        "img": "../assets/img/products/shoe5.jpg",
-        "tags": {
-            "Loại Giày": ["Boots", "Cổ cao"],
-            "Chất liệu": ["Da Bò thật"],
-            "Phong cách": ["Cá tính", "Bụi bặm", "Smart Casual"]
-        }
+        "id":  "SH011",
+        "name":  "Giày Mọi Da Mềm Không Dây - Mã 517",
+        "price":  360000,
+        "img":  "../data/Giày/353143840C-01OK_1_SUM23.avif",
+        "tags":  {
+                     "Loại Giày":  [
+                                       "Sneaker",
+                                       "Cổ thấp"
+                                   ],
+                     "Chất liệu":  [
+                                       "Da PU",
+                                       "Vải Canvas"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Năng động"
+                                    ]
+                 }
     },
     {
-        "id": "SH006",
-        "name": "Giày Sneaker Cổ Cao Vải Canvas Đen",
-        "price": 650000,
-        "img": "../assets/img/products/shoe6.jpg",
-        "tags": {
-            "Loại Giày": ["Sneaker", "Cổ cao"],
-            "Chất liệu": ["Vải Canvas"],
-            "Phong cách": ["Đường phố", "Năng động"]
-        }
+        "id":  "SH012",
+        "name":  "Giày Loafer Da Thật Cao Cấp - Mã 636",
+        "price":  730000,
+        "img":  "../data/Giày/3e593d8c4105c6483039ac7f6d4aebcc.webp",
+        "tags":  {
+                     "Loại Giày":  [
+                                       "Sneaker",
+                                       "Cổ thấp"
+                                   ],
+                     "Chất liệu":  [
+                                       "Da PU",
+                                       "Vải Canvas"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Năng động"
+                                    ]
+                 }
+    },
+    {
+        "id":  "SH013",
+        "name":  "Giày Tây Nam Buộc Dây Cổ Điển - Mã 569",
+        "price":  1490000,
+        "img":  "../data/Giày/5.jpg",
+        "tags":  {
+                     "Loại Giày":  [
+                                       "Sneaker",
+                                       "Cổ thấp"
+                                   ],
+                     "Chất liệu":  [
+                                       "Da PU",
+                                       "Vải Canvas"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Năng động"
+                                    ]
+                 }
+    },
+    {
+        "id":  "SH014",
+        "name":  "Giày Slip-on Nam Tiện Lợi - Mã 508",
+        "price":  1290000,
+        "img":  "../data/Giày/51477ae78ac565f251cb1d8c1ea439ed.webp",
+        "tags":  {
+                     "Loại Giày":  [
+                                       "Sneaker",
+                                       "Cổ thấp"
+                                   ],
+                     "Chất liệu":  [
+                                       "Da PU",
+                                       "Vải Canvas"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Năng động"
+                                    ]
+                 }
+    },
+    {
+        "id":  "SH015",
+        "name":  "Giày Thể Thao Chạy Bộ - Mã 616",
+        "price":  1120000,
+        "img":  "../data/Giày/51fCEZJqjNL._AC_UY900_.jpg",
+        "tags":  {
+                     "Loại Giày":  [
+                                       "Sneaker",
+                                       "Cổ thấp"
+                                   ],
+                     "Chất liệu":  [
+                                       "Da PU",
+                                       "Vải Canvas"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Năng động"
+                                    ]
+                 }
+    },
+    {
+        "id":  "SH016",
+        "name":  "Giày Oxford Nam Tinh Tế - Mã 651",
+        "price":  1010000,
+        "img":  "../data/Giày/b8df656e25b625f78e989a9f1ed292ac@resize_w900_nl.webp",
+        "tags":  {
+                     "Loại Giày":  [
+                                       "Sneaker",
+                                       "Cổ thấp"
+                                   ],
+                     "Chất liệu":  [
+                                       "Da PU",
+                                       "Vải Canvas"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Năng động"
+                                    ]
+                 }
+    },
+    {
+        "id":  "SH017",
+        "name":  "Giày Oxford Nam Tinh Tế - Mã 697",
+        "price":  1200000,
+        "img":  "../data/Giày/d784a55a336b5e03f8a3122039bac063.webp",
+        "tags":  {
+                     "Loại Giày":  [
+                                       "Sneaker",
+                                       "Cổ thấp"
+                                   ],
+                     "Chất liệu":  [
+                                       "Da PU",
+                                       "Vải Canvas"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Năng động"
+                                    ]
+                 }
+    },
+    {
+        "id":  "SH018",
+        "name":  "Giày Loafer Da Thật Cao Cấp - Mã 681",
+        "price":  560000,
+        "img":  "../data/Giày/dc93b5fc4c1d68079c7429edfcf249f4.webp",
+        "tags":  {
+                     "Loại Giày":  [
+                                       "Sneaker",
+                                       "Cổ thấp"
+                                   ],
+                     "Chất liệu":  [
+                                       "Da PU",
+                                       "Vải Canvas"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Năng động"
+                                    ]
+                 }
+    },
+    {
+        "id":  "SH019",
+        "name":  "Giày Tây Nam Buộc Dây Cổ Điển - Mã 154",
+        "price":  1380000,
+        "img":  "../data/Giày/Enzo_BlackLux_01_1800x1800_edc0cc6c-e714-4168-aafb-511ac1689a76.webp",
+        "tags":  {
+                     "Loại Giày":  [
+                                       "Sneaker",
+                                       "Cổ thấp"
+                                   ],
+                     "Chất liệu":  [
+                                       "Da PU",
+                                       "Vải Canvas"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Năng động"
+                                    ]
+                 }
+    },
+    {
+        "id":  "SH020",
+        "name":  "Giày Slip-on Nam Tiện Lợi - Mã 305",
+        "price":  1290000,
+        "img":  "../data/Giày/GIAY-DA-TANG-CHIEU-CAO-NAM-GIAY-CUOI-BANG-DA-MEM-GIAY-CONG-SO-TRANG-TRONG-GIAY-HANG-NGAYDA-BO-THAT-DE-CAO-SUGOT-CAO-6CM-THOANG-KHI-CHONG-TRUOT-CHONG-MAI-MON-SIZE-TU-35-44-GIA-674K-1.jpg",
+        "tags":  {
+                     "Loại Giày":  [
+                                       "Sneaker",
+                                       "Cổ thấp"
+                                   ],
+                     "Chất liệu":  [
+                                       "Da PU",
+                                       "Vải Canvas"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Năng động"
+                                    ]
+                 }
+    },
+    {
+        "id":  "SH021",
+        "name":  "Giày Slip-on Nam Tiện Lợi - Mã 492",
+        "price":  180000,
+        "img":  "../data/Giày/giay-dior-b27-hight-top-sneaker-25-600x600.jpg.webp",
+        "tags":  {
+                     "Loại Giày":  [
+                                       "Sneaker",
+                                       "Cổ thấp"
+                                   ],
+                     "Chất liệu":  [
+                                       "Da PU",
+                                       "Vải Canvas"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Năng động"
+                                    ]
+                 }
+    },
+    {
+        "id":  "SH022",
+        "name":  "Giày Oxford Nam Tinh Tế - Mã 974",
+        "price":  730000,
+        "img":  "../data/Giày/Giay-Hatsune-Miku-High-Top-Rider-Series-thumb1.jpg",
+        "tags":  {
+                     "Loại Giày":  [
+                                       "Sneaker",
+                                       "Cổ thấp"
+                                   ],
+                     "Chất liệu":  [
+                                       "Da PU",
+                                       "Vải Canvas"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Năng động"
+                                    ]
+                 }
+    },
+    {
+        "id":  "SH023",
+        "name":  "Giày Oxford Nam Tinh Tế - Mã 643",
+        "price":  980000,
+        "img":  "../data/Giày/Giay-Yeezy-Boost-350-V2-Cloud-White-FW3043.jpg",
+        "tags":  {
+                     "Loại Giày":  [
+                                       "Sneaker",
+                                       "Cổ thấp"
+                                   ],
+                     "Chất liệu":  [
+                                       "Da PU",
+                                       "Vải Canvas"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Năng động"
+                                    ]
+                 }
+    },
+    {
+        "id":  "SH024",
+        "name":  "Giày Sneaker Nam Cổ Thấp - Mã 503",
+        "price":  450000,
+        "img":  "../data/Giày/images (1).jpg",
+        "tags":  {
+                     "Loại Giày":  [
+                                       "Sneaker",
+                                       "Cổ thấp"
+                                   ],
+                     "Chất liệu":  [
+                                       "Da PU",
+                                       "Vải Canvas"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Năng động"
+                                    ]
+                 }
+    },
+    {
+        "id":  "SH025",
+        "name":  "Giày Mọi Da Mềm Không Dây - Mã 544",
+        "price":  720000,
+        "img":  "../data/Giày/images (2).jpg",
+        "tags":  {
+                     "Loại Giày":  [
+                                       "Sneaker",
+                                       "Cổ thấp"
+                                   ],
+                     "Chất liệu":  [
+                                       "Da PU",
+                                       "Vải Canvas"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Năng động"
+                                    ]
+                 }
+    },
+    {
+        "id":  "SH026",
+        "name":  "Boot Da Cổ Cao Cực Ngầu - Mã 664",
+        "price":  890000,
+        "img":  "../data/Giày/images (3).jpg",
+        "tags":  {
+                     "Loại Giày":  [
+                                       "Sneaker",
+                                       "Cổ thấp"
+                                   ],
+                     "Chất liệu":  [
+                                       "Da PU",
+                                       "Vải Canvas"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Năng động"
+                                    ]
+                 }
+    },
+    {
+        "id":  "SH027",
+        "name":  "Boot Da Cổ Cao Cực Ngầu - Mã 784",
+        "price":  400000,
+        "img":  "../data/Giày/images (4).jpg",
+        "tags":  {
+                     "Loại Giày":  [
+                                       "Sneaker",
+                                       "Cổ thấp"
+                                   ],
+                     "Chất liệu":  [
+                                       "Da PU",
+                                       "Vải Canvas"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Năng động"
+                                    ]
+                 }
+    },
+    {
+        "id":  "SH028",
+        "name":  "Giày Tây Nam Buộc Dây Cổ Điển - Mã 788",
+        "price":  1200000,
+        "img":  "../data/Giày/images (5).jpg",
+        "tags":  {
+                     "Loại Giày":  [
+                                       "Sneaker",
+                                       "Cổ thấp"
+                                   ],
+                     "Chất liệu":  [
+                                       "Da PU",
+                                       "Vải Canvas"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Năng động"
+                                    ]
+                 }
+    },
+    {
+        "id":  "SH029",
+        "name":  "Giày Loafer Da Thật Cao Cấp - Mã 465",
+        "price":  940000,
+        "img":  "../data/Giày/images (6).jpg",
+        "tags":  {
+                     "Loại Giày":  [
+                                       "Sneaker",
+                                       "Cổ thấp"
+                                   ],
+                     "Chất liệu":  [
+                                       "Da PU",
+                                       "Vải Canvas"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Năng động"
+                                    ]
+                 }
+    },
+    {
+        "id":  "SH030",
+        "name":  "Giày Sneaker Nam Cổ Thấp - Mã 883",
+        "price":  310000,
+        "img":  "../data/Giày/images (7).jpg",
+        "tags":  {
+                     "Loại Giày":  [
+                                       "Sneaker",
+                                       "Cổ thấp"
+                                   ],
+                     "Chất liệu":  [
+                                       "Da PU",
+                                       "Vải Canvas"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Năng động"
+                                    ]
+                 }
+    },
+    {
+        "id":  "SH031",
+        "name":  "Giày Sneaker Nam Cổ Thấp - Mã 159",
+        "price":  330000,
+        "img":  "../data/Giày/images (8).jpg",
+        "tags":  {
+                     "Loại Giày":  [
+                                       "Sneaker",
+                                       "Cổ thấp"
+                                   ],
+                     "Chất liệu":  [
+                                       "Da PU",
+                                       "Vải Canvas"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Năng động"
+                                    ]
+                 }
+    },
+    {
+        "id":  "SH032",
+        "name":  "Giày Tây Nam Buộc Dây Cổ Điển - Mã 936",
+        "price":  680000,
+        "img":  "../data/Giày/images.jpg",
+        "tags":  {
+                     "Loại Giày":  [
+                                       "Sneaker",
+                                       "Cổ thấp"
+                                   ],
+                     "Chất liệu":  [
+                                       "Da PU",
+                                       "Vải Canvas"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Năng động"
+                                    ]
+                 }
+    },
+    {
+        "id":  "SH033",
+        "name":  "Giày Oxford Nam Tinh Tế - Mã 835",
+        "price":  290000,
+        "img":  "../data/Giày/mau-nau-7.jpg",
+        "tags":  {
+                     "Loại Giày":  [
+                                       "Sneaker",
+                                       "Cổ thấp"
+                                   ],
+                     "Chất liệu":  [
+                                       "Da PU",
+                                       "Vải Canvas"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Năng động"
+                                    ]
+                 }
+    },
+    {
+        "id":  "SH034",
+        "name":  "Giày Thể Thao Chạy Bộ - Mã 675",
+        "price":  150000,
+        "img":  "../data/Giày/resize.jpg",
+        "tags":  {
+                     "Loại Giày":  [
+                                       "Sneaker",
+                                       "Cổ thấp"
+                                   ],
+                     "Chất liệu":  [
+                                       "Da PU",
+                                       "Vải Canvas"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Năng động"
+                                    ]
+                 }
+    },
+    {
+        "id":  "SH035",
+        "name":  "Giày Oxford Nam Tinh Tế - Mã 393",
+        "price":  1310000,
+        "img":  "../data/Giày/ric_blk_men_w_1.jpg",
+        "tags":  {
+                     "Loại Giày":  [
+                                       "Sneaker",
+                                       "Cổ thấp"
+                                   ],
+                     "Chất liệu":  [
+                                       "Da PU",
+                                       "Vải Canvas"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Năng động"
+                                    ]
+                 }
+    },
+    {
+        "id":  "SH036",
+        "name":  "Giày Loafer Da Thật Cao Cấp - Mã 623",
+        "price":  960000,
+        "img":  "../data/Giày/s-l1600.webp",
+        "tags":  {
+                     "Loại Giày":  [
+                                       "Sneaker",
+                                       "Cổ thấp"
+                                   ],
+                     "Chất liệu":  [
+                                       "Da PU",
+                                       "Vải Canvas"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Năng động"
+                                    ]
+                 }
+    },
+    {
+        "id":  "SH037",
+        "name":  "Giày Oxford Nam Tinh Tế - Mã 670",
+        "price":  1270000,
+        "img":  "../data/Giày/sg-11134201-23020-gjbh7ryw28mv5b.webp",
+        "tags":  {
+                     "Loại Giày":  [
+                                       "Sneaker",
+                                       "Cổ thấp"
+                                   ],
+                     "Chất liệu":  [
+                                       "Da PU",
+                                       "Vải Canvas"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Năng động"
+                                    ]
+                 }
+    },
+    {
+        "id":  "SH038",
+        "name":  "Boot Da Cổ Cao Cực Ngầu - Mã 285",
+        "price":  1270000,
+        "img":  "../data/Giày/sg-11134201-7qvdj-lkhvbx1yjwjd43@resize_w900_nl.webp",
+        "tags":  {
+                     "Loại Giày":  [
+                                       "Sneaker",
+                                       "Cổ thấp"
+                                   ],
+                     "Chất liệu":  [
+                                       "Da PU",
+                                       "Vải Canvas"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Năng động"
+                                    ]
+                 }
+    },
+    {
+        "id":  "SH039",
+        "name":  "Giày Loafer Da Thật Cao Cấp - Mã 230",
+        "price":  1100000,
+        "img":  "../data/Giày/sg-11134201-7qves-lie5wkupm82163@resize_w900_nl.webp",
+        "tags":  {
+                     "Loại Giày":  [
+                                       "Sneaker",
+                                       "Cổ thấp"
+                                   ],
+                     "Chất liệu":  [
+                                       "Da PU",
+                                       "Vải Canvas"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Năng động"
+                                    ]
+                 }
+    },
+    {
+        "id":  "SH040",
+        "name":  "Giày Mọi Da Mềm Không Dây - Mã 502",
+        "price":  1400000,
+        "img":  "../data/Giày/sg-11134201-7qvew-lie5wl3b880ff9@resize_w900_nl.webp",
+        "tags":  {
+                     "Loại Giày":  [
+                                       "Sneaker",
+                                       "Cổ thấp"
+                                   ],
+                     "Chất liệu":  [
+                                       "Da PU",
+                                       "Vải Canvas"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Năng động"
+                                    ]
+                 }
+    },
+    {
+        "id":  "SH041",
+        "name":  "Giày Sneaker Nam Cổ Thấp - Mã 206",
+        "price":  1240000,
+        "img":  "../data/Giày/sg-11134201-7qvfr-lkhvbx5kd8ak71@resize_w900_nl.webp",
+        "tags":  {
+                     "Loại Giày":  [
+                                       "Sneaker",
+                                       "Cổ thấp"
+                                   ],
+                     "Chất liệu":  [
+                                       "Da PU",
+                                       "Vải Canvas"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Năng động"
+                                    ]
+                 }
+    },
+    {
+        "id":  "SH042",
+        "name":  "Giày Oxford Nam Tinh Tế - Mã 221",
+        "price":  660000,
+        "img":  "../data/Giày/sg-11134201-7qvg6-lie5wjlrd6td58@resize_w900_nl.webp",
+        "tags":  {
+                     "Loại Giày":  [
+                                       "Sneaker",
+                                       "Cổ thấp"
+                                   ],
+                     "Chất liệu":  [
+                                       "Da PU",
+                                       "Vải Canvas"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Năng động"
+                                    ]
+                 }
+    },
+    {
+        "id":  "SH043",
+        "name":  "Giày Sneaker Nam Cổ Thấp - Mã 449",
+        "price":  1010000,
+        "img":  "../data/Giày/sg-11134201-824gm-meqt4ko2zbpee8.webp",
+        "tags":  {
+                     "Loại Giày":  [
+                                       "Sneaker",
+                                       "Cổ thấp"
+                                   ],
+                     "Chất liệu":  [
+                                       "Da PU",
+                                       "Vải Canvas"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Năng động"
+                                    ]
+                 }
+    },
+    {
+        "id":  "SH044",
+        "name":  "Giày Tây Nam Buộc Dây Cổ Điển - Mã 829",
+        "price":  780000,
+        "img":  "../data/Giày/sg-11134201-824i2-metrer4u4sn67b.webp",
+        "tags":  {
+                     "Loại Giày":  [
+                                       "Sneaker",
+                                       "Cổ thấp"
+                                   ],
+                     "Chất liệu":  [
+                                       "Da PU",
+                                       "Vải Canvas"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Năng động"
+                                    ]
+                 }
+    },
+    {
+        "id":  "SH045",
+        "name":  "Giày Thể Thao Chạy Bộ - Mã 594",
+        "price":  990000,
+        "img":  "../data/Giày/Trang023.jpg",
+        "tags":  {
+                     "Loại Giày":  [
+                                       "Sneaker",
+                                       "Cổ thấp"
+                                   ],
+                     "Chất liệu":  [
+                                       "Da PU",
+                                       "Vải Canvas"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Năng động"
+                                    ]
+                 }
+    },
+    {
+        "id":  "SH046",
+        "name":  "Giày Sneaker Nam Cổ Thấp - Mã 895",
+        "price":  1210000,
+        "img":  "../data/Giày/vn-11134201-23030-pqns7e3k8qovbb@resize_w900_nl.webp",
+        "tags":  {
+                     "Loại Giày":  [
+                                       "Sneaker",
+                                       "Cổ thấp"
+                                   ],
+                     "Chất liệu":  [
+                                       "Da PU",
+                                       "Vải Canvas"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Năng động"
+                                    ]
+                 }
+    },
+    {
+        "id":  "SH047",
+        "name":  "Giày Loafer Da Thật Cao Cấp - Mã 187",
+        "price":  550000,
+        "img":  "../data/Giày/vn-11134207-7r98o-ls40i2xxsrt0e6.webp",
+        "tags":  {
+                     "Loại Giày":  [
+                                       "Sneaker",
+                                       "Cổ thấp"
+                                   ],
+                     "Chất liệu":  [
+                                       "Da PU",
+                                       "Vải Canvas"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Năng động"
+                                    ]
+                 }
+    },
+    {
+        "id":  "SH048",
+        "name":  "Giày Slip-on Nam Tiện Lợi - Mã 169",
+        "price":  690000,
+        "img":  "../data/Giày/vn-11134207-7ra0g-m78xz61uznebf0@resize_w900_nl.webp",
+        "tags":  {
+                     "Loại Giày":  [
+                                       "Sneaker",
+                                       "Cổ thấp"
+                                   ],
+                     "Chất liệu":  [
+                                       "Da PU",
+                                       "Vải Canvas"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Năng động"
+                                    ]
+                 }
+    },
+    {
+        "id":  "SH049",
+        "name":  "Giày Slip-on Nam Tiện Lợi - Mã 609",
+        "price":  1130000,
+        "img":  "../data/Giày/vn-11134207-7ra0g-m78xz61v3v3n4e@resize_w900_nl.webp",
+        "tags":  {
+                     "Loại Giày":  [
+                                       "Sneaker",
+                                       "Cổ thấp"
+                                   ],
+                     "Chất liệu":  [
+                                       "Da PU",
+                                       "Vải Canvas"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Năng động"
+                                    ]
+                 }
+    },
+    {
+        "id":  "SH050",
+        "name":  "Boot Da Cổ Cao Cực Ngầu - Mã 556",
+        "price":  510000,
+        "img":  "../data/Giày/vn-11134207-7ra0g-m78xz61v82szd0@resize_w900_nl.webp",
+        "tags":  {
+                     "Loại Giày":  [
+                                       "Sneaker",
+                                       "Cổ thấp"
+                                   ],
+                     "Chất liệu":  [
+                                       "Da PU",
+                                       "Vải Canvas"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Năng động"
+                                    ]
+                 }
+    },
+    {
+        "id":  "SH051",
+        "name":  "Giày Mọi Da Mềm Không Dây - Mã 359",
+        "price":  630000,
+        "img":  "../data/Giày/vn-11134208-7r98o-lt0luzbry461b3.jpg",
+        "tags":  {
+                     "Loại Giày":  [
+                                       "Sneaker",
+                                       "Cổ thấp"
+                                   ],
+                     "Chất liệu":  [
+                                       "Da PU",
+                                       "Vải Canvas"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Năng động"
+                                    ]
+                 }
+    },
+    {
+        "id":  "SH052",
+        "name":  "Giày Mọi Da Mềm Không Dây - Mã 734",
+        "price":  1170000,
+        "img":  "../data/Giày/W_SNOWDONZIP_BLK-13.webp",
+        "tags":  {
+                     "Loại Giày":  [
+                                       "Sneaker",
+                                       "Cổ thấp"
+                                   ],
+                     "Chất liệu":  [
+                                       "Da PU",
+                                       "Vải Canvas"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Năng động"
+                                    ]
+                 }
+    },
+    {
+        "id":  "SH053",
+        "name":  "Giày Oxford Nam Tinh Tế - Mã 242",
+        "price":  1400000,
+        "img":  "../data/Giày/zip-den4.jpg",
+        "tags":  {
+                     "Loại Giày":  [
+                                       "Sneaker",
+                                       "Cổ thấp"
+                                   ],
+                     "Chất liệu":  [
+                                       "Da PU",
+                                       "Vải Canvas"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Năng động"
+                                    ]
+                 }
     }
 ]

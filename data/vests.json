@@ -1,24 +1,376 @@
 [
     {
-        "id": "VES001",
-        "name": "Bộ Vest Slimfit Xanh Navy",
-        "price": 2500000,
-        "img": "../assets/img/products/vest1.jpg",
-        "tags": {
-            "Loại": ["Vest Bộ", "Slimfit"],
-            "Chất liệu": ["Vải Wool cao cấp"],
-            "Phong cách": ["Quý ông", "Công sở"]
-        }
+        "id":  "VES001",
+        "name":  "Bộ Vest Nam Slimfit Màu Đen",
+        "price":  2500000,
+        "img":  "../data/Vest/sku-1-Mau-den.jpg",
+        "tags":  {
+                     "Loại":  [
+                                  "Bộ Vest"
+                              ],
+                     "Chất liệu":  [
+                                       "Vải Wool"
+                                   ],
+                     "Phong cách":  [
+                                        "Lịch lãm"
+                                    ]
+                 }
     },
     {
-        "id": "VES002",
-        "name": "Áo Vest Gile Xám Họa Tiết",
-        "price": 850000,
-        "img": "../assets/img/products/vest2.jpg",
-        "tags": {
-            "Loại": ["Gile", "Áo đơn"],
-            "Chất liệu": ["Vải Cotton pha Poly"],
-            "Phong cách": ["Thanh lịch", "Trẻ trung"]
-        }
+        "id":  "VES002",
+        "name":  "Bộ Vest Nam Màu Trắng Thomas Nguyen",
+        "price":  3200000,
+        "img":  "../data/Vest/may-bo-vest-trang-nam-thomas-nguyen.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Bộ Vest"
+                              ],
+                     "Chất liệu":  [
+                                       "Vải cao cấp"
+                                   ],
+                     "Phong cách":  [
+                                        "Chuẩn form"
+                                    ]
+                 }
+    },
+    {
+        "id":  "VES003",
+        "name":  "Bộ Vest 3 Mảnh Màu Đen",
+        "price":  3800000,
+        "img":  "../data/Vest/vest-3-manh-mau-den-thomas-nguyen.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Vest 3 Mảnh"
+                              ],
+                     "Chất liệu":  [
+                                       "Vải Cashmere"
+                                   ],
+                     "Phong cách":  [
+                                        "Quý ông"
+                                    ]
+                 }
+    },
+    {
+        "id":  "VES004",
+        "name":  "Áo Vest Nam Hiện Đại",
+        "price":  1800000,
+        "img":  "../data/Vest/4fbd8850a44e04804d7aabe54687dc62.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Áo Vest lẻ"
+                              ],
+                     "Chất liệu":  [
+                                       "Vải Twill"
+                                   ],
+                     "Phong cách":  [
+                                        "Trẻ trung"
+                                    ]
+                 }
+    },
+    {
+        "id":  "VES005",
+        "name":  "Bộ Vest Xanh Navy Sang Trọng",
+        "price":  2900000,
+        "img":  "../data/Vest/583f46c37c18ef035a3c9936bc6b6213.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Bộ Vest"
+                              ],
+                     "Chất liệu":  [
+                                       "Vải Wool pha"
+                                   ],
+                     "Phong cách":  [
+                                        "Doanh nhân"
+                                    ]
+                 }
+    },
+    {
+        "id":  "VES006",
+        "name":  "Bộ Vest Xám Tro Cao Cấp",
+        "price":  2750000,
+        "img":  "../data/Vest/d50fe7fed765694ada344167aa4a170d.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Bộ Vest"
+                              ],
+                     "Chất liệu":  [
+                                       "Vải mịn"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở"
+                                    ]
+                 }
+    },
+    {
+        "id":  "VES007",
+        "name":  "Áo Vest Blazer Nam Màu Be",
+        "price":  1550000,
+        "img":  "../data/Vest/s-l1600 (1).webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Blazer"
+                              ],
+                     "Chất liệu":  [
+                                       "Linen"
+                                   ],
+                     "Phong cách":  [
+                                        "Casual"
+                                    ]
+                 }
+    },
+    {
+        "id":  "VES008",
+        "name":  "Bộ Vest Nam Họa Tiết Caro",
+        "price":  3400000,
+        "img":  "../data/Vest/s-l1600 (3).webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Bộ Vest"
+                              ],
+                     "Chất liệu":  [
+                                       "Vải dệt"
+                                   ],
+                     "Phong cách":  [
+                                        "Nổi bật"
+                                    ]
+                 }
+    },
+    {
+        "id":  "VES009",
+        "name":  "Bộ Vest Cưới Nam Trắng Kem",
+        "price":  4200000,
+        "img":  "../data/Vest/s-l1600 (4).webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Bộ Vest Cưới"
+                              ],
+                     "Chất liệu":  [
+                                       "Satin"
+                                   ],
+                     "Phong cách":  [
+                                        "Trang trọng"
+                                    ]
+                 }
+    },
+    {
+        "id":  "VES010",
+        "name":  "Áo Vest Dạ Nam Mùa Đông",
+        "price":  2100000,
+        "img":  "../data/Vest/s-l1600 (5).webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Áo Vest lẻ"
+                              ],
+                     "Chất liệu":  [
+                                       "Vải Dạ"
+                                   ],
+                     "Phong cách":  [
+                                        "Ấm áp"
+                                    ]
+                 }
+    },
+    {
+        "id":  "VES011",
+        "name":  "Bộ Vest Nam Đỏ Đô",
+        "price":  3100000,
+        "img":  "../data/Vest/s-l1600 (6).webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Bộ Vest"
+                              ],
+                     "Chất liệu":  [
+                                       "Vải Polyester cao cấp"
+                                   ],
+                     "Phong cách":  [
+                                        "Ấn tượng"
+                                    ]
+                 }
+    },
+    {
+        "id":  "VES012",
+        "name":  "Bộ Vest Nam Xám Đậm",
+        "price":  2600000,
+        "img":  "../data/Vest/s-l960.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Bộ Vest"
+                              ],
+                     "Chất liệu":  [
+                                       "Vải TR"
+                                   ],
+                     "Phong cách":  [
+                                        "Cổ điển"
+                                    ]
+                 }
+    },
+    {
+        "id":  "VES013",
+        "name":  "Bộ Vest Nam Kẻ Sọc Chìm",
+        "price":  3650000,
+        "img":  "../data/Vest/vd372_v2 (3).jpg",
+        "tags":  {
+                     "Loại":  [
+                                  "Bộ Vest"
+                              ],
+                     "Chất liệu":  [
+                                       "Vải Ý"
+                                   ],
+                     "Phong cách":  [
+                                        "Tinh tế"
+                                    ]
+                 }
+    },
+    {
+        "id":  "VES014",
+        "name":  "Áo Vest Gile Nam Lịch Sự",
+        "price":  850000,
+        "img":  "../data/Vest/vn-11134207-7ras8-m3n1ffgjihew1f.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Gile"
+                              ],
+                     "Chất liệu":  [
+                                       "Vải Kaki"
+                                   ],
+                     "Phong cách":  [
+                                        "Thanh lịch"
+                                    ]
+                 }
+    },
+    {
+        "id":  "VES015",
+        "name":  "Bộ Vest Nam Slimfit Trẻ Trung",
+        "price":  2400000,
+        "img":  "../data/Vest/z4914110744917_1d119ff53cf47ad0926954a87c7607dd-500x995-1.jpg",
+        "tags":  {
+                     "Loại":  [
+                                  "Bộ Vest"
+                              ],
+                     "Chất liệu":  [
+                                       "Vải Wool pha"
+                                   ],
+                     "Phong cách":  [
+                                        "Năng động"
+                                    ]
+                 }
+    },
+    {
+        "id":  "VES016",
+        "name":  "Áo Vest Dạ Kẻ Caro Cao Cấp - Mã 917",
+        "price":  640000,
+        "img":  "../data/Vest/2V26M043R-38NO_1_SUM23.avif",
+        "tags":  {
+                     "Loại":  [
+                                  "Bộ Vest"
+                              ],
+                     "Chất liệu":  [
+                                       "Vải Wool"
+                                   ],
+                     "Phong cách":  [
+                                        "Lịch lãm"
+                                    ]
+                 }
+    },
+    {
+        "id":  "VES017",
+        "name":  "Áo Vest Nam Dáng Body - Mã 251",
+        "price":  460000,
+        "img":  "../data/Vest/b1a3bded002dfc926f6e8c0d0c5e4a85.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Bộ Vest"
+                              ],
+                     "Chất liệu":  [
+                                       "Vải Wool"
+                                   ],
+                     "Phong cách":  [
+                                        "Lịch lãm"
+                                    ]
+                 }
+    },
+    {
+        "id":  "VES018",
+        "name":  "Áo Vest Nam Dáng Body - Mã 488",
+        "price":  550000,
+        "img":  "../data/Vest/H6a503f5cac2947db89809de75cd41498t.jpg_300x300.avif",
+        "tags":  {
+                     "Loại":  [
+                                  "Bộ Vest"
+                              ],
+                     "Chất liệu":  [
+                                       "Vải Wool"
+                                   ],
+                     "Phong cách":  [
+                                        "Lịch lãm"
+                                    ]
+                 }
+    },
+    {
+        "id":  "VES019",
+        "name":  "Áo Vest Nam Dáng Body - Mã 854",
+        "price":  1470000,
+        "img":  "../data/Vest/s-l1600 (2).webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Bộ Vest"
+                              ],
+                     "Chất liệu":  [
+                                       "Vải Wool"
+                                   ],
+                     "Phong cách":  [
+                                        "Lịch lãm"
+                                    ]
+                 }
+    },
+    {
+        "id":  "VES020",
+        "name":  "Áo Vest Nam Dáng Body - Mã 697",
+        "price":  1080000,
+        "img":  "../data/Vest/s-l1600.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Bộ Vest"
+                              ],
+                     "Chất liệu":  [
+                                       "Vải Wool"
+                                   ],
+                     "Phong cách":  [
+                                        "Lịch lãm"
+                                    ]
+                 }
+    },
+    {
+        "id":  "VES021",
+        "name":  "Áo Vest Cổ K Classic - Mã 368",
+        "price":  1040000,
+        "img":  "../data/Vest/s-l960 (1).webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Bộ Vest"
+                              ],
+                     "Chất liệu":  [
+                                       "Vải Wool"
+                                   ],
+                     "Phong cách":  [
+                                        "Lịch lãm"
+                                    ]
+                 }
+    },
+    {
+        "id":  "VES022",
+        "name":  "Vest Nam Phong Cách Hàn Quốc - Mã 425",
+        "price":  340000,
+        "img":  "../data/Vest/z5327967714712_5de4ae12b16d1bd14001a0c969eb7a83-500x749-1.jpg",
+        "tags":  {
+                     "Loại":  [
+                                  "Bộ Vest"
+                              ],
+                     "Chất liệu":  [
+                                       "Vải Wool"
+                                   ],
+                     "Phong cách":  [
+                                        "Lịch lãm"
+                                    ]
+                 }
     }
 ]

@@ -1,39 +1,1484 @@
-[
+﻿[
     {
-        "id": "ACC001",
-        "name": "Thắt Lưng Da Bò Khóa Tự Động",
-        "price": 450000,
-        "img": "../assets/img/products/acc1.jpg",
-        "tags": {
-            "Loại": [
-                "Thắt lưng",
-                "Dây nịt"
-            ],
-            "Chất liệu": [
-                "Da bò miếng"
-            ],
-            "Phong cách": [
-                "Công sở",
-                "Lịch sự"
-            ]
-        }
+        "id":  "ACC001",
+        "name":  "Thắt Lưng Da Bò Khóa Tự Động",
+        "price":  450000,
+        "img":  "../data/Phụ Kiện Nam/12ddb09f7ffc0017d9067a7b77aa0b7a@resize_w900_nl.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
     },
     {
-        "id": "ACC002",
-        "name": "Cà Vạt Lụa Màu Xanh Chấm Bi",
-        "price": 150000,
-        "img": "../assets/img/products/acc2.jpg",
-        "tags": {
-            "Loại": [
-                "Cà vạt",
-                "Tie"
-            ],
-            "Chất liệu": [
-                "Lụa nhân tạo"
-            ],
-            "Màu sắc": [
-                "Xanh dương"
-            ]
-        }
+        "id":  "ACC004",
+        "name":  "Kính Mát Nam Chống UV - Mã 198",
+        "price":  1400000,
+        "img":  "../data/Phụ Kiện Nam/163f76f1c6ef4d8cb1ab3a8388fc28f0@resize_w900_nl.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC005",
+        "name":  "Kẹp Cà Vạt Nam Tính - Mã 807",
+        "price":  1150000,
+        "img":  "../data/Phụ Kiện Nam/3cd73c56655a0032180bdbe2c15322c4_tn.jpg",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC006",
+        "name":  "Nhẫn Nam Bạc Thái - Mã 151",
+        "price":  800000,
+        "img":  "../data/Phụ Kiện Nam/68aba716b0d55bf6ab895361028033c4.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC007",
+        "name":  "Móc Khóa Da Bò - Mã 311",
+        "price":  1070000,
+        "img":  "../data/Phụ Kiện Nam/6dbd44d8545ff53af6767ecc85269292.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC008",
+        "name":  "Vòng Cổ Nam Basic - Mã 816",
+        "price":  970000,
+        "img":  "../data/Phụ Kiện Nam/6ee4c25cf245b7dc1a5dcd8276360d01.jpg",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC009",
+        "name":  "Cà Vạt Lụa Kẻ Sọc - Mã 629",
+        "price":  460000,
+        "img":  "../data/Phụ Kiện Nam/bba2ca6687d553373e4beb3b226eecf3.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC010",
+        "name":  "Túi Đeo Chéo Nam - Mã 941",
+        "price":  870000,
+        "img":  "../data/Phụ Kiện Nam/cn-11134207-7r98o-loy1gne7cx2461.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC011",
+        "name":  "Khuyên Tai Nam Basic - Mã 309",
+        "price":  1450000,
+        "img":  "../data/Phụ Kiện Nam/cvn8-l1__20__418d18f9f2264f0ab00d1e825d2ccd88_1024x1024.png",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC012",
+        "name":  "Vòng Cổ Nam Basic - Mã 651",
+        "price":  1070000,
+        "img":  "../data/Phụ Kiện Nam/d6fcd4a3ae4059f7030124852000b4fd.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC013",
+        "name":  "Thắt Lưng Nam Da Bò - Mã 212",
+        "price":  520000,
+        "img":  "../data/Phụ Kiện Nam/sg-11134201-7qvcv-lk0zae4uqzdjb9.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC014",
+        "name":  "Cà Vạt Lụa Kẻ Sọc - Mã 233",
+        "price":  170000,
+        "img":  "../data/Phụ Kiện Nam/sg-11134201-7qvcz-lk0zag45qf1353.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC015",
+        "name":  "Kính Mát Nam Chống UV - Mã 965",
+        "price":  630000,
+        "img":  "../data/Phụ Kiện Nam/sg-11134201-7qvd0-lk0zadn3cr9a5a.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC016",
+        "name":  "Vòng Tay Phong Thủy Nam - Mã 332",
+        "price":  1450000,
+        "img":  "../data/Phụ Kiện Nam/sg-11134201-7qvdb-lk0zatgg7jxw6b@resize_w900_nl.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC017",
+        "name":  "Túi Đeo Chéo Nam - Mã 534",
+        "price":  800000,
+        "img":  "../data/Phụ Kiện Nam/sg-11134201-7qvdf-lk0zar43n01x79@resize_w900_nl.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC018",
+        "name":  "Ghim Cài Áo Vest Nam - Mã 963",
+        "price":  400000,
+        "img":  "../data/Phụ Kiện Nam/sg-11134201-7qve4-lk0zala26cqy45@resize_w900_nl.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC019",
+        "name":  "Móc Khóa Da Bò - Mã 959",
+        "price":  1290000,
+        "img":  "../data/Phụ Kiện Nam/sg-11134201-7qvf7-lk0zamqi31cn3d@resize_w900_nl.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC020",
+        "name":  "Nhẫn Nam Bạc Thái - Mã 725",
+        "price":  840000,
+        "img":  "../data/Phụ Kiện Nam/sg-11134201-7qvfc-lk0zarroohryfa@resize_w900_nl.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC021",
+        "name":  "Nhẫn Nam Bạc Thái - Mã 719",
+        "price":  620000,
+        "img":  "../data/Phụ Kiện Nam/sg-11134201-7qvfk-lk0zap8egv7u84@resize_w900_nl.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC022",
+        "name":  "Kẹp Cà Vạt Nam Tính - Mã 937",
+        "price":  1100000,
+        "img":  "../data/Phụ Kiện Nam/sg-11134201-7qvfm-lk0zafg0pq16a4@resize_w900_nl.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC023",
+        "name":  "Cà Vạt Lụa Kẻ Sọc - Mã 409",
+        "price":  1010000,
+        "img":  "../data/Phụ Kiện Nam/sg-11134201-7r9a0-ln82xcqnp4vu3d.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC024",
+        "name":  "Cà Vạt Lụa Kẻ Sọc - Mã 582",
+        "price":  1250000,
+        "img":  "../data/Phụ Kiện Nam/sg-11134201-7rblx-m63olb6zfr0412@resize_w900_nl.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC025",
+        "name":  "Móc Khóa Da Bò - Mã 655",
+        "price":  300000,
+        "img":  "../data/Phụ Kiện Nam/sg-11134201-7rbn9-m63olalw991z2a@resize_w900_nl.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC026",
+        "name":  "Túi Đeo Chéo Nam - Mã 225",
+        "price":  1400000,
+        "img":  "../data/Phụ Kiện Nam/sg-11134201-7rbne-m63ol9xhadlka3@resize_w900_nl.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC027",
+        "name":  "Móc Khóa Da Bò - Mã 443",
+        "price":  1310000,
+        "img":  "../data/Phụ Kiện Nam/sg-11134201-7rcce-m6ds8m9xtp93ad.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC028",
+        "name":  "Nhẫn Nam Bạc Thái - Mã 831",
+        "price":  1240000,
+        "img":  "../data/Phụ Kiện Nam/sg-11134201-7rccg-m6ds8lq8mj7kac.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC029",
+        "name":  "Vòng Cổ Nam Basic - Mã 515",
+        "price":  620000,
+        "img":  "../data/Phụ Kiện Nam/sg-11134201-7rccx-m6ds8nc89md011.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC030",
+        "name":  "Kính Mát Nam Chống UV - Mã 766",
+        "price":  310000,
+        "img":  "../data/Phụ Kiện Nam/sg-11134201-7rcd1-ltkip3j1cb6406@resize_w900_nl.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC031",
+        "name":  "Túi Đeo Chéo Nam - Mã 248",
+        "price":  1390000,
+        "img":  "../data/Phụ Kiện Nam/sg-11134201-7rcd6-ltkiopy57rfy23@resize_w900_nl.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC032",
+        "name":  "Vòng Cổ Nam Basic - Mã 791",
+        "price":  910000,
+        "img":  "../data/Phụ Kiện Nam/sg-11134201-7rcdj-m6ds8msj2hw75d.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC033",
+        "name":  "Ví Đứng Nam Nhỏ Gọn - Mã 911",
+        "price":  1460000,
+        "img":  "../data/Phụ Kiện Nam/sg-11134201-7rcf4-m6ds8o35689a7d.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC034",
+        "name":  "Móc Khóa Da Bò - Mã 520",
+        "price":  370000,
+        "img":  "../data/Phụ Kiện Nam/sg-11134201-7rd3r-lwvd9rjqg7ofdb.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC035",
+        "name":  "Kính Mát Nam Chống UV - Mã 703",
+        "price":  440000,
+        "img":  "../data/Phụ Kiện Nam/sg-11134201-7rd54-lx8l9awq8tcve0.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC036",
+        "name":  "Ghim Cài Áo Vest Nam - Mã 274",
+        "price":  510000,
+        "img":  "../data/Phụ Kiện Nam/sg-11134201-7rd58-m6wcdciolndn14.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC037",
+        "name":  "Kính Mát Nam Chống UV - Mã 500",
+        "price":  870000,
+        "img":  "../data/Phụ Kiện Nam/sg-11134201-7rd59-lwvd9q9ec0lwbd@resize_w900_nl.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC038",
+        "name":  "Nhẫn Nam Bạc Thái - Mã 831",
+        "price":  830000,
+        "img":  "../data/Phụ Kiện Nam/sg-11134201-7rd5e-m7nurzshbwn7da.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC039",
+        "name":  "Kính Râm Thời Trang Nam - Mã 907",
+        "price":  220000,
+        "img":  "../data/Phụ Kiện Nam/sg-11134201-7rdwt-m0xfepw92ibe9e.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC040",
+        "name":  "Túi Đeo Chéo Nam - Mã 423",
+        "price":  570000,
+        "img":  "../data/Phụ Kiện Nam/sg-11134201-7reoe-m2p03xi7imtiaa.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC041",
+        "name":  "Ví Đứng Nam Nhỏ Gọn - Mã 108",
+        "price":  1000000,
+        "img":  "../data/Phụ Kiện Nam/sg-11134201-7rfez-m3ndu6q5hd3x2f.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC042",
+        "name":  "Móc Khóa Da Bò - Mã 552",
+        "price":  500000,
+        "img":  "../data/Phụ Kiện Nam/sg-11134201-7rfff-m3ndu786qxqve1.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC043",
+        "name":  "Túi Đeo Chéo Nam - Mã 993",
+        "price":  800000,
+        "img":  "../data/Phụ Kiện Nam/sg-11134201-82619-mmfvh3twxiis39.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC044",
+        "name":  "Khuyên Tai Nam Basic - Mã 445",
+        "price":  1140000,
+        "img":  "../data/Phụ Kiện Nam/sg-11134253-821d6-mgha5hyubaiw75@resize_w900_nl.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC045",
+        "name":  "Nhẫn Nam Bạc Thái - Mã 801",
+        "price":  1100000,
+        "img":  "../data/Phụ Kiện Nam/sg-11134253-821df-mghb57vxrpqm2c@resize_w900_nl.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC046",
+        "name":  "Ví Da Nam Cầm Tay - Mã 444",
+        "price":  320000,
+        "img":  "../data/Phụ Kiện Nam/sg-11134253-8259n-mfukhujvttzg1d.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC047",
+        "name":  "Ví Đứng Nam Nhỏ Gọn - Mã 940",
+        "price":  1000000,
+        "img":  "../data/Phụ Kiện Nam/sg-11134253-825ar-mfukhpfx86iwaf.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC048",
+        "name":  "Kính Râm Thời Trang Nam - Mã 771",
+        "price":  240000,
+        "img":  "../data/Phụ Kiện Nam/vn-11134207-7r98o-lm9xl4mman6n7d@resize_w900_nl.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC049",
+        "name":  "Kẹp Cà Vạt Nam Tính - Mã 741",
+        "price":  160000,
+        "img":  "../data/Phụ Kiện Nam/vn-11134207-7r98o-lo6lk5vcmvp323@resize_w900_nl.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC050",
+        "name":  "Vòng Cổ Nam Basic - Mã 369",
+        "price":  660000,
+        "img":  "../data/Phụ Kiện Nam/vn-11134207-7r98o-ltxbvrpnfklt73@resize_w900_nl.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC051",
+        "name":  "Thắt Lưng Nam Da Bò - Mã 223",
+        "price":  700000,
+        "img":  "../data/Phụ Kiện Nam/vn-11134207-7r98o-lxaxscfqlhp5dd.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC052",
+        "name":  "Thắt Lưng Nam Da Bò - Mã 390",
+        "price":  240000,
+        "img":  "../data/Phụ Kiện Nam/vn-11134207-7r98o-lxv8e6wdbvtl7c@resize_w900_nl.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC053",
+        "name":  "Khuyên Tai Nam Basic - Mã 234",
+        "price":  360000,
+        "img":  "../data/Phụ Kiện Nam/vn-11134207-7r98o-lxv8j87zzhll0c@resize_w900_nl.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC054",
+        "name":  "Ví Da Nam Cầm Tay - Mã 446",
+        "price":  1250000,
+        "img":  "../data/Phụ Kiện Nam/vn-11134207-7ra0g-m8au47nduh6q8d@resize_w900_nl.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC055",
+        "name":  "Thắt Lưng Nam Da Bò - Mã 427",
+        "price":  370000,
+        "img":  "../data/Phụ Kiện Nam/vn-11134207-7ra0g-m8rqbduc9fnm2a.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC056",
+        "name":  "Vòng Cổ Nam Basic - Mã 138",
+        "price":  890000,
+        "img":  "../data/Phụ Kiện Nam/vn-11134207-7ras8-m30laq137k6o4b@resize_w900_nl.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC057",
+        "name":  "Móc Khóa Da Bò - Mã 371",
+        "price":  160000,
+        "img":  "../data/Phụ Kiện Nam/vn-11134207-7ras8-m37kcyrbgfe4f2@resize_w900_nl.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC058",
+        "name":  "Cà Vạt Lụa Kẻ Sọc - Mã 311",
+        "price":  560000,
+        "img":  "../data/Phụ Kiện Nam/vn-11134207-7ras8-m5v027mzqoeb16@resize_w900_nl.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC059",
+        "name":  "Thắt Lưng Nam Da Bò - Mã 330",
+        "price":  570000,
+        "img":  "../data/Phụ Kiện Nam/vn-11134207-7ras8-mdo3gsroi2sx8e@resize_w900_nl.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC060",
+        "name":  "Ghim Cài Áo Vest Nam - Mã 698",
+        "price":  590000,
+        "img":  "../data/Phụ Kiện Nam/vn-11134207-81ztc-mkf6fity5w5h2a@resize_w900_nl.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC061",
+        "name":  "Ví Da Nam Cầm Tay - Mã 353",
+        "price":  1230000,
+        "img":  "../data/Phụ Kiện Nam/vn-11134207-81ztc-mm0fse1nco3l0a.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC062",
+        "name":  "Túi Đeo Chéo Nam - Mã 784",
+        "price":  370000,
+        "img":  "../data/Phụ Kiện Nam/vn-11134207-81ztc-mm0fse1nz56tde.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC063",
+        "name":  "Nhẫn Nam Bạc Thái - Mã 767",
+        "price":  770000,
+        "img":  "../data/Phụ Kiện Nam/vn-11134207-81ztc-mm0fse1rvlz7dd.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC064",
+        "name":  "Móc Khóa Da Bò - Mã 211",
+        "price":  800000,
+        "img":  "../data/Phụ Kiện Nam/vn-11134207-81ztc-mm1imc7yji10ce@resize_w900_nl.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC065",
+        "name":  "Cà Vạt Lụa Kẻ Sọc - Mã 591",
+        "price":  1430000,
+        "img":  "../data/Phụ Kiện Nam/vn-11134207-820l4-meaxoptpbh1ga4@resize_w900_nl.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC066",
+        "name":  "Kẹp Cà Vạt Nam Tính - Mã 859",
+        "price":  1310000,
+        "img":  "../data/Phụ Kiện Nam/vn-11134207-820l4-mf4tvd0twmq0fc@resize_w900_nl.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC067",
+        "name":  "Cà Vạt Lụa Kẻ Sọc - Mã 785",
+        "price":  340000,
+        "img":  "../data/Phụ Kiện Nam/vn-11134207-820l4-mfzj4vojm3v106.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC068",
+        "name":  "Kính Mát Nam Chống UV - Mã 139",
+        "price":  920000,
+        "img":  "../data/Phụ Kiện Nam/vn-11134207-820l4-mg3t1gfhdbf1df@resize_w900_nl.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC069",
+        "name":  "Túi Đeo Chéo Nam - Mã 572",
+        "price":  850000,
+        "img":  "../data/Phụ Kiện Nam/vn-11134207-820l4-mg54gsn00q2yb4.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC070",
+        "name":  "Kẹp Cà Vạt Nam Tính - Mã 282",
+        "price":  910000,
+        "img":  "../data/Phụ Kiện Nam/vn-11134207-820l4-mg7wi7tp5btbb8@resize_w900_nl.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC071",
+        "name":  "Nhẫn Nam Bạc Thái - Mã 835",
+        "price":  200000,
+        "img":  "../data/Phụ Kiện Nam/vn-11134207-820l4-mghqjlr384jx7a@resize_w900_nl.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC072",
+        "name":  "Nhẫn Nam Bạc Thái - Mã 442",
+        "price":  890000,
+        "img":  "../data/Phụ Kiện Nam/vn-11134207-820l4-mgnsuvrj0g0d13.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC073",
+        "name":  "Thắt Lưng Nam Da Bò - Mã 809",
+        "price":  1190000,
+        "img":  "../data/Phụ Kiện Nam/vn-11134207-820l4-mgoyijzfiwi603.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC074",
+        "name":  "Ví Da Nam Cầm Tay - Mã 199",
+        "price":  330000,
+        "img":  "../data/Phụ Kiện Nam/vn-11134207-820l4-mi15wfwl7itd3b.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC075",
+        "name":  "Cà Vạt Lụa Kẻ Sọc - Mã 340",
+        "price":  740000,
+        "img":  "../data/Phụ Kiện Nam/vn-11134207-820l4-mibai28ltk3lf6.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC076",
+        "name":  "Nhẫn Nam Bạc Thái - Mã 613",
+        "price":  570000,
+        "img":  "../data/Phụ Kiện Nam/vn-11134207-820l4-miflc4iw5r0kab.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC077",
+        "name":  "Kính Mát Nam Chống UV - Mã 173",
+        "price":  1000000,
+        "img":  "../data/Phụ Kiện Nam/vn-11134207-820l4-miflc4v7rdhfba.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC078",
+        "name":  "Khuyên Tai Nam Basic - Mã 368",
+        "price":  1070000,
+        "img":  "../data/Phụ Kiện Nam/vn-11134207-820l4-miflc4wvgidjd4.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC079",
+        "name":  "Vòng Cổ Nam Basic - Mã 578",
+        "price":  160000,
+        "img":  "../data/Phụ Kiện Nam/vn-11134207-820l4-mjgtbwivwnwm4b@resize_w900_nl.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
+    },
+    {
+        "id":  "ACC080",
+        "name":  "Nhẫn Nam Bạc Thái - Mã 646",
+        "price":  1110000,
+        "img":  "../data/Phụ Kiện Nam/z6019471629477_f4e1ad1d1bce7a5ca21f0ec6bc300447_91f50c9113204a05841067006d5c2974_master.jpg",
+        "tags":  {
+                     "Loại":  [
+                                  "Thắt lưng",
+                                  "Dây nịt"
+                              ],
+                     "Chất liệu":  [
+                                       "Da bò miếng"
+                                   ],
+                     "Phong cách":  [
+                                        "Công sở",
+                                        "Lịch sự"
+                                    ]
+                 }
     }
 ]

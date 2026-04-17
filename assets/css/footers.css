@@ -6,9 +6,8 @@
 
 footer {
     background-color: #222222;
-    padding: 70px 120px 30px 120px;
+    padding: 70px 10% 40px;
     width: 100%;
-
 }
 
 h4 {
@@ -18,7 +17,8 @@ h4 {
     line-height: 100%;
     margin-bottom: 25px;
     font-family: 'Montserrat', sans-serif;
-
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 li,
@@ -32,13 +32,20 @@ li,
 
 .p {
     max-width: 270px;
+    line-height: 1.6;
 }
 
 .footer-top {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+}
 
+.footer-top > div {
+    min-width: 200px;
+    flex: 1;
 }
 
 .footer-top ul {
@@ -47,28 +54,34 @@ li,
 }
 
 .button {
-    background-color: #717FE0;
+    background-color: #000;
     color: white;
-    border-radius: 23px;
+    border-radius: 30px;
     height: 48px;
     min-width: 184px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 100%;
+    font-size: 14px;
+    font-weight: 600;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
+    border: 1px solid rgba(255,255,255,0.2);
+    transition: all 0.3s ease;
 }
 
 .button:hover {
-    background-color: #5a6fcf;
+    background-color: #fff;
+    color: #000;
     cursor: pointer;
     transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
 }
 
 .footer-bottom {
+    margin-top: 50px;
+    padding-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,25 +91,63 @@ li,
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 15px;
 }
 
 .pay-info,
 .email-info {
-    color: #999999;
-    font-size: 13px;
+    color: #666;
+    font-size: 12px;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
 }
 
 .section-email {
-    height: 80px;
-    border-bottom: 3px solid #444444;
-    margin-bottom: 10.41px;
+    height: 40px;
+    border-bottom: 1px solid #444444;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
 }
 
 .icon-internet {
-    height: 19.36px;
-    width: 82.05px;
+    height: 24px;
+    width: auto;
     display: flex;
-    gap: 22.56px;
+    gap: 20px;
 }
+
+@media (max-width: 1024px) {
+    footer {
+        padding: 60px 5% 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    footer {
+        padding: 50px 20px 30px;
+    }
+
+    .footer-top {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .footer-top > div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .p {
+        max-width: 100%;
+        margin: 0 auto 20px;
+    }
+
+    .button {
+        margin: 0 auto;
+    }
+
+    .footer-bottom {
+        margin-top: 40px;
+    }
+}

@@ -93,7 +93,12 @@ function checkAndDisplayUser() {
         const accountLink = document.getElementById('accountLink');
 
         if (userNameDisplay) {
-            userNameDisplay.innerText = "Hi, " + (formattedName || "User");
+            userNameDisplay.innerText = formattedName || "User";
+            const accountStatus = document.getElementById('accountStatus');
+            if (accountStatus) {
+                accountStatus.childNodes[0].textContent = "My Account";
+            }
+
             if (accountLink) {
                 accountLink.href = "#";
                 accountLink.onclick = (e) => {

@@ -1,24 +1,591 @@
-[
+﻿[
     {
-        "id": "WAT001",
-        "name": "Đồng Hồ Nam Casio G-Shock",
-        "price": 4500000,
-        "img": "../assets/img/products/watch1.jpg",
-        "tags": {
-            "Loại": ["Số & Kim", "Chống nước"],
-            "Chất liệu": ["Nhựa tổng hợp"],
-            "Phong cách": ["Thể thao", "Siêu bền"]
-        }
+        "id":  "WAT001",
+        "name":  "Đồng Hồ Nam Casio G-Shock",
+        "price":  4500000,
+        "img":  "../data/Đồng Hồ/2dong-ho-Thuy-sy-Epos-swiss-E-3500169252535-2055586093.jpg",
+        "tags":  {
+                     "Loại":  [
+                                  "Số & Kim",
+                                  "Chống nước"
+                              ],
+                     "Chất liệu":  [
+                                       "Nhựa tổng hợp"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Siêu bền"
+                                    ]
+                 }
     },
     {
-        "id": "WAT002",
-        "name": "Đồng Hồ Nam Orient Sun & Moon",
-        "price": 8500000,
-        "img": "../assets/img/products/watch2.jpg",
-        "tags": {
-            "Loại": ["Tự động (Automatic)", "Kính Sapphire"],
-            "Chất liệu": ["Thép không gỉ", "Dây da"],
-            "Phong cách": ["Sang trọng", "Lịch lãm"]
-        }
+        "id":  "WAT004",
+        "name":  "Đồng Hồ Dây Kim Loại Mạ Vàng - Mã 702",
+        "price":  470000,
+        "img":  "../data/Đồng Hồ/big-bang-integral-black-magic-lf-2-0-1-1.jpg",
+        "tags":  {
+                     "Loại":  [
+                                  "Số & Kim",
+                                  "Chống nước"
+                              ],
+                     "Chất liệu":  [
+                                       "Nhựa tổng hợp"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Siêu bền"
+                                    ]
+                 }
+    },
+    {
+        "id":  "WAT005",
+        "name":  "Đồng Hồ Casio Cổ Điển - Mã 567",
+        "price":  700000,
+        "img":  "../data/Đồng Hồ/CTF50151373-1-den-Bac-Dong-ho-catier-nam-may-co-day-da.jpg",
+        "tags":  {
+                     "Loại":  [
+                                  "Số & Kim",
+                                  "Chống nước"
+                              ],
+                     "Chất liệu":  [
+                                       "Nhựa tổng hợp"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Siêu bền"
+                                    ]
+                 }
+    },
+    {
+        "id":  "WAT006",
+        "name":  "Smartwatch Đo Nhịp Tim - Mã 996",
+        "price":  1130000,
+        "img":  "../data/Đồng Hồ/dong-ho-cartier-13.png",
+        "tags":  {
+                     "Loại":  [
+                                  "Số & Kim",
+                                  "Chống nước"
+                              ],
+                     "Chất liệu":  [
+                                       "Nhựa tổng hợp"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Siêu bền"
+                                    ]
+                 }
+    },
+    {
+        "id":  "WAT007",
+        "name":  "Đồng Hồ Thể Thao Chống Nước - Mã 889",
+        "price":  850000,
+        "img":  "../data/Đồng Hồ/dong-ho-cartier-calibre-de-cartier-diver-blue-wsca0010-42mm-luot.jpg",
+        "tags":  {
+                     "Loại":  [
+                                  "Số & Kim",
+                                  "Chống nước"
+                              ],
+                     "Chất liệu":  [
+                                       "Nhựa tổng hợp"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Siêu bền"
+                                    ]
+                 }
+    },
+    {
+        "id":  "WAT008",
+        "name":  "Đồng Hồ Dây Kim Loại Mạ Vàng - Mã 551",
+        "price":  520000,
+        "img":  "../data/Đồng Hồ/dong-ho-hublot-big-bang-sang-bleu-titanium-diamond-pave-45mm-415-nx-1112-vr-1704-mxm17-limited-200pc-unworn.jpg",
+        "tags":  {
+                     "Loại":  [
+                                  "Số & Kim",
+                                  "Chống nước"
+                              ],
+                     "Chất liệu":  [
+                                       "Nhựa tổng hợp"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Siêu bền"
+                                    ]
+                 }
+    },
+    {
+        "id":  "WAT009",
+        "name":  "Đồng Hồ Thể Thao Chống Nước - Mã 978",
+        "price":  370000,
+        "img":  "../data/Đồng Hồ/dong-ho-nam-day-thep-chay-co-cartier-ctect011-1-a.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Số & Kim",
+                                  "Chống nước"
+                              ],
+                     "Chất liệu":  [
+                                       "Nhựa tổng hợp"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Siêu bền"
+                                    ]
+                 }
+    },
+    {
+        "id":  "WAT010",
+        "name":  "Đồng Hồ Thể Thao Chống Nước - Mã 288",
+        "price":  580000,
+        "img":  "../data/Đồng Hồ/dong-ho-nam-iw-carnival-726g-chinh-hang-avt-1-c5b97462-65e8-447d-8ec9-bb02f4804318-edb0d34a-3493-4c09-87a6-db4dc3d0f79b.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Số & Kim",
+                                  "Chống nước"
+                              ],
+                     "Chất liệu":  [
+                                       "Nhựa tổng hợp"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Siêu bền"
+                                    ]
+                 }
+    },
+    {
+        "id":  "WAT011",
+        "name":  "Đồng Hồ Casio Cổ Điển - Mã 897",
+        "price":  1410000,
+        "img":  "../data/Đồng Hồ/dong-ho-omega-seamaster-diver-300m-210-30-42-20-01-001-42-steel (1).jpg",
+        "tags":  {
+                     "Loại":  [
+                                  "Số & Kim",
+                                  "Chống nước"
+                              ],
+                     "Chất liệu":  [
+                                       "Nhựa tổng hợp"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Siêu bền"
+                                    ]
+                 }
+    },
+    {
+        "id":  "WAT012",
+        "name":  "Đồng Hồ Dây Kim Loại Mạ Vàng - Mã 475",
+        "price":  1170000,
+        "img":  "../data/Đồng Hồ/dong-ho-omega-seamaster-diver-300m-210-30-42-20-01-001-42-steel.jpg",
+        "tags":  {
+                     "Loại":  [
+                                  "Số & Kim",
+                                  "Chống nước"
+                              ],
+                     "Chất liệu":  [
+                                       "Nhựa tổng hợp"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Siêu bền"
+                                    ]
+                 }
+    },
+    {
+        "id":  "WAT013",
+        "name":  "Đồng Hồ Casio Cổ Điển - Mã 718",
+        "price":  960000,
+        "img":  "../data/Đồng Hồ/dong-ho-omega-seamaster-planet-ocean-600m-232-18-46-51-01-001-45-5-steel.jpg",
+        "tags":  {
+                     "Loại":  [
+                                  "Số & Kim",
+                                  "Chống nước"
+                              ],
+                     "Chất liệu":  [
+                                       "Nhựa tổng hợp"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Siêu bền"
+                                    ]
+                 }
+    },
+    {
+        "id":  "WAT014",
+        "name":  "Đồng Hồ Dây Kim Loại Mạ Vàng - Mã 686",
+        "price":  440000,
+        "img":  "../data/Đồng Hồ/dong-ho-omega-speedmaster-dark-side-of-the-moon-apollo-8-310-92-44-50-01-001-44-25-black-ceramic.jpg",
+        "tags":  {
+                     "Loại":  [
+                                  "Số & Kim",
+                                  "Chống nước"
+                              ],
+                     "Chất liệu":  [
+                                       "Nhựa tổng hợp"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Siêu bền"
+                                    ]
+                 }
+    },
+    {
+        "id":  "WAT015",
+        "name":  "Đồng Hồ Cơ Lộ Máy Nam - Mã 694",
+        "price":  250000,
+        "img":  "../data/Đồng Hồ/dong-ho-patek-philippe-nam-may-co-tu-dong-day-da-mat-trang-sao-41mm-164.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Số & Kim",
+                                  "Chống nước"
+                              ],
+                     "Chất liệu":  [
+                                       "Nhựa tổng hợp"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Siêu bền"
+                                    ]
+                 }
+    },
+    {
+        "id":  "WAT016",
+        "name":  "Đồng Hồ Thể Thao Chống Nước - Mã 631",
+        "price":  910000,
+        "img":  "../data/Đồng Hồ/dong-ho-patek-philippe-nautilus-nam-dinh-da-40mm-automatic-17.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Số & Kim",
+                                  "Chống nước"
+                              ],
+                     "Chất liệu":  [
+                                       "Nhựa tổng hợp"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Siêu bền"
+                                    ]
+                 }
+    },
+    {
+        "id":  "WAT017",
+        "name":  "Đồng Hồ Dây Kim Loại Mạ Vàng - Mã 531",
+        "price":  830000,
+        "img":  "../data/Đồng Hồ/dong-ho-richard-mille-rm-001-tourbillon-7-1.jpg",
+        "tags":  {
+                     "Loại":  [
+                                  "Số & Kim",
+                                  "Chống nước"
+                              ],
+                     "Chất liệu":  [
+                                       "Nhựa tổng hợp"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Siêu bền"
+                                    ]
+                 }
+    },
+    {
+        "id":  "WAT018",
+        "name":  "Đồng Hồ Casio Cổ Điển - Mã 136",
+        "price":  420000,
+        "img":  "../data/Đồng Hồ/dong-ho-rolex-cosmograph-daytona-40-m116523-0043-116523-0043-vang-kim-18ct-mat-den-coc-so-kim-cuong-luot.jpg",
+        "tags":  {
+                     "Loại":  [
+                                  "Số & Kim",
+                                  "Chống nước"
+                              ],
+                     "Chất liệu":  [
+                                       "Nhựa tổng hợp"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Siêu bền"
+                                    ]
+                 }
+    },
+    {
+        "id":  "WAT019",
+        "name":  "Đồng Hồ Casio Cổ Điển - Mã 539",
+        "price":  290000,
+        "img":  "../data/Đồng Hồ/dong-ho-tudor-cua-nuoc-nao-co-tot-dong-ho-tudor-02-800x450.jpg",
+        "tags":  {
+                     "Loại":  [
+                                  "Số & Kim",
+                                  "Chống nước"
+                              ],
+                     "Chất liệu":  [
+                                       "Nhựa tổng hợp"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Siêu bền"
+                                    ]
+                 }
+    },
+    {
+        "id":  "WAT020",
+        "name":  "Đồng Hồ Thể Thao Chống Nước - Mã 202",
+        "price":  460000,
+        "img":  "../data/Đồng Hồ/dong-ho-tudor-royal-m28500-0005.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Số & Kim",
+                                  "Chống nước"
+                              ],
+                     "Chất liệu":  [
+                                       "Nhựa tổng hợp"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Siêu bền"
+                                    ]
+                 }
+    },
+    {
+        "id":  "WAT021",
+        "name":  "Đồng Hồ Cơ Lộ Máy Nam - Mã 241",
+        "price":  820000,
+        "img":  "../data/Đồng Hồ/GST-B100D-1A.png",
+        "tags":  {
+                     "Loại":  [
+                                  "Số & Kim",
+                                  "Chống nước"
+                              ],
+                     "Chất liệu":  [
+                                       "Nhựa tổng hợp"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Siêu bền"
+                                    ]
+                 }
+    },
+    {
+        "id":  "WAT022",
+        "name":  "Đồng Hồ Minimalist Siêu Mỏng - Mã 312",
+        "price":  830000,
+        "img":  "../data/Đồng Hồ/GST-B100X-1A.png",
+        "tags":  {
+                     "Loại":  [
+                                  "Số & Kim",
+                                  "Chống nước"
+                              ],
+                     "Chất liệu":  [
+                                       "Nhựa tổng hợp"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Siêu bền"
+                                    ]
+                 }
+    },
+    {
+        "id":  "WAT023",
+        "name":  "Đồng Hồ Thể Thao Chống Nước - Mã 275",
+        "price":  520000,
+        "img":  "../data/Đồng Hồ/images.jpg",
+        "tags":  {
+                     "Loại":  [
+                                  "Số & Kim",
+                                  "Chống nước"
+                              ],
+                     "Chất liệu":  [
+                                       "Nhựa tổng hợp"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Siêu bền"
+                                    ]
+                 }
+    },
+    {
+        "id":  "WAT024",
+        "name":  "Đồng Hồ Minimalist Siêu Mỏng - Mã 950",
+        "price":  420000,
+        "img":  "../data/Đồng Hồ/MRG-B2000SH-5A.png",
+        "tags":  {
+                     "Loại":  [
+                                  "Số & Kim",
+                                  "Chống nước"
+                              ],
+                     "Chất liệu":  [
+                                       "Nhựa tổng hợp"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Siêu bền"
+                                    ]
+                 }
+    },
+    {
+        "id":  "WAT025",
+        "name":  "Smartwatch Đo Nhịp Tim - Mã 908",
+        "price":  550000,
+        "img":  "../data/Đồng Hồ/ptt-scaled.jpg",
+        "tags":  {
+                     "Loại":  [
+                                  "Số & Kim",
+                                  "Chống nước"
+                              ],
+                     "Chất liệu":  [
+                                       "Nhựa tổng hợp"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Siêu bền"
+                                    ]
+                 }
+    },
+    {
+        "id":  "WAT026",
+        "name":  "Đồng Hồ Thể Thao Chống Nước - Mã 218",
+        "price":  980000,
+        "img":  "../data/Đồng Hồ/public-600x600.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Số & Kim",
+                                  "Chống nước"
+                              ],
+                     "Chất liệu":  [
+                                       "Nhựa tổng hợp"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Siêu bền"
+                                    ]
+                 }
+    },
+    {
+        "id":  "WAT027",
+        "name":  "Đồng Hồ Dây Kim Loại Mạ Vàng - Mã 716",
+        "price":  710000,
+        "img":  "../data/Đồng Hồ/rolex-gmt-master-ii-126718grnr-0001-8.jpg",
+        "tags":  {
+                     "Loại":  [
+                                  "Số & Kim",
+                                  "Chống nước"
+                              ],
+                     "Chất liệu":  [
+                                       "Nhựa tổng hợp"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Siêu bền"
+                                    ]
+                 }
+    },
+    {
+        "id":  "WAT028",
+        "name":  "Đồng Hồ Cơ Lộ Máy Nam - Mã 362",
+        "price":  770000,
+        "img":  "../data/Đồng Hồ/shopping (1).webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Số & Kim",
+                                  "Chống nước"
+                              ],
+                     "Chất liệu":  [
+                                       "Nhựa tổng hợp"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Siêu bền"
+                                    ]
+                 }
+    },
+    {
+        "id":  "WAT029",
+        "name":  "Đồng Hồ Thể Thao Chống Nước - Mã 477",
+        "price":  530000,
+        "img":  "../data/Đồng Hồ/shopping (2).webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Số & Kim",
+                                  "Chống nước"
+                              ],
+                     "Chất liệu":  [
+                                       "Nhựa tổng hợp"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Siêu bền"
+                                    ]
+                 }
+    },
+    {
+        "id":  "WAT030",
+        "name":  "Đồng Hồ Minimalist Siêu Mỏng - Mã 593",
+        "price":  850000,
+        "img":  "../data/Đồng Hồ/shopping (3).webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Số & Kim",
+                                  "Chống nước"
+                              ],
+                     "Chất liệu":  [
+                                       "Nhựa tổng hợp"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Siêu bền"
+                                    ]
+                 }
+    },
+    {
+        "id":  "WAT031",
+        "name":  "Đồng Hồ Casio Cổ Điển - Mã 543",
+        "price":  550000,
+        "img":  "../data/Đồng Hồ/shopping.webp",
+        "tags":  {
+                     "Loại":  [
+                                  "Số & Kim",
+                                  "Chống nước"
+                              ],
+                     "Chất liệu":  [
+                                       "Nhựa tổng hợp"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Siêu bền"
+                                    ]
+                 }
+    },
+    {
+        "id":  "WAT032",
+        "name":  "Đồng Hồ Cơ Lộ Máy Nam - Mã 817",
+        "price":  530000,
+        "img":  "../data/Đồng Hồ/spirit-of-big-bang-tourbillon-carbon-black-42-mm-645-qn-1117-rx-carousel-3-2.jpg",
+        "tags":  {
+                     "Loại":  [
+                                  "Số & Kim",
+                                  "Chống nước"
+                              ],
+                     "Chất liệu":  [
+                                       "Nhựa tổng hợp"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Siêu bền"
+                                    ]
+                 }
+    },
+    {
+        "id":  "WAT033",
+        "name":  "Đồng Hồ Dây Da Nam Thanh Lịch - Mã 480",
+        "price":  200000,
+        "img":  "../data/Đồng Hồ/z7017431778374_4482b1924f2720102e83f45e5193f640-scaled.jpg",
+        "tags":  {
+                     "Loại":  [
+                                  "Số & Kim",
+                                  "Chống nước"
+                              ],
+                     "Chất liệu":  [
+                                       "Nhựa tổng hợp"
+                                   ],
+                     "Phong cách":  [
+                                        "Thể thao",
+                                        "Siêu bền"
+                                    ]
+                 }
     }
 ]

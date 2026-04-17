@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="vi">
 
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -34,6 +35,10 @@
 
         <div id="banner-placeholder"></div>
 
+        <div class="filter-toggle-btn" id="mobile-filter-btn">
+            <i class="fas fa-filter"></i> Lọc sản phẩm
+        </div>
+
         <main class="content-wrapper">
             <aside class="filter-area" id="filter-placeholder">
                 <div class="filter-inner">
@@ -49,7 +54,7 @@
 
                 <!-- Nút xem thêm -->
                 <div id="load-more-container" style="text-align: center; margin-top: 30px; display: none;">
-                    <button id="load-more-btn">XEM THÊM SẢN PHẨM</button>
+                    <button id="load-more-btn" style="margin-bottom: 20px;">XEM THÊM SẢN PHẨM</button>
                 </div>
             </section>
         </main>
@@ -65,6 +70,26 @@
     <script src="../js/utils.js"></script>
     <script src="../js/giohang.js"></script>
     <script src="../js/shop.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const filterBtn = document.getElementById('mobile-filter-btn');
+            const filterArea = document.querySelector('.filter-area');
+
+            if (filterBtn && filterArea) {
+                filterBtn.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    filterArea.classList.toggle('active');
+                });
+
+                // Close when clicking outside
+                document.addEventListener('click', (e) => {
+                    if (filterArea.classList.contains('active') && !filterArea.contains(e.target) && e.target !== filterBtn) {
+                        filterArea.classList.remove('active');
+                    }
+                });
+            }
+        });
+    </script>
 </body>
 
 </html>

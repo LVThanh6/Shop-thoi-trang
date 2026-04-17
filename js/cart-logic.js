@@ -5,10 +5,16 @@ function formatVND(amount) {
     return new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(amount);
 }
 
+// Trạng thái mã giảm giá
+let currentDiscountPercent = 0;
+let currentCouponCode = "";
+
 // Hàm render: Duyệt mảng từ localStorage và tạo HTML hiển thị
 function renderCart() {
     const container = document.getElementById('product-list-container');
-    const totalElement = document.getElementById('final-total');
+    const subtotalElement = document.getElementById('sub-total');
+    const discountElement = document.getElementById('discount-amount');
+    const finalTotalElement = document.getElementById('final-total');
 
     if (!container) return;
 
@@ -17,7 +23,9 @@ function renderCart() {
 
     if (cartItems.length === 0) {
         container.innerHTML = "<p style='padding: 40px; text-align:center; font-size:18px; color:#666;'>Giỏ hàng của bạn đang trống.</p>";
-        if (totalElement) totalElement.innerText = "0 VND";
+        if (subtotalElement) subtotalElement.innerText = "0 VND";
+        if (discountElement) discountElement.innerText = "0 VND";
+        if (finalTotalElement) finalTotalElement.innerText = "0 VND";
         return;
     }
 
@@ -51,7 +59,18 @@ function renderCart() {
         `;
     });
 
-    if (totalElement) totalElement.innerText = formatVND(total);
+    // Tính toán giảm giá và tổng cộng
+    const discountValue = total * (currentDiscountPercent / 100);
+    const finalTotal = total - discountValue;
+
+    if (subtotalElement) subtotalElement.innerText = formatVND(total);
+    if (discountElement) {
+        discountElement.innerText = formatVND(discountValue);
+        if (currentDiscountPercent > 0) {
+            discountElement.innerHTML += ` <span style="font-size: 12px; color: #27ae60;">(-${currentDiscountPercent}%)</span>`;
+        }
+    }
+    if (finalTotalElement) finalTotalElement.innerText = formatVND(finalTotal);
 }
 
 // Hàm thay đổi số lượng (+ hoặc -)
@@ -76,6 +95,36 @@ function removeCartItem(id, size) {
 window.changeQty = changeQty;
 window.removeCartItem = removeCartItem;
 window.initCart = renderCart; // Đồng bộ với saveCart call
+
+// Hàm áp dụng mã giảm giá
+function applyCoupon() {
+    const input = document.getElementById('coupon-input');
+    if (!input) return;
+
+    const code = input.value.trim();
+    if (!code) {
+        if (window.showToast) window.showToast("Vui lòng nhập mã giảm giá", "warning");
+        return;
+    }
+
+    if (code === "1111") {
+        currentDiscountPercent = 10;
+        currentCouponCode = "1111";
+        if (window.showToast) window.showToast("Đã áp dụng mã 1111: Giảm 10%", "success");
+    } else if (code === "2222") {
+        currentDiscountPercent = 20;
+        currentCouponCode = "2222";
+        if (window.showToast) window.showToast("Đã áp dụng mã 2222: Giảm 20%", "success");
+    } else {
+        currentDiscountPercent = 0;
+        currentCouponCode = "";
+        if (window.showToast) window.showToast("Mã giảm giá không hợp lệ", "error");
+    }
+
+    renderCart();
+}
+
+window.applyCoupon = applyCoupon;
 
 // Tự động chạy render khi trang đã tải xong
 document.addEventListener('DOMContentLoaded', renderCart);

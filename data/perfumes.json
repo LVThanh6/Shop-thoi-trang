@@ -1,24 +1,668 @@
 [
     {
         "id": "PER001",
-        "name": "Nước Hoa Nam Bleu de Chanel",
+        "name": "Nước Hoa Nam Bleu de Chanel EDP",
         "price": 3200000,
-        "img": "../assets/img/products/perfume1.jpg",
+        "img": "../data/Nước Hoa/Nuoc-Hoa-Nam-Chanel-Bleu-De-Chanel-EDP-5.jpg",
         "tags": {
-            "Nhãn hiệu": ["Chanel"],
-            "Hương": ["Gỗ", "Cam chanh"],
-            "Dung tích": ["100ml"]
+            "Nhãn hiệu": [
+                "Chanel"
+            ],
+            "Hương": [
+                "Gỗ",
+                "Cam chanh"
+            ],
+            "Dung tích": [
+                "100ml"
+            ]
         }
     },
     {
         "id": "PER002",
-        "name": "Nước Hoa Armani Acqua di Gio",
+        "name": "Armani Acqua di Gio EDP Intense",
         "price": 2800000,
-        "img": "../assets/img/products/perfume2.jpg",
+        "img": "../data/Nước Hoa/Armani di Gio edp Intense 001.jpeg",
         "tags": {
-            "Nhãn hiệu": ["Armani"],
-            "Hương": ["Biển", "Thanh mát"],
-            "Dung tích": ["100ml"]
+            "Nhãn hiệu": [
+                "Armani"
+            ],
+            "Hương": [
+                "Biển",
+                "Thanh mát"
+            ],
+            "Dung tích": [
+                "100ml"
+            ]
+        }
+    },
+    {
+        "id": "PER003",
+        "name": "Dior Homme Cologne",
+        "price": 3500000,
+        "img": "../data/Nước Hoa/Dior-Homme-Cologne-125ml-300x300.jpg",
+        "tags": {
+            "Nhãn hiệu": [
+                "Dior"
+            ],
+            "Hương": [
+                "Cam chanh",
+                "Tươi mát"
+            ],
+            "Dung tích": [
+                "125ml"
+            ]
+        }
+    },
+    {
+        "id": "PER004",
+        "name": "Giorgio Armani Stronger With You",
+        "price": 2400000,
+        "img": "../data/Nước Hoa/Nuoc-hoa-Giorgio-Armani-Stronger-With-You-EDT.jpg",
+        "tags": {
+            "Nhãn hiệu": [
+                "Armani"
+            ],
+            "Hương": [
+                "Gia vị",
+                "Ngọt ngào"
+            ],
+            "Dung tích": [
+                "100ml"
+            ]
+        }
+    },
+    {
+        "id": "PER005",
+        "name": "Charme Cool Water 50ml",
+        "price": 650000,
+        "img": "../data/Nước Hoa/Nuoc-hoa-charme-cool-water-50ml-3.webp",
+        "tags": {
+            "Nhãn hiệu": [
+                "Charme"
+            ],
+            "Hương": [
+                "Biển",
+                "Năng động"
+            ],
+            "Dung tích": [
+                "50ml"
+            ]
+        }
+    },
+    {
+        "id": "PER006",
+        "name": "Tom Ford Oud Wood EDP",
+        "price": 6800000,
+        "img": "../data/Nước Hoa/Tom-Ford-Oud-Wood-EDP-apa-niche.png",
+        "tags": {
+            "Nhãn hiệu": [
+                "Tom Ford"
+            ],
+            "Hương": [
+                "Trầm hương",
+                "Sang trọng"
+            ],
+            "Dung tích": [
+                "50ml"
+            ]
+        }
+    },
+    {
+        "id": "PER007",
+        "name": "Versace Eros Energy",
+        "price": 2900000,
+        "img": "../data/Nước Hoa/cloud-image-1772285476502-nuoc-hoa-nam-versace-eros-energy--1-.webp",
+        "tags": {
+            "Nhãn hiệu": [
+                "Versace"
+            ],
+            "Hương": [
+                "Bạc hà",
+                "Tươi mới"
+            ],
+            "Dung tích": [
+                "100ml"
+            ]
+        }
+    },
+    {
+        "id": "PER008",
+        "name": "Dior Homme Intense",
+        "price": 3800000,
+        "img": "../data/Nước Hoa/dior-homme-intense_2.jpg",
+        "tags": {
+            "Nhãn hiệu": [
+                "Dior"
+            ],
+            "Hương": [
+                "Hoa diên vĩ",
+                "Ấm áp"
+            ],
+            "Dung tích": [
+                "100ml"
+            ]
+        }
+    },
+    {
+        "id": "PER009",
+        "name": "Dior Sauvage EDP",
+        "price": 3600000,
+        "img": "../data/Nước Hoa/dior-sauvage-edp_3.jpg",
+        "tags": {
+            "Nhãn hiệu": [
+                "Dior"
+            ],
+            "Hương": [
+                "Gỗ",
+                "Cay nồng"
+            ],
+            "Dung tích": [
+                "100ml"
+            ]
+        }
+    },
+    {
+        "id": "PER010",
+        "name": "Dolce & Gabbana The One For Men",
+        "price": 2700000,
+        "img": "../data/Nước Hoa/dolce-gabbana-the-one-for-men-nh.webp",
+        "tags": {
+            "Nhãn hiệu": [
+                "D&G"
+            ],
+            "Hương": [
+                "Thuốc lá",
+                "Hổ phách"
+            ],
+            "Dung tích": [
+                "100ml"
+            ]
+        }
+    },
+    {
+        "id": "PER011",
+        "name": "Montblanc Explorer EDP",
+        "price": 2200000,
+        "img": "../data/Nước Hoa/montblanc-explorer-edp-100-ml_gift-052025.webp",
+        "tags": {
+            "Nhãn hiệu": [
+                "Montblanc"
+            ],
+            "Hương": [
+                "Gỗ",
+                "Da thuộc"
+            ],
+            "Dung tích": [
+                "100ml"
+            ]
+        }
+    },
+    {
+        "id": "PER012",
+        "name": "Charme Iris Nam",
+        "price": 720000,
+        "img": "../data/Nước Hoa/nuoc-hoa-nam-charme-iris-2.jpg",
+        "tags": {
+            "Nhãn hiệu": [
+                "Charme"
+            ],
+            "Hương": [
+                "Gỗ",
+                "Hiện đại"
+            ],
+            "Dung tích": [
+                "100ml"
+            ]
+        }
+    },
+    {
+        "id": "PER013",
+        "name": "Versace Eros Flame EDP",
+        "price": 3100000,
+        "img": "../data/Nước Hoa/nuoc-hoa-nam-versace-eros-flame-edp-do-new_72d45aeb31ee42ad97806af284539205_master.jpg",
+        "tags": {
+            "Nhãn hiệu": [
+                "Versace"
+            ],
+            "Hương": [
+                "Cam",
+                "Gia vị"
+            ],
+            "Dung tích": [
+                "100ml"
+            ]
+        }
+    },
+    {
+        "id": "PER014",
+        "name": "Charme Luxury 100ml",
+        "price": 850000,
+        "img": "../data/Nước Hoa/nuochoacharmeluxury100ml-8.jpg",
+        "tags": {
+            "Nhãn hiệu": [
+                "Charme"
+            ],
+            "Hương": [
+                "Thanh mát",
+                "Sang trọng"
+            ],
+            "Dung tích": [
+                "100ml"
+            ]
+        }
+    },
+    {
+        "id": "PER015",
+        "name": "Jean Paul Gaultier Scandal Pour Homme",
+        "price": 3400000,
+        "img": "../data/Nước Hoa/xxiv-store-scandal-pour-homme.webp",
+        "tags": {
+            "Nhãn hiệu": [
+                "Jean Paul Gaultier"
+            ],
+            "Hương": [
+                "Caramel",
+                "Cây xô thơm"
+            ],
+            "Dung tích": [
+                "100ml"
+            ]
+        }
+    },
+    {
+        "id": "PER016",
+        "name": "Dior Homme Original",
+        "price": 3200000,
+        "img": "../data/Nước Hoa/dior-homme.png",
+        "tags": {
+            "Nhãn hiệu": [
+                "Dior"
+            ],
+            "Hương": [
+                "Gỗ",
+                "Cổ điển"
+            ],
+            "Dung tích": [
+                "100ml"
+            ]
+        }
+    },
+    {
+        "id": "PER017",
+        "name": "Versace Eros Energy Limited",
+        "price": 3300000,
+        "img": "../data/Nước Hoa/s-l1600.webp",
+        "tags": {
+            "Nhãn hiệu": [
+                "Versace"
+            ],
+            "Hương": [
+                "Chanh",
+                "Bạc hà"
+            ],
+            "Dung tích": [
+                "100ml"
+            ]
+        }
+    },
+    {
+        "id": "PER018",
+        "name": "Armani Acqua di Gio Parfum",
+        "price": 3500000,
+        "img": "../data/Nước Hoa/giorgio-armani-acqua-di-gio-parfum-75ml_852a73d0ebd6463eaf4269feb763ebda_master.jpg",
+        "tags": {
+            "Nhãn hiệu": [
+                "Armani"
+            ],
+            "Hương": [
+                "Trầm hương",
+                "Biển"
+            ],
+            "Dung tích": [
+                "75ml"
+            ]
+        }
+    },
+    {
+        "id": "PER019",
+        "name": "Dior Homme Intense Tester",
+        "price": 2900000,
+        "img": "../data/Nước Hoa/1-6263e558-569f-4a01-b943-25acea58041f.webp",
+        "tags": {
+            "Nhãn hiệu": [
+                "Dior"
+            ],
+            "Hương": [
+                "Hoa",
+                "Gỗ"
+            ],
+            "Dung tích": [
+                "100ml"
+            ]
+        }
+    },
+    {
+        "id": "PER020",
+        "name": "Paco Rabanne Invictus",
+        "price": 2600000,
+        "img": "../data/Nước Hoa/sg-11134253-821fk-mgn6eb4mogln26.webp",
+        "tags": {
+            "Nhãn hiệu": [
+                "Paco Rabanne"
+            ],
+            "Hương": [
+                "Biển",
+                "Bưởi"
+            ],
+            "Dung tích": [
+                "100ml"
+            ]
+        }
+    },
+    {
+        "id": "PER021",
+        "name": "Nước Hoa Nam Tính Lưu Hương Lâu - Mã 384",
+        "price": 1450000,
+        "img": "../data/Nước Hoa/004934678444-768x768.png",
+        "tags": {
+            "Nhãn hiệu": [
+                "Chanel"
+            ],
+            "Hương": [
+                "Gỗ",
+                "Cam chanh"
+            ],
+            "Dung tích": [
+                "100ml"
+            ]
+        }
+    },
+    {
+        "id": "PER022",
+        "name": "Dầu Thơm Nam Thanh Lịch - Mã 421",
+        "price": 1010000,
+        "img": "../data/Nước Hoa/1-af6a9c90-79b6-4935-8f22-722526b0e9c0.webp",
+        "tags": {
+            "Nhãn hiệu": [
+                "Chanel"
+            ],
+            "Hương": [
+                "Gỗ",
+                "Cam chanh"
+            ],
+            "Dung tích": [
+                "100ml"
+            ]
+        }
+    },
+    {
+        "id": "PER023",
+        "name": "Dầu Thơm Nam Thanh Lịch - Mã 785",
+        "price": 880000,
+        "img": "../data/Nước Hoa/20231004_b5DcpsGCGe.jpeg",
+        "tags": {
+            "Nhãn hiệu": [
+                "Chanel"
+            ],
+            "Hương": [
+                "Gỗ",
+                "Cam chanh"
+            ],
+            "Dung tích": [
+                "100ml"
+            ]
+        }
+    },
+    {
+        "id": "PER024",
+        "name": "Nước Hoa EDP Nam Lịch Lãm - Mã 925",
+        "price": 940000,
+        "img": "../data/Nước Hoa/549wze_fa09c18d8d8d472b9aa8388295909b0e_master.jpg",
+        "tags": {
+            "Nhãn hiệu": [
+                "Chanel"
+            ],
+            "Hương": [
+                "Gỗ",
+                "Cam chanh"
+            ],
+            "Dung tích": [
+                "100ml"
+            ]
+        }
+    },
+    {
+        "id": "PER025",
+        "name": "Nước Hoa Mùa Hè Tươi Mát - Mã 860",
+        "price": 490000,
+        "img": "../data/Nước Hoa/Armani20Gio20Intense%2004.apng",
+        "tags": {
+            "Nhãn hiệu": [
+                "Chanel"
+            ],
+            "Hương": [
+                "Gỗ",
+                "Cam chanh"
+            ],
+            "Dung tích": [
+                "100ml"
+            ]
+        }
+    },
+    {
+        "id": "PER026",
+        "name": "Dầu Thơm Nam Thanh Lịch - Mã 781",
+        "price": 590000,
+        "img": "../data/Nước Hoa/chanel-bleu-de-chanel-edp_3.jpg",
+        "tags": {
+            "Nhãn hiệu": [
+                "Chanel"
+            ],
+            "Hương": [
+                "Gỗ",
+                "Cam chanh"
+            ],
+            "Dung tích": [
+                "100ml"
+            ]
+        }
+    },
+    {
+        "id": "PER027",
+        "name": "Nước Hoa Mùa Hè Tươi Mát - Mã 996",
+        "price": 460000,
+        "img": "../data/Nước Hoa/giorgio-armani-acqua-di-gio-edp_3.jpg",
+        "tags": {
+            "Nhãn hiệu": [
+                "Chanel"
+            ],
+            "Hương": [
+                "Gỗ",
+                "Cam chanh"
+            ],
+            "Dung tích": [
+                "100ml"
+            ]
+        }
+    },
+    {
+        "id": "PER028",
+        "name": "Dầu Thơm Nam Thanh Lịch - Mã 490",
+        "price": 750000,
+        "img": "../data/Nước Hoa/Giorgio-Armani-Acqua-Di-Gio-Pour-Homme-EDP-1-3.jpg",
+        "tags": {
+            "Nhãn hiệu": [
+                "Chanel"
+            ],
+            "Hương": [
+                "Gỗ",
+                "Cam chanh"
+            ],
+            "Dung tích": [
+                "100ml"
+            ]
+        }
+    },
+    {
+        "id": "PER029",
+        "name": "Nước Hoa Nam Mùi Hương Gỗ Cổ Điển - Mã 653",
+        "price": 460000,
+        "img": "../data/Nước Hoa/images (1).jpg",
+        "tags": {
+            "Nhãn hiệu": [
+                "Chanel"
+            ],
+            "Hương": [
+                "Gỗ",
+                "Cam chanh"
+            ],
+            "Dung tích": [
+                "100ml"
+            ]
+        }
+    },
+    {
+        "id": "PER030",
+        "name": "Nước Hoa Nam Mùi Hương Gỗ Cổ Điển - Mã 241",
+        "price": 1450000,
+        "img": "../data/Nước Hoa/images.jpg",
+        "tags": {
+            "Nhãn hiệu": [
+                "Chanel"
+            ],
+            "Hương": [
+                "Gỗ",
+                "Cam chanh"
+            ],
+            "Dung tích": [
+                "100ml"
+            ]
+        }
+    },
+    {
+        "id": "PER031",
+        "name": "Nước Hoa Nam Tính Lưu Hương Lâu - Mã 806",
+        "price": 680000,
+        "img": "../data/Nước Hoa/lan-khu-mui-nuoc-hoa-nam-versace-eros6.webp",
+        "tags": {
+            "Nhãn hiệu": [
+                "Chanel"
+            ],
+            "Hương": [
+                "Gỗ",
+                "Cam chanh"
+            ],
+            "Dung tích": [
+                "100ml"
+            ]
+        }
+    },
+    {
+        "id": "PER032",
+        "name": "Dầu Thơm Nam Thanh Lịch - Mã 297",
+        "price": 440000,
+        "img": "../data/Nước Hoa/luxury-220200316200132711-jpg-w-800.webp",
+        "tags": {
+            "Nhãn hiệu": [
+                "Chanel"
+            ],
+            "Hương": [
+                "Gỗ",
+                "Cam chanh"
+            ],
+            "Dung tích": [
+                "100ml"
+            ]
+        }
+    },
+    {
+        "id": "PER033",
+        "name": "Nước Hoa EDP Nam Lịch Lãm - Mã 217",
+        "price": 500000,
+        "img": "../data/Nước Hoa/s-l1600 (1).webp",
+        "tags": {
+            "Nhãn hiệu": [
+                "Chanel"
+            ],
+            "Hương": [
+                "Gỗ",
+                "Cam chanh"
+            ],
+            "Dung tích": [
+                "100ml"
+            ]
+        }
+    },
+    {
+        "id": "PER034",
+        "name": "Giftset Nước Hoa Nam Cao Cấp - Mã 111",
+        "price": 920000,
+        "img": "../data/Nước Hoa/sg-11134253-824h3-mf8zjjcdy1ahfa.webp",
+        "tags": {
+            "Nhãn hiệu": [
+                "Chanel"
+            ],
+            "Hương": [
+                "Gỗ",
+                "Cam chanh"
+            ],
+            "Dung tích": [
+                "100ml"
+            ]
+        }
+    },
+    {
+        "id": "PER035",
+        "name": "Dầu Thơm Nam Thanh Lịch - Mã 216",
+        "price": 630000,
+        "img": "../data/Nước Hoa/untitled-1-520e9f64-584d-4904-b4b6-5452a253ece0.webp",
+        "tags": {
+            "Nhãn hiệu": [
+                "Chanel"
+            ],
+            "Hương": [
+                "Gỗ",
+                "Cam chanh"
+            ],
+            "Dung tích": [
+                "100ml"
+            ]
+        }
+    },
+    {
+        "id": "PER036",
+        "name": "Nước Hoa Nam Tính Lưu Hương Lâu - Mã 691",
+        "price": 190000,
+        "img": "../data/Nước Hoa/vn-11134207-81ztc-mlhj6plmkkqoe2.webp",
+        "tags": {
+            "Nhãn hiệu": [
+                "Chanel"
+            ],
+            "Hương": [
+                "Gỗ",
+                "Cam chanh"
+            ],
+            "Dung tích": [
+                "100ml"
+            ]
+        }
+    },
+    {
+        "id": "PER037",
+        "name": "Nước Hoa EDP Nam Lịch Lãm - Mã 429",
+        "price": 180000,
+        "img": "../data/Nước Hoa/vn-11134207-820l4-mj74wyiinwu80e.webp",
+        "tags": {
+            "Nhãn hiệu": [
+                "Chanel"
+            ],
+            "Hương": [
+                "Gỗ",
+                "Cam chanh"
+            ],
+            "Dung tích": [
+                "100ml"
+            ]
         }
     }
 ]

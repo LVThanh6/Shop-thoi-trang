@@ -150,6 +150,15 @@ body.save-page header .navbar {
     width: auto;
 }
 
+.menu-toggle {
+    display: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    order: 2;
+}
+
+
 .navbar {
     position: absolute;
     top: 100px;
@@ -320,8 +329,37 @@ body.index-page .navbar ul li a:hover {
 .account span a {
     text-decoration: none;
     color: inherit;
-    display: inline-flex;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.account a div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.2;
+}
+
+#userNameDisplay {
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+}
+
+#accountStatus {
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+#accountStatus img {
+    width: 8px !important;
+    height: auto;
 }
 
 .cart span a {
@@ -329,4 +367,175 @@ body.index-page .navbar ul li a:hover {
     color: inherit;
     display: inline-flex;
     align-items: center;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .container {
+        width: 95%;
+        padding-top: 15px;
+    }
+    
+    .Search {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        height: 70px !important;
+        min-height: 70px !important;
+        max-height: 70px !important;
+    }
+
+    .container {
+        padding-top: 10px;
+        gap: 0;
+    }
+
+    .Top-nav {
+        height: 50px;
+    }
+
+    .logo img {
+        width: 90px;
+        height: auto;
+    }
+
+    .Search {
+        display: none; /* Hide search on mobile, can be added to menu later if needed */
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .User-Actions {
+        gap: 15px;
+    }
+
+    .User-Actions span:not(.count-bubble) {
+        display: none; /* Hide text like "Saved", "Cart", "Login" */
+    }
+
+    .navbar {
+        position: fixed;
+        top: 70px;
+        left: -100%;
+        width: 250px;
+        height: calc(100vh - 70px);
+        background-color: #000 !important;
+        flex-direction: column;
+        transition: left 0.4s ease;
+        padding: 20px;
+        display: flex;
+        align-items: flex-start;
+        box-shadow: 4px 0 10px rgba(0,0,0,0.5);
+    }
+
+    .navbar.active {
+        left: 0;
+    }
+
+    .nav-container {
+        max-width: 100%;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        gap: 20px;
+    }
+
+    .navbar ul li {
+        width: 100%;
+        height: auto;
+    }
+
+    .navbar ul li a {
+        color: #fff !important;
+        font-size: 16px;
+        text-align: left;
+        padding: 10px 0;
+        width: 100%;
+        display: block;
+    }
+
+    .navbar ul li a br {
+        display: none;
+    }
+}
+
+/* Menu Overlay */
+.menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s ease;
+    z-index: 90;
+}
+
+.menu-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Improved Mobile Navbar */
+@media (max-width: 768px) {
+    .navbar {
+        position: fixed;
+        top: 0; /* Start from top to cover full height properly */
+        left: -100%;
+        width: 280px; /* Slightly wider */
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.95) !important;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        flex-direction: column;
+        transition: left 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        padding: 80px 30px 40px; /* More padding top for the header */
+        display: flex;
+        align-items: flex-start;
+        box-shadow: 10px 0 30px rgba(0, 0, 0, 0.5);
+        z-index: 100;
+    }
+
+    .navbar.active {
+        left: 0;
+    }
+
+    .navbar ul {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        gap: 15px;
+    }
+
+    .navbar ul li {
+        width: 100%;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .navbar ul li:last-child {
+        border-bottom: none;
+    }
+
+    .navbar ul li a {
+        color: #fff !important;
+        font-size: 18px;
+        font-weight: 500;
+        padding: 15px 0;
+        width: 100%;
+        display: block;
+        letter-spacing: 0.5px;
+    }
 }

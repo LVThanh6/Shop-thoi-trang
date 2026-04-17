@@ -20,9 +20,11 @@
 
     <main class="cart-main-content">
 
-        <nav class="breadcrumb">
-            <a href="../index.html">Trang chủ</a> > <span>Giỏ hàng</span>
-        </nav>
+        <div class="breadcrumb">
+            <span><strong><a href="../index.html">Trang chủ</a>
+                    <strong>></strong>
+                </strong><strong> Giỏ hàng</strong></span>
+        </div>
         <div class="cart-layout">
 
             <div class="cart-left">
@@ -38,8 +40,8 @@
 
                 <div class="cart-actions">
                     <div class="coupon-box">
-                        <input type="text" placeholder="Mã khuyến mãi">
-                        <button class="btn-outline">KÍCH HOẠT MÃ</button>
+                        <input type="text" id="coupon-input" placeholder="Mã khuyến mãi">
+                        <button class="btn-outline" onclick="applyCoupon()">KÍCH HOẠT MÃ</button>
                     </div>
                 </div>
 
@@ -73,6 +75,18 @@
 
                     <div class="summary-line">
                         <span>Thành tiền:</span>
+                        <span id="sub-total">0 VND</span>
+                    </div>
+
+                    <div class="summary-line">
+                        <span>Giảm giá:</span>
+                        <span id="discount-amount">0 VND</span>
+                    </div>
+
+                    <div class="divider"></div>
+
+                    <div class="summary-line total-final">
+                        <span>Tổng cộng:</span>
                         <span id="final-total">0 VND</span>
                     </div>
 

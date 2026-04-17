@@ -2,13 +2,18 @@
     <div class="container">
         <div class="Top-nav">
             <div class="logo">
-                <img src="../assets/icon/logo.png" alt="logo">
+                <a href="../index.html">
+                    <img src="../assets/icon/logo.png" alt="logo">
+                </a>
             </div>
             <div class="Search">
                 <input type="text" id="searchInput" placeholder="What are you looking for...">
                 <button type="button" id="searchButton">
                     <img src="../assets/icon/search.svg" alt="search">
                 </button>
+            </div>
+            <div class="menu-toggle" id="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
             </div>
             <div class="User-Actions">
                 <div class="saved">
@@ -67,7 +72,7 @@
                         <br>(Phụ kiện)</a></li>
             </ul>
         </nav>
-    </div>
+    <div class="menu-overlay" id="menu-overlay"></div>
 </header>
 
 <script>
@@ -75,6 +80,8 @@
     (function () {
         const header = document.querySelector('header');
         const navbar = document.getElementById('main-navbar');
+        const overlay = document.getElementById('menu-overlay');
+        const menuBtn = document.getElementById('mobile-menu-btn');
 
         // Kiểm tra nếu là trang giỏ hàng hoặc trang yêu thích
         const isSimplifiedPage = window.location.pathname.includes('cart.html') || window.location.pathname.includes('save.html');
@@ -111,8 +118,6 @@
         function handleSearch() {
             const query = searchInput.value.trim();
             if (query) {
-                // Điều hướng sang trang bán hàng với tham số tìm kiếm
-                // Dùng cùng logic path như navbar
                 window.location.href = '../html/banhang.html?search=' + encodeURIComponent(query);
             }
         }
@@ -121,6 +126,41 @@
             searchButton.addEventListener('click', handleSearch);
             searchInput.addEventListener('keypress', (e) => {
                 if (e.key === 'Enter') handleSearch();
+            });
+        }
+
+        // Mobile menu toggle logic
+        function toggleMenu(forceClose = false) {
+            if (forceClose) {
+                navbar.classList.remove('active');
+                overlay.classList.remove('active');
+                document.body.style.overflow = '';
+            } else {
+                navbar.classList.toggle('active');
+                overlay.classList.toggle('active');
+                
+                if (navbar.classList.contains('active')) {
+                    document.body.style.overflow = 'hidden'; // Prevent scrolling when menu is open
+                } else {
+                    document.body.style.overflow = '';
+                }
+            }
+
+            const icon = menuBtn.querySelector('i');
+            if (navbar.classList.contains('active')) {
+                icon.classList.replace('fa-bars', 'fa-times');
+            } else {
+                icon.classList.replace('fa-times', 'fa-bars');
+            }
+        }
+
+        if (menuBtn && navbar && overlay) {
+            menuBtn.addEventListener('click', () => toggleMenu());
+            overlay.addEventListener('click', () => toggleMenu(true));
+
+            // Close menu when clicking a link (optional, good for SPAs but here we navigate)
+            navbar.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', () => toggleMenu(true));
             });
         }
     })();

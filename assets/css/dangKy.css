@@ -146,3 +146,19 @@ a {
     background-color: black;
     color: white;
 }
+
+/* Breadcrumb matched to dangNhap.html */
+.breadcrumb {
+    margin-top: 40px;
+    font-size: 24px;
+    color: black;
+}
+.breadcrumb span strong {
+    height: 36px;
+    width: 120px;
+    margin-left: 30px;
+}
+.breadcrumb span strong a {
+    text-decoration: none;
+    color: black;
+}

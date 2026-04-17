@@ -6,26 +6,31 @@ body {
 }
 
 .cart-main-content {
-    width: 1105px;
-    margin-left: 167px;
-    margin-bottom: 100px;
+    width: 95%;
+    max-width: 1105px;
+    margin: 0 auto 100px auto;
 }
 
+
+/* Breadcrumb matched to dangNhap.html */
 .breadcrumb {
-    margin-bottom: 35px;
+    margin-top: 40px;
     font-size: 24px;
-    color: #999;
-    font-weight: 400
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    margin-left: -30px;
 }
 
-.breadcrumb a {
-    color: #333;
+.breadcrumb span strong {
+    height: 36px;
+    width: 120px;
+    margin-left: 30px;
+}
+
+.breadcrumb span strong a {
     text-decoration: none;
-}
-
-.breadcrumb span {
-    color: #999;
-    font-weight: 500;
+    color: black;
 }
 
 .cart-layout {
@@ -235,4 +240,77 @@ body {
 
 .btn-primary-checkout:hover {
     background: #000;
+}
+
+/* Responsive Cart */
+@media (max-width: 1024px) {
+    .cart-layout {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .cart-left,
+    .cart-right {
+        width: 100%;
+        flex-shrink: 1;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        padding-top: 70px;
+    }
+
+    .cart-header {
+        display: none;
+        /* Hide header row on mobile */
+    }
+
+    .product-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .col-product {
+        width: 100%;
+    }
+
+    .col-price,
+    .col-qty,
+    .col-subtotal {
+        width: 100%;
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        padding-right: 0;
+    }
+
+    .col-price::before {
+        content: "Giá: ";
+        font-weight: 600;
+    }
+
+    .col-qty::before {
+        content: "Số lượng: ";
+        font-weight: 600;
+    }
+
+    .col-subtotal::before {
+        content: "Tạm tính: ";
+        font-weight: 600;
+    }
+
+    .qty-box {
+        margin-left: 10px;
+    }
+
+    .coupon-box {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .coupon-box input {
+        width: 100%;
+    }
 }
