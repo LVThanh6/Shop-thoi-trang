@@ -25,6 +25,25 @@ body.save-page header {
     max-height: 70px;
 }
 
+/* Placeholder loading states to prevent Layout Shift */
+.header-placeholder-loading {
+    display: block;
+    width: 100%;
+    background-color: #000; /* Tiệp màu với header đen */
+}
+
+/* Trang chủ: header cao 160px */
+.header-placeholder-loading {
+    min-height: 160px;
+}
+
+/* Các trang đơn giản (giỏ hàng, yêu thích): header cao 70px */
+body.cart-page .header-placeholder-loading,
+body.save-page .header-placeholder-loading,
+.no-navbar.header-placeholder-loading {
+    min-height: 70px;
+}
+
 header.no-navbar .container,
 body.cart-page header .container,
 body.save-page header .container {

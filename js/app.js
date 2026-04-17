@@ -62,8 +62,8 @@ function renderHomeGrid(products, containerId) {
         const card = document.createElement('div');
         card.className = 'product-card';
         
-        // Xử lý path ảnh cho đúng thư mục gốc (index.html)
-        const imgSrc = p.img.replace('../', '');
+        // Sửa đường dẫn linh hoạt
+        const imgSrc = window.fixPath(p.img);
         
         card.innerHTML = `
             <div class="product-img">
@@ -86,7 +86,9 @@ function renderHomeGrid(products, containerId) {
         const quickAddBtn = card.querySelector('.quick-add-btn');
         quickAddBtn.onclick = (e) => {
             e.stopPropagation();
-            if (window.addToCart) window.addToCart({ ...p, img: imgSrc }, 1, "M");
+            // Nếu là quần áo thì mặc định size M, ngược lại để trống size
+            const defaultSize = window.productNeedsSize(p) ? "M" : "";
+            if (window.addToCart) window.addToCart({ ...p, img: imgSrc }, 1, defaultSize);
         };
 
         grid.appendChild(card);
@@ -131,7 +133,7 @@ function showHomeProductDetail(product, productListContext) {
     const totalPrice = document.getElementById('modalTotalPrice');
     const addToCartBtn = document.getElementById('modalAddToCart');
 
-    img.src = product.img;
+    img.src = window.fixPath(product.img);
     name.innerText = product.name;
     const breadcrumb = document.querySelector('.product-breadcrumb');
     if(breadcrumb) breadcrumb.innerText = product.name;
@@ -144,13 +146,29 @@ function showHomeProductDetail(product, productListContext) {
 
     // Reset size selector
     const sizeSelected = document.querySelector('.select-selected');
-    if(sizeSelected) {
-        sizeSelected.innerText = "Chọn kích thước";
-        sizeSelected.classList.remove('selected');
-    }
-    if(addToCartBtn) {
-        addToCartBtn.classList.remove('active');
-        addToCartBtn.disabled = true;
+    const sizeSelector = document.getElementById('sizeSelector');
+    const sizeRow = sizeSelector ? sizeSelector.closest('.selection-row') : null;
+    
+    if (window.productNeedsSize(product)) {
+        if(sizeRow) sizeRow.classList.remove('hidden');
+        if(sizeSelected) {
+            sizeSelected.innerText = "Chọn kích thước";
+            sizeSelected.classList.remove('selected');
+        }
+        if(addToCartBtn) {
+            addToCartBtn.classList.remove('active');
+            addToCartBtn.disabled = true;
+        }
+    } else {
+        if(sizeRow) sizeRow.classList.add('hidden');
+        if(sizeSelected) {
+            sizeSelected.innerText = ""; // Sản phẩm không cần size thì để trống
+            sizeSelected.classList.add('selected');
+        }
+        if(addToCartBtn) {
+            addToCartBtn.classList.add('active');
+            addToCartBtn.disabled = false;
+        }
     }
 
     // Navigation Logic

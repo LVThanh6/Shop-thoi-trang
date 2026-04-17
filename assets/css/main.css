@@ -217,18 +217,28 @@ body.save-page main {
     justify-content: center;
     align-items: center;
     font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #111; /* Đổi màu xanh mặc định sang màu đen sang trọng */
+    transition: all 0.3s ease;
+}
+
+.hero_3-btn:hover {
+    background-color: #c1a35f;
+    color: #fff;
+    transform: translateX(-50%) translateY(-5px);
 }
 
 a {
     display: inline-block;
-    transition: transform 0.25s ease;
+    transition: all 0.25s ease;
+    text-decoration: none;
+    color: #111; /* Đổi màu mặc định cho các thẻ a chưa có màu */
 }
 
-.hero_3-btn:hover {
-    cursor: pointer;
-    transform: translateX(-50%) translateY(-5px);
-
+a:hover {
+    color: #c1a35f; /* Màu vàng đồng khi hover */
 }
+
+
 
 .hero_3-card-main {
     width: 707.9432373046875px;
@@ -286,7 +296,7 @@ a {
 /* Thẻ Sản Phẩm Tối Giản Sang Trọng (Luxury Minimalist) */
 .product-card {
     background: #fff;
-    border: 1px solid #f0f0f0;
+    border: 1px solid rgba(0, 0, 0, 0.05); /* Viền mờ nhẹ đồng nhất */
     border-radius: 16px;
     padding: 16px;
     transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
@@ -295,25 +305,27 @@ a {
     gap: 16px;
     cursor: pointer;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+    overflow: hidden;
 }
 
 .product-card:hover {
     transform: translateY(-8px);
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
-    border-color: #e8e8e8;
+    border-color: #c1a35f; /* Đổi màu viền khi hover sang vàng đồng */
 }
 
 /* Hình ảnh sản phẩm */
 .product-img {
     width: 100%;
     aspect-ratio: 1 / 1;
-    background: #fdfdfd;
+    background: #ffffff;
     border-radius: 12px;
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
+    border: 1px solid rgba(0,0,0,0.03); /* Viền nhẹ đồng nhất cho container ảnh */
 }
 
 .product-img img {
@@ -455,6 +467,12 @@ a {
     align-items: center;
     font-family: 'nunito sans', sans-serif;
     color: white;
+    transition: all 0.3s ease;
+}
+
+.hero_5-btn:hover {
+    background-color: #c1a35f;
+    transform: translateY(-5px);
 }
 
 /* Responsive Home Page */

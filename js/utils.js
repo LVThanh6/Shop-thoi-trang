@@ -5,14 +5,19 @@
 // 1. Hàm nạp Component HTML vào một placeholder
 async function loadComponent(id, path) {
     try {
+        const container = document.getElementById(id);
+        if (!container) return false;
+
+        // Nếu là header hoặc footer, thêm một class loading để giữ chỗ (CSS sẽ xử lý chiều cao)
+        if (id.includes('header')) container.classList.add('header-placeholder-loading');
+        if (id.includes('footer')) container.classList.add('footer-placeholder-loading');
+
         const response = await fetch(path);
         if (!response.ok) throw new Error(`Không tìm thấy file: ${path}`);
         const html = await response.text();
         
-        const container = document.getElementById(id);
-        if (!container) return false;
-
         container.innerHTML = html;
+        container.classList.remove('header-placeholder-loading', 'footer-placeholder-loading');
 
         // Thực thi các thẻ <script> có trong component mới nạp
         const scripts = container.querySelectorAll('script');
@@ -180,12 +185,46 @@ function updateHeaderCounts() {
     }
 }
 
+/**
+ * Kiểm tra sản phẩm có thuộc loại cần chọn kích thước (Size) hay không
+ * Các loại cần size: Áo (AO), Quần (PAN), Áo khoác (JAC), Vest (VES)
+ */
+function productNeedsSize(product) {
+    if (!product || !product.id) return false;
+    const pid = product.id.toUpperCase();
+    return pid.startsWith('AO') || pid.startsWith('PAN') || pid.startsWith('JAC') || pid.startsWith('VES');
+}
+
+/**
+ * Tự động sửa đường dẫn hình ảnh/tài nguyên dựa vào vị trí trang hiện tại
+ * (Ở thư mục gốc hay ở trong thư mục /html/)
+ */
+function fixPath(path) {
+    if (!path || typeof path !== 'string') return "";
+    if (path.startsWith('http') || path.startsWith('blob:')) return path;
+
+    const isSubfolder = window.location.pathname.includes('/html/') || window.location.pathname.includes('/pages/');
+    
+    // Chuẩn hóa: loại bỏ ../ ở đầu nếu có để xử lý từ gốc
+    let cleanPath = path;
+    while (cleanPath.startsWith('../')) {
+        cleanPath = cleanPath.substring(3);
+    }
+
+    if (isSubfolder) {
+        return "../" + cleanPath;
+    }
+    return cleanPath;
+}
+
 // Xuất các hàm ra global scope (window) để các script khác sử dụng
 window.loadComponent = loadComponent;
 window.removeAccents = removeAccents;
 window.setupCartEvents = setupCartEvents;
 window.checkAndDisplayUser = checkAndDisplayUser;
 window.updateHeaderCounts = updateHeaderCounts;
+window.productNeedsSize = productNeedsSize;
+window.fixPath = fixPath;
 // Xuất các hàm quản lý giỏ hàng mới
 window.getCart = getCart;
 window.saveCart = saveCart;

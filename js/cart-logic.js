@@ -39,7 +39,7 @@ function renderCart() {
         container.innerHTML += `
         <div class="product-item">
             <div class="col-product">
-                <img src="${item.img}" alt="${item.name}" onerror="this.src='../assets/img/no-img.jpg'">
+                <img src="${window.fixPath(item.img)}" alt="${item.name}" onerror="this.src='../assets/img/no-img.jpg'">
                 <div>
                     <div style="font-weight: 600; margin-bottom: 4px;">${item.name}</div>
                     <div style="font-size: 13px; color: #888;">Size: ${item.size}</div>

@@ -105,9 +105,10 @@ function renderGrid(products) {
         const price = new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(p.price);
         const card = document.createElement('div');
         card.className = 'product-card';
+        const imgSrc = window.fixPath(p.img);
         card.innerHTML = `
             <div class="product-img">
-                <img src="${p.img}" alt="${p.name}" onerror="this.src='../assets/img/no-img.jpg'; this.onerror=null;">
+                <img src="${imgSrc}" alt="${p.name}" onerror="this.src='../assets/img/no-img.jpg'; this.onerror=null;">
                 <button class="quick-add-btn" title="Thêm nhanh vào giỏ">
                     <i class="fas fa-cart-plus"></i>
                 </button>
@@ -126,8 +127,9 @@ function renderGrid(products) {
         const quickAddBtn = card.querySelector('.quick-add-btn');
         quickAddBtn.onclick = (e) => {
             e.stopPropagation();
-            // Default size M cho Quick Add
-            if (window.addToCart) window.addToCart(p, 1, "M");
+            // Nếu là quần áo thì mặc định size M, ngược lại để trống size
+            const defaultSize = window.productNeedsSize(p) ? "M" : "";
+            if (window.addToCart) window.addToCart(p, 1, defaultSize);
         };
 
         grid.appendChild(card);
@@ -261,7 +263,7 @@ function showProductDetail(product) {
     const totalPrice = document.getElementById('modalTotalPrice');
     const addToCartBtn = document.getElementById('modalAddToCart');
 
-    img.src = product.img;
+    img.src = window.fixPath(product.img);
     name.innerText = product.name;
     document.querySelector('.product-breadcrumb').innerText = product.name; // Simple breadcrumb
     const formattedPrice = new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(product.price);
@@ -272,10 +274,30 @@ function showProductDetail(product) {
 
     // Reset size selector
     const sizeSelected = document.querySelector('.select-selected');
-    sizeSelected.innerText = "Chọn kích thước";
-    sizeSelected.classList.remove('selected');
-    addToCartBtn.classList.remove('active');
-    addToCartBtn.disabled = true;
+    const sizeSelector = document.getElementById('sizeSelector');
+    const sizeRow = sizeSelector ? sizeSelector.closest('.selection-row') : null;
+    
+    if (window.productNeedsSize(product)) {
+        if(sizeRow) sizeRow.classList.remove('hidden');
+        if(sizeSelected) {
+            sizeSelected.innerText = "Chọn kích thước";
+            sizeSelected.classList.remove('selected');
+        }
+        if(addToCartBtn) {
+            addToCartBtn.classList.remove('active');
+            addToCartBtn.disabled = true;
+        }
+    } else {
+        if(sizeRow) sizeRow.classList.add('hidden');
+        if(sizeSelected) {
+            sizeSelected.innerText = ""; // Không cần size thì để trống
+            sizeSelected.classList.add('selected');
+        }
+        if(addToCartBtn) {
+            addToCartBtn.classList.add('active');
+            addToCartBtn.disabled = false;
+        }
+    }
 
     // Navigation Logic
     const currentIndex = filteredProducts.findIndex(p => p.id === product.id);

@@ -387,4 +387,8 @@
     .add-to-cart-btn {
         width: 100%;
     }
-}
+}
+
+.hidden {
+    display: none !important;
+}
