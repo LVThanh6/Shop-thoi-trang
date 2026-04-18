@@ -18,7 +18,7 @@
     },
     {
         "id": "AO002",
-        "name": "Áo Thun Basic Trắng",
+        "name": "Áo Sơ Mi Đen",
         "price": 190000,
         "img": "../assets/img/Ao/ao (1).png",
         "tags": {
@@ -35,7 +35,7 @@
     },
     {
         "id": "AO003",
-        "name": "Áo Thun Cotton Co Giãn",
+        "name": "Áo Ba lỗ Cotton Co Giãn",
         "price": 220000,
         "img": "../assets/img/Ao/ao (1).webp",
         "tags": {
@@ -52,7 +52,7 @@
     },
     {
         "id": "AO004",
-        "name": "Áo Polo Xanh Navy",
+        "name": "Áo Polo Đen Navy",
         "price": 290000,
         "img": "../assets/img/Ao/ao (2).webp",
         "tags": {
@@ -69,7 +69,7 @@
     },
     {
         "id": "AO005",
-        "name": "Áo Sơ Mi Caro Đỏ",
+        "name": "Aó Khoác Jean",
         "price": 420000,
         "img": "../assets/img/Ao/ao (3).jpg",
         "tags": {
@@ -103,7 +103,7 @@
     },
     {
         "id": "AO007",
-        "name": "Áo Thun Oversized Đen",
+        "name": "Áo Sơ Mi Oversized Đen",
         "price": 210000,
         "img": "../assets/img/Ao/ao (5).png",
         "tags": {
@@ -120,7 +120,7 @@
     },
     {
         "id": "AO008",
-        "name": "Áo Sơ Mi Linen Xanh",
+        "name": "Áo Thun Xanh In Graphic",
         "price": 450000,
         "img": "../assets/img/Ao/ao (6).jpg",
         "tags": {
@@ -137,7 +137,7 @@
     },
     {
         "id": "AO009",
-        "name": "Áo Thun Pocket Basic",
+        "name": "Áo Sơ Mi Oversized Trắng",
         "price": 180000,
         "img": "../assets/img/Ao/ao (6).png",
         "tags": {
@@ -154,7 +154,7 @@
     },
     {
         "id": "AO010",
-        "name": "Áo Sơ Mi Denim Blue",
+        "name": "Áo Thun Đen In Graphic",
         "price": 550000,
         "img": "../assets/img/Ao/ao (7).jpg",
         "tags": {
@@ -171,7 +171,7 @@
     },
     {
         "id": "AO011",
-        "name": "Áo Thun Henley Trắng",
+        "name": "Áo Sơ Mi Oversized Xanh",
         "price": 280000,
         "img": "../assets/img/Ao/ao (7).png",
         "tags": {
@@ -188,7 +188,7 @@
     },
     {
         "id": "AO012",
-        "name": "Áo Sơ Mi Oxford Grey",
+        "name": "Áo Sơ Mi Jean",
         "price": 360000,
         "img": "../assets/img/Ao/ao (8).jpg",
         "tags": {
@@ -205,7 +205,7 @@
     },
     {
         "id": "AO013",
-        "name": "Áo Thun Slim Fit Co Giãn",
+        "name": "Áo Polo Nâu Co Giãn",
         "price": 195000,
         "img": "../assets/img/Ao/ao (8).webp",
         "tags": {
