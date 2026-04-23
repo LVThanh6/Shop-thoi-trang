@@ -1,0 +1,263 @@
+   body {
+       margin: 0;
+       background: #f5f5f5;
+   }
+
+   .site-wrapper,
+   .shop-page {
+       overflow: visible !important;
+   }
+
+   #filter-placeholder {
+       position: -webkit-sticky;
+       /* Hỗ trợ Safari */
+       position: sticky;
+       top: 140px;
+       /* Cách mép trên màn hình 20px khi cuộn tới */
+
+       /* Đảm bảo nó có kích thước xác định */
+       width: 250px;
+       z-index: 10;
+       overflow-y: scroll;
+   }
+
+    .site-wrapper {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        /* Đẩy nội dung xuống để chừa khoảng trống cho header cố định (160px) */
+        padding-top: 160px;
+    }
+
+    .filter-toggle-btn {
+        display: none;
+        background: #000;
+        color: #fff;
+        padding: 12px 20px;
+        margin: 20px;
+        border-radius: 8px;
+        text-align: center;
+        cursor: pointer;
+        font-weight: 600;
+    }
+
+
+   /* Tạo khoảng cách nhỏ giữa các phần dưới header */
+
+   .content-wrapper {
+       display: flex;
+       align-items: flex-start;
+       /* Quan trọng: để cột không bị kéo dài ép buộc */
+       gap: 20px;
+   }
+
+   #footer-placeholder {
+       margin-top: 20px;
+   }
+
+   /* Header chiếm 100% chiều rộng */
+   #header-placeholder {
+       width: 100%;
+       margin: 0;
+       padding: 0;
+   }
+
+   #header-placeholder header {
+       width: 100% !important;
+       max-width: 100% !important;
+   }
+
+   .content-wrapper {
+       display: flex;
+       width: 100%;
+       max-width: 1440px;
+       margin: 0 auto;
+       gap: 20px;
+       padding: 20px;
+       box-sizing: border-box;
+   }
+
+   .filter-placeholder {
+       position: sticky;
+       top: 100px;
+       position: -webkit-sticky;
+   }
+
+   .filter-area {
+       position: sticky;
+       top: 120px;
+       z-index: 100;
+       height: calc(100vh - 140px);
+       width: 320px;
+       min-width: 320px;
+       background: rgba(255, 255, 255, 0.85);
+       backdrop-filter: blur(12px);
+       -webkit-backdrop-filter: blur(12px);
+       border: 1px solid rgba(255, 255, 255, 0.5);
+       border-radius: 16px;
+       overflow: hidden;
+       box-shadow: 0 8px 32px rgba(0, 0, 0, 0.05);
+   }
+
+
+   .product-area {
+       flex: 1;
+       background: #fff;
+       border-radius: 16px;
+       padding: 30px;
+       box-shadow: 0 8px 32px rgba(0, 0, 0, 0.05);
+       min-height: 500px;
+   }
+
+   .product-area h2 {
+       margin: 0 0 14px;
+       font-size: 1.2rem;
+   }
+
+    /* Bootstrap Row handles the grid now */
+    .product-grid {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+   /* Responsive */
+    @media (max-width: 1200px) {
+        .content-wrapper {
+            max-width: 100%;
+            padding: 20px;
+        }
+        .product-grid {
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .site-wrapper {
+            padding-top: 70px;
+        }
+
+        .filter-toggle-btn {
+            display: block;
+            margin: 15px;
+            background: #000;
+            border-radius: 30px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+
+        .content-wrapper {
+            flex-direction: column;
+            padding: 10px;
+        }
+
+        .filter-area {
+            position: fixed;
+            top: 0;
+            left: -100%;
+            width: 280px;
+            height: 100vh;
+            z-index: 1000;
+            background: rgba(255, 255, 255, 0.98);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            transition: left 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+            box-shadow: 10px 0 30px rgba(0,0,0,0.2);
+            padding: 60px 20px 20px;
+        }
+
+        .filter-area.active {
+            left: 0;
+        }
+
+        .product-area {
+            width: 100%;
+            padding: 10px;
+        }
+
+        .product-grid {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+        }
+
+        .product-card {
+            padding: 10px;
+        }
+
+        .product-name {
+            font-size: 13px;
+            height: 36px;
+        }
+
+        .product-price {
+            font-size: 15px;
+        }
+
+        .breadcrumb {
+            margin-top: 20px;
+            font-size: 20px;
+            padding-left: 15px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .product-grid {
+            grid-template-columns: 1fr;
+        }
+
+        .product-img {
+            max-height: 350px;
+        }
+    }
+
+   /* Nếu bạn muốn nội dung filter luôn xuất hiện từng phần, đảm bảo không bị cuộn riêng */
+   .filter-inner {
+       max-height: 80vh;
+       position: sticky;
+       top: 100px;
+       height: 80vh;
+       padding: 50px;
+   }
+
+   /* Nút Xem thêm */
+   #load-more-btn {
+       background-color: #000;
+       color: #fff;
+       border: none;
+       padding: 12px 35px;
+       font-size: 14px;
+       font-weight: 600;
+       border-radius: 30px;
+       cursor: pointer;
+       transition: all 0.3s ease;
+       text-transform: uppercase;
+       letter-spacing: 1px;
+       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+   }
+
+   #load-more-btn:hover {
+       background-color: #333;
+       transform: translateY(-2px);
+       box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+   }
+
+   #load-more-btn:active {
+       transform: translateY(0);
+   }
+
+   /* Breadcrumb matched to dangNhap.html */
+   .breadcrumb {
+       margin-top: 40px;
+       font-size: 24px;
+       color: black;
+   }
+
+   .breadcrumb span strong {
+       height: 36px;
+       width: 120px;
+       margin-left: 30px;
+   }
+
+   .breadcrumb span strong a {
+       text-decoration: none;
+       color: black;
+   }

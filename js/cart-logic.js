@@ -39,7 +39,7 @@ function renderCart() {
         container.innerHTML += `
         <div class="product-item">
             <div class="col-product">
-                <img src="${window.fixPath(item.img)}" alt="${item.name}" onerror="this.src='../assets/img/no-img.jpg'">
+                <img src="${window.fixPath(item.img)}" alt="${item.name}" onerror="this.src='../img/no-img.jpg'">
                 <div>
                     <div style="font-weight: 600; margin-bottom: 4px;">${item.name}</div>
                     <div style="font-size: 13px; color: #888;">Size: ${item.size}</div>
@@ -71,6 +71,9 @@ function renderCart() {
         }
     }
     if (finalTotalElement) finalTotalElement.innerText = formatVND(finalTotal);
+
+    // Cập nhật lại số lượng trên Header nếu có
+    if (window.updateHeaderCounts) window.updateHeaderCounts();
 }
 
 // Hàm thay đổi số lượng (+ hoặc -)
@@ -127,4 +130,4 @@ function applyCoupon() {
 window.applyCoupon = applyCoupon;
 
 // Tự động chạy render khi trang đã tải xong
-document.addEventListener('DOMContentLoaded', renderCart);
+document.addEventListener('DOMContentLoaded', renderCart);

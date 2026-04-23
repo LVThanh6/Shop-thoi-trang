@@ -6,17 +6,162 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Giỏ hàng - M&N</title>
 
-    <link rel="stylesheet" href="../assets/css/header.css">
-    <link rel="stylesheet" href="../assets/css/footers.css">
-    <link rel="stylesheet" href="../assets/css/cart.css">
-    <link rel="stylesheet" href="../assets/css/toast.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footers.css">
+    <link rel="stylesheet" href="../css/cart.css">
+    <link rel="stylesheet" href="../css/toast.css">
 
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100..900&family=Plus+Jakarta+Sans:wght@200..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body class="cart-page">
 
-    <div id="header-placeholder"></div>
+    <header class="no-navbar">
+        <div class="container">
+            <div class="row align-items-center Top-nav py-2 py-lg-3">
+                <div class="col-auto logo">
+                    <a href="../index.html">
+                        <img src="../img/icon/logo.png" alt="logo" class="img-fluid">
+                    </a>
+                </div>
+
+                <div class="col px-lg-5 d-none d-md-flex align-items-center justify-content-center">
+                    <div class="Search w-100 position-relative">
+                        <input type="text" id="searchInput" placeholder="What are you looking for..."
+                            class="search-input w-100 bg-transparent border-0 shadow-none text-white">
+                        <button type="button" id="searchButton" class="btn border-0">
+                            <img src="../img/icon/search.svg" alt="search">
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col-auto ms-auto d-flex align-items-center gap-3">
+                    <div class="menu-toggle d-lg-none" id="mobile-menu-btn">
+                        <i class="fas fa-bars"></i>
+                    </div>
+
+                    <div class="User-Actions d-flex align-items-center gap-4">
+                        <div class="saved">
+                            <a href="save.html"
+                                class="d-flex flex-column align-items-center text-decoration-none text-white">
+                                <div class="icon-wrapper position-relative">
+                                    <img src="../img/icon/tym.png" alt="tym" style="width: 24px;">
+                                    <span class="count-bubble" id="savedCountBubble">0</span>
+                                </div>
+                                <span class="small mt-1" style="font-size: 12px;">Saved</span>
+                            </a>
+                        </div>
+
+                        <div class="cart">
+                            <a href="cart.html"
+                                class="d-flex flex-column align-items-center text-decoration-none text-white">
+                                <div class="icon-wrapper position-relative">
+                                    <img src="../img/icon/mdi_cart-outline.png" alt="cart" id="cartHeaderBtn"
+                                        style="width: 24px;">
+                                    <span class="count-bubble" id="cartCountBubble">0</span>
+                                </div>
+                                <span class="small mt-1" style="font-size: 12px;">Cart</span>
+                            </a>
+                        </div>
+
+                        <div class="account">
+                            <a href="dangNhap.html" id="accountLink"
+                                class="d-flex flex-column align-items-center text-decoration-none text-white">
+                                <img src="../img/icon/mdi_account-circle.png" alt="account" style="width: 24px;">
+                                <div class="d-flex flex-column align-items-center">
+                                    <span id="userNameDisplay" class="fw-bold"
+                                        style="font-size: 12px; line-height: 1.1;">Login</span>
+                                    <span id="accountStatus" class="opacity-75 d-flex align-items-center gap-1"
+                                        style="font-size: 10px;">
+                                        Account <i class="fas fa-chevron-down" style="font-size: 8px;"></i>
+                                    </span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="category-navbar w-100 shadow-sm" id="main-navbar">
+            <nav class="container">
+                <ul class="nav-list w-100 justify-content-between align-items-center list-unstyled py-2 py-lg-0">
+                    <li class="nav-item"> <a href="banhang.html?category=shirts" data-category="shirts"
+                            class="category-link">Shirts & T-Shirts <span class="vietnamese">(Áo sơ mi và áo
+                                thun)</span></a></li>
+                    <li class="nav-item"> <a href="banhang.html?category=pants" data-category="pants"
+                            class="category-link">Pants <span class="vietnamese">(Quần)</span></a></li>
+                    <li class="nav-item"> <a href="banhang.html?category=jackets" data-category="jackets"
+                            class="category-link">Jackets <span class="vietnamese">(Áo khoác)</span></a></li>
+                    <li class="nav-item"> <a href="banhang.html?category=vests" data-category="vests"
+                            class="category-link">Vest <span class="vietnamese">(Áo Vest)</span></a></li>
+                    <li class="nav-item"> <a href="banhang.html?category=perfumes" data-category="perfumes"
+                            class="category-link">Perfumes <span class="vietnamese">(Nước hoa)</span></a></li>
+                    <li class="nav-item"> <a href="banhang.html?category=watches" data-category="watches"
+                            class="category-link">Watches <span class="vietnamese">(Đồng hồ)</span></a></li>
+                    <li class="nav-item"> <a href="banhang.html?category=caps" data-category="caps"
+                            class="category-link">Caps <span class="vietnamese">(Mũ)</span></a></li>
+                    <li class="nav-item"> <a href="banhang.html?category=shoes" data-category="shoes"
+                            class="category-link">Shoes <span class="vietnamese">(Giày)</span></a></li>
+                    <li class="nav-item"> <a href="banhang.html?category=accessories" data-category="accessories"
+                            class="category-link">Accessories <span class="vietnamese">(Phụ kiện)</span></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="menu-overlay" id="menu-overlay"></div>
+    </header>
+
+    <script>
+        (function () {
+            const navbar = document.getElementById('main-navbar');
+            const overlay = document.getElementById('menu-overlay');
+            const menuBtn = document.getElementById('mobile-menu-btn');
+            const searchInput = document.getElementById('searchInput');
+            const searchButton = document.getElementById('searchButton');
+
+            // Các hàm checkAndDisplayUser và updateHeaderCounts sẽ được tự động gọi khi utils.js load xong
+
+            function handleSearch() {
+                const query = searchInput?.value.trim();
+                if (query) {
+                    window.location.href = 'banhang.html?search=' + encodeURIComponent(query);
+                }
+            }
+
+            if (searchButton && searchInput) {
+                searchButton.addEventListener('click', handleSearch);
+                searchInput.addEventListener('keypress', (e) => {
+                    if (e.key === 'Enter') handleSearch();
+                });
+            }
+
+            function toggleMenu(forceClose = false) {
+                if (!navbar || !overlay || !menuBtn) return;
+                if (forceClose) {
+                    navbar.classList.remove('active');
+                    overlay.classList.remove('active');
+                    document.body.style.overflow = '';
+                } else {
+                    navbar.classList.toggle('active');
+                    overlay.classList.toggle('active');
+                    document.body.style.overflow = navbar.classList.contains('active') ? 'hidden' : '';
+                }
+                const icon = menuBtn.querySelector('i');
+                if (icon) {
+                    navbar.classList.contains('active') ? icon.classList.replace('fa-bars', 'fa-times') : icon.classList.replace('fa-times', 'fa-bars');
+                }
+            }
+
+            if (menuBtn) menuBtn.addEventListener('click', () => toggleMenu());
+            if (overlay) overlay.addEventListener('click', () => toggleMenu(true));
+        })();
+    </script>
 
     <main class="cart-main-content">
 
@@ -101,18 +246,54 @@
 
     </main>
 
-    <div id="footer-placeholder"></div>
+    <footer>
+        <div class="footer-top">
+            <div>
+                <h4>Quần áo</h4>
+                <ul>
+                    <li>Thường ngày</li>
+                    <li>Thể thao</li>
+                    <li>Du lịch</li>
+                    <li>Vest</li>
+                    <li>Áo khoác</li>
+                    <li>Quần</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Phụ kiên</h4>
+                <ul>
+                    <li>Mũ - nón</li>
+                    <li>Đồng hồ</li>
+                    <li>Ví</li>
+                    <li>Giày</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Liên hệ</h4>
+                <p class="p">Nếu bạn có bất kỳ thắc mắc nào, vui lòng liên hệ với chúng tôi.</p><span
+                    class="icon-internet"><img src="../img/icon/gg_facebook.svg" alt=""><img
+                        src="../img/icon/lets-icons_insta.svg" alt=""><img src="../img/icon/jam_pinterest.svg"
+                        alt=""></span>
+            </div>
+            <div>
+                <div class="section-email">
+                    <h4>Thông báo</h4>
+                    <p class="email-info">email@example.com</p>
+                </div><a class="button" href="#">SUBSCRIBE</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="pay"><span><img src="../img/icon/icon-pay-01.png" alt=""><img src="../img/icon/icon-pay-02.png"
+                        alt=""><img src="../img/icon/icon-pay-03.png" alt=""><img src="../img/icon/icon-pay-04.png"
+                        alt=""><img src="../img/icon/icon-pay-05.png" alt=""></span>
+                <p class="pay-info">Copyright ©2025 All rights reserved</p>
+            </div>
+        </div>
+    </footer>
 
     <script src="../js/utils.js"></script>
     <script src="../js/cart-logic.js"></script>
-
-    <script>
-        loadComponent('header-placeholder', 'header.html').then(() => {
-            if (window.updateHeaderCounts) window.updateHeaderCounts();
-        });
-        loadComponent('footer-placeholder', 'footer.html');
-    </script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

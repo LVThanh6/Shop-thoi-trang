@@ -18,7 +18,7 @@ function initCart() {
             const itemEl = document.createElement('div');
             itemEl.className = 'cart-item-mini';
             itemEl.innerHTML = `
-                <img src="${item.img}" alt="${item.name}" onerror="this.src='../assets/img/no-img.jpg'">
+                <img src="${window.fixPath ? window.fixPath(item.img) : item.img}" alt="${item.name}" onerror="this.src='../img/no-img.jpg'">
                 <div class="item-info">
                     <span class="item-name">${item.name}</span>
                     <span class="item-size">Size: ${item.size}</span>

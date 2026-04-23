@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="vi">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -103,7 +104,9 @@
             scrollbar-width: none;
         }
 
-        .category-tabs::-webkit-scrollbar { display: none; }
+        .category-tabs::-webkit-scrollbar {
+            display: none;
+        }
 
         .tab {
             padding: 8px 20px;
@@ -116,7 +119,8 @@
             transition: 0.3s;
         }
 
-        .tab:hover, .tab.active {
+        .tab:hover,
+        .tab.active {
             background: var(--primary);
             color: black;
             border-color: var(--primary);
@@ -164,7 +168,7 @@
 
         .id-badge {
             font-size: 10px;
-            background: rgba(255,255,255,0.1);
+            background: rgba(255, 255, 255, 0.1);
             padding: 2px 8px;
             border-radius: 4px;
             width: fit-content;
@@ -180,7 +184,7 @@
 
         .input-group input {
             width: 100%;
-            background: rgba(0,0,0,0.2);
+            background: rgba(0, 0, 0, 0.2);
             border: 1px solid var(--border);
             padding: 8px 12px;
             border-radius: 6px;
@@ -224,7 +228,7 @@
             border-radius: 50px;
             display: flex;
             gap: 20px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
             z-index: 2000;
         }
 
@@ -249,7 +253,7 @@
         }
 
         .btn-secondary {
-            background: rgba(255,255,255,0.1);
+            background: rgba(255, 255, 255, 0.1);
             color: white;
         }
 
@@ -257,8 +261,11 @@
         #modal {
             display: none;
             position: fixed;
-            top: 0; left: 0; width: 100%; height: 100%;
-            background: rgba(0,0,0,0.9);
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.9);
             z-index: 3000;
             align-items: center;
             justify-content: center;
@@ -295,6 +302,7 @@
         }
     </style>
 </head>
+
 <body>
 
     <header>
@@ -307,7 +315,8 @@
 
     <div class="toolbar">
         <div class="search-box">
-            <input type="text" id="search" placeholder="Tìm kiếm theo ID hoặc Tên sản phẩm..." oninput="filterProducts()">
+            <input type="text" id="search" placeholder="Tìm kiếm theo ID hoặc Tên sản phẩm..."
+                oninput="filterProducts()">
         </div>
         <div class="category-tabs" id="tabs-container">
             <div class="tab active" onclick="setCategory('all')">Tất cả</div>
@@ -372,10 +381,10 @@
 
                 const results = await Promise.all(promises);
                 allProducts = results.flat();
-                
+
                 document.getElementById('loader').style.display = 'none';
                 document.getElementById('total-count').innerText = allProducts.length;
-                
+
                 renderTabs();
                 renderProducts();
             } catch (err) {
@@ -399,7 +408,7 @@
         function setCategory(id) {
             currentCategory = id;
             document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-            if(id === 'all') document.querySelector('.tab').classList.add('active');
+            if (id === 'all') document.querySelector('.tab').classList.add('active');
             else document.getElementById(`tab-${id}`).classList.add('active');
             renderProducts();
         }
@@ -411,9 +420,9 @@
         function renderProducts() {
             const grid = document.getElementById('product-grid');
             const searchTerm = document.getElementById('search').value.toLowerCase();
-            
+
             grid.innerHTML = '';
-            
+
             const filtered = allProducts.filter(p => {
                 const matchesCat = currentCategory === 'all' || p.category === currentCategory;
                 const matchesSearch = p.id.toLowerCase().includes(searchTerm) || p.name.toLowerCase().includes(searchTerm);
@@ -424,12 +433,12 @@
                 const card = document.createElement('div');
                 card.className = 'product-card';
                 card.id = `card-${p.id}`;
-                
+
                 // Fix image path if needed
                 let imgSrc = p.img.startsWith('../') ? p.img.substring(3) : p.img;
-                
+
                 card.innerHTML = `
-                    <img src="${imgSrc}" loading="lazy" onerror="this.src='assets/img/no-img.jpg'">
+                    <img src="${imgSrc}" loading="lazy" onerror="this.src='img/no-img.jpg'">
                     <div class="product-info">
                         <div style="display:flex; justify-content:space-between; align-items:center">
                             <span class="id-badge">${p.id}</span>
@@ -445,7 +454,7 @@
                         </div>
                     </div>
                 `;
-                
+
                 // Kiểm tra xem đã khác gốc chưa
                 checkChanged(p.id, card);
                 grid.appendChild(card);
@@ -456,7 +465,7 @@
             const product = allProducts.find(p => p.id === id);
             if (field === 'price') value = parseInt(value) || 0;
             product[field] = value;
-            
+
             const card = document.getElementById(`card-${id}`);
             checkChanged(id, card);
             updateStats();
@@ -465,7 +474,7 @@
         function checkChanged(id, card) {
             const product = allProducts.find(p => p.id === id);
             const original = JSON.parse(originalData.get(id));
-            
+
             if (product.name !== original.name || product.price !== original.price) {
                 card.classList.add('changed');
             } else {
@@ -496,9 +505,9 @@
             // Lọc grid chỉ hiện những card có class changed
             const cards = document.querySelectorAll('.product-card');
             cards.forEach(c => {
-                if(!c.classList.contains('changed')) c.style.display = 'none';
+                if (!c.classList.contains('changed')) c.style.display = 'none';
             });
-            
+
             const btn = document.querySelector('button[onclick="viewChanges()"]');
             btn.innerText = "Hiện tất cả";
             btn.onclick = () => {
@@ -542,7 +551,7 @@
             const textarea = document.getElementById('export-json');
             textarea.select();
             document.execCommand('copy');
-            
+
             const btn = document.getElementById('copy-btn');
             btn.innerText = "Đã sao chép!";
             setTimeout(() => btn.innerText = "Sao chép mã", 2000);
@@ -556,4 +565,5 @@
         loadAllData();
     </script>
 </body>
+
 </html>

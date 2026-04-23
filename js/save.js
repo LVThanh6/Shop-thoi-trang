@@ -5,11 +5,7 @@
 let savedProducts = [];
 
 async function initSavePage() {
-    // 1. Nạp các phần phụ của trang
-    await loadComponent('header-placeholder', './header.html');
-    await loadComponent('footer-placeholder', './footer.html');
-    await loadComponent('cart-holder', './cart-drawer.html');
-    await loadComponent('product-detail-holder', './product-detail.html');
+    // HTML components được nhúng thủ công trực tiếp vào save.html
 
     // 2. Thiết lập sự kiện chung
     if (window.setupCartEvents) window.setupCartEvents();
@@ -49,9 +45,13 @@ function renderSavedList(products) {
         const price = new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(p.price);
         const item = document.createElement('div');
         item.className = 'saved-item';
+        
+        // Sửa đường dẫn hình ảnh cho đúng folder
+        const imgSrc = window.fixPath ? window.fixPath(p.img) : p.img;
+        
         item.innerHTML = `
             <div class="item-img">
-                <img src="${p.img}" alt="${p.name}" onerror="this.src='../assets/img/no-img.jpg'; this.onerror=null;">
+                <img src="${imgSrc}" alt="${p.name}" onerror="this.src='../img/no-img.jpg'; this.onerror=null;">
             </div>
             <div class="item-info">
                 <h3>${p.name}</h3>

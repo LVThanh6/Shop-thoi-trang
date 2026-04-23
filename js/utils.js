@@ -19,6 +19,34 @@ async function loadComponent(id, path) {
         container.innerHTML = html;
         container.classList.remove('header-placeholder-loading', 'footer-placeholder-loading');
 
+        // Sửa đường dẫn cho các tài nguyên trong component vừa nạp
+        const isSubfolder = window.location.pathname.includes('/html/') || window.location.pathname.includes('/pages/');
+        if (isSubfolder) {
+            container.querySelectorAll('img[src], a[href], source[src]').forEach(el => {
+                const attr = el.tagName === 'A' ? 'href' : 'src';
+                const path = el.getAttribute(attr);
+                // Chỉ sửa nếu là đường dẫn tương đối và không phải link tuyệt đối
+                if (path && !path.startsWith('http') && !path.startsWith('/') && !path.startsWith('#') && !path.startsWith('javascript:')) {
+                    // Nếu đường dẫn đã có ../ thì không cần thêm, hoặc nếu chưa có thì thêm
+                    if (!path.startsWith('../')) {
+                        el.setAttribute(attr, '../' + path);
+                    }
+                }
+            });
+        } else {
+            // Nếu ở trang chủ, đảm bảo đường dẫn không có ../ dư thừa
+            container.querySelectorAll('img[src], a[href], source[src]').forEach(el => {
+                const attr = el.tagName === 'A' ? 'href' : 'src';
+                let path = el.getAttribute(attr);
+                if (path && path.startsWith('../')) {
+                    while (path.startsWith('../')) {
+                        path = path.substring(3);
+                    }
+                    el.setAttribute(attr, path);
+                }
+            });
+        }
+
         // Thực thi các thẻ <script> có trong component mới nạp
         const scripts = container.querySelectorAll('script');
         for (const oldScript of scripts) {
@@ -265,4 +293,11 @@ function showToast(message, type = 'info') {
 }
 
 window.showToast = showToast;
+
+// 7. Tự động khởi tạo khi script được tải xong (Auto-init)
+// Sử dụng setTimeout để đảm bảo các component đã được parse xong nếu script được đặt ở cuối body
+setTimeout(() => {
+    if (window.updateHeaderCounts) window.updateHeaderCounts();
+    if (window.checkAndDisplayUser) window.checkAndDisplayUser();
+}, 100);
 

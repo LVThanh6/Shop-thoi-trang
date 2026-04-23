@@ -9,18 +9,12 @@ let visibleCount = 8; // Số lượng sản phẩm đang hiển thị
 
 // 1. Khởi tạo toàn trang
 async function initShop() {
-    // Nạp các phần phụ (Dùng đường dẫn tương đối từ file HTML gọi nó)
-    await loadComponent('header-placeholder', './header.html');
-    await loadComponent('banner-placeholder', './banner.html');
-    await loadComponent('filter-placeholder', './filter.html');
-    await loadComponent('footer-placeholder', './footer.html');
-    await loadComponent('cart-holder', './cart-drawer.html');
-    await loadComponent('product-detail-holder', './product-detail.html');
+    // HTML components được nhúng thủ công trực tiếp vào banhang.html
 
     setupNavbarCategoryClicks();
     setupLoadMoreEvents();
 
-    
+
     // Đảm bảo các sự kiện chung hoạt động
     if (window.setupCartEvents) window.setupCartEvents();
     if (window.checkAndDisplayUser) window.checkAndDisplayUser();
@@ -90,7 +84,8 @@ function renderGrid(products) {
     const loadMoreContainer = document.getElementById('load-more-container');
     if (!grid) return;
 
-    grid.className = 'product-grid';
+    // Keep Bootstrap classes from HTML, just add product-grid for potential custom styles
+    grid.classList.add('product-grid');
     if (!products.length) {
         grid.innerHTML = '<p style="grid-column:1/-1; text-align:center;">Không tìm thấy sản phẩm phù hợp.</p>';
         if (loadMoreContainer) loadMoreContainer.style.display = 'none';
@@ -104,18 +99,20 @@ function renderGrid(products) {
     productsToShow.forEach(p => {
         const price = new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(p.price);
         const card = document.createElement('div');
-        card.className = 'product-card';
+        card.className = 'col';
         const imgSrc = window.fixPath(p.img);
         card.innerHTML = `
-            <div class="product-img">
-                <img src="${imgSrc}" alt="${p.name}" onerror="this.src='../assets/img/no-img.jpg'; this.onerror=null;">
-                <button class="quick-add-btn" title="Thêm nhanh vào giỏ">
-                    <i class="fas fa-cart-plus"></i>
-                </button>
-            </div>
-            <div class="product-info">
-                <div class="product-name" title="${p.name}">${p.name}</div>
-                <div class="product-price">${price}</div>
+            <div class="card h-100 border-0 shadow-sm product-card">
+                <div class="position-relative overflow-hidden">
+                    <img src="${imgSrc}" class="card-img-top" alt="${p.name}" onerror="this.src='../img/no-img.jpg'; this.onerror=null;" style="aspect-ratio: 1/1; object-fit: cover; transition: transform 0.4s ease;">
+                    <button class="quick-add-btn btn btn-dark position-absolute bottom-0 end-0 m-3 shadow" title="Thêm nhanh vào giỏ" style="border-radius: 50%; width: 45px; height: 45px; display: flex; align-items: center; justify-content: center; z-index: 2;">
+                        <i class="fas fa-cart-plus"></i>
+                    </button>
+                </div>
+                <div class="card-body p-3">
+                    <h5 class="card-title product-name mb-1" title="${p.name}" style="font-size: 1rem; font-weight: 500; height: 3rem; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">${p.name}</h5>
+                    <p class="card-text product-price fw-bold mb-0" style="font-size: 1.1rem; color: #111;">${price}</p>
+                </div>
             </div>
         `;
 
@@ -160,13 +157,13 @@ async function handleGlobalSearch(keyword) {
     const cats = ['shirts', 'pants', 'jackets', 'vests', 'perfumes', 'watches', 'caps', 'shoes', 'accessories'];
     const keywordNorm = removeAccents(keyword);
     const grid = document.getElementById('product-placeholder');
-    
+
     if (grid) grid.innerHTML = '<p style="grid-column:1/-1; text-align:center;">Đang tìm kiếm...</p>';
-    
+
     try {
         const results = await Promise.all(cats.map(c => fetch(`../data/${c}.json`).then(r => r.ok ? r.json() : [])));
         const combined = results.flat();
-        
+
         allProducts = combined.filter(p => {
             const nameMatch = removeAccents(p.name).includes(keywordNorm);
             const tagMatch = p.tags ? Object.values(p.tags).flat().some(t => removeAccents(t).includes(keywordNorm)) : false;
@@ -215,7 +212,7 @@ function buildFilters(products) {
 window.applyFilters = () => {
     const min = parseInt(document.getElementById('priceMin')?.value || 0);
     const max = parseInt(document.getElementById('priceMax')?.value || 999999999);
-    
+
     const checkboxes = document.querySelectorAll('#dynamic-filters-container input:checked');
     const selected = {};
     checkboxes.forEach(cb => {
@@ -251,8 +248,9 @@ window.resetFilters = () => {
 
 // 6. Product Detail Modal Logic
 function showProductDetail(product) {
-    const overlay = document.getElementById('productDetailOverlay');
-    if (!overlay) return;
+    const modalEl = document.getElementById('productDetailModal');
+    if (!modalEl) return;
+    const modal = bootstrap.Modal.getOrCreateInstance(modalEl);
 
     // Populate Data
     const img = document.getElementById('modalProductImg');
@@ -262,10 +260,14 @@ function showProductDetail(product) {
     const qtyInput = document.getElementById('modalProductQty');
     const totalPrice = document.getElementById('modalTotalPrice');
     const addToCartBtn = document.getElementById('modalAddToCart');
+    const sizeSelector = document.getElementById('sizeSelector');
+    const sizeRow = document.getElementById('sizeSelectorRow');
 
     img.src = window.fixPath(product.img);
     name.innerText = product.name;
-    document.querySelector('.product-breadcrumb').innerText = product.name; // Simple breadcrumb
+    const breadcrumb = document.querySelector('.product-breadcrumb');
+    if (breadcrumb) breadcrumb.innerText = product.name;
+
     const formattedPrice = new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(product.price);
     price.innerText = formattedPrice;
     desc.innerText = product.description || "Sản phẩm chất lượng cao, thiết kế hiện đại, phù hợp với nhiều phong cách thời trang nam.";
@@ -273,30 +275,27 @@ function showProductDetail(product) {
     totalPrice.innerText = formattedPrice;
 
     // Reset size selector
-    const sizeSelected = document.querySelector('.select-selected');
-    const sizeSelector = document.getElementById('sizeSelector');
-    const sizeRow = sizeSelector ? sizeSelector.closest('.selection-row') : null;
-    
     if (window.productNeedsSize(product)) {
-        if(sizeRow) sizeRow.classList.remove('hidden');
-        if(sizeSelected) {
-            sizeSelected.innerText = "Chọn kích thước";
-            sizeSelected.classList.remove('selected');
+        if (sizeRow) sizeRow.classList.remove('d-none');
+        if (sizeSelector) {
+            sizeSelector.value = "";
         }
-        if(addToCartBtn) {
-            addToCartBtn.classList.remove('active');
+        if (addToCartBtn) {
             addToCartBtn.disabled = true;
         }
     } else {
-        if(sizeRow) sizeRow.classList.add('hidden');
-        if(sizeSelected) {
-            sizeSelected.innerText = ""; // Không cần size thì để trống
-            sizeSelected.classList.add('selected');
-        }
-        if(addToCartBtn) {
-            addToCartBtn.classList.add('active');
+        if (sizeRow) sizeRow.classList.add('d-none');
+        if (addToCartBtn) {
             addToCartBtn.disabled = false;
         }
+    }
+
+    if (sizeSelector) {
+        sizeSelector.onchange = () => {
+            if (sizeSelector.value) {
+                addToCartBtn.disabled = false;
+            }
+        };
     }
 
     // Navigation Logic
@@ -320,18 +319,8 @@ function showProductDetail(product) {
         };
     }
 
-    // Show Overlay
-    overlay.classList.add('active');
-    document.body.style.overflow = 'hidden';
-
-    // Event: Close
-    const closeBtn = document.getElementById('closeProductDetail');
-    const hideModal = () => {
-        overlay.classList.remove('active');
-        document.body.style.overflow = 'auto';
-    };
-    closeBtn.onclick = hideModal;
-    overlay.onclick = (e) => { if (e.target === overlay) hideModal(); };
+    // Show Modal
+    modal.show();
 
     // Event: Quantity
     const updateTotal = () => {
@@ -355,21 +344,16 @@ function showProductDetail(product) {
         updateTotal();
     };
 
-    // Event: Size Selector
-    setupCustomSelect(product);
-
     // Event: Add to Cart
     addToCartBtn.onclick = () => {
-        const size = sizeSelected.innerText;
+        const size = sizeSelector ? sizeSelector.value : "";
         const qty = parseInt(qtyInput.value);
-        
-        // Logic thêm vào giỏ hàng (Giả định có hàm toàn cục hoặc xử lý LocalStorage)
-        addToCart(product, qty, size);
-        
+
+        window.addToCart(product, qty, size);
+
         if (window.updateHeaderCounts) window.updateHeaderCounts();
-        
-        hideModal();
-        // Mở drawer giỏ hàng để người dùng thấy
+
+        modal.hide();
         const cartOverlay = document.getElementById('cartOverlay');
         const cartSidebar = document.getElementById('cartSidebar');
         cartOverlay?.classList.add('open');
@@ -379,8 +363,7 @@ function showProductDetail(product) {
     // Event: Favorite Toggle
     const favBtn = document.getElementById('addToFavorite');
     const favIcon = favBtn.querySelector('i');
-    
-    // Reset/Check if already saved
+
     let saved = JSON.parse(localStorage.getItem('savedProducts')) || [];
     if (saved.some(s => s.id === product.id)) {
         favIcon.classList.replace('far', 'fas');
@@ -421,52 +404,6 @@ function showProductDetail(product) {
         }
     };
 }
-
-function setupCustomSelect(product) {
-    const selElmnt = document.getElementById('sizeSelector');
-    const selected = selElmnt.querySelector('.select-selected');
-    const items = selElmnt.querySelector('.select-items');
-    const addToCartBtn = document.getElementById('modalAddToCart');
-
-    // Toggle dropdown
-    selected.onclick = (e) => {
-        e.stopPropagation();
-        closeAllSelect(selected);
-        items.classList.toggle('select-hide');
-        selected.classList.toggle('select-arrow-active');
-    };
-
-    // Handle item click
-    const optionDivs = items.querySelectorAll('div');
-    optionDivs.forEach(div => {
-        div.onclick = function() {
-            selected.innerText = this.innerText;
-            selected.classList.add('selected');
-            addToCartBtn.classList.add('active');
-            addToCartBtn.disabled = false;
-            
-            optionDivs.forEach(d => d.classList.remove('same-as-selected'));
-            this.classList.add('same-as-selected');
-            
-            items.classList.add('select-hide');
-            selected.classList.remove('select-arrow-active');
-        };
-    });
-}
-
-function closeAllSelect(elmnt) {
-    const items = document.querySelectorAll('.select-items');
-    const selected = document.querySelectorAll('.select-selected');
-    for (let i = 0; i < selected.length; i++) {
-        if (elmnt == selected[i]) continue;
-        selected[i].classList.remove('select-arrow-active');
-    }
-    for (let i = 0; i < items.length; i++) {
-        items[i].classList.add('select-hide');
-    }
-}
-
-document.addEventListener('click', () => closeAllSelect());
 
 // Khởi tạo khi DOM sẵn sàng
 document.addEventListener('DOMContentLoaded', initShop);

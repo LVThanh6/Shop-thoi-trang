@@ -1,77 +1,81 @@
 <header>
     <div class="container">
-        <div class="Top-nav">
-            <div class="logo">
-                <a href="../index.html">
-                    <img src="../assets/icon/logo.png" alt="logo">
+        <div class="row align-items-center Top-nav py-2 py-lg-3">
+            <!-- Logo -->
+            <div class="col-auto logo">
+                <a href="index.html">
+                    <img src="img/icon/logo.png" alt="logo" class="img-fluid">
                 </a>
             </div>
-            <div class="Search">
-                <input type="text" id="searchInput" placeholder="What are you looking for...">
-                <button type="button" id="searchButton">
-                    <img src="../assets/icon/search.svg" alt="search">
-                </button>
+
+            <!-- Centered Search -->
+            <div class="col px-lg-5 d-none d-md-block d-flex justify-content-center">
+                <div class="Search w-100 position-relative">
+                    <input type="text" id="searchInput" placeholder="What are you looking for..." class="search-input w-100 bg-transparent border-0 shadow-none text-white">
+                    <button type="button" id="searchButton" class="btn border-0">
+                        <img src="img/icon/search.svg" alt="search">
+                    </button>
+                </div>
             </div>
-            <div class="menu-toggle" id="mobile-menu-btn">
-                <i class="fas fa-bars"></i>
-            </div>
-            <div class="User-Actions">
-                <div class="saved">
-                    <span>
-                        <a href="../html/save.html">
-                            <div class="icon-wrapper">
-                                <img src="../assets/icon/tym.png" alt="tym">
+
+            <!-- User Actions & Mobile Toggle -->
+            <div class="col-auto ms-auto d-flex align-items-center gap-3">
+                <div class="menu-toggle d-lg-none" id="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+
+                <div class="User-Actions d-flex align-items-center gap-4">
+                    <div class="saved">
+                        <a href="html/save.html" class="d-flex flex-column align-items-center text-decoration-none text-white">
+                            <div class="icon-wrapper position-relative">
+                                <img src="img/icon/tym.png" alt="tym" style="width: 24px;">
                                 <span class="count-bubble" id="savedCountBubble">0</span>
                             </div>
-                            <span>Saved</span>
+                            <span class="small mt-1" style="font-size: 12px;">Saved</span>
                         </a>
-                    </span>
-                </div>
-                <div class="cart">
-                    <span>
-                        <a href="../html/cart.html">
-                            <div class="icon-wrapper">
-                                <img src="../assets/icon/mdi_cart-outline.png" alt="cart" id="cartHeaderBtn">
+                    </div>
+
+                    <div class="cart">
+                        <a href="html/cart.html" class="d-flex flex-column align-items-center text-decoration-none text-white">
+                            <div class="icon-wrapper position-relative">
+                                <img src="img/icon/mdi_cart-outline.png" alt="cart" id="cartHeaderBtn" style="width: 24px;">
                                 <span class="count-bubble" id="cartCountBubble">0</span>
                             </div>
-                            <span>Cart</span>
+                            <span class="small mt-1" style="font-size: 12px;">Cart</span>
                         </a>
-                    </span>
-                </div>
-                <div class="account">
-                    <span>
-                        <a href="../html/dangNhap.html" id="accountLink">
-                            <img src="../assets/icon/mdi_account-circle.png" alt="account">
-                            <div>
-                                <span id="userNameDisplay">Login</span>
-                                <span id="accountStatus">Account<img src="../assets/icon/rowbottom.svg" alt=""></span>
+                    </div>
+
+                    <div class="account">
+                        <a href="html/dangNhap.html" id="accountLink" class="d-flex flex-column align-items-center text-decoration-none text-white">
+                            <img src="img/icon/mdi_account-circle.png" alt="account" style="width: 24px;">
+                            <div class="d-flex flex-column align-items-center">
+                                <span id="userNameDisplay" class="fw-bold" style="font-size: 12px; line-height: 1.1;">Login</span>
+                                <span id="accountStatus" class="opacity-75 d-flex align-items-center gap-1" style="font-size: 10px;">
+                                    Account <i class="fas fa-chevron-down" style="font-size: 8px;"></i>
+                                </span>
                             </div>
                         </a>
-                    </span>
+                    </div>
                 </div>
             </div>
         </div>
     </div> <!-- Kết thúc div.container -->
 
-    <div class="navbar" id="main-navbar">
-        <nav class="nav-container">
-            <ul>
-                <li> <a href="../html/banhang.html?category=shirts" data-category="shirts">Shirts & T-Shirts <br>(Áo sơ
-                        mi và áo thun)</a></li>
-                <li> <a href="../html/banhang.html?category=pants" data-category="pants">Pants <br>(Quần)</a></li>
-                <li> <a href="../html/banhang.html?category=jackets" data-category="jackets">Jackets <br>(Áo khoác)</a>
-                </li>
-                <li> <a href="../html/banhang.html?category=vests" data-category="vests">Vest <br>(Áo Vest)</a></li>
-                <li> <a href="../html/banhang.html?category=perfumes" data-category="perfumes">Perfumes <br>(Nước
-                        hoa)</a></li>
-                <li> <a href="../html/banhang.html?category=watches" data-category="watches">Watches <br>(Đồng hồ)</a>
-                </li>
-                <li> <a href="../html/banhang.html?category=caps" data-category="caps">Caps <br>(Mũ)</a></li>
-                <li> <a href="../html/banhang.html?category=shoes" data-category="shoes">Shoes <br>(Giày)</a></li>
-                <li> <a href="../html/banhang.html?category=accessories" data-category="accessories">Accessories
-                        <br>(Phụ kiện)</a></li>
+    <div class="category-navbar w-100 shadow-sm" id="main-navbar">
+        <nav class="container">
+            <ul class="nav-list w-100 justify-content-between align-items-center list-unstyled py-2 py-lg-0">
+                <li class="nav-item"> <a href="html/banhang.html?category=shirts" data-category="shirts" class="category-link">Shirts & T-Shirts <span class="vietnamese">(Áo sơ mi và áo thun)</span></a></li>
+                <li class="nav-item"> <a href="html/banhang.html?category=pants" data-category="pants" class="category-link">Pants <span class="vietnamese">(Quần)</span></a></li>
+                <li class="nav-item"> <a href="html/banhang.html?category=jackets" data-category="jackets" class="category-link">Jackets <span class="vietnamese">(Áo khoác)</span></a></li>
+                <li class="nav-item"> <a href="html/banhang.html?category=vests" data-category="vests" class="category-link">Vest <span class="vietnamese">(Áo Vest)</span></a></li>
+                <li class="nav-item"> <a href="html/banhang.html?category=perfumes" data-category="perfumes" class="category-link">Perfumes <span class="vietnamese">(Nước hoa)</span></a></li>
+                <li class="nav-item"> <a href="html/banhang.html?category=watches" data-category="watches" class="category-link">Watches <span class="vietnamese">(Đồng hồ)</span></a></li>
+                <li class="nav-item"> <a href="html/banhang.html?category=caps" data-category="caps" class="category-link">Caps <span class="vietnamese">(Mũ)</span></a></li>
+                <li class="nav-item"> <a href="html/banhang.html?category=shoes" data-category="shoes" class="category-link">Shoes <span class="vietnamese">(Giày)</span></a></li>
+                <li class="nav-item"> <a href="html/banhang.html?category=accessories" data-category="accessories" class="category-link">Accessories <span class="vietnamese">(Phụ kiện)</span></a></li>
             </ul>
         </nav>
+    </div>
     <div class="menu-overlay" id="menu-overlay"></div>
 </header>
 
@@ -118,7 +122,9 @@
         function handleSearch() {
             const query = searchInput.value.trim();
             if (query) {
-                window.location.href = '../html/banhang.html?search=' + encodeURIComponent(query);
+                const isSubfolder = window.location.pathname.includes('/html/') || window.location.pathname.includes('/pages/');
+                const targetPath = isSubfolder ? 'banhang.html' : 'html/banhang.html';
+                window.location.href = targetPath + '?search=' + encodeURIComponent(query);
             }
         }
 

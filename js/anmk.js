@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
         toggleBtn.addEventListener('click', function () {
             const isPassword = passwordInput.type === 'password';
             passwordInput.type = isPassword ? 'text' : 'password';
-            eyeIcon.src = isPassword ? '../assets/img/dangnhapimg/eye-open.svg' : '../assets/img/dangnhapimg/eye-closed.svg';
+            eyeIcon.src = isPassword ? '../img/dangnhapimg/eye-open.svg' : '../img/dangnhapimg/eye-closed.svg';
             toggleText.textContent = isPassword ? 'Hiện' : 'Ẩn';
         });
     }

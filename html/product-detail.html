@@ -1,65 +1,76 @@
-<!-- Product Detail Overlay -->
-<div id="productDetailOverlay" class="product-detail-overlay">
-    <div class="product-detail-modal">
-        <!-- Close Button -->
-        <button id="closeProductDetail" class="close-modal-btn">&times;</button>
-        
-        <div class="modal-content">
-            <!-- Left: Product Gallery -->
-            <div class="product-gallery">
-                <div class="main-image-container">
-                    <button class="nav-arrow prev-arrow"><i class="fas fa-chevron-left"></i></button>
-                    <img id="modalProductImg" src="" alt="Product Image">
-                    <button class="nav-arrow next-arrow"><i class="fas fa-chevron-right"></i></button>
-                    <button class="zoom-btn"><i class="fas fa-expand-arrows-alt"></i></button>
-                </div>
+<!-- Product Detail Modal (Bootstrap 5) -->
+<div class="modal fade" id="productDetailModal" tabindex="-1" aria-labelledby="productDetailModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content border-0 shadow-lg" style="border-radius: 20px; overflow: hidden;">
+            <div class="modal-header border-0 pb-0 position-absolute w-100" style="z-index: 10;">
+                <button type="button" class="btn-close m-2 p-2 bg-white rounded-circle shadow-sm" data-bs-dismiss="modal" aria-label="Close" id="closeProductDetail"></button>
             </div>
-
-            <div class="product-details">
-                <div class="product-breadcrumb">Tên sản phẩm</div>
-                <h1 id="modalProductName">Tên sản phẩm</h1>
-                <p id="modalProductPrice" class="price">0 VND</p>
-                
-                <div class="product-description">
-                    <p>Miêu tả: <span id="modalProductDesc">Đang cập nhật...</span></p>
-                </div>
-
-                <!-- Size Selector -->
-                <div class="selection-row">
-                    <label>Kích thước</label>
-                    <div class="custom-select" id="sizeSelector">
-                        <div class="select-selected">Chọn kích thước</div>
-                        <div class="select-items select-hide">
-                            <div data-size="S">Size S</div>
-                            <div data-size="M">Size M</div>
-                            <div data-size="L">Size L</div>
-                            <div data-size="XL">Size XL</div>
+            
+            <div class="modal-body p-0">
+                <div class="row g-0">
+                    <!-- Left: Product Image Gallery -->
+                    <div class="col-lg-6 bg-light d-flex align-items-center justify-content-center p-4 position-relative" style="min-height: 500px;">
+                        <div class="main-image-container w-100 h-100 d-flex align-items-center justify-content-center overflow-hidden">
+                            <button class="btn btn-white shadow-sm rounded-circle position-absolute start-0 ms-4 prev-arrow" style="z-index: 2; width: 45px; height: 45px;"><i class="fas fa-chevron-left"></i></button>
+                            <img id="modalProductImg" src="" class="img-fluid rounded-3 shadow-sm" alt="Product Image" style="max-height: 85%; object-fit: contain; transition: transform 0.4s ease;">
+                            <button class="btn btn-white shadow-sm rounded-circle position-absolute end-0 me-4 next-arrow" style="z-index: 2; width: 45px; height: 45px;"><i class="fas fa-chevron-right"></i></button>
+                            <button class="btn btn-white shadow-sm rounded-circle position-absolute bottom-0 end-0 m-4 zoom-btn" style="width: 45px; height: 45px;"><i class="fas fa-expand-arrows-alt"></i></button>
                         </div>
                     </div>
-                </div>
 
-                <!-- Quantity Selector -->
-                <div class="selection-row">
-                    <label>Số lượng</label>
-                    <div class="quantity-selector">
-                        <button class="qty-btn minus">-</button>
-                        <input type="number" id="modalProductQty" value="1" min="1">
-                        <button class="qty-btn plus">+</button>
+                    <!-- Right: Product Details -->
+                    <div class="col-lg-6 p-4 p-lg-5 d-flex flex-column justify-content-center">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb mb-2" style="font-size: 0.85rem;">
+                                <li class="breadcrumb-item"><a href="#" class="text-decoration-none text-muted">Trang chủ</a></li>
+                                <li class="breadcrumb-item active product-breadcrumb text-truncate" aria-current="page">Tên sản phẩm</li>
+                            </ol>
+                        </nav>
+                        
+                        <h1 id="modalProductName" class="fw-bold mb-2 h2 text-dark">Tên sản phẩm</h1>
+                        <h3 id="modalProductPrice" class="fw-bold mb-4 text-primary">0 VND</h3>
+                        
+                        <div class="mb-4">
+                            <h6 class="fw-bold text-uppercase small text-muted mb-2">Miêu tả:</h6>
+                            <p id="modalProductDesc" class="text-muted" style="font-size: 0.95rem; line-height: 1.6;">Sản phẩm chất lượng cao, thiết kế hiện đại, phù hợp với nhiều phong cách thời trang nam.</p>
+                        </div>
+
+                        <!-- Selectors Row -->
+                        <div class="row g-3 mb-4">
+                            <div class="col-md-6 selection-row" id="sizeSelectorRow">
+                                <label class="form-label fw-bold small text-muted text-uppercase">Kích thước</label>
+                                <select class="form-select bg-light border-0 py-2 ps-3" id="sizeSelector">
+                                    <option selected disabled value="">Chọn kích thước</option>
+                                    <option value="S">Size S</option>
+                                    <option value="M">Size M</option>
+                                    <option value="L">Size L</option>
+                                    <option value="XL">Size XL</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label fw-bold small text-muted text-uppercase">Số lượng</label>
+                                <div class="input-group">
+                                    <button class="btn btn-light border-0 qty-btn minus px-3" type="button"><i class="fas fa-minus small"></i></button>
+                                    <input type="number" id="modalProductQty" class="form-control border-0 bg-light text-center fw-bold" value="1" min="1">
+                                    <button class="btn btn-light border-0 qty-btn plus px-3" type="button"><i class="fas fa-plus small"></i></button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Summary -->
+                        <div class="d-flex justify-content-between align-items-center mb-4 p-3 bg-light rounded-3">
+                            <span class="fw-bold text-muted small text-uppercase">Tổng cộng:</span>
+                            <span id="modalTotalPrice" class="h4 fw-bold text-dark mb-0">0 VND</span>
+                        </div>
+
+                        <!-- Actions -->
+                        <div class="d-flex gap-3">
+                            <button id="addToFavorite" class="btn btn-outline-dark border-2 p-3 d-flex align-items-center justify-content-center" style="width: 60px; border-radius: 12px;">
+                                <i class="far fa-heart fs-5"></i>
+                            </button>
+                            <button id="modalAddToCart" class="btn btn-dark flex-grow-1 py-3 fw-bold shadow-sm" style="border-radius: 12px; letter-spacing: 1px;">THÊM VÀO GIỎ HÀNG</button>
+                        </div>
                     </div>
-                </div>
-
-                <!-- Total Price -->
-                <div class="selection-row total-row">
-                    <label>Tổng</label>
-                    <span id="modalTotalPrice" class="total-price">0 VND</span>
-                </div>
-
-                <!-- Action Buttons -->
-                <div class="action-buttons">
-                    <button id="addToFavorite" class="favorite-btn">
-                        <i class="far fa-heart"></i>
-                    </button>
-                    <button id="modalAddToCart" class="add-to-cart-btn">THÊM VÀO GIỎ HÀNG</button>
                 </div>
             </div>
         </div>

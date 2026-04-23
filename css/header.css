@@ -1,0 +1,851 @@
+header {
+    background-color: #000000;
+    width: 100%;
+    min-height: 160px;
+    position: fixed;
+    top: 0;
+    height: 160px;
+    max-height: 160px;
+    transition: all 0.4s ease;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+header.shrunk {
+    height: 100px;
+    min-height: 100px;
+    max-height: 100px;
+}
+
+header.no-navbar,
+body.cart-page header,
+body.save-page header {
+    height: 100px;
+    min-height: 100px;
+    max-height: 100px;
+}
+
+
+/* Placeholder loading states to prevent Layout Shift */
+.header-placeholder-loading {
+    display: block;
+    width: 100%;
+    background-color: #000;
+    /* Tiệp màu với header đen */
+}
+
+/* Trang chủ: header cao 160px */
+.header-placeholder-loading {
+    min-height: 160px;
+}
+
+/* Các trang đơn giản (giỏ hàng, yêu thích): header cao 70px */
+body.cart-page .header-placeholder-loading,
+body.save-page .header-placeholder-loading,
+.no-navbar.header-placeholder-loading {
+    min-height: 70px;
+}
+
+header.no-navbar .container,
+body.cart-page header .container,
+body.save-page header .container {
+    padding-top: 10px;
+    /* Thống nhất với index.html */
+}
+
+
+header.no-navbar .navbar,
+body.cart-page header .navbar,
+body.save-page header .navbar {
+    display: none;
+}
+
+header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.Top-nav {
+    min-height: 62px;
+}
+
+.logo img {
+    width: 120px;
+    height: 60px;
+}
+
+.Search {
+    max-width: 480px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    align-items: center;
+    backdrop-filter: blur(5px);
+}
+
+.Search:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.Search input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding-left: 20px;
+    padding-right: 50px;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    color: white !important;
+}
+
+.Search button {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+}
+
+.Search button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.Search button img {
+    width: 18px;
+    height: 18px;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.Search button:hover img {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.Search:focus-within {
+    background-color: #fff;
+    border-color: #c1a35f;
+    box-shadow: 0 0 15px rgba(193, 163, 95, 0.3);
+}
+
+.Search:focus-within .search-input {
+    color: #000 !important;
+}
+
+.search-input {
+    color: white;
+}
+
+.search-input::placeholder {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 14px;
+}
+
+.Search:focus-within .search-input {
+    color: #111 !important;
+}
+
+.Search:focus-within .search-input::placeholder {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.Search:focus-within button img {
+    filter: invert(1);
+}
+
+.Search:focus-within button:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+
+.User-Actions {
+    color: white;
+}
+
+.User-Actions div a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.User-Actions .action-text {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+}
+
+.User-Actions img {
+    max-height: 25px;
+    width: auto;
+}
+
+.menu-toggle {
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+.category-navbar {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    transition: all 0.4s ease;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+}
+
+.navbar nav {
+    margin-top: 10px;
+}
+
+
+/* Theme: Dark (Index) */
+body.index-page .category-navbar {
+    background-color: rgb(0, 0, 0);
+}
+
+body.index-page .category-navbar .category-link {
+    color: rgb(255, 255, 255);
+}
+
+/* Theme: Light (Shop) */
+body.shop-page .category-navbar {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+body.shop-page .category-navbar .category-link {
+    color: rgb(0, 0, 0) !important;
+}
+
+.category-navbar.hidden {
+    transform: translateY(-20px);
+    opacity: 0;
+    pointer-events: none;
+}
+
+.nav-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    /* Đảm bảo con đạt chiều cao 100% của thanh navbar */
+}
+
+.category-navbar .nav-list {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.category-navbar .nav-list li {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.category-navbar .nav-list li a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: all 0.3s ease;
+    position: relative;
+    padding: 0 15px;
+    /* Tăng padding để giãn cách các mục */
+    height: 100%;
+    font-size: 14px;
+    /* Tăng từ 13px */
+    font-weight: 700;
+    color: #fff !important;
+    line-height: 1.2;
+}
+
+.category-navbar .nav-list li a span.vietnamese {
+    font-size: 11px;
+    /* Tăng từ 10px */
+    font-weight: 400;
+    opacity: 0.7;
+    /* Giảm nhẹ để tập trung vào tiếng Anh */
+    margin-top: 3px;
+    display: block;
+}
+
+
+/* Hiệu ứng di chuột (Hover) */
+.category-navbar .nav-list li a:hover {
+    transform: translateY(-3px);
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Hiệu ứng gạch chân (Underline) từ giữa ra */
+.category-navbar .nav-list li a::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    /* Đưa xuống dưới cùng của item */
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: currentColor;
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+}
+
+.category-navbar .nav-list li a:hover::after {
+    width: calc(100% - 30px);
+    /* Chiều ngang bằng với độ rộng thực tế của text (trừ đi 15px padding mỗi bên) */
+}
+
+/* Chỉnh lại bóng đổ cho trang nền đen */
+body.index-page .category-navbar .nav-list li a.active,
+body.index-page .category-navbar .nav-list li a:hover {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+/* Trạng thái đang chọn (Active) */
+.category-navbar .nav-list li a.active {
+    font-weight: 700;
+    transform: translateY(-3px);
+}
+
+.category-navbar .nav-list li a.active::after {
+    width: calc(100% - 30px);
+    /* Đồng bộ độ dài với hiệu ứng hover */
+}
+
+.icon-wrapper {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.count-bubble {
+    background-color: #ff4757;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    min-width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2px;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    border: 2px solid #000;
+    z-index: 2;
+}
+
+#savedCountBubble {
+    background-color: #fff;
+    color: #000;
+}
+
+
+.saved span a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-flex;
+    align-items: center;
+}
+
+.account span a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.account a div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.2;
+}
+
+#userNameDisplay {
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+}
+
+#accountStatus {
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+#accountStatus img {
+    width: 8px !important;
+    height: auto;
+}
+
+.cart span a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-flex;
+    align-items: center;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .container {
+        width: 95%;
+        padding-top: 15px;
+    }
+
+    .Search {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        height: 70px !important;
+        min-height: 70px !important;
+        max-height: 70px !important;
+    }
+
+    .container {
+        padding-top: 10px;
+        gap: 0;
+    }
+
+    .Top-nav {
+        height: 50px;
+    }
+
+    .logo img {
+        width: 90px;
+        height: auto;
+    }
+
+    .Search {
+        display: none;
+        /* Hide search on mobile, can be added to menu later if needed */
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .User-Actions {
+        gap: 15px;
+    }
+
+    .User-Actions span:not(.count-bubble) {
+        display: none;
+        /* Hide text like "Saved", "Cart", "Login" */
+    }
+
+    .category-navbar {
+        position: fixed;
+        top: 70px;
+        left: -100%;
+        width: 250px;
+        height: calc(100vh - 70px);
+        background-color: #000 !important;
+        flex-direction: column;
+        transition: left 0.4s ease;
+        padding: 20px;
+        display: flex;
+        align-items: flex-start;
+        box-shadow: 4px 0 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .category-navbar.active {
+        left: 0;
+    }
+
+    .nav-container {
+        max-width: 100%;
+    }
+
+    .category-navbar .nav-list {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        gap: 20px;
+    }
+
+    .category-navbar .nav-list li {
+        width: 100%;
+        height: auto;
+    }
+
+    .category-navbar .nav-list li a {
+        color: #fff !important;
+        font-size: 16px;
+        text-align: left;
+        padding: 10px 0;
+        width: 100%;
+        display: block;
+    }
+
+    .navbar ul li a br {
+        display: none;
+    }
+}
+
+/* Menu Overlay */
+.menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s ease;
+    z-index: 90;
+}
+
+.menu-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Improved Mobile Navbar */
+@media (max-width: 768px) {
+    .category-navbar {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 280px;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.95) !important;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        flex-direction: column;
+        transition: left 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        padding: 80px 30px 40px;
+        display: flex;
+        align-items: flex-start;
+        box-shadow: 10px 0 30px rgba(0, 0, 0, 0.5);
+        z-index: 100;
+    }
+
+    .category-navbar.active {
+        left: 0;
+    }
+
+    .category-navbar .nav-list {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        gap: 15px;
+    }
+
+    .category-navbar .nav-list li {
+        width: 100%;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .category-navbar .nav-list li:last-child {
+        border-bottom: none;
+    }
+
+    .category-navbar .nav-list li a {
+        color: #fff !important;
+        font-size: 18px;
+        font-weight: 500;
+        padding: 15px 0;
+        width: 100%;
+        display: block;
+        letter-spacing: 0.5px;
+    }
+}
+
+/* ==========================================================================
+   CART SIDEBAR (DRAWER) STYLES
+   ========================================================================== */
+
+.cart-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+    z-index: 2000;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s ease;
+}
+
+.cart-overlay.open {
+    opacity: 1;
+    visibility: visible;
+}
+
+.cart-sidebar {
+    position: fixed;
+    top: 0;
+    right: -450px;
+    width: 450px;
+    max-width: 90%;
+    height: 100vh;
+    background: #fff;
+    box-shadow: -10px 0 30px rgba(0, 0, 0, 0.1);
+    z-index: 2001;
+    display: flex;
+    flex-direction: column;
+    transition: right 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.cart-sidebar.open {
+    right: 0;
+}
+
+.cart-sidebar-header {
+    padding: 25px 30px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-sidebar-header h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: #111;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.close-cart-btn {
+    background: none;
+    border: none;
+    font-size: 28px;
+    color: #888;
+    cursor: pointer;
+    transition: color 0.3s;
+    line-height: 1;
+}
+
+.close-cart-btn:hover {
+    color: #111;
+}
+
+.cart-items-list {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px 30px;
+}
+
+.cart-item-mini {
+    display: flex;
+    gap: 15px;
+    padding: 15px 0;
+    border-bottom: 1px solid #f5f5f5;
+    position: relative;
+}
+
+.cart-item-mini:last-child {
+    border-bottom: none;
+}
+
+.cart-item-mini img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+    background: #f9f9f9;
+}
+
+.item-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.item-name {
+    font-size: 14px;
+    font-weight: 600;
+    color: #111;
+    margin-bottom: 5px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.item-meta {
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 5px;
+}
+
+.item-price {
+    font-weight: 700;
+    color: #c1a35f;
+    font-size: 15px;
+}
+
+/* Tìm đến đoạn .qty-control và cập nhật lại như sau */
+.qty-control {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.qty-control input {
+    width: 35px;
+    text-align: center;
+    /* Quan trọng: Căn giữa số lượng */
+    border: none;
+    background: transparent;
+    font-weight: 600;
+    font-size: 14px;
+    outline: none;
+}
+
+.qty-btn {
+    border: none;
+    outline: none;
+    width: 20px;
+}
+
+.qty-btn:hover {
+    background: #f0f0f0;
+}
+
+.remove-item-btn {
+    position: absolute;
+    top: 15px;
+    right: 0;
+    color: #000000;
+    cursor: pointer;
+    transition: all 0.2s;
+    border: none;
+    outline: none;
+    background: transparent;
+    /* Đảm bảo không có nền lạ */
+
+    /* Kích thước */
+    width: 24px;
+    /* Tăng nhẹ để dễ bấm hơn trên mobile */
+    height: 24px;
+
+    /* Mấu chốt để căn giữa */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Tinh chỉnh font cho dấu × */
+    font-size: 20px;
+    line-height: 1;
+    padding: 0;
+}
+
+.remove-item-btn:hover {
+    color: #ff4757;
+    /* Chuyển màu đỏ khi di chuột để báo hiệu hành động xóa */
+    transform: scale(1.1);
+}
+
+.cart-sidebar-footer {
+    padding: 30px;
+    background: #f9f9f9;
+    border-top: 1px solid #eee;
+}
+
+.cart-total-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.cart-total-box span:first-child {
+    font-weight: 600;
+    color: #888;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.cart-total-box span:last-child {
+    font-size: 20px;
+    font-weight: 800;
+    color: #111;
+}
+
+.view-cart-btn {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background: #111;
+    color: #fff !important;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    transition: background 0.3s;
+}
+
+.view-cart-btn:hover {
+    background: #c1a35f;
+}
+
+#cartEmptyState {
+    padding: 50px 20px;
+    text-align: center;
+    color: #999;
+}
+
+#cartEmptyState i {
+    font-size: 50px;
+    margin-bottom: 20px;
+    opacity: 0.3;
+}

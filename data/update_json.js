@@ -1,33 +1,33 @@
-﻿const fs = require('fs');
+const fs = require('fs');
 const path = require('path');
 
-// Đường dẫn đến thư mục data của bạn
-const dataDir = 'c:\\HeThongWeb\\Shop thời trang nam\\Shop-thoi-trang\\data';
+// �u?ng d?n d?n thu m?c data c?a b?n
+const dataDir = 'c:\\HeThongWeb\\Shop th?i trang nam\\Shop-thoi-trang\\data';
 
 const mappings = {
-    'perfumes.json': 'Nước Hoa',
-    'pants.json': 'Quần',
-    'shoes.json': 'Giày',
-    'caps.json': 'Mũ Nam',
-    'accessories.json': 'Phụ Kiện Nam',
+    'perfumes.json': 'Nu?c Hoa',
+    'pants.json': 'Qu?n',
+    'shoes.json': 'Gi�y',
+    'caps.json': 'Mu Nam',
+    'accessories.json': 'Ph? Ki?n Nam',
     'vests.json': 'Vest',
-    'watches.json': 'Đồng Hồ'
+    'watches.json': '�?ng H?'
 };
 
 Object.entries(mappings).forEach(([jsonFile, folderName]) => {
     const jsonPath = path.join(dataDir, jsonFile);
     const folderPath = path.join(dataDir, folderName);
 
-    // Kiểm tra file JSON có tồn tại không
+    // Ki?m tra file JSON c� t?n t?i kh�ng
     if (!fs.existsSync(jsonPath)) return;
 
-    // Đọc nội dung file JSON
+    // �?c n?i dung file JSON
     let jsonContent;
     try {
         const rawData = fs.readFileSync(jsonPath, 'utf8');
         jsonContent = JSON.parse(rawData);
     } catch (e) {
-        console.error(`Lỗi khi đọc file ${jsonFile}:`, e.message);
+        console.error(`L?i khi d?c file ${jsonFile}:`, e.message);
         return;
     }
 
@@ -38,7 +38,7 @@ Object.entries(mappings).forEach(([jsonFile, folderName]) => {
     let idPrefix = 'XXX';
     const templateTags = jsonContent[0].tags;
 
-    // Quét dữ liệu hiện tại để tìm ID lớn nhất và các ảnh đã dùng
+    // Qu�t d? li?u hi?n t?i d? t�m ID l?n nh?t v� c�c ?nh d� d�ng
     jsonContent.forEach(item => {
         if (item.img) {
             referencedImages.add(path.basename(item.img));
@@ -52,7 +52,7 @@ Object.entries(mappings).forEach(([jsonFile, folderName]) => {
         }
     });
 
-    // Quét thư mục ảnh
+    // Qu�t thu m?c ?nh
     let added = 0;
     if (fs.existsSync(folderPath)) {
         const files = fs.readdirSync(folderPath);
@@ -62,12 +62,12 @@ Object.entries(mappings).forEach(([jsonFile, folderName]) => {
             if (imageExtensions.includes(path.extname(file).toLowerCase())) {
                 if (!referencedImages.has(file)) {
                     maxIdNum++;
-                    // Tạo ID mới (ví dụ: G011)
+                    // T?o ID m?i (v� d?: G011)
                     const newId = `${idPrefix}${String(maxIdNum).padStart(3, '0')}`;
 
                     const newItem = {
                         id: newId,
-                        name: `Sản phẩm ${folderName} ${maxIdNum}`,
+                        name: `S?n ph?m ${folderName} ${maxIdNum}`,
                         price: 500000,
                         img: `../data/${folderName}/${file}`,
                         tags: templateTags
@@ -80,9 +80,9 @@ Object.entries(mappings).forEach(([jsonFile, folderName]) => {
         });
     }
 
-    // Nếu có thêm mới thì lưu lại file
+    // N?u c� th�m m?i th� luu l?i file
     if (added > 0) {
         fs.writeFileSync(jsonPath, JSON.stringify(jsonContent, null, 4), 'utf8');
-        console.log(`✅ Đã cập nhật ${jsonFile}: Thêm ${added} sản phẩm mới.`);
+        console.log(`? �� c?p nh?t ${jsonFile}: Th�m ${added} s?n ph?m m?i.`);
     }
 });

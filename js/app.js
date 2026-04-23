@@ -8,12 +8,7 @@ let newProducts = [];
 let displayedNewCount = 4;
 
 async function initIndex() {
-    // 1. Nạp các phần phụ của trang theo trình tự
-    await loadComponent('header-placeholder', 'html/header.html');
-    await loadComponent('main-placeholder', 'html/trangchu.html');
-    await loadComponent('footer-placeholder', 'html/footer.html');
-    await loadComponent('cart-holder', 'html/cart-drawer.html');
-    await loadComponent('product-detail-holder', 'html/product-detail.html');
+    // HTML components được nhúng thủ công trực tiếp vào index.html
 
     // Nạp danh sách sản phẩm động
     await loadDynamicProducts();
@@ -60,21 +55,23 @@ function renderHomeGrid(products, containerId) {
     products.forEach(p => {
         const price = new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(p.price);
         const card = document.createElement('div');
-        card.className = 'product-card';
+        card.className = 'col';
         
         // Sửa đường dẫn linh hoạt
         const imgSrc = window.fixPath(p.img);
         
         card.innerHTML = `
-            <div class="product-img">
-                <img src="${imgSrc}" alt="${p.name}" onerror="this.src='assets/img/no-img.jpg'; this.onerror=null;">
-                <button class="quick-add-btn" title="Thêm nhanh vào giỏ">
-                    <i class="fas fa-cart-plus"></i>
-                </button>
-            </div>
-            <div class="product-info">
-                <div class="product-name" title="${p.name}">${p.name}</div>
-                <div class="product-price">${price}</div>
+            <div class="card h-100 border-0 shadow-sm product-card">
+                <div class="position-relative overflow-hidden">
+                    <img src="${imgSrc}" class="card-img-top" alt="${p.name}" onerror="this.src='img/no-img.jpg'; this.onerror=null;" style="aspect-ratio: 1/1; object-fit: cover; transition: transform 0.4s ease;">
+                    <button class="quick-add-btn btn btn-dark position-absolute bottom-0 end-0 m-3 shadow" title="Thêm nhanh vào giỏ" style="border-radius: 50%; width: 45px; height: 45px; display: flex; align-items: center; justify-content: center; z-index: 2;">
+                        <i class="fas fa-cart-plus"></i>
+                    </button>
+                </div>
+                <div class="card-body p-3">
+                    <h5 class="card-title product-name mb-1" title="${p.name}" style="font-size: 1rem; font-weight: 500; height: 3rem; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">${p.name}</h5>
+                    <p class="card-text product-price fw-bold mb-0" style="font-size: 1.1rem; color: #111;">${price}</p>
+                </div>
             </div>
         `;
 
@@ -117,12 +114,12 @@ function setupHomeLoadMore() {
     }
 }
 
-// ============================================
-// Modal Chi tiết sản phẩm (Clone từ shop.js)
-// ============================================
+
+// Modal Chi tiết sản phẩm
 function showHomeProductDetail(product, productListContext) {
-    const overlay = document.getElementById('productDetailOverlay');
-    if (!overlay) return;
+    const modalEl = document.getElementById('productDetailModal');
+    if (!modalEl) return;
+    const modal = bootstrap.Modal.getOrCreateInstance(modalEl);
 
     // Populate Data
     const img = document.getElementById('modalProductImg');
@@ -132,6 +129,8 @@ function showHomeProductDetail(product, productListContext) {
     const qtyInput = document.getElementById('modalProductQty');
     const totalPrice = document.getElementById('modalTotalPrice');
     const addToCartBtn = document.getElementById('modalAddToCart');
+    const sizeSelector = document.getElementById('sizeSelector');
+    const sizeRow = document.getElementById('sizeSelectorRow');
 
     img.src = window.fixPath(product.img);
     name.innerText = product.name;
@@ -145,30 +144,27 @@ function showHomeProductDetail(product, productListContext) {
     totalPrice.innerText = formattedPrice;
 
     // Reset size selector
-    const sizeSelected = document.querySelector('.select-selected');
-    const sizeSelector = document.getElementById('sizeSelector');
-    const sizeRow = sizeSelector ? sizeSelector.closest('.selection-row') : null;
-    
     if (window.productNeedsSize(product)) {
-        if(sizeRow) sizeRow.classList.remove('hidden');
-        if(sizeSelected) {
-            sizeSelected.innerText = "Chọn kích thước";
-            sizeSelected.classList.remove('selected');
+        if(sizeRow) sizeRow.classList.remove('d-none');
+        if(sizeSelector) {
+            sizeSelector.value = "";
         }
         if(addToCartBtn) {
-            addToCartBtn.classList.remove('active');
             addToCartBtn.disabled = true;
         }
     } else {
-        if(sizeRow) sizeRow.classList.add('hidden');
-        if(sizeSelected) {
-            sizeSelected.innerText = ""; // Sản phẩm không cần size thì để trống
-            sizeSelected.classList.add('selected');
-        }
+        if(sizeRow) sizeRow.classList.add('d-none');
         if(addToCartBtn) {
-            addToCartBtn.classList.add('active');
             addToCartBtn.disabled = false;
         }
+    }
+
+    if(sizeSelector) {
+        sizeSelector.onchange = () => {
+            if(sizeSelector.value) {
+                addToCartBtn.disabled = false;
+            }
+        };
     }
 
     // Navigation Logic
@@ -181,7 +177,7 @@ function showHomeProductDetail(product, productListContext) {
         prevBtn.onclick = (e) => {
             e.stopPropagation();
             let prevP = productListContext[currentIndex - 1];
-            if(prevP) showHomeProductDetail({ ...prevP, img: prevP.img.replace('../', '') }, productListContext);
+            if(prevP) showHomeProductDetail(prevP, productListContext); 
         };
     }
 
@@ -190,22 +186,12 @@ function showHomeProductDetail(product, productListContext) {
         nextBtn.onclick = (e) => {
             e.stopPropagation();
             let nextP = productListContext[currentIndex + 1];
-            if(nextP) showHomeProductDetail({ ...nextP, img: nextP.img.replace('../', '') }, productListContext);
+            if(nextP) showHomeProductDetail(nextP, productListContext);
         };
     }
 
-    // Show Overlay
-    overlay.classList.add('active');
-    document.body.style.overflow = 'hidden';
-
-    // Event: Close
-    const closeBtn = document.getElementById('closeProductDetail');
-    const hideModal = () => {
-        overlay.classList.remove('active');
-        document.body.style.overflow = 'auto';
-    };
-    if(closeBtn) closeBtn.onclick = hideModal;
-    overlay.onclick = (e) => { if (e.target === overlay) hideModal(); };
+    // Show Modal
+    modal.show();
 
     // Event: Quantity
     const updateTotal = () => {
@@ -233,20 +219,17 @@ function showHomeProductDetail(product, productListContext) {
         updateTotal();
     };
 
-    // Event: Size Selector
-    setupHomeCustomSelect(product);
-
     // Event: Add to Cart
     if(addToCartBtn) {
         addToCartBtn.onclick = () => {
-            const size = sizeSelected.innerText;
+            const size = sizeSelector ? sizeSelector.value : "";
             const qty = parseInt(qtyInput.value);
             
             window.addToCart(product, qty, size);
             
             if (window.updateHeaderCounts) window.updateHeaderCounts();
             
-            hideModal();
+            modal.hide();
             const cartOverlay = document.getElementById('cartOverlay');
             const cartSidebar = document.getElementById('cartSidebar');
             cartOverlay?.classList.add('open');
@@ -301,55 +284,6 @@ function showHomeProductDetail(product, productListContext) {
         };
     }
 }
-
-function setupHomeCustomSelect(product) {
-    const selElmnt = document.getElementById('sizeSelector');
-    if(!selElmnt) return;
-    const selected = selElmnt.querySelector('.select-selected');
-    const items = selElmnt.querySelector('.select-items');
-    const addToCartBtn = document.getElementById('modalAddToCart');
-
-    // Toggle dropdown
-    selected.onclick = (e) => {
-        e.stopPropagation();
-        closeAllHomeSelect(selected);
-        items.classList.toggle('select-hide');
-        selected.classList.toggle('select-arrow-active');
-    };
-
-    // Handle item click
-    const optionDivs = items.querySelectorAll('div');
-    optionDivs.forEach(div => {
-        div.onclick = function() {
-            selected.innerText = this.innerText;
-            selected.classList.add('selected');
-            if(addToCartBtn) {
-                addToCartBtn.classList.add('active');
-                addToCartBtn.disabled = false;
-            }
-            
-            optionDivs.forEach(d => d.classList.remove('same-as-selected'));
-            this.classList.add('same-as-selected');
-            
-            items.classList.add('select-hide');
-            selected.classList.remove('select-arrow-active');
-        };
-    });
-}
-
-function closeAllHomeSelect(elmnt) {
-    const items = document.querySelectorAll('.select-items');
-    const selected = document.querySelectorAll('.select-selected');
-    for (let i = 0; i < selected.length; i++) {
-        if (elmnt == selected[i]) continue;
-        selected[i].classList.remove('select-arrow-active');
-    }
-    for (let i = 0; i < items.length; i++) {
-        items[i].classList.add('select-hide');
-    }
-}
-
-document.addEventListener('click', () => closeAllHomeSelect());
 
 // Khởi chạy khi script đã tải
 document.addEventListener('DOMContentLoaded', initIndex);
