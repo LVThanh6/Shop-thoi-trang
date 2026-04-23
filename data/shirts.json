@@ -3,7 +3,7 @@
         "id": "AO001",
         "name": "Áo Thun In Dragon Ball Son Goku Trắng",
         "price": 380000,
-        "img": "../img/Ao/ao (1).jpg",
+        "img": "../data/Ao/ao (1).jpg",
         "tags": {
             "Loại": [
                 "Sơ mi"
@@ -20,7 +20,7 @@
         "id": "AO002",
         "name": "Áo Sơ Mi Đen Tay Dài Slim Fit",
         "price": 190000,
-        "img": "../img/Ao/ao (1).png",
+        "img": "../data/Ao/ao (1).png",
         "tags": {
             "Loại": [
                 "Áo thun"
@@ -37,7 +37,7 @@
         "id": "AO003",
         "name": "Áo Ba Lỗ Camo Trắng Thoáng Mát",
         "price": 220000,
-        "img": "../img/Ao/ao (1).webp",
+        "img": "../data/Ao/ao (1).webp",
         "tags": {
             "Loại": [
                 "Áo thun"
@@ -54,7 +54,7 @@
         "id": "AO004",
         "name": "Áo Polo Đen Sọc Trắng Tay Phối Màu",
         "price": 290000,
-        "img": "../img/Ao/ao (2).webp",
+        "img": "../data/Ao/ao (2).webp",
         "tags": {
             "Loại": [
                 "Polo"
@@ -71,7 +71,7 @@
         "id": "AO005",
         "name": "Áo Sơ Mi Denim Xanh Tay Dài Lee",
         "price": 420000,
-        "img": "../img/Ao/ao (3).jpg",
+        "img": "../data/Ao/ao (3).jpg",
         "tags": {
             "Loại": [
                 "Sơ mi"
@@ -88,7 +88,7 @@
         "id": "AO006",
         "name": "Áo Thun In Cá Koi Sóng Nhật Bản Trắng",
         "price": 250000,
-        "img": "../img/Ao/ao (5).jpg",
+        "img": "../data/Ao/ao (5).jpg",
         "tags": {
             "Loại": [
                 "Áo thun"
@@ -105,7 +105,7 @@
         "id": "AO007",
         "name": "Áo Sơ Mi Đen Kẻ Sọc Trắng Tay Ngắn",
         "price": 210000,
-        "img": "../img/Ao/ao (5).png",
+        "img": "../data/Ao/ao (5).png",
         "tags": {
             "Loại": [
                 "Áo thun"
@@ -122,7 +122,7 @@
         "id": "AO008",
         "name": "Áo Thun In HOPE Màu Xanh Cobalt",
         "price": 450000,
-        "img": "../img/Ao/ao (6).jpg",
+        "img": "../data/Ao/ao (6).jpg",
         "tags": {
             "Loại": [
                 "Sơ mi"
@@ -139,7 +139,7 @@
         "id": "AO009",
         "name": "Áo Sơ Mi Trắng Kẻ Sọc Tay Ngắn",
         "price": 180000,
-        "img": "../img/Ao/ao (6).png",
+        "img": "../data/Ao/ao (6).png",
         "tags": {
             "Loại": [
                 "Áo thun"
@@ -156,7 +156,7 @@
         "id": "AO010",
         "name": "Áo Thun In XXXTENTACION Đen Oversize",
         "price": 550000,
-        "img": "../img/Ao/ao (7).jpg",
+        "img": "../data/Ao/ao (7).jpg",
         "tags": {
             "Loại": [
                 "Sơ mi"
@@ -173,7 +173,7 @@
         "id": "AO011",
         "name": "Áo Sơ Mi Navy Kẻ Sọc Trắng Tay Ngắn",
         "price": 280000,
-        "img": "../img/Ao/ao (7).png",
+        "img": "../data/Ao/ao (7).png",
         "tags": {
             "Loại": [
                 "Áo thun"
@@ -190,7 +190,7 @@
         "id": "AO012",
         "name": "Áo Sơ Mi Denim Xanh Tay Ngắn Oversize",
         "price": 360000,
-        "img": "../img/Ao/ao (8).jpg",
+        "img": "../data/Ao/ao (8).jpg",
         "tags": {
             "Loại": [
                 "Sơ mi"
@@ -207,7 +207,7 @@
         "id": "AO013",
         "name": "Áo Polo Nâu Caramel Viền Trắng",
         "price": 195000,
-        "img": "../img/Ao/ao (8).webp",
+        "img": "../data/Ao/ao (8).webp",
         "tags": {
             "Loại": [
                 "Áo thun"
@@ -224,7 +224,7 @@
         "id": "AO014",
         "name": "Áo Polo Navy Viền Trắng Cổ Bẻ",
         "price": 310000,
-        "img": "../img/Ao/ao (9).webp",
+        "img": "../data/Ao/ao (9).webp",
         "tags": {
             "Loại": [
                 "Polo"
@@ -241,7 +241,7 @@
         "id": "AO015",
         "name": "Áo Thun Tie Dye Xanh In Thỏ Sweet",
         "price": 230000,
-        "img": "../img/Ao/ao (11).webp",
+        "img": "../data/Ao/ao (11).webp",
         "tags": {
             "Loại": [
                 "Áo thun"
@@ -258,7 +258,7 @@
         "id": "AO016",
         "name": "Áo Polo Đen Trơn Cổ V Không Cúc",
         "price": 185000,
-        "img": "../img/Ao/ao (12).webp",
+        "img": "../data/Ao/ao (12).webp",
         "tags": {
             "Loại": [
                 "Áo thun"
@@ -275,7 +275,7 @@
         "id": "AO017",
         "name": "Áo Polo Đen Texture Nhăn Cổ V Lịch Lãm",
         "price": 320000,
-        "img": "../img/Ao/ao (15).webp",
+        "img": "../data/Ao/ao (15).webp",
         "tags": {
             "Loại": [
                 "Polo"
@@ -292,7 +292,7 @@
         "id": "AO018",
         "name": "Áo Thun Street Style",
         "price": 260000,
-        "img": "../img/Ao/ao (31).webp",
+        "img": "../data/Ao/ao (31).webp",
         "tags": {
             "Loại": [
                 "Áo thun"
@@ -309,7 +309,7 @@
         "id": "AO019",
         "name": "Áo Thun In Chữ Minimalism",
         "price": 190000,
-        "img": "../img/Ao/ao (32).webp",
+        "img": "../data/Ao/ao (32).webp",
         "tags": {
             "Loại": [
                 "Áo thun"
@@ -326,7 +326,7 @@
         "id": "AO020",
         "name": "Áo Khoác Gió Bomber",
         "price": 650000,
-        "img": "../img/Ao/ao (33).webp",
+        "img": "../data/Ao/ao (33).webp",
         "tags": {
             "Loại": [
                 "Áo khoác"
@@ -343,7 +343,7 @@
         "id": "AO021",
         "name": "Áo Hoodie Trơn Màu Đen",
         "price": 480000,
-        "img": "../img/Ao/ao (34).webp",
+        "img": "../data/Ao/ao (34).webp",
         "tags": {
             "Loại": [
                 "Áo khoác"
@@ -360,7 +360,7 @@
         "id": "AO022",
         "name": "Áo Thun Phản Quang",
         "price": 270000,
-        "img": "../img/Ao/ao (35).webp",
+        "img": "../data/Ao/ao (35).webp",
         "tags": {
             "Loại": [
                 "Áo thun"
@@ -377,7 +377,7 @@
         "id": "AO023",
         "name": "Áo Sweater Màu Rêu",
         "price": 420000,
-        "img": "../img/Ao/ao (36).webp",
+        "img": "../data/Ao/ao (36).webp",
         "tags": {
             "Loại": [
                 "Áo khoác"
@@ -394,7 +394,7 @@
         "id": "AO024",
         "name": "Áo Thun Tie Dye Độc Đáo",
         "price": 300000,
-        "img": "../img/Ao/ao (37).webp",
+        "img": "../data/Ao/ao (37).webp",
         "tags": {
             "Loại": [
                 "Áo thun"
@@ -411,7 +411,7 @@
         "id": "AO025",
         "name": "Áo Thun Ba Lỗ Thể Thao",
         "price": 140000,
-        "img": "../img/Ao/ao (38).webp",
+        "img": "../data/Ao/ao (38).webp",
         "tags": {
             "Loại": [
                 "Áo thun"
@@ -428,7 +428,7 @@
         "id": "AO026",
         "name": "Áo Thun Oversize Xám",
         "price": 215000,
-        "img": "../img/Ao/ao (39).webp",
+        "img": "../data/Ao/ao (39).webp",
         "tags": {
             "Loại": [
                 "Áo thun"
@@ -445,7 +445,7 @@
         "id": "AO027",
         "name": "Áo Thun Cổ V Hiện Đại",
         "price": 200000,
-        "img": "../img/Ao/ao (40).webp",
+        "img": "../data/Ao/ao (40).webp",
         "tags": {
             "Loại": [
                 "Áo thun"
@@ -462,7 +462,7 @@
         "id": "AO028",
         "name": "Áo Thun In Họa Tiết Cá",
         "price": 240000,
-        "img": "../img/Ao/ao (41).webp",
+        "img": "../data/Ao/ao (41).webp",
         "tags": {
             "Loại": [
                 "Áo thun"
@@ -479,7 +479,7 @@
         "id": "AO029",
         "name": "Áo Thun Pastel Pink",
         "price": 180000,
-        "img": "../img/Ao/ao (42).webp",
+        "img": "../data/Ao/ao (42).webp",
         "tags": {
             "Loại": [
                 "Áo thun"
@@ -496,7 +496,7 @@
         "id": "AO030",
         "name": "Áo Thun In Robot",
         "price": 265000,
-        "img": "../img/Ao/ao (43).webp",
+        "img": "../data/Ao/ao (43).webp",
         "tags": {
             "Loại": [
                 "Áo thun"
@@ -513,7 +513,7 @@
         "id": "AO031",
         "name": "Áo Thun Co Giãn 4 Chiều",
         "price": 225000,
-        "img": "../img/Ao/ao (44).webp",
+        "img": "../data/Ao/ao (44).webp",
         "tags": {
             "Loại": [
                 "Áo thun"
@@ -530,7 +530,7 @@
         "id": "AO032",
         "name": "Áo Thun Minimal Art",
         "price": 235000,
-        "img": "../img/Ao/ao (45).webp",
+        "img": "../data/Ao/ao (45).webp",
         "tags": {
             "Loại": [
                 "Áo thun"
@@ -547,7 +547,7 @@
         "id": "AO033",
         "name": "Áo Thun Vintage Wash",
         "price": 280000,
-        "img": "../img/Ao/ao (46).webp",
+        "img": "../data/Ao/ao (46).webp",
         "tags": {
             "Loại": [
                 "Áo thun"
@@ -564,7 +564,7 @@
         "id": "AO034",
         "name": "Áo Thun Oversize Logo",
         "price": 245000,
-        "img": "../img/Ao/ao (47).webp",
+        "img": "../data/Ao/ao (47).webp",
         "tags": {
             "Loại": [
                 "Áo thun"
@@ -581,7 +581,7 @@
         "id": "AO035",
         "name": "Áo Thun Kẻ Ngang Retro",
         "price": 210000,
-        "img": "../img/Ao/ao (48).webp",
+        "img": "../data/Ao/ao (48).webp",
         "tags": {
             "Loại": [
                 "Áo thun"
@@ -598,7 +598,7 @@
         "id": "AO036",
         "name": "Áo Thun In Họa Tiết Lá",
         "price": 220000,
-        "img": "../img/Ao/ao (49).webp",
+        "img": "../data/Ao/ao (49).webp",
         "tags": {
             "Loại": [
                 "Áo thun"
@@ -615,7 +615,7 @@
         "id": "AO037",
         "name": "Áo Hoodie Zip Phối Gân",
         "price": 530000,
-        "img": "../img/Ao/ao (50).webp",
+        "img": "../data/Ao/ao (50).webp",
         "tags": {
             "Loại": [
                 "Áo khoác"
@@ -632,7 +632,7 @@
         "id": "AO038",
         "name": "Áo Khoác Gió Siêu Nhẹ",
         "price": 460000,
-        "img": "../img/Ao/ao (51).webp",
+        "img": "../data/Ao/ao (51).webp",
         "tags": {
             "Loại": [
                 "Áo khoác"
@@ -649,7 +649,7 @@
         "id": "AO039",
         "name": "Áo Thun Graphic Colorful",
         "price": 275000,
-        "img": "../img/Ao/ao (52).webp",
+        "img": "../data/Ao/ao (52).webp",
         "tags": {
             "Loại": [
                 "Áo thun"
@@ -666,7 +666,7 @@
         "id": "AO040",
         "name": "Áo Thun In Phông Chữ Độc Đáo",
         "price": 240000,
-        "img": "../img/Ao/ao (53).webp",
+        "img": "../data/Ao/ao (53).webp",
         "tags": {
             "Loại": [
                 "Áo thun"
@@ -683,7 +683,7 @@
         "id": "AO041",
         "name": "Áo Thun Basic Grey",
         "price": 175000,
-        "img": "../img/Ao/ao (54).webp",
+        "img": "../data/Ao/ao (54).webp",
         "tags": {
             "Loại": [
                 "Áo thun"
@@ -700,7 +700,7 @@
         "id": "AO042",
         "name": "Áo Thun Oversize Đỏ Đô",
         "price": 230000,
-        "img": "../img/Ao/ao (55).webp",
+        "img": "../data/Ao/ao (55).webp",
         "tags": {
             "Loại": [
                 "Áo thun"
@@ -717,7 +717,7 @@
         "id": "AO043",
         "name": "Áo Thun Pocket Navy",
         "price": 195000,
-        "img": "../img/Ao/ao (56).webp",
+        "img": "../data/Ao/ao (56).webp",
         "tags": {
             "Loại": [
                 "Áo thun"
@@ -734,7 +734,7 @@
         "id": "AO044",
         "name": "Áo Thun Sọc Xám Chì",
         "price": 210000,
-        "img": "../img/Ao/ao (57).webp",
+        "img": "../data/Ao/ao (57).webp",
         "tags": {
             "Loại": [
                 "Áo thun"
@@ -751,7 +751,7 @@
         "id": "AO045",
         "name": "Áo Thun In Mini Icon",
         "price": 205000,
-        "img": "../img/Ao/ao (58).webp",
+        "img": "../data/Ao/ao (58).webp",
         "tags": {
             "Loại": [
                 "Áo thun"
@@ -768,7 +768,7 @@
         "id": "AO046",
         "name": "Áo Thun Raglan Đen Trắng",
         "price": 255000,
-        "img": "../img/Ao/ao (59).webp",
+        "img": "../data/Ao/ao (59).webp",
         "tags": {
             "Loại": [
                 "Áo thun"
@@ -785,7 +785,7 @@
         "id": "AO047",
         "name": "Áo Sơ Mi Trắng Form Rộng",
         "price": 395000,
-        "img": "../img/Ao/ao (60).webp",
+        "img": "../data/Ao/ao (60).webp",
         "tags": {
             "Loại": [
                 "Sơ mi"
@@ -802,7 +802,7 @@
         "id": "AO048",
         "name": "Áo Thun In Họa Tiết Đá",
         "price": 260000,
-        "img": "../img/Ao/ao (61).webp",
+        "img": "../data/Ao/ao (61).webp",
         "tags": {
             "Loại": [
                 "Áo thun"
@@ -819,7 +819,7 @@
         "id": "AO050",
         "name": "Áo Thun In Graphic Mountain",
         "price": 270000,
-        "img": "../img/Ao/ao (63).webp",
+        "img": "../data/Ao/ao (63).webp",
         "tags": {
             "Loại": [
                 "Áo thun"
@@ -836,7 +836,7 @@
         "id": "AO051",
         "name": "Áo Thun In Landscape",
         "price": 280000,
-        "img": "../img/Ao/ao (64).webp",
+        "img": "../data/Ao/ao (64).webp",
         "tags": {
             "Loại": [
                 "Áo thun"
@@ -853,7 +853,7 @@
         "id": "AO052",
         "name": "Áo Thun Tie Dye Xanh Dương",
         "price": 320000,
-        "img": "../img/Ao/ao (65).webp",
+        "img": "../data/Ao/ao (65).webp",
         "tags": {
             "Loại": [
                 "Áo thun"
@@ -870,7 +870,7 @@
         "id": "AO053",
         "name": "Áo Thun Basic Xanh Rêu",
         "price": 190000,
-        "img": "../img/Ao/ao (66).webp",
+        "img": "../data/Ao/ao (66).webp",
         "tags": {
             "Loại": [
                 "Áo thun"
@@ -887,7 +887,7 @@
         "id": "AO054",
         "name": "Áo Thun In Galaxy",
         "price": 350000,
-        "img": "../img/Ao/ao (67).webp",
+        "img": "../data/Ao/ao (67).webp",
         "tags": {
             "Loại": [
                 "Áo thun"
@@ -904,7 +904,7 @@
         "id": "AO055",
         "name": "Áo Thun In Chữ Calligraphy",
         "price": 260000,
-        "img": "../img/Ao/ao (68).webp",
+        "img": "../data/Ao/ao (68).webp",
         "tags": {
             "Loại": [
                 "Áo thun"
@@ -921,7 +921,7 @@
         "id": "AO056",
         "name": "Áo Thun Pocket Pastel Blue",
         "price": 195000,
-        "img": "../img/Ao/ao (69).webp",
+        "img": "../data/Ao/ao (69).webp",
         "tags": {
             "Loại": [
                 "Áo thun"
@@ -938,7 +938,7 @@
         "id": "AO057",
         "name": "Áo Thun In Hình Động Vật",
         "price": 245000,
-        "img": "../img/Ao/ao (70).webp",
+        "img": "../data/Ao/ao (70).webp",
         "tags": {
             "Loại": [
                 "Áo thun"
@@ -955,7 +955,7 @@
         "id": "AO058",
         "name": "Áo Thun Phối Màu Raglan",
         "price": 260000,
-        "img": "../img/Ao/ao (71).webp",
+        "img": "../data/Ao/ao (71).webp",
         "tags": {
             "Loại": [
                 "Áo thun"
@@ -972,7 +972,7 @@
         "id": "AO059",
         "name": "Áo Thun In Neon Lights",
         "price": 310000,
-        "img": "../img/Ao/ao (72).webp",
+        "img": "../data/Ao/ao (72).webp",
         "tags": {
             "Loại": [
                 "Áo thun"
@@ -989,7 +989,7 @@
         "id": "AO060",
         "name": "Áo Thun Graphic Street King",
         "price": 290000,
-        "img": "../img/Ao/ao (73).webp",
+        "img": "../data/Ao/ao (73).webp",
         "tags": {
             "Loại": [
                 "Áo thun"
