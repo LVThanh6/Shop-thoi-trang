@@ -200,7 +200,7 @@ function showHomeProductDetail(product, productListContext) {
         totalPrice.innerText = new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(total);
     };
 
-    const minusBtn = document.querySelector('.qty-btn.minus');
+    const minusBtn = modalEl.querySelector('.qty-btn.minus');
     if(minusBtn) minusBtn.onclick = () => {
         if (qtyInput.value > 1) {
             qtyInput.value--;
@@ -208,7 +208,7 @@ function showHomeProductDetail(product, productListContext) {
         }
     };
     
-    const plusBtn = document.querySelector('.qty-btn.plus');
+    const plusBtn = modalEl.querySelector('.qty-btn.plus');
     if(plusBtn) plusBtn.onclick = () => {
         qtyInput.value++;
         updateTotal();

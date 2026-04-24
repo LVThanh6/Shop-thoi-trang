@@ -329,13 +329,13 @@ function showProductDetail(product) {
         totalPrice.innerText = new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(total);
     };
 
-    document.querySelector('.qty-btn.minus').onclick = () => {
+    modalEl.querySelector('.qty-btn.minus').onclick = () => {
         if (qtyInput.value > 1) {
             qtyInput.value--;
             updateTotal();
         }
     };
-    document.querySelector('.qty-btn.plus').onclick = () => {
+    modalEl.querySelector('.qty-btn.plus').onclick = () => {
         qtyInput.value++;
         updateTotal();
     };
