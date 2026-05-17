@@ -1,4 +1,4 @@
-// js/anmk.js - Chức năng ẩn/hiện mật khẩu cho trang đăng nhập
+
 
 document.addEventListener('DOMContentLoaded', function () {
     const toggleBtn = document.getElementById('toggle-password-btn');

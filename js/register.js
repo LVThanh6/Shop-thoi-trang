@@ -4,11 +4,9 @@ document.addEventListener('DOMContentLoaded', function () {
     registerForm.addEventListener('submit', function (e) {
         e.preventDefault();
 
-
         const email = document.getElementById('email').value;
         const password = document.getElementById('password').value;
         const confirmPassword = document.getElementById('confirmPassword').value;
-
 
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         if (!emailRegex.test(email)) {
@@ -21,7 +19,6 @@ document.addEventListener('DOMContentLoaded', function () {
             alert("Mật khẩu phải tối thiểu 8 ký tự, bao gồm ít nhất 1 chữ hoa, 1 chữ thường và 1 chữ số!");
             return;
         }
-
 
         if (password !== confirmPassword) {
             alert("Mật khẩu nhập lại không khớp. Vui lòng kiểm tra lại!");
@@ -38,12 +35,10 @@ document.addEventListener('DOMContentLoaded', function () {
             return;
         }
 
-
         listUser.push({
             email: email,
             password: password
         });
-
 
         localStorage.setItem('listUser', JSON.stringify(listUser));
 
