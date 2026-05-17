@@ -129,5 +129,95 @@ function applyCoupon() {
 
 window.applyCoupon = applyCoupon;
 
-// Tự động chạy render khi trang đã tải xong
-document.addEventListener('DOMContentLoaded', renderCart);
+// Hàm xử lý đặt hàng / thanh toán sử dụng biểu thức chính quy (Regex)
+function handleCheckout() {
+    const cartItems = window.getCart ? window.getCart() : [];
+    if (cartItems.length === 0) {
+        if (window.showToast) window.showToast("Giỏ hàng của bạn đang trống!", "warning");
+        else alert("Giỏ hàng của bạn đang trống!");
+        return;
+    }
+
+    const nameInput = document.getElementById('customer-name');
+    const phoneInput = document.getElementById('customer-phone');
+    const countryInput = document.querySelector('input[placeholder="Select a country..."]');
+    const stateInput = document.querySelector('input[placeholder="State / country"]');
+    const zipInput = document.querySelector('input[placeholder="Postcode / Zip"]');
+
+    const name = nameInput ? nameInput.value.trim() : "";
+    const phone = phoneInput ? phoneInput.value.trim() : "";
+    const country = countryInput ? countryInput.value.trim() : "";
+    const state = stateInput ? stateInput.value.trim() : "";
+    const zip = zipInput ? zipInput.value.trim() : "";
+
+    // 1. Biểu thức chính quy cho tên người nhận (chỉ chứa chữ cái tiếng Việt và khoảng trắng, dài 2 - 50 kí tự)
+    const nameRegex = /^[a-zA-ZÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚĂĐĨŨƠàáâãèéêìíòóôõùúăđĩũơƯĂÂÊÔƠƯưăâêôơư\s]{2,50}$/;
+    if (!name) {
+        if (window.showToast) window.showToast("Vui lòng nhập tên người nhận!", "warning");
+        else alert("Vui lòng nhập tên người nhận!");
+        return;
+    }
+    if (!nameRegex.test(name)) {
+        if (window.showToast) window.showToast("Tên người nhận không hợp lệ (không chứa số hoặc ký tự đặc biệt, dài từ 2-50 ký tự)!", "warning");
+        else alert("Tên người nhận không hợp lệ!");
+        return;
+    }
+
+    // 2. Biểu thức chính quy cho số điện thoại (10 chữ số, bắt đầu bằng các đầu số Việt Nam: 03, 05, 07, 08, 09)
+    const phoneRegex = /^(03|05|07|08|09)\d{8}$/;
+    if (!phone) {
+        if (window.showToast) window.showToast("Vui lòng nhập số điện thoại liên hệ!", "warning");
+        else alert("Vui lòng nhập số điện thoại liên hệ!");
+        return;
+    }
+    if (!phoneRegex.test(phone)) {
+        if (window.showToast) window.showToast("Số điện thoại không hợp lệ (phải gồm 10 chữ số và bắt đầu bằng 03, 05, 07, 08, 09)!", "warning");
+        else alert("Số điện thoại không hợp lệ!");
+        return;
+    }
+
+    // 3. Kiểm tra địa chỉ cơ bản
+    if (!country || !state) {
+        if (window.showToast) window.showToast("Vui lòng nhập đầy đủ thông tin Quốc gia và Tỉnh / Thành phố!", "warning");
+        else alert("Vui lòng nhập đầy đủ thông tin địa chỉ!");
+        return;
+    }
+
+    // 4. Biểu thức chính quy cho mã bưu điện (Zipcode) nếu có nhập (phải gồm 5 hoặc 6 chữ số)
+    const zipRegex = /^\d{5,6}$/;
+    if (zip && !zipRegex.test(zip)) {
+        if (window.showToast) window.showToast("Mã bưu điện (Postcode / Zip) không hợp lệ (phải chứa từ 5 đến 6 chữ số)!", "warning");
+        else alert("Mã bưu điện không hợp lệ!");
+        return;
+    }
+
+    // Tiến hành hoàn tất đặt hàng
+    if (window.showToast) window.showToast("Đặt hàng thành công! Cảm ơn bạn đã mua sắm tại M&N.", "success");
+    else alert("Đặt hàng thành công! Cảm ơn bạn đã mua sắm tại M&N.");
+
+    // Xóa giỏ hàng sau khi đặt thành công
+    localStorage.removeItem('cart');
+    
+    // Reset các ô nhập liệu
+    if (nameInput) nameInput.value = "";
+    if (phoneInput) phoneInput.value = "";
+    if (countryInput) countryInput.value = "";
+    if (stateInput) stateInput.value = "";
+    if (zipInput) zipInput.value = "";
+
+    // Tải lại giao diện giỏ hàng
+    renderCart();
+}
+
+window.handleCheckout = handleCheckout;
+
+// Khởi chạy khi DOM sẵn sàng
+document.addEventListener('DOMContentLoaded', () => {
+    renderCart();
+    
+    // Đăng ký sự kiện click cho nút Tiến hành thanh toán
+    const checkoutBtn = document.querySelector('.btn-primary-checkout');
+    if (checkoutBtn) {
+        checkoutBtn.addEventListener('click', handleCheckout);
+    }
+});
