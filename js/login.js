@@ -25,16 +25,12 @@ document.addEventListener('DOMContentLoaded', function () {
             }
 
             if (userExists.password === pass) {
-
                 sessionStorage.setItem('isLoggedIn', 'true');
-
                 const displayName = email.split('@')[0];
                 sessionStorage.setItem('currentUser', displayName);
-
                 alert("Đăng nhập thành công!");
                 window.location.href = "../index.html";
             } else {
-
                 alert("Mật khẩu không chính xác. Vui lòng thử lại!");
             }
         });

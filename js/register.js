@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
             return;
         }
 
-        const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$/;
+        const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8}$/;
         if (!passwordRegex.test(password)) {
             alert("Mật khẩu phải tối thiểu 8 ký tự, bao gồm ít nhất 1 chữ hoa, 1 chữ thường và 1 chữ số!");
             return;
@@ -43,7 +43,6 @@ document.addEventListener('DOMContentLoaded', function () {
         localStorage.setItem('listUser', JSON.stringify(listUser));
 
         alert("Đăng ký tài khoản thành công! Bạn sẽ được chuyển đến trang đăng nhập.");
-
 
         window.location.href = "../html/dangNhap.html";
     });

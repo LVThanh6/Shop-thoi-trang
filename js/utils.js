@@ -15,7 +15,7 @@ async function loadComponent(id, path) {
         const response = await fetch(path);
         if (!response.ok) throw new Error(`Không tìm thấy file: ${path}`);
         const html = await response.text();
-        
+
         container.innerHTML = html;
         container.classList.remove('header-placeholder-loading', 'footer-placeholder-loading');
 
@@ -71,10 +71,10 @@ async function loadComponent(id, path) {
 function removeAccents(str) {
     if (!str) return "";
     return str.normalize("NFD")
-              .replace(/[\u0300-\u036f]/g, "")
-              .replace(/đ/g, "d")
-              .replace(/Đ/g, "D")
-              .toLowerCase();
+        .replace(/[\u0300-\u036f]/g, "")
+        .replace(/đ/g, "d")
+        .replace(/Đ/g, "D")
+        .toLowerCase();
 }
 
 // 3. Hàm thiết lập sự kiện Giỏ hàng chung
@@ -90,7 +90,7 @@ function setupCartEvents() {
         // Xóa listener cũ nếu có (để tránh lặp event khi load lại component)
         const newBtn = elements.btn.cloneNode(true);
         elements.btn.parentNode.replaceChild(newBtn, elements.btn);
-        
+
         newBtn.addEventListener('click', (e) => {
             e.preventDefault();
             const overlay = document.getElementById('cartOverlay');
@@ -113,7 +113,7 @@ function setupCartEvents() {
     document.getElementById('cartOverlay')?.addEventListener('click', closeCart);
 }
 
-// 4. Hàm kiểm tra và hiển thị thông tin người dùng
+
 function checkAndDisplayUser() {
     const isLoggedIn = sessionStorage.getItem('isLoggedIn');
     let currentUser = sessionStorage.getItem('currentUser');
@@ -175,7 +175,7 @@ function addToCart(product, quantity, size) {
         });
     }
     saveCart(cart);
-    
+
     // Hiển thị thông báo
     showToast(`Đã thêm <b>${product.name}</b> (Size: ${size}) vào giỏ hàng!`, 'success');
 }
@@ -232,7 +232,7 @@ function fixPath(path) {
     if (path.startsWith('http') || path.startsWith('blob:')) return path;
 
     const isSubfolder = window.location.pathname.includes('/html/') || window.location.pathname.includes('/pages/');
-    
+
     // Chuẩn hóa: loại bỏ ../ ở đầu nếu có để xử lý từ gốc
     let cleanPath = path;
     while (cleanPath.startsWith('../')) {
@@ -271,9 +271,9 @@ function showToast(message, type = 'info') {
 
     const toast = document.createElement('div');
     toast.className = `toast toast-${type}`;
-    
+
     const icon = type === 'success' ? 'fa-check-circle' : (type === 'warning' ? 'fa-exclamation-triangle' : 'fa-info-circle');
-    
+
     toast.innerHTML = `
         <i class="fas ${icon} toast-icon"></i>
         <div class="toast-content">${message}</div>
