@@ -9,10 +9,17 @@ document.addEventListener('DOMContentLoaded', function () {
             const email = document.getElementById('email').value;
             const pass = document.getElementById('password').value;
 
-            // 1. Lấy danh sách tài khoản từ localStorage
+            // 1. Kiểm tra định dạng Email bằng biểu thức chính quy (Regex)
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRegex.test(email)) {
+                alert("Địa chỉ email không đúng định dạng. Vui lòng kiểm tra lại!");
+                return;
+            }
+
+            // 2. Lấy danh sách tài khoản từ localStorage
             const listUser = JSON.parse(localStorage.getItem('listUser')) || [];
 
-            // 2. Tìm xem email này có trong hệ thống chưa
+            // 3. Tìm xem email này có trong hệ thống chưa
             const userExists = listUser.find(u => u.email === email);
 
             if (!userExists) {
@@ -21,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 return; // Dừng xử lý
             }
 
-            // 3. Nếu email tồn tại, kiểm tra mật khẩu
+            // 4. Nếu email tồn tại, kiểm tra mật khẩu
             if (userExists.password === pass) {
                 // Đăng nhập thành công
                 sessionStorage.setItem('isLoggedIn', 'true');
